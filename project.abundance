@@ -727,7 +727,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1738957239876
+                            "ioValue": 1738960649623
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -735,8 +735,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Envlope",
-                    "x": 0.10251322751322753,
-                    "y": 0.2924791086350975,
+                    "x": 0.06283068783068783,
+                    "y": 0.3231197771587744,
                     "uniqueID": 1738956981399,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -751,7 +751,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": 1738957132422
+                                    "ioValue": 1738960682231
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -1067,6 +1067,21 @@
                                 }
                             ],
                             "description": "Subtracts shape two from shape one."
+                        },
+                        {
+                            "atomType": "Color",
+                            "name": "Color",
+                            "x": 0.8816137566137565,
+                            "y": 0.31197771587743733,
+                            "uniqueID": 1738960682231,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1738957132422
+                                }
+                            ],
+                            "description": "Changes the color of the shape.",
+                            "selectedColorIndex": 9
                         }
                     ],
                     "allConnectors": [
@@ -1114,10 +1129,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": 1738957132422,
-                            "ap2ID": 1738956981763
+                            "ap2ID": 1738960682231
                         },
                         {
                             "ap1Name": "geometry",
@@ -1174,6 +1189,13 @@
                             "ap2Primary": true,
                             "ap1ID": 1738958076807,
                             "ap2ID": 1738957132422
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1738960682231,
+                            "ap2ID": 1738956981763
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -1182,8 +1204,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.25727513227513227,
-                    "y": 0.2813370473537604,
+                    "x": 0.21825396825396826,
+                    "y": 0.2924791086350975,
                     "uniqueID": 1738957188514,
                     "ioValues": [
                         {
@@ -1206,25 +1228,10 @@
                     "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.7546296296296297,
-                    "y": 0.3593314763231198,
-                    "uniqueID": 1738957239876,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1738958842644
-                        }
-                    ],
-                    "description": "Changes the color of the shape.",
-                    "selectedColorIndex": 9
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Benches",
-                    "x": 0.14417989417989419,
-                    "y": 0.5571030640668524,
+                    "x": 0.42791005291005285,
+                    "y": 0.9303621169916434,
                     "uniqueID": 1738958654002,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1935,8 +1942,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Window",
-                    "x": 0.2599206349206349,
-                    "y": 0.818941504178273,
+                    "x": 0.2043650793650794,
+                    "y": 0.8969359331476323,
                     "uniqueID": 1738958678830,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2077,8 +2084,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.373015873015873,
-                    "y": 0.6016713091922006,
+                    "x": 0.251984126984127,
+                    "y": 0.5988857938718662,
                     "uniqueID": 1738958805059,
                     "ioValues": [
                         {
@@ -2103,8 +2110,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.5482804232804233,
-                    "y": 0.7019498607242339,
+                    "x": 0.3604497354497354,
+                    "y": 0.6601671309192201,
                     "uniqueID": 1738958837917,
                     "ioValues": [
                         {
@@ -2122,8 +2129,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.6448412698412699,
-                    "y": 0.29526462395543174,
+                    "x": 0.3498677248677248,
+                    "y": 0.3064066852367688,
                     "uniqueID": 1738958842644,
                     "ioValues": [
                         {
@@ -2140,8 +2147,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.4001322751322751,
-                    "y": 0.8774373259052926,
+                    "x": 0.3062169312169312,
+                    "y": 0.8997214484679666,
                     "uniqueID": 1738958989785,
                     "ioValues": [
                         {
@@ -2172,7 +2179,7 @@
                     "ioValues": [
                         {
                             "name": "Geometry",
-                            "ioValue": 1738957239876
+                            "ioValue": 1738960649623
                         },
                         {
                             "name": "Offset",
@@ -2359,7 +2366,7 @@
                                 },
                                 {
                                     "name": "geometry1",
-                                    "ioValue": 1738957239876
+                                    "ioValue": 1738960649623
                                 }
                             ],
                             "description": "Subtracts shape two from shape one."
@@ -2460,13 +2467,20 @@
                     },
                     "unitsKey": "MM",
                     "fileTypeVersion": 1,
-                    "compiledBom": []
+                    "compiledBom": [
+                        {
+                            "BOMitemName": "Wood Stove",
+                            "numberNeeded": 1,
+                            "costUSD": 150,
+                            "source": "https://amzn.to/3Q9mOg9"
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Stove",
-                    "x": 0.656084656084656,
-                    "y": 0.796657381615599,
+                    "x": 0.6044973544973545,
+                    "y": 0.8551532033426184,
                     "uniqueID": 1738960106907,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2557,7 +2571,7 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5582010582010581,
+                            "x": 0.5595238095238095,
                             "y": 0.6824512534818942,
                             "uniqueID": 1738960522604,
                             "ioValues": [
@@ -2571,7 +2585,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": -200
+                                    "ioValue": 190
                                 },
                                 {
                                     "name": "zDist",
@@ -2613,10 +2627,10 @@
                             ],
                             "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
                             "BOMitem": {
-                                "BOMitemName": "name",
+                                "BOMitemName": "Wood Stove",
                                 "numberNeeded": 1,
-                                "costUSD": 0,
-                                "source": "www.example.com"
+                                "costUSD": 150,
+                                "source": "https://amzn.to/3Q9mOg9"
                             }
                         },
                         {
@@ -2696,12 +2710,56 @@
                     "fileTypeVersion": 1,
                     "compiledBom": [
                         {
-                            "BOMitemName": "name",
+                            "BOMitemName": "Wood Stove",
                             "numberNeeded": 1,
-                            "costUSD": 0,
-                            "source": "www.example.com"
+                            "costUSD": 150,
+                            "source": "https://amzn.to/3Q9mOg9"
                         }
                     ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.6832010582010583,
+                    "y": 0.6629526462395543,
+                    "uniqueID": 1738960642869,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1738960106907
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 900
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 200
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.6488095238095237,
+                    "y": 0.30362116991643456,
+                    "uniqueID": 1738960649623,
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": 1738958842644
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": 1738960642869
+                        }
+                    ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
                 }
             ],
             "allConnectors": [
@@ -2718,20 +2776,6 @@
                     "ap2Primary": false,
                     "ap1ID": 1738957188514,
                     "ap2ID": 1738958842644
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1738957239876,
-                    "ap2ID": 1738956170776
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1738957239876,
-                    "ap2ID": 1738960092767
                 },
                 {
                     "ap1Name": "Geometry",
@@ -2763,10 +2807,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
+                    "ap2Name": "Shape 1",
+                    "ap2Primary": false,
                     "ap1ID": 1738958842644,
-                    "ap2ID": 1738957239876
+                    "ap2ID": 1738960649623
                 },
                 {
                     "ap1Name": "geometry",
@@ -2774,10 +2818,45 @@
                     "ap2Primary": false,
                     "ap1ID": 1738958989785,
                     "ap2ID": 1738958837917
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1738960106907,
+                    "ap2ID": 1738960642869
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 1738960642869,
+                    "ap2ID": 1738960649623
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1738960649623,
+                    "ap2ID": 1738956170776
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1738960649623,
+                    "ap2ID": 1738960092767
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": []
+            "compiledBom": [
+                {
+                    "BOMitemName": "Wood Stove",
+                    "numberNeeded": 1,
+                    "costUSD": 150,
+                    "source": "https://amzn.to/3Q9mOg9"
+                }
+            ]
         },
         {
             "atomType": "Assembly",
@@ -3094,7 +3173,14 @@
             },
             "unitsKey": "MM",
             "fileTypeVersion": 1,
-            "compiledBom": []
+            "compiledBom": [
+                {
+                    "BOMitemName": "Wood Stove",
+                    "numberNeeded": 1,
+                    "costUSD": 150,
+                    "source": "https://amzn.to/3Q9mOg9"
+                }
+            ]
         },
         {
             "atomType": "Move",
@@ -3194,6 +3280,13 @@
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [],
+    "compiledBom": [
+        {
+            "BOMitemName": "Wood Stove",
+            "numberNeeded": 2,
+            "costUSD": 300,
+            "source": "https://amzn.to/3Q9mOg9"
+        }
+    ],
     "filetypeVersion": 1
 }
