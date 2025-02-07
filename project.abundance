@@ -711,8 +711,8 @@
         {
             "atomType": "Molecule",
             "name": "Sauna",
-            "x": 0.20304232804232802,
-            "y": 0.7576601671309192,
+            "x": 0.20171957671957674,
+            "y": 0.7437325905292479,
             "uniqueID": 1738956170299,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1230,8 +1230,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Benches",
-                    "x": 0.3895502645502646,
-                    "y": 0.8969359331476323,
+                    "x": 0.39087301587301587,
+                    "y": 0.871866295264624,
                     "uniqueID": 1738958654002,
                     "ioValues": [
                         {
@@ -1255,7 +1255,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": 1738961771272
+                                    "ioValue": 1738962082892
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -1748,61 +1748,6 @@
                             "compiledBom": []
                         },
                         {
-                            "atomType": "Fusion",
-                            "name": "Fusion",
-                            "x": 0.8888888888888888,
-                            "y": 0.5153203342618384,
-                            "uniqueID": 1738961771272,
-                            "ioValues": [
-                                {
-                                    "name": "Shape 3",
-                                    "ioValue": 1738961902074
-                                },
-                                {
-                                    "name": "Shape 4",
-                                    "ioValue": 1738961892790
-                                }
-                            ],
-                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
-                            "unionType": "Fusion"
-                        },
-                        {
-                            "atomType": "Extrude",
-                            "name": "Extrude",
-                            "x": 0.8042328042328042,
-                            "y": 0.7883008356545962,
-                            "uniqueID": 1738961892790,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
-                                {
-                                    "name": "height",
-                                    "ioValue": 500
-                                }
-                            ],
-                            "description": "Extrudes a 2D shape. Input can be negitive. "
-                        },
-                        {
-                            "atomType": "Extrude",
-                            "name": "Extrude",
-                            "x": 0.8167989417989419,
-                            "y": 0.2479108635097493,
-                            "uniqueID": 1738961902074,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
-                                {
-                                    "name": "height",
-                                    "ioValue": 500
-                                }
-                            ],
-                            "description": "Extrudes a 2D shape. Input can be negitive. "
-                        },
-                        {
                             "atomType": "Rotate",
                             "name": "Rotate",
                             "x": 0.3392857142857143,
@@ -1831,8 +1776,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.4543650793650794,
-                            "y": 0.6991643454038997,
+                            "x": 0.458994708994709,
+                            "y": 0.7186629526462396,
                             "uniqueID": 1738961998336,
                             "ioValues": [
                                 {
@@ -1883,8 +1828,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.5701058201058201,
-                            "y": 0.21448467966573817,
+                            "x": 0.5714285714285714,
+                            "y": 0.27298050139275765,
                             "uniqueID": 1738962040930,
                             "ioValues": [
                                 {
@@ -1893,7 +1838,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 500
+                                    "ioValue": 1600
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1901,8 +1846,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.626984126984127,
-                            "y": 0.5264623955431754,
+                            "x": 0.5978835978835979,
+                            "y": 0.6350974930362118,
                             "uniqueID": 1738962049644,
                             "ioValues": [
                                 {
@@ -1911,7 +1856,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": -500
+                                    "ioValue": -2318.4
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -1934,6 +1879,32 @@
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                             "unionType": "Fusion"
+                        },
+                        {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.8339947089947091,
+                            "y": 0.49860724233983283,
+                            "uniqueID": 1738962082892,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1738962060600
+                                },
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 90
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": 90
+                                }
+                            ],
+                            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                         }
                     ],
                     "allConnectors": [
@@ -1964,27 +1935,6 @@
                             "ap2Primary": true,
                             "ap1ID": 1738961006391,
                             "ap2ID": 1738962016928
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 1738961771272,
-                            "ap2ID": 1738958654316
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "Shape 4",
-                            "ap2Primary": false,
-                            "ap1ID": 1738961892790,
-                            "ap2ID": 1738961771272
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "Shape 3",
-                            "ap2Primary": false,
-                            "ap1ID": 1738961902074,
-                            "ap2ID": 1738961771272
                         },
                         {
                             "ap1Name": "geometry",
@@ -2020,6 +1970,20 @@
                             "ap2Primary": false,
                             "ap1ID": 1738962049644,
                             "ap2ID": 1738962060600
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1738962060600,
+                            "ap2ID": 1738962082892
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1738962082892,
+                            "ap2ID": 1738958654316
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -2947,8 +2911,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Cross-Section",
-                    "x": 0.8948412698412699,
-                    "y": 0.7883008356545962,
+                    "x": 0.8974867724867724,
+                    "y": 0.7827298050139275,
                     "uniqueID": 1738960092767,
                     "ioValues": [
                         {
@@ -3540,45 +3504,19 @@
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
                 },
                 {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 0.4576719576719577,
-                    "y": 0.6740947075208913,
-                    "uniqueID": 1738961436892,
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.5410052910052909,
+                    "y": 0.6072423398328691,
+                    "uniqueID": 1738961511013,
                     "ioValues": [
                         {
                             "name": "geometry",
                             "ioValue": 1738958654002
                         },
                         {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 90
-                        }
-                    ],
-                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.5416666666666666,
-                    "y": 0.6044568245125348,
-                    "uniqueID": 1738961511013,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1738961436892
-                        },
-                        {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -1159.2
                         },
                         {
                             "name": "yDist",
@@ -3612,7 +3550,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1738958654002,
-                    "ap2ID": 1738961436892
+                    "ap2ID": 1738961511013
                 },
                 {
                     "ap1Name": "Geometry",
@@ -3683,13 +3621,6 @@
                     "ap2Primary": false,
                     "ap1ID": 1738960649623,
                     "ap2ID": 1738960092767
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1738961436892,
-                    "ap2ID": 1738961511013
                 },
                 {
                     "ap1Name": "geometry",
