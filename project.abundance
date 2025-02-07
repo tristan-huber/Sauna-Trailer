@@ -1300,7 +1300,12 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": 1738961006273,
-                                    "ioValues": [],
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": 1738961313687
+                                        }
+                                    ],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -1324,8 +1329,8 @@
                                 {
                                     "atomType": "Rectangle",
                                     "name": "Rectangle",
-                                    "x": 0.19047619047619047,
-                                    "y": 0.796657381615599,
+                                    "x": 0.41402116402116407,
+                                    "y": 0.7103064066852367,
                                     "uniqueID": 1738961039836,
                                     "ioValues": [
                                         {
@@ -1356,8 +1361,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.3333333333333333,
-                                    "y": 0.8272980501392758,
+                                    "x": 0.5026455026455027,
+                                    "y": 0.7047353760445683,
                                     "uniqueID": 1738961053368,
                                     "ioValues": [
                                         {
@@ -1366,7 +1371,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 0
+                                            "ioValue": 15
                                         },
                                         {
                                             "name": "yDist",
@@ -1392,7 +1397,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 0
+                                            "ioValue": 45
                                         },
                                         {
                                             "name": "yDist",
@@ -1408,8 +1413,8 @@
                                 {
                                     "atomType": "ShrinkWrap",
                                     "name": "Shrink Wrap",
-                                    "x": 0.4007936507936508,
-                                    "y": 0.38718662952646243,
+                                    "x": 0.5436507936507936,
+                                    "y": 0.4596100278551532,
                                     "uniqueID": 1738961095898,
                                     "ioValues": [
                                         {
@@ -1441,9 +1446,9 @@
                                 },
                                 {
                                     "atomType": "Constant",
-                                    "name": "Bench Radius",
-                                    "x": 0.15211640211640212,
-                                    "y": 0.6183844011142061,
+                                    "name": "Bench Diameter",
+                                    "x": 0.12764550264550265,
+                                    "y": 0.6211699164345404,
                                     "uniqueID": 1738961135263,
                                     "ioValues": [],
                                     "description": "Defines a mathematical constant."
@@ -1466,6 +1471,130 @@
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                                     "currentEquation": "H-R/2"
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "D/2",
+                                    "x": 0.3148148148148148,
+                                    "y": 0.5905292479108635,
+                                    "uniqueID": 1738961198990,
+                                    "ioValues": [
+                                        {
+                                            "name": "D",
+                                            "ioValue": 90
+                                        }
+                                    ],
+                                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                    "currentEquation": "D/2"
+                                },
+                                {
+                                    "atomType": "Move",
+                                    "name": "Move",
+                                    "x": 0.6117724867724867,
+                                    "y": 0.8328690807799443,
+                                    "uniqueID": 1738961236809,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": 1738961053368
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 270
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 270
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0
+                                        }
+                                    ],
+                                    "description": "Moves a shape laterally in X, Y, Z."
+                                },
+                                {
+                                    "atomType": "ShrinkWrap",
+                                    "name": "Shrink Wrap",
+                                    "x": 0.6640211640211641,
+                                    "y": 0.33704735376044564,
+                                    "uniqueID": 1738961257234,
+                                    "ioValues": [
+                                        {
+                                            "name": "Shape 1",
+                                            "ioValue": 1738961082030
+                                        },
+                                        {
+                                            "name": "Shape 2",
+                                            "ioValue": 1738961236809
+                                        },
+                                        {
+                                            "name": "Shape 3",
+                                            "ioValue": ""
+                                        },
+                                        {
+                                            "name": "Shape 1",
+                                            "ioValue": 1738961082030
+                                        },
+                                        {
+                                            "name": "Shape 2",
+                                            "ioValue": 1738961236809
+                                        },
+                                        {
+                                            "name": "Shape 3",
+                                            "ioValue": ""
+                                        }
+                                    ],
+                                    "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "H-30",
+                                    "x": 0.10383597883597884,
+                                    "y": 0.9303621169916434,
+                                    "uniqueID": 1738961269406,
+                                    "ioValues": [
+                                        {
+                                            "name": "H",
+                                            "ioValue": 300
+                                        }
+                                    ],
+                                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                    "currentEquation": "H-30"
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "W-30",
+                                    "x": 0.09523809523809523,
+                                    "y": 0.8050139275766017,
+                                    "uniqueID": 1738961284356,
+                                    "ioValues": [
+                                        {
+                                            "name": "W",
+                                            "ioValue": 300
+                                        }
+                                    ],
+                                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                    "currentEquation": "W-30"
+                                },
+                                {
+                                    "atomType": "Fusion",
+                                    "name": "Fusion",
+                                    "x": 0.7718253968253969,
+                                    "y": 0.5264623955431754,
+                                    "uniqueID": 1738961313687,
+                                    "ioValues": [
+                                        {
+                                            "name": "Shape 1",
+                                            "ioValue": 1738961257234
+                                        },
+                                        {
+                                            "name": "Shape 2",
+                                            "ioValue": 1738961095898
+                                        }
+                                    ],
+                                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+                                    "unionType": "Fusion"
                                 }
                             ],
                             "allConnectors": [
@@ -1475,6 +1604,20 @@
                                     "ap2Primary": false,
                                     "ap1ID": 1738961006315,
                                     "ap2ID": 1738961149747
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "H",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1738961006315,
+                                    "ap2ID": 1738961269406
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "W",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1738961006385,
+                                    "ap2ID": 1738961284356
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -1499,10 +1642,31 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 1738961053368,
+                                    "ap2ID": 1738961236809
+                                },
+                                {
+                                    "ap1Name": "geometry",
                                     "ap2Name": "Shape 2",
                                     "ap2Primary": false,
                                     "ap1ID": 1738961082030,
                                     "ap2ID": 1738961095898
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "Shape 1",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1738961082030,
+                                    "ap2ID": 1738961257234
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "Shape 2",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1738961095898,
+                                    "ap2ID": 1738961313687
                                 },
                                 {
                                     "ap1Name": "number",
@@ -1519,15 +1683,64 @@
                                     "ap2ID": 1738961050352
                                 },
                                 {
+                                    "ap1Name": "number",
+                                    "ap2Name": "D",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1738961135263,
+                                    "ap2ID": 1738961198990
+                                },
+                                {
                                     "ap1Name": "result",
                                     "ap2Name": "yDist",
                                     "ap2Primary": false,
                                     "ap1ID": 1738961149747,
                                     "ap2ID": 1738961082030
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "xDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1738961198990,
+                                    "ap2ID": 1738961082030
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "Shape 2",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1738961236809,
+                                    "ap2ID": 1738961257234
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "Shape 1",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1738961257234,
+                                    "ap2ID": 1738961313687
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "yDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1738961269406,
+                                    "ap2ID": 1738961236809
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "xDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1738961284356,
+                                    "ap2ID": 1738961236809
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1738961313687,
+                                    "ap2ID": 1738961006273
                                 }
                             ],
                             "fileTypeVersion": 1,
-                            "compiledBom": {}
+                            "compiledBom": []
                         }
                     ],
                     "allConnectors": [
