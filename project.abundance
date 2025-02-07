@@ -1230,13 +1230,13 @@
                 {
                     "atomType": "Molecule",
                     "name": "Benches",
-                    "x": 0.42791005291005285,
-                    "y": 0.9303621169916434,
+                    "x": 0.43452380952380953,
+                    "y": 0.8607242339832869,
                     "uniqueID": 1738958654002,
                     "ioValues": [
                         {
                             "name": "Bench Height",
-                            "ioValue": 300
+                            "ioValue": 400
                         },
                         {
                             "name": "Bench Depth",
@@ -1252,7 +1252,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1738958654316,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1738961397100
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -1278,13 +1283,13 @@
                         {
                             "atomType": "Molecule",
                             "name": "Outline",
-                            "x": 0.29365079365079366,
-                            "y": 0.6768802228412256,
+                            "x": 0.27380952380952384,
+                            "y": 0.479108635097493,
                             "uniqueID": 1738961006391,
                             "ioValues": [
                                 {
                                     "name": "Bench Height",
-                                    "ioValue": 300
+                                    "ioValue": 400
                                 },
                                 {
                                     "name": "Bench Depth",
@@ -1401,7 +1406,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 255
+                                            "ioValue": 355
                                         },
                                         {
                                             "name": "zDist",
@@ -1462,7 +1467,7 @@
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 300
+                                            "ioValue": 400
                                         },
                                         {
                                             "name": "R",
@@ -1504,7 +1509,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 270
+                                            "ioValue": 370
                                         },
                                         {
                                             "name": "zDist",
@@ -1556,7 +1561,7 @@
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 300
+                                            "ioValue": 400
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1741,6 +1746,50 @@
                             ],
                             "fileTypeVersion": 1,
                             "compiledBom": []
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.42526455026455023,
+                            "y": 0.3788300835654596,
+                            "uniqueID": 1738961370405,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1738961006391
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 500
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                        },
+                        {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.6091269841269841,
+                            "y": 0.6128133704735376,
+                            "uniqueID": 1738961397100,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1738961370405
+                                },
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 90
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                         }
                     ],
                     "allConnectors": [
@@ -1757,10 +1806,31 @@
                             "ap2Primary": false,
                             "ap1ID": 1738960958387,
                             "ap2ID": 1738961006391
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1738961006391,
+                            "ap2ID": 1738961370405
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1738961370405,
+                            "ap2ID": 1738961397100
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1738961397100,
+                            "ap2ID": 1738958654316
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "compiledBom": {}
+                    "compiledBom": []
                 },
                 {
                     "atomType": "Molecule",
@@ -3271,6 +3341,32 @@
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.5317460317460317,
+                    "y": 0.6601671309192201,
+                    "uniqueID": 1738961436892,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1738958654002
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 90
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 }
             ],
             "allConnectors": [
@@ -3287,6 +3383,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1738957188514,
                     "ap2ID": 1738958842644
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1738958654002,
+                    "ap2ID": 1738961436892
                 },
                 {
                     "ap1Name": "Geometry",
