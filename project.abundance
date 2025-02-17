@@ -3724,8 +3724,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Vertical",
-                            "x": 0.3498677248677248,
-                            "y": 0.34540389972144847,
+                            "x": 0.3511904761904762,
+                            "y": 0.35097493036211697,
                             "uniqueID": 1739774127244,
                             "ioValues": [
                                 {
@@ -4210,6 +4210,10 @@
                             "y": 0.6239554317548747,
                             "uniqueID": 1739774466258,
                             "ioValues": [
+                                {
+                                    "name": "Geometry",
+                                    "ioValue": 1738958842644
+                                },
                                 {
                                     "name": "Wood Thickness",
                                     "ioValue": 12
@@ -4767,6 +4771,13 @@
                         },
                         {
                             "ap1Name": "number or geometry",
+                            "ap2Name": "Geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1739773901139,
+                            "ap2ID": 1739774466258
+                        },
+                        {
+                            "ap1Name": "number or geometry",
                             "ap2Name": "Wood Thickness",
                             "ap2Primary": false,
                             "ap1ID": 1739773929058,
@@ -4913,14 +4924,7 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": [
-                {
-                    "BOMitemName": "Wood Stove",
-                    "numberNeeded": 1,
-                    "costUSD": 150,
-                    "source": "https://amzn.to/3Q9mOg9"
-                }
-            ]
+            "compiledBom": []
         },
         {
             "atomType": "Assembly",
