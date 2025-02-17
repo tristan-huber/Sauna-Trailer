@@ -672,7 +672,7 @@
                         }
                     ],
                     "description": "Changes the color of the shape.",
-                    "selectedColorIndex": 20
+                    "selectedColorIndex": 9
                 }
             ],
             "allConnectors": [
@@ -4924,7 +4924,14 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": []
+            "compiledBom": [
+                {
+                    "BOMitemName": "Wood Stove",
+                    "numberNeeded": 1,
+                    "costUSD": 150,
+                    "source": "https://amzn.to/3Q9mOg9"
+                }
+            ]
         },
         {
             "atomType": "Assembly",
