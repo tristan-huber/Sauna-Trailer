@@ -4195,6 +4195,10 @@
                                 {
                                     "name": "Shape 1",
                                     "ioValue": 1739774127244
+                                },
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": 1739774466258
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -4580,7 +4584,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 200
+                                            "ioValue": -800
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
@@ -4788,6 +4792,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1739774227831,
                             "ap2ID": 1739773892054
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "Shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": 1739774466258,
+                            "ap2ID": 1739774227831
                         }
                     ],
                     "fileTypeVersion": 1,
