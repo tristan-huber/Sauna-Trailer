@@ -14,19 +14,14 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1738956155478,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1738958551090
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
             "atomType": "Molecule",
             "name": "Trailer",
-            "x": 0.19246031746031744,
-            "y": 0.2757660167130919,
+            "x": 0.19510582010582012,
+            "y": 0.24233983286908078,
             "uniqueID": 1738956163132,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -724,12 +719,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1738956170776,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1738960649623
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -2960,12 +2950,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1738960093141,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1738960092907
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -3569,12 +3554,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1739773892054,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1739774227831
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -4130,12 +4110,7 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": 1739774466651,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": 1739774466080
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -5460,12 +5435,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1738958490772,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1738958491377
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
