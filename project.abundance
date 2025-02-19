@@ -2705,8 +2705,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.21825396825396826,
-                            "y": 0.39275766016713093,
+                            "x": 0.22156084656084654,
+                            "y": 0.3008356545961003,
                             "uniqueID": 1738958899669,
                             "ioValues": [
                                 {
@@ -2725,7 +2725,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1738958899669
+                                    "ioValue": 1739930018418
                                 },
                                 {
                                     "name": "height",
@@ -2787,126 +2787,21 @@
                             "description": "Moves a shape laterally in X, Y, Z."
                         },
                         {
-                            "atomType": "GitHubMolecule",
-                            "name": "Sphere",
-                            "x": 0.31746031746031744,
-                            "y": 0.8133704735376045,
-                            "uniqueID": 1738962468451,
-                            "ioValues": [],
-                            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-                            "topLevel": false,
-                            "allAtoms": [
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.28240740740740744,
+                            "y": 0.5626740947075208,
+                            "uniqueID": 1739930018418,
+                            "ioValues": [
                                 {
-                                    "atomType": "Output",
-                                    "name": "Output",
-                                    "x": 0.98,
-                                    "y": 0.5,
-                                    "uniqueID": 1738962468328,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": 1738962467946
-                                        }
-                                    ],
-                                    "description": "Connect geometry here to make it available in the next level up. "
-                                },
-                                {
-                                    "atomType": "Code",
-                                    "name": "Code",
-                                    "x": 0.347358121330724,
-                                    "y": 0.5292479108635098,
-                                    "uniqueID": 1738962467909,
-                                    "ioValues": [
-                                        {
-                                            "name": "input1",
-                                            "ioValue": 10
-                                        },
-                                        {
-                                            "name": "height",
-                                            "ioValue": 10
-                                        }
-                                    ],
-                                    "description": "Defines a Replicad code block.",
-                                    "codeVersion": 1,
-                                    "code": "\n\n//Inputs:[input1, height];\n\n\nconst radius = 10; // Specify the radius of the sphere\n\nconst sphere = makeSphere(radius);\n\n return { geometry: [sphere], tags: [],\n      color: '#A3CE5B',\n      plane: newPlane}\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
-                                },
-                                {
-                                    "atomType": "Circle",
-                                    "name": "Circle",
-                                    "x": 0.5944244604316546,
-                                    "y": 0.5515320334261838,
-                                    "uniqueID": 1738962467946,
-                                    "ioValues": [
-                                        {
-                                            "name": "diameter",
-                                            "ioValue": 10
-                                        }
-                                    ],
-                                    "description": "Creates a new circle."
-                                },
-                                {
-                                    "atomType": "Code",
-                                    "name": "Code",
-                                    "x": 0.3199608610567514,
-                                    "y": 0.713091922005571,
-                                    "uniqueID": 1738962468416,
-                                    "ioValues": [
-                                        {
-                                            "name": "input1",
-                                            "ioValue": 10
-                                        },
-                                        {
-                                            "name": "height",
-                                            "ioValue": 10
-                                        }
-                                    ],
-                                    "description": "Defines a Replicad code block.",
-                                    "codeVersion": 1,
-                                    "code": "//Inputs:[input1, height];\n\nlet shape = drawCircle(5)\n\nconst newPlane = new Plane().pivot(0, 'Y');\n\n return { geometry: [shape.sketchOnPlane(newPlane).extrude(7)], tags: [],\n      color: '#A3CE5B',\n      plane: newPlane}\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
+                                    "name": "diameter",
+                                    "ioValue": 1323
                                 }
                             ],
-                            "allConnectors": [
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "number or geometry",
-                                    "ap2Primary": false,
-                                    "ap1ID": 1738962467946,
-                                    "ap2ID": 1738962468328
-                                }
-                            ],
-                            "parentRepo": {
-                                "lastFoundGit": "2025-02-07T15:47:14.373Z",
-                                "repoName": "Sphere",
-                                "dateCreated": "2024-11-13T19:37:04Z",
-                                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Sphere/master/README.md?sanitize=true",
-                                "yyyy": 2024,
-                                "topMoleculeID": 1731526624936,
-                                "githubMoleculesUsed": [],
-                                "html_url": "https://github.com/BarbourSmith/Sphere",
-                                "topics": [],
-                                "parentRepo": null,
-                                "forks": 0,
-                                "dateModified": "739203",
-                                "ranking": 0,
-                                "searchField": "sphere barboursmith",
-                                "owner": "BarbourSmith",
-                                "description": "Creates a sphere from the input radius",
-                                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Sphere/master/project.abundance?sanitize=true",
-                                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Sphere/master/project.svg?sanitize=true"
-                            },
-                            "unitsKey": "MM",
-                            "fileTypeVersion": 1,
-                            "compiledBom": []
+                            "description": "Creates a new circle."
                         }
                     ],
                     "allConnectors": [
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1738958899669,
-                            "ap2ID": 1738958943076
-                        },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
@@ -2927,6 +2822,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1738958970950,
                             "ap2ID": 1738958679126
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1739930018418,
+                            "ap2ID": 1738958943076
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -5355,6 +5257,13 @@
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [],
+    "compiledBom": [
+        {
+            "BOMitemName": "Wood Stove",
+            "numberNeeded": 2,
+            "costUSD": 300,
+            "source": "https://amzn.to/3Q9mOg9"
+        }
+    ],
     "filetypeVersion": 1
 }
