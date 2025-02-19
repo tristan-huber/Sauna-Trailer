@@ -14,7 +14,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1738956155478,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1738958551090
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -719,7 +724,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1738956170776,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1738960649623
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -2950,7 +2960,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1738960093141,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1738960092907
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -3554,7 +3569,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1739773892054,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1739774227831
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -5440,7 +5460,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1738958490772,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1738958491377
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -5802,13 +5827,6 @@
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [
-        {
-            "BOMitemName": "Wood Stove",
-            "numberNeeded": 2,
-            "costUSD": 300,
-            "source": "https://amzn.to/3Q9mOg9"
-        }
-    ],
+    "compiledBom": [],
     "filetypeVersion": 1
 }

@@ -2,7 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Wood Stove|2|$300.00|https://amzn.to/3Q9mOg9|
-|Total: |2|$300.00| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $900.00
+ 3xCOG MSRP: $0.00
