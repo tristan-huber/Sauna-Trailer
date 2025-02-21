@@ -1993,8 +1993,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Door",
-                    "x": 0.17261904761904762,
-                    "y": 0.7381615598885795,
+                    "x": 0.164021164021164,
+                    "y": 0.6295264623955432,
                     "uniqueID": 1738958661904,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2681,8 +2681,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Window",
-                    "x": 0.2043650793650794,
-                    "y": 0.8969359331476323,
+                    "x": 0.20238095238095238,
+                    "y": 0.8941504178272981,
                     "uniqueID": 1738958678830,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2795,7 +2795,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 1323
+                                    "ioValue": 1524
                                 }
                             ],
                             "description": "Creates a new circle."
