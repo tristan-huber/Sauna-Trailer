@@ -6313,8 +6313,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.30687830687830686,
-                    "y": 0.37325905292479106,
+                    "x": 0.2969576719576719,
+                    "y": 0.3231197771587744,
                     "uniqueID": 1740179932105,
                     "ioValues": [
                         {
@@ -6323,7 +6323,7 @@
                         },
                         {
                             "name": "x-axis degrees",
-                            "ioValue": 90
+                            "ioValue": 0
                         },
                         {
                             "name": "y-axis degrees",
@@ -6339,8 +6339,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.4503968253968254,
-                    "y": 0.22841225626740946,
+                    "x": 0.453042328042328,
+                    "y": 0.27019498607242337,
                     "uniqueID": 1740179933892,
                     "ioValues": [
                         {
@@ -6349,7 +6349,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -450
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
@@ -6357,7 +6357,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 800
+                            "ioValue": 0
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
