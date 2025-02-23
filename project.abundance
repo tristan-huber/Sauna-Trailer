@@ -6401,7 +6401,14 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": []
+            "compiledBom": [
+                {
+                    "BOMitemName": "Wood Stove",
+                    "numberNeeded": 1,
+                    "costUSD": 150,
+                    "source": "https://amzn.to/3Q9mOg9"
+                }
+            ]
         }
     ],
     "allConnectors": [
