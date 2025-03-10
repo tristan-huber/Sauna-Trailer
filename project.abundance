@@ -14,12 +14,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1738956155478,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1738958551090
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -2882,8 +2877,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.43716931216931215,
-                            "y": 0.33704735376044564,
+                            "x": 0.38822751322751325,
+                            "y": 0.2590529247910863,
                             "uniqueID": 1738958943076,
                             "ioValues": [
                                 {
@@ -2900,8 +2895,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.5833333333333334,
-                            "y": 0.5877437325905293,
+                            "x": 0.5033068783068783,
+                            "y": 0.26740947075208915,
                             "uniqueID": 1738958958911,
                             "ioValues": [
                                 {
@@ -3123,12 +3118,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1738960093141,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1738960092907
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -6108,14 +6098,7 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": [
-                {
-                    "BOMitemName": "Harvia WKM3",
-                    "numberNeeded": 1,
-                    "costUSD": 800,
-                    "source": "www.example.com"
-                }
-            ]
+            "compiledBom": []
         },
         {
             "atomType": "Assembly",
@@ -6172,12 +6155,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1738958490772,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1738958491377
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -6506,12 +6484,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1740179206055,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1740179248398
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
