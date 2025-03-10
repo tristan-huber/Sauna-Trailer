@@ -1230,8 +1230,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Benches",
-                    "x": 0.38690476190476186,
-                    "y": 0.8997214484679666,
+                    "x": 0.3835978835978836,
+                    "y": 0.8774373259052926,
                     "uniqueID": 1738958654002,
                     "ioValues": [
                         {
@@ -1241,6 +1241,10 @@
                         {
                             "name": "Bench Depth",
                             "ioValue": 500
+                        },
+                        {
+                            "name": "Spacing",
+                            "ioValue": 325
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1264,7 +1268,7 @@
                             "atomType": "Input",
                             "name": "Bench Height",
                             "x": 0.04,
-                            "y": 0.43732590529247906,
+                            "y": 0.34540389972144847,
                             "uniqueID": 1738960927206,
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -1274,7 +1278,7 @@
                             "atomType": "Input",
                             "name": "Bench Depth",
                             "x": 0.04,
-                            "y": 0.6880222841225626,
+                            "y": 0.5821727019498607,
                             "uniqueID": 1738960958387,
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -1751,8 +1755,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.3392857142857143,
-                            "y": 0.8217270194986073,
+                            "x": 0.3505291005291006,
+                            "y": 0.5710306406685237,
                             "uniqueID": 1738961961076,
                             "ioValues": [
                                 {
@@ -1777,8 +1781,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.458994708994709,
-                            "y": 0.7186629526462396,
+                            "x": 0.4708994708994709,
+                            "y": 0.7270194986072424,
                             "uniqueID": 1738961998336,
                             "ioValues": [
                                 {
@@ -1787,7 +1791,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 250
+                                    "ioValue": 325
                                 },
                                 {
                                     "name": "yDist",
@@ -1803,8 +1807,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.41865079365079366,
-                            "y": 0.2256267409470752,
+                            "x": 0.417989417989418,
+                            "y": 0.2116991643454039,
                             "uniqueID": 1738962016928,
                             "ioValues": [
                                 {
@@ -1813,7 +1817,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 250
+                                    "ioValue": 325
                                 },
                                 {
                                     "name": "yDist",
@@ -1906,6 +1910,16 @@
                                 }
                             ],
                             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Spacing",
+                            "x": 0.04,
+                            "y": 0.9164345403899721,
+                            "uniqueID": 1741649516111,
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "number"
                         }
                     ],
                     "allConnectors": [
@@ -1985,6 +1999,20 @@
                             "ap2Primary": false,
                             "ap1ID": 1738962082892,
                             "ap2ID": 1738958654316
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "xDist",
+                            "ap2Primary": false,
+                            "ap1ID": 1741649516111,
+                            "ap2ID": 1738962016928
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "xDist",
+                            "ap2Primary": false,
+                            "ap1ID": 1741649516111,
+                            "ap2ID": 1738961998336
                         }
                     ],
                     "fileTypeVersion": 1,
