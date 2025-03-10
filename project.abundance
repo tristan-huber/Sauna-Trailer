@@ -1993,8 +1993,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Door",
-                    "x": 0.16335978835978837,
-                    "y": 0.6295264623955432,
+                    "x": 0.16666666666666666,
+                    "y": 0.637883008356546,
                     "uniqueID": 1738958661904,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2621,8 +2621,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.7585978835978836,
-                            "y": 0.4317548746518106,
+                            "x": 0.7526455026455027,
+                            "y": 0.45403899721448465,
                             "uniqueID": 1738958779044,
                             "ioValues": [
                                 {
@@ -2653,7 +2653,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 1200
+                                    "ioValue": 1000
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -2661,8 +2661,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.25925925925925924,
-                            "y": 0.45403899721448465,
+                            "x": 0.25132275132275134,
+                            "y": 0.467966573816156,
                             "uniqueID": 1741645910117,
                             "ioValues": [
                                 {
@@ -2675,7 +2675,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 250
+                                    "ioValue": 150
                                 },
                                 {
                                     "name": "zDist",
@@ -3018,7 +3018,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 100
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
