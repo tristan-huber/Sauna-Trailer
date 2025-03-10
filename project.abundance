@@ -711,7 +711,7 @@
         {
             "atomType": "Molecule",
             "name": "Sauna",
-            "x": 0.19642857142857142,
+            "x": 0.1984126984126984,
             "y": 0.777158774373259,
             "uniqueID": 1738956170299,
             "ioValues": [],
@@ -2964,11 +2964,55 @@
                             "description": "Creates a new circle."
                         },
                         {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.5972222222222222,
+                            "y": 0.7409470752089137,
+                            "uniqueID": 1741648307282,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1741649117457
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Assembly",
+                            "name": "Assembly",
+                            "x": 0.7473544973544973,
+                            "y": 0.6434540389972144,
+                            "uniqueID": 1741648322288,
+                            "ioValues": [
+                                {
+                                    "name": "Shape 1",
+                                    "ioValue": 1738958958911
+                                },
+                                {
+                                    "name": "Shape 2",
+                                    "ioValue": 1741648307282
+                                }
+                            ],
+                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                        },
+                        {
                             "atomType": "GitHubMolecule",
                             "name": "Plexiglass-Window",
                             "x": 0.42791005291005285,
                             "y": 0.67966573816156,
-                            "uniqueID": 1741648290417,
+                            "uniqueID": 1741649117457,
                             "ioValues": [],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                             "topLevel": false,
@@ -2978,11 +3022,11 @@
                                     "name": "Output",
                                     "x": 0.98,
                                     "y": 0.5,
-                                    "uniqueID": 1741648290682,
+                                    "uniqueID": 1741649117043,
                                     "ioValues": [
                                         {
                                             "name": "number or geometry",
-                                            "ioValue": 1741648290545
+                                            "ioValue": 1741649117244
                                         }
                                     ],
                                     "description": "Connect geometry here to make it available in the next level up. "
@@ -2990,9 +3034,9 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Sphere",
-                                    "x": 0.18518518518518517,
-                                    "y": 0.3203342618384401,
-                                    "uniqueID": 1741648290669,
+                                    "x": 0.19378306878306878,
+                                    "y": 0.3175487465181059,
+                                    "uniqueID": 1741649116597,
                                     "ioValues": [],
                                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                                     "topLevel": false,
@@ -3199,8 +3243,8 @@
                                         {
                                             "atomType": "Move",
                                             "name": "Move",
-                                            "x": 0.5085978835978836,
-                                            "y": 0.5069637883008357,
+                                            "x": 0.5165343915343915,
+                                            "y": 0.5348189415041783,
                                             "uniqueID": 1741646803186,
                                             "ioValues": [
                                                 {
@@ -3209,7 +3253,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 400
+                                                    "ioValue": 265
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -3412,7 +3456,7 @@
                                     "name": "Outer Lip",
                                     "x": 0.1488095238095238,
                                     "y": 0.6824512534818942,
-                                    "uniqueID": 1741648290478,
+                                    "uniqueID": 1741649116638,
                                     "ioValues": [],
                                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                                     "topLevel": false,
@@ -3734,22 +3778,22 @@
                                     "name": "Color",
                                     "x": 0.830026455026455,
                                     "y": 0.36211699164345407,
-                                    "uniqueID": 1741648290545,
+                                    "uniqueID": 1741649117244,
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": 1741648290873
+                                            "ioValue": 1741649117283
                                         }
                                     ],
                                     "description": "Changes the color of the shape.",
-                                    "selectedColorIndex": 22
+                                    "selectedColorIndex": 2
                                 },
                                 {
                                     "atomType": "Molecule",
                                     "name": "Inner Lip",
-                                    "x": 0.29034391534391535,
-                                    "y": 0.777158774373259,
-                                    "uniqueID": 1741648290358,
+                                    "x": 0.294973544973545,
+                                    "y": 0.7883008356545962,
+                                    "uniqueID": 1741649117124,
                                     "ioValues": [],
                                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                                     "topLevel": false,
@@ -3785,8 +3829,8 @@
                                         {
                                             "atomType": "Circle",
                                             "name": "Circle",
-                                            "x": 0.20502645502645506,
-                                            "y": 0.3537604456824513,
+                                            "x": 0.21031746031746032,
+                                            "y": 0.3816155988857939,
                                             "uniqueID": 1741647733481,
                                             "ioValues": [
                                                 {
@@ -3831,6 +3875,17 @@
                                                 }
                                             ],
                                             "description": "Extrudes a 2D shape. Input can be negitive. "
+                                        },
+                                        {
+                                            "atomType": "Readme",
+                                            "name": "README",
+                                            "x": 0.25925925925925924,
+                                            "y": 0.2256267409470752,
+                                            "uniqueID": 1741648669183,
+                                            "ioValues": [],
+                                            "description": "A place to put project notes. These will appear in the GitHub readme and in the description of molecules up the chain. Markdown is supported. ",
+                                            "readmeText": "The measurements seem to indicate that this should be 1400\n",
+                                            "global": true
                                         }
                                     ],
                                     "allConnectors": [
@@ -3871,15 +3926,15 @@
                                     "name": "Fusion",
                                     "x": 0.4232804232804233,
                                     "y": 0.6155988857938719,
-                                    "uniqueID": 1741648290568,
+                                    "uniqueID": 1741649117257,
                                     "ioValues": [
                                         {
                                             "name": "Shape 1",
-                                            "ioValue": 1741648290358
+                                            "ioValue": 1741649117124
                                         },
                                         {
                                             "name": "Shape 2",
-                                            "ioValue": 1741648290478
+                                            "ioValue": 1741649116638
                                         }
                                     ],
                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -3890,11 +3945,11 @@
                                     "name": "Rotate",
                                     "x": 0.6124338624338624,
                                     "y": 0.7743732590529249,
-                                    "uniqueID": 1741648290249,
+                                    "uniqueID": 1741649117096,
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": 1741648290568
+                                            "ioValue": 1741649117257
                                         },
                                         {
                                             "name": "x-axis degrees",
@@ -3914,17 +3969,17 @@
                                 {
                                     "atomType": "Fusion",
                                     "name": "Fusion",
-                                    "x": 0.6474867724867724,
-                                    "y": 0.48467966573816157,
-                                    "uniqueID": 1741648290873,
+                                    "x": 0.6851851851851852,
+                                    "y": 0.28690807799442897,
+                                    "uniqueID": 1741649117283,
                                     "ioValues": [
                                         {
                                             "name": "Shape 1",
-                                            "ioValue": 1741648290249
+                                            "ioValue": 1741649117096
                                         },
                                         {
                                             "name": "Shape 2",
-                                            "ioValue": 1741648290669
+                                            "ioValue": 1741649116597
                                         }
                                     ],
                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -3936,50 +3991,50 @@
                                     "ap1Name": "Geometry",
                                     "ap2Name": "Shape 2",
                                     "ap2Primary": false,
-                                    "ap1ID": 1741648290669,
-                                    "ap2ID": 1741648290873
+                                    "ap1ID": 1741649116597,
+                                    "ap2ID": 1741649117283
                                 },
                                 {
                                     "ap1Name": "Geometry",
                                     "ap2Name": "Shape 2",
                                     "ap2Primary": false,
-                                    "ap1ID": 1741648290478,
-                                    "ap2ID": 1741648290568
+                                    "ap1ID": 1741649116638,
+                                    "ap2ID": 1741649117257
                                 },
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "number or geometry",
                                     "ap2Primary": false,
-                                    "ap1ID": 1741648290545,
-                                    "ap2ID": 1741648290682
+                                    "ap1ID": 1741649117244,
+                                    "ap2ID": 1741649117043
                                 },
                                 {
                                     "ap1Name": "Geometry",
                                     "ap2Name": "Shape 1",
                                     "ap2Primary": false,
-                                    "ap1ID": 1741648290358,
-                                    "ap2ID": 1741648290568
+                                    "ap1ID": 1741649117124,
+                                    "ap2ID": 1741649117257
                                 },
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
-                                    "ap1ID": 1741648290568,
-                                    "ap2ID": 1741648290249
+                                    "ap1ID": 1741649117257,
+                                    "ap2ID": 1741649117096
                                 },
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "Shape 1",
                                     "ap2Primary": false,
-                                    "ap1ID": 1741648290249,
-                                    "ap2ID": 1741648290873
+                                    "ap1ID": 1741649117096,
+                                    "ap2ID": 1741649117283
                                 },
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
-                                    "ap1ID": 1741648290873,
-                                    "ap2ID": 1741648290545
+                                    "ap1ID": 1741649117283,
+                                    "ap2ID": 1741649117244
                                 }
                             ],
                             "parentRepo": {
@@ -4014,50 +4069,6 @@
                             "unitsKey": "Inches",
                             "fileTypeVersion": 1,
                             "compiledBom": []
-                        },
-                        {
-                            "atomType": "Move",
-                            "name": "Move",
-                            "x": 0.5972222222222222,
-                            "y": 0.7409470752089137,
-                            "uniqueID": 1741648307282,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1741648290417
-                                },
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 0
-                                }
-                            ],
-                            "description": "Moves a shape laterally in X, Y, Z."
-                        },
-                        {
-                            "atomType": "Assembly",
-                            "name": "Assembly",
-                            "x": 0.7473544973544973,
-                            "y": 0.6434540389972144,
-                            "uniqueID": 1741648322288,
-                            "ioValues": [
-                                {
-                                    "name": "Shape 1",
-                                    "ioValue": 1738958958911
-                                },
-                                {
-                                    "name": "Shape 2",
-                                    "ioValue": 1741648307282
-                                }
-                            ],
-                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
                         }
                     ],
                     "allConnectors": [
@@ -4097,18 +4108,18 @@
                             "ap2ID": 1738958943076
                         },
                         {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1741648290417,
-                            "ap2ID": 1741648307282
-                        },
-                        {
                             "ap1Name": "geometry",
                             "ap2Name": "Shape 2",
                             "ap2Primary": false,
                             "ap1ID": 1741648307282,
                             "ap2ID": 1741648322288
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1741649117457,
+                            "ap2ID": 1741648307282
                         }
                     ],
                     "fileTypeVersion": 1,
