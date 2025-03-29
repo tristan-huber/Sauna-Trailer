@@ -2387,13 +2387,13 @@
                 {
                     "atomType": "Molecule",
                     "name": "Benches",
-                    "x": 0.3895502645502646,
-                    "y": 0.8579387186629527,
+                    "x": 0.39550264550264547,
+                    "y": 0.8635097493036212,
                     "uniqueID": 1738958654002,
                     "ioValues": [
                         {
                             "name": "Bench Height",
-                            "ioValue": 450
+                            "ioValue": 750
                         },
                         {
                             "name": "Bench Depth",
@@ -2450,7 +2450,7 @@
                             "ioValues": [
                                 {
                                     "name": "Bench Height",
-                                    "ioValue": 450
+                                    "ioValue": 750
                                 },
                                 {
                                     "name": "Bench Depth",
@@ -2567,7 +2567,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 400
+                                            "ioValue": 700
                                         },
                                         {
                                             "name": "zDist",
@@ -2629,7 +2629,7 @@
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 450
+                                            "ioValue": 750
                                         },
                                         {
                                             "name": "R",
@@ -2671,7 +2671,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 420
+                                            "ioValue": 720
                                         },
                                         {
                                             "name": "zDist",
@@ -2723,7 +2723,7 @@
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 450
+                                            "ioValue": 750
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3291,7 +3291,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 450
+                                    "ioValue": 750
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -9099,8 +9099,8 @@
         {
             "atomType": "Molecule",
             "name": "Person For Scale",
-            "x": 0.4933862433862434,
-            "y": 0.2116991643454039,
+            "x": 0.4834656084656085,
+            "y": 0.20055710306406688,
             "uniqueID": 1740179206026,
             "ioValues": [
                 {
