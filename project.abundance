@@ -5852,7 +5852,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": 1741645588114
+                                    "ioValue": 1743279344726
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -6008,7 +6008,7 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.6481481481481481,
+                            "x": 0.6448412698412699,
                             "y": 0.3565459610027855,
                             "uniqueID": 1741645588114,
                             "ioValues": [
@@ -6116,8 +6116,8 @@
                                 {
                                     "atomType": "Difference",
                                     "name": "Difference",
-                                    "x": 0.3412698412698413,
-                                    "y": 0.3342618384401114,
+                                    "x": 0.24735449735449735,
+                                    "y": 0.23119777158774377,
                                     "uniqueID": 1743278295055,
                                     "ioValues": [
                                         {
@@ -6134,8 +6134,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.4775132275132275,
-                                    "y": 0.31197771587743733,
+                                    "x": 0.3604497354497354,
+                                    "y": 0.28690807799442897,
                                     "uniqueID": 1743279147961,
                                     "ioValues": [
                                         {
@@ -6148,7 +6148,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": -266.7
+                                            "ioValue": -165.1
                                         },
                                         {
                                             "name": "zDist",
@@ -6160,8 +6160,8 @@
                                 {
                                     "atomType": "Difference",
                                     "name": "Difference",
-                                    "x": 0.48677248677248675,
-                                    "y": 0.6685236768802229,
+                                    "x": 0.3855820105820106,
+                                    "y": 0.6601671309192201,
                                     "uniqueID": 1743279153491,
                                     "ioValues": [
                                         {
@@ -6178,13 +6178,13 @@
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.6316137566137566,
-                                    "y": 0.5431754874651811,
+                                    "x": 0.8201058201058202,
+                                    "y": 0.25348189415041783,
                                     "uniqueID": 1743279258731,
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": 1743279153491
+                                            "ioValue": 1743279731933
                                         },
                                         {
                                             "name": "height",
@@ -6196,8 +6196,8 @@
                                 {
                                     "atomType": "Color",
                                     "name": "Color",
-                                    "x": 0.7876984126984127,
-                                    "y": 0.4958217270194986,
+                                    "x": 0.9166666666666667,
+                                    "y": 0.49860724233983283,
                                     "uniqueID": 1743279285293,
                                     "ioValues": [
                                         {
@@ -6211,8 +6211,8 @@
                                 {
                                     "atomType": "Rectangle",
                                     "name": "Rectangle",
-                                    "x": 0.37433862433862436,
-                                    "y": 0.8412256267409471,
+                                    "x": 0.2347883597883598,
+                                    "y": 0.8690807799442898,
                                     "uniqueID": 1743279408178,
                                     "ioValues": [
                                         {
@@ -6225,6 +6225,68 @@
                                         }
                                     ],
                                     "description": "Creates a new rectangle."
+                                },
+                                {
+                                    "atomType": "Rectangle",
+                                    "name": "Rectangle",
+                                    "x": 0.44907407407407407,
+                                    "y": 0.8440111420612814,
+                                    "uniqueID": 1743279703700,
+                                    "ioValues": [
+                                        {
+                                            "name": "x length",
+                                            "ioValue": 500
+                                        },
+                                        {
+                                            "name": "y length",
+                                            "ioValue": 500
+                                        }
+                                    ],
+                                    "description": "Creates a new rectangle."
+                                },
+                                {
+                                    "atomType": "Move",
+                                    "name": "Move",
+                                    "x": 0.576058201058201,
+                                    "y": 0.7938718662952646,
+                                    "uniqueID": 1743279712997,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": 1743279703700
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 350
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0
+                                        }
+                                    ],
+                                    "description": "Moves a shape laterally in X, Y, Z."
+                                },
+                                {
+                                    "atomType": "Difference",
+                                    "name": "Difference",
+                                    "x": 0.6838624338624338,
+                                    "y": 0.6128133704735376,
+                                    "uniqueID": 1743279731933,
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry2",
+                                            "ioValue": 1743279712997
+                                        },
+                                        {
+                                            "name": "geometry1",
+                                            "ioValue": 1743279153491
+                                        }
+                                    ],
+                                    "description": "Subtracts shape two from shape one."
                                 }
                             ],
                             "allConnectors": [
@@ -6265,10 +6327,10 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
-                                    "ap2Name": "geometry",
-                                    "ap2Primary": true,
+                                    "ap2Name": "geometry1",
+                                    "ap2Primary": false,
                                     "ap1ID": 1743279153491,
-                                    "ap2ID": 1743279258731
+                                    "ap2ID": 1743279731933
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -6290,6 +6352,27 @@
                                     "ap2Primary": false,
                                     "ap1ID": 1743279408178,
                                     "ap2ID": 1743279153491
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 1743279703700,
+                                    "ap2ID": 1743279712997
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry2",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1743279712997,
+                                    "ap2ID": 1743279731933
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 1743279731933,
+                                    "ap2ID": 1743279258731
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -6298,8 +6381,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.5085978835978836,
-                            "y": 0.7325905292479109,
+                            "x": 0.511904761904762,
+                            "y": 0.7409470752089137,
                             "uniqueID": 1743279319552,
                             "ioValues": [
                                 {
@@ -6316,7 +6399,7 @@
                                 },
                                 {
                                     "name": "z-axis degrees",
-                                    "ioValue": 180
+                                    "ioValue": -90
                                 }
                             ],
                             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -6324,8 +6407,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5965608465608465,
-                            "y": 0.7158774373259054,
+                            "x": 0.6183862433862434,
+                            "y": 0.6768802228412256,
                             "uniqueID": 1743279328728,
                             "ioValues": [
                                 {
@@ -6334,11 +6417,11 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -100
+                                    "ioValue": 0
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 100
+                                    "ioValue": 0
                                 },
                                 {
                                     "name": "zDist",
@@ -6350,8 +6433,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.7764550264550265,
-                            "y": 0.6768802228412256,
+                            "x": 0.7876984126984127,
+                            "y": 0.5710306406685237,
                             "uniqueID": 1743279344726,
                             "ioValues": [
                                 {
@@ -6425,13 +6508,6 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 1741645588114,
-                            "ap2ID": 1738960107006
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "Shape 2",
                             "ap2Primary": false,
                             "ap1ID": 1741645588114,
@@ -6457,6 +6533,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1743279328728,
                             "ap2ID": 1743279344726
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1743279344726,
+                            "ap2ID": 1738960107006
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -6472,8 +6555,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6970899470899471,
-                    "y": 0.7103064066852367,
+                    "x": 0.703042328042328,
+                    "y": 0.7409470752089137,
                     "uniqueID": 1738960642869,
                     "ioValues": [
                         {
