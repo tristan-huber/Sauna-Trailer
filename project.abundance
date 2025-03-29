@@ -3443,8 +3443,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Door Opening",
-                    "x": 0.07804232804232804,
-                    "y": 0.5515320334261838,
+                    "x": 0.08597883597883599,
+                    "y": 0.5738161559888579,
                     "uniqueID": 1738958661904,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3473,7 +3473,7 @@
                             "ioValues": [
                                 {
                                     "name": "Width",
-                                    "ioValue": 500
+                                    "ioValue": 660
                                 },
                                 {
                                     "name": "Height",
@@ -3592,7 +3592,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 175
+                                            "ioValue": 255
                                         },
                                         {
                                             "name": "yDist",
@@ -3632,7 +3632,7 @@
                                     "ioValues": [
                                         {
                                             "name": "W",
-                                            "ioValue": 500
+                                            "ioValue": 660
                                         },
                                         {
                                             "name": "R",
@@ -3674,7 +3674,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 175
+                                            "ioValue": 255
                                         },
                                         {
                                             "name": "yDist",
@@ -3700,7 +3700,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": -175
+                                            "ioValue": -255
                                         },
                                         {
                                             "name": "yDist",
@@ -3726,7 +3726,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": -175
+                                            "ioValue": -255
                                         },
                                         {
                                             "name": "yDist",
@@ -3748,7 +3748,7 @@
                                     "ioValues": [
                                         {
                                             "name": "W",
-                                            "ioValue": 500
+                                            "ioValue": 660
                                         },
                                         {
                                             "name": "R",
@@ -4137,8 +4137,8 @@
                         {
                             "atomType": "Fusion",
                             "name": "Fusion",
-                            "x": 0.3525132275132275,
-                            "y": 0.21448467966573817,
+                            "x": 0.3584656084656085,
+                            "y": 0.21727019498607245,
                             "uniqueID": 1741645947098,
                             "ioValues": [
                                 {
@@ -4200,8 +4200,8 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.38756613756613756,
-                            "y": 0.6573816155988859,
+                            "x": 0.38822751322751325,
+                            "y": 0.6685236768802229,
                             "uniqueID": 1741646065271,
                             "ioValues": [
                                 {
@@ -5460,8 +5460,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.15079365079365079,
-                    "y": 0.5654596100278552,
+                    "x": 0.15343915343915343,
+                    "y": 0.5933147632311978,
                     "uniqueID": 1738958805059,
                     "ioValues": [
                         {
@@ -5474,7 +5474,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 300
+                            "ioValue": 225
                         },
                         {
                             "name": "zDist",
@@ -5826,18 +5826,18 @@
                     "fileTypeVersion": 1,
                     "compiledBom": [
                         {
-                            "BOMitemName": "Harvia WKM3",
+                            "BOMitemName": "Wood Stove",
                             "numberNeeded": 1,
-                            "costUSD": 800,
-                            "source": "www.example.com"
+                            "costUSD": 150,
+                            "source": "https://amzn.to/3Q9mOg9"
                         }
                     ]
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Stove",
-                    "x": 0.6011904761904762,
-                    "y": 0.8495821727019498,
+                    "x": 0.5972222222222222,
+                    "y": 0.8245125348189415,
                     "uniqueID": 1738960106907,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -5866,7 +5866,7 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 279.4
+                                    "ioValue": 266.7
                                 },
                                 {
                                     "name": "y length",
@@ -5878,8 +5878,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.18121693121693122,
-                            "y": 0.2785515320334262,
+                            "x": 0.19113756613756613,
+                            "y": 0.2646239554317549,
                             "uniqueID": 1738960389090,
                             "ioValues": [
                                 {
@@ -5888,7 +5888,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 330
+                                    "ioValue": 254
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -5896,8 +5896,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.10648148148148147,
-                            "y": 0.83008356545961,
+                            "x": 0.10846560846560847,
+                            "y": 0.8022284122562675,
                             "uniqueID": 1738960498331,
                             "ioValues": [
                                 {
@@ -5928,8 +5928,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.30224867724867727,
-                            "y": 0.8440111420612814,
+                            "x": 0.30158730158730157,
+                            "y": 0.8384401114206128,
                             "uniqueID": 1738960522604,
                             "ioValues": [
                                 {
@@ -5942,11 +5942,11 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 190
+                                    "ioValue": 160
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 330
+                                    "ioValue": 250
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -6008,8 +6008,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.7394179894179894,
-                            "y": 0.7075208913649026,
+                            "x": 0.7367724867724867,
+                            "y": 0.7103064066852367,
                             "uniqueID": 1741645588114,
                             "ioValues": [
                                 {
@@ -6026,7 +6026,7 @@
                                 },
                                 {
                                     "name": "z-axis degrees",
-                                    "ioValue": 180
+                                    "ioValue": 90
                                 }
                             ],
                             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -6120,7 +6120,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 900
+                            "ioValue": 1100
                         },
                         {
                             "name": "yDist",
@@ -6128,7 +6128,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 50
+                            "ioValue": 250
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -8276,10 +8276,10 @@
             "fileTypeVersion": 1,
             "compiledBom": [
                 {
-                    "BOMitemName": "Harvia WKM3",
+                    "BOMitemName": "Wood Stove",
                     "numberNeeded": 1,
-                    "costUSD": 800,
-                    "source": "www.example.com"
+                    "costUSD": 150,
+                    "source": "https://amzn.to/3Q9mOg9"
                 }
             ]
         },
