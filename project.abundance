@@ -5860,8 +5860,8 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.0787037037037037,
-                            "y": 0.4094707520891365,
+                            "x": 0.08068783068783068,
+                            "y": 0.42896935933147634,
                             "uniqueID": 1738960364987,
                             "ioValues": [
                                 {
@@ -5955,7 +5955,7 @@
                             "atomType": "Fusion",
                             "name": "Fusion",
                             "x": 0.3062169312169312,
-                            "y": 0.30919220055710306,
+                            "y": 0.31197771587743733,
                             "uniqueID": 1738960530562,
                             "ioValues": [
                                 {
@@ -6035,7 +6035,7 @@
                             "atomType": "Molecule",
                             "name": "Stones",
                             "x": 0.49603174603174605,
-                            "y": 0.8272980501392758,
+                            "y": 0.83008356545961,
                             "uniqueID": 1743277934425,
                             "ioValues": [],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -6053,8 +6053,8 @@
                                 {
                                     "atomType": "Circle",
                                     "name": "Circle",
-                                    "x": 0.12632275132275134,
-                                    "y": 0.3816155988857939,
+                                    "x": 0.10582010582010583,
+                                    "y": 0.2924791086350975,
                                     "uniqueID": 1743277973069,
                                     "ioValues": [
                                         {
@@ -6111,8 +6111,8 @@
                                 {
                                     "atomType": "Difference",
                                     "name": "Difference",
-                                    "x": 0.4074074074074074,
-                                    "y": 0.233983286908078,
+                                    "x": 0.4107142857142857,
+                                    "y": 0.2841225626740947,
                                     "uniqueID": 1743278295055,
                                     "ioValues": [
                                         {
@@ -6174,8 +6174,8 @@
                                 {
                                     "atomType": "Rectangle",
                                     "name": "Rectangle",
-                                    "x": 0.37037037037037035,
-                                    "y": 0.8857938718662952,
+                                    "x": 0.2969576719576719,
+                                    "y": 0.9108635097493036,
                                     "uniqueID": 1743278570163,
                                     "ioValues": [
                                         {
@@ -6192,8 +6192,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.47619047619047616,
-                                    "y": 0.6740947075208913,
+                                    "x": 0.4920634920634921,
+                                    "y": 0.5988857938718662,
                                     "uniqueID": 1743278614898,
                                     "ioValues": [
                                         {
@@ -6229,6 +6229,24 @@
                                     ],
                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                                     "unionType": "Fusion"
+                                },
+                                {
+                                    "atomType": "Rectangle",
+                                    "name": "Rectangle",
+                                    "x": 0.5330687830687831,
+                                    "y": 0.3147632311977716,
+                                    "uniqueID": 1743278923268,
+                                    "ioValues": [
+                                        {
+                                            "name": "x length",
+                                            "ioValue": 368.3
+                                        },
+                                        {
+                                            "name": "y length",
+                                            "ioValue": 250
+                                        }
+                                    ],
+                                    "description": "Creates a new rectangle."
                                 }
                             ],
                             "allConnectors": [
