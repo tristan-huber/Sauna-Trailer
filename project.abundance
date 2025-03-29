@@ -1868,7 +1868,7 @@
         {
             "atomType": "Molecule",
             "name": "Sauna",
-            "x": 0.19973544973544974,
+            "x": 0.2003968253968254,
             "y": 0.7855153203342619,
             "uniqueID": 1738956170299,
             "ioValues": [],
@@ -2393,7 +2393,7 @@
                     "ioValues": [
                         {
                             "name": "Bench Height",
-                            "ioValue": 750
+                            "ioValue": 609.5999999999999
                         },
                         {
                             "name": "Bench Depth",
@@ -2450,7 +2450,7 @@
                             "ioValues": [
                                 {
                                     "name": "Bench Height",
-                                    "ioValue": 750
+                                    "ioValue": 609.5999999999999
                                 },
                                 {
                                     "name": "Bench Depth",
@@ -2567,7 +2567,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 700
+                                            "ioValue": 559.5999999999999
                                         },
                                         {
                                             "name": "zDist",
@@ -2629,7 +2629,7 @@
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 750
+                                            "ioValue": 609.5999999999999
                                         },
                                         {
                                             "name": "R",
@@ -2671,7 +2671,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 720
+                                            "ioValue": 579.5999999999999
                                         },
                                         {
                                             "name": "zDist",
@@ -2723,7 +2723,7 @@
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 750
+                                            "ioValue": 609.5999999999999
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3291,7 +3291,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 750
+                                    "ioValue": 609.5999999999999
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -9794,13 +9794,6 @@
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [
-        {
-            "BOMitemName": "Wood Stove",
-            "numberNeeded": 2,
-            "costUSD": 300,
-            "source": "https://amzn.to/3Q9mOg9"
-        }
-    ],
+    "compiledBom": [],
     "filetypeVersion": 1
 }
