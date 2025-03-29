@@ -49,8 +49,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Base",
-                    "x": 0.27976190476190477,
-                    "y": 0.44568245125348194,
+                    "x": 0.2804232804232804,
+                    "y": 0.298050139275766,
                     "uniqueID": 1738956281302,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -348,8 +348,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Wheels",
-                    "x": 0.35383597883597884,
-                    "y": 0.7353760445682451,
+                    "x": 0.3458994708994709,
+                    "y": 0.6601671309192201,
                     "uniqueID": 1738956287129,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -673,6 +673,30 @@
                     ],
                     "description": "Changes the color of the shape.",
                     "selectedColorIndex": 9
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Detailed Base",
+                    "x": 0.1779100529100529,
+                    "y": 0.5515320334261838,
+                    "uniqueID": 1743271396009,
+                    "ioValues": [],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": 1743271396207,
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [
