@@ -1868,8 +1868,8 @@
         {
             "atomType": "Molecule",
             "name": "Sauna",
-            "x": 0.1984126984126984,
-            "y": 0.777158774373259,
+            "x": 0.19973544973544974,
+            "y": 0.7855153203342619,
             "uniqueID": 1738956170299,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2393,7 +2393,7 @@
                     "ioValues": [
                         {
                             "name": "Bench Height",
-                            "ioValue": 750
+                            "ioValue": 450
                         },
                         {
                             "name": "Bench Depth",
@@ -2450,7 +2450,7 @@
                             "ioValues": [
                                 {
                                     "name": "Bench Height",
-                                    "ioValue": 750
+                                    "ioValue": 450
                                 },
                                 {
                                     "name": "Bench Depth",
@@ -2567,7 +2567,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 700
+                                            "ioValue": 400
                                         },
                                         {
                                             "name": "zDist",
@@ -2629,7 +2629,7 @@
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 750
+                                            "ioValue": 450
                                         },
                                         {
                                             "name": "R",
@@ -2671,7 +2671,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 720
+                                            "ioValue": 420
                                         },
                                         {
                                             "name": "zDist",
@@ -2723,7 +2723,7 @@
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 750
+                                            "ioValue": 450
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3291,7 +3291,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 750
+                                    "ioValue": 450
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -6110,7 +6110,7 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6924603174603174,
+                    "x": 0.6970899470899471,
                     "y": 0.7103064066852367,
                     "uniqueID": 1738960642869,
                     "ioValues": [
@@ -6124,7 +6124,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -300
+                            "ioValue": -400
                         },
                         {
                             "name": "zDist",
@@ -8600,10 +8600,10 @@
             "fileTypeVersion": 1,
             "compiledBom": [
                 {
-                    "BOMitemName": "Harvia WKM3",
+                    "BOMitemName": "Wood Stove",
                     "numberNeeded": 1,
-                    "costUSD": 800,
-                    "source": "www.example.com"
+                    "costUSD": 150,
+                    "source": "https://amzn.to/3Q9mOg9"
                 }
             ]
         },
@@ -9281,10 +9281,10 @@
             "fileTypeVersion": 1,
             "compiledBom": [
                 {
-                    "BOMitemName": "Harvia WKM3",
+                    "BOMitemName": "Wood Stove",
                     "numberNeeded": 1,
-                    "costUSD": 800,
-                    "source": "www.example.com"
+                    "costUSD": 150,
+                    "source": "https://amzn.to/3Q9mOg9"
                 }
             ]
         }
@@ -9349,6 +9349,13 @@
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [],
+    "compiledBom": [
+        {
+            "BOMitemName": "Wood Stove",
+            "numberNeeded": 2,
+            "costUSD": 300,
+            "source": "https://amzn.to/3Q9mOg9"
+        }
+    ],
     "filetypeVersion": 1
 }
