@@ -2990,8 +2990,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.5714285714285714,
-                            "y": 0.27298050139275765,
+                            "x": 0.5747354497354497,
+                            "y": 0.3175487465181059,
                             "uniqueID": 1738962040930,
                             "ioValues": [
                                 {
@@ -3000,7 +3000,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 1600
+                                    "ioValue": 1800
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3018,7 +3018,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": -1600
+                                    "ioValue": -1800
                                 }
                             ],
                             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -5993,8 +5993,8 @@
                         {
                             "atomType": "Color",
                             "name": "Color",
-                            "x": 0.5562169312169313,
-                            "y": 0.637883008356546,
+                            "x": 0.5198412698412698,
+                            "y": 0.2757660167130919,
                             "uniqueID": 1738960549686,
                             "ioValues": [
                                 {
@@ -6008,8 +6008,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.7367724867724867,
-                            "y": 0.7103064066852367,
+                            "x": 0.806878306878307,
+                            "y": 0.6991643454038997,
                             "uniqueID": 1741645588114,
                             "ioValues": [
                                 {
@@ -6030,6 +6030,62 @@
                                 }
                             ],
                             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                        },
+                        {
+                            "atomType": "Molecule",
+                            "name": "Stones",
+                            "x": 0.49603174603174605,
+                            "y": 0.8272980501392758,
+                            "uniqueID": 1743277934425,
+                            "ioValues": [],
+                            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.98,
+                                    "y": 0.5,
+                                    "uniqueID": 1743277934766,
+                                    "ioValues": [],
+                                    "description": "Connect geometry here to make it available in the next level up. "
+                                },
+                                {
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.1164021164021164,
+                                    "y": 0.37325905292479106,
+                                    "uniqueID": 1743277973069,
+                                    "ioValues": [
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 203.2
+                                        }
+                                    ],
+                                    "description": "Creates a new circle."
+                                },
+                                {
+                                    "atomType": "Rectangle",
+                                    "name": "Rectangle",
+                                    "x": 0.1197089947089947,
+                                    "y": 0.6768802228412256,
+                                    "uniqueID": 1743277999708,
+                                    "ioValues": [
+                                        {
+                                            "name": "x length",
+                                            "ioValue": 10
+                                        },
+                                        {
+                                            "name": "y length",
+                                            "ioValue": 10
+                                        }
+                                    ],
+                                    "description": "Creates a new rectangle."
+                                }
+                            ],
+                            "allConnectors": [],
+                            "fileTypeVersion": 1,
+                            "compiledBom": {}
                         }
                     ],
                     "allConnectors": [
