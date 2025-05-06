@@ -4,7 +4,24 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1738956146212,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "name1",
+            "ioValue": 10
+        },
+        {
+            "name": "name2",
+            "ioValue": 10
+        },
+        {
+            "name": "name3",
+            "ioValue": 10
+        },
+        {
+            "name": "name4",
+            "ioValue": 10
+        }
+    ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
@@ -457,12 +474,12 @@
                             "uniqueID": 1738956727408,
                             "ioValues": [
                                 {
-                                    "name": "geometry2",
-                                    "ioValue": 1738956710344
-                                },
-                                {
                                     "name": "geometry1",
                                     "ioValue": 1738956651899
+                                },
+                                {
+                                    "name": "geometry2",
+                                    "ioValue": 1738956710344
                                 }
                             ],
                             "description": "Subtracts shape two from shape one."
@@ -2215,12 +2232,12 @@
                             "uniqueID": 1738958076807,
                             "ioValues": [
                                 {
-                                    "name": "geometry2",
-                                    "ioValue": 1738958065348
-                                },
-                                {
                                     "name": "geometry1",
                                     "ioValue": 1738957110146
+                                },
+                                {
+                                    "name": "geometry2",
+                                    "ioValue": 1738958065348
                                 }
                             ],
                             "description": "Subtracts shape two from shape one."
@@ -3186,12 +3203,12 @@
                                     "uniqueID": 1741650208200,
                                     "ioValues": [
                                         {
-                                            "name": "geometry2",
-                                            "ioValue": 1741650194030
-                                        },
-                                        {
                                             "name": "geometry1",
                                             "ioValue": 1741650322203
+                                        },
+                                        {
+                                            "name": "geometry2",
+                                            "ioValue": 1741650194030
                                         }
                                     ],
                                     "description": "Subtracts shape two from shape one."
@@ -4205,12 +4222,12 @@
                             "uniqueID": 1741646065271,
                             "ioValues": [
                                 {
-                                    "name": "geometry2",
-                                    "ioValue": 1741646055317
-                                },
-                                {
                                     "name": "geometry1",
                                     "ioValue": 1741645910117
+                                },
+                                {
+                                    "name": "geometry2",
+                                    "ioValue": 1741646055317
                                 }
                             ],
                             "description": "Subtracts shape two from shape one."
@@ -4590,12 +4607,12 @@
                                             "uniqueID": 1741646737793,
                                             "ioValues": [
                                                 {
-                                                    "name": "geometry2",
-                                                    "ioValue": 1741646708747
-                                                },
-                                                {
                                                     "name": "geometry1",
                                                     "ioValue": 1741646803186
+                                                },
+                                                {
+                                                    "name": "geometry2",
+                                                    "ioValue": 1741646708747
                                                 }
                                             ],
                                             "description": "Subtracts shape two from shape one."
@@ -4739,12 +4756,12 @@
                                             "uniqueID": 1741646930309,
                                             "ioValues": [
                                                 {
-                                                    "name": "geometry2",
-                                                    "ioValue": 1741646878971
-                                                },
-                                                {
                                                     "name": "geometry1",
                                                     "ioValue": 1741646583720
+                                                },
+                                                {
+                                                    "name": "geometry2",
+                                                    "ioValue": 1741646878971
                                                 }
                                             ],
                                             "description": "Subtracts shape two from shape one."
@@ -5021,12 +5038,12 @@
                                             "uniqueID": 1741647664927,
                                             "ioValues": [
                                                 {
-                                                    "name": "geometry2",
-                                                    "ioValue": 1741647653193
-                                                },
-                                                {
                                                     "name": "geometry1",
                                                     "ioValue": 1741647635987
+                                                },
+                                                {
+                                                    "name": "geometry2",
+                                                    "ioValue": 1741647653193
                                                 }
                                             ],
                                             "description": "Subtracts shape two from shape one."
@@ -5208,12 +5225,12 @@
                                             "uniqueID": 1741647825194,
                                             "ioValues": [
                                                 {
-                                                    "name": "geometry2",
-                                                    "ioValue": 1741647733481
-                                                },
-                                                {
                                                     "name": "geometry1",
                                                     "ioValue": 1741647724264
+                                                },
+                                                {
+                                                    "name": "geometry2",
+                                                    "ioValue": 1741647733481
                                                 }
                                             ],
                                             "description": "Subtracts shape two from shape one."
@@ -5491,12 +5508,12 @@
                     "uniqueID": 1738958842644,
                     "ioValues": [
                         {
-                            "name": "geometry2",
-                            "ioValue": 1741650522058
-                        },
-                        {
                             "name": "geometry1",
                             "ioValue": 1738957188514
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": 1741650522058
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
@@ -5718,12 +5735,12 @@
                             "uniqueID": 1738960092907,
                             "ioValues": [
                                 {
-                                    "name": "geometry2",
-                                    "ioValue": 1738960093403
-                                },
-                                {
                                     "name": "geometry1",
                                     "ioValue": 1738960649623
+                                },
+                                {
+                                    "name": "geometry2",
+                                    "ioValue": 1738960093403
                                 }
                             ],
                             "description": "Subtracts shape two from shape one."
@@ -6121,12 +6138,12 @@
                                     "uniqueID": 1743278295055,
                                     "ioValues": [
                                         {
-                                            "name": "geometry2",
-                                            "ioValue": 1743277973069
-                                        },
-                                        {
                                             "name": "geometry1",
                                             "ioValue": 1743278278839
+                                        },
+                                        {
+                                            "name": "geometry2",
+                                            "ioValue": 1743277973069
                                         }
                                     ],
                                     "description": "Subtracts shape two from shape one."
@@ -6165,12 +6182,12 @@
                                     "uniqueID": 1743279153491,
                                     "ioValues": [
                                         {
-                                            "name": "geometry2",
-                                            "ioValue": 1743279147961
-                                        },
-                                        {
                                             "name": "geometry1",
                                             "ioValue": 1743279408178
+                                        },
+                                        {
+                                            "name": "geometry2",
+                                            "ioValue": 1743279147961
                                         }
                                     ],
                                     "description": "Subtracts shape two from shape one."
@@ -6278,12 +6295,12 @@
                                     "uniqueID": 1743279731933,
                                     "ioValues": [
                                         {
-                                            "name": "geometry2",
-                                            "ioValue": 1743279712997
-                                        },
-                                        {
                                             "name": "geometry1",
                                             "ioValue": 1743279153491
+                                        },
+                                        {
+                                            "name": "geometry2",
+                                            "ioValue": 1743279712997
                                         }
                                     ],
                                     "description": "Subtracts shape two from shape one."
@@ -8936,12 +8953,12 @@
                     "uniqueID": 1738958491377,
                     "ioValues": [
                         {
-                            "name": "geometry2",
-                            "ioValue": 1738958491139
-                        },
-                        {
                             "name": "geometry1",
                             "ioValue": 1738956922193
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": 1738958491139
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
@@ -9731,6 +9748,46 @@
                     "source": "https://amzn.to/3Q9mOg9"
                 }
             ]
+        },
+        {
+            "atomType": "Input",
+            "name": "name1",
+            "x": 0.04,
+            "y": 0.6462395543175488,
+            "uniqueID": 1746567174202,
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
+        },
+        {
+            "atomType": "Input",
+            "name": "name2",
+            "x": 0.04,
+            "y": 0.8328690807799443,
+            "uniqueID": 1746567186166,
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
+        },
+        {
+            "atomType": "Input",
+            "name": "name3",
+            "x": 0.04,
+            "y": 0.3899721448467966,
+            "uniqueID": 1746567187886,
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
+        },
+        {
+            "atomType": "Input",
+            "name": "name4",
+            "x": 0.04,
+            "y": 0.5,
+            "uniqueID": 1746567190855,
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
         }
     ],
     "allConnectors": [
