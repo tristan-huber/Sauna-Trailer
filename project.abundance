@@ -2292,7 +2292,7 @@
                                         },
                                         {
                                             "name": "Thickness",
-                                            "ioValue": 12
+                                            "ioValue": 11
                                         }
                                     ],
                                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2321,7 +2321,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "thickness",
-                                                    "ioValue": 10
+                                                    "ioValue": 11
                                                 },
                                                 {
                                                     "name": "numBumps",
