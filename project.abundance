@@ -1873,8 +1873,8 @@
         {
             "atomType": "Molecule",
             "name": "Sauna",
-            "x": 0.2003968253968254,
-            "y": 0.7855153203342619,
+            "x": 0.19378306878306878,
+            "y": 0.7910863509749304,
             "uniqueID": 1738956170299,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2244,6 +2244,30 @@
                             ],
                             "description": "Changes the color of the shape.",
                             "selectedColorIndex": 9
+                        },
+                        {
+                            "atomType": "Molecule",
+                            "name": "Molecule",
+                            "x": 0.40608465608465605,
+                            "y": 0.47632311977715874,
+                            "uniqueID": 1746922984330,
+                            "ioValues": [],
+                            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.98,
+                                    "y": 0.5,
+                                    "uniqueID": 1746922983948,
+                                    "ioValues": [],
+                                    "description": "Connect geometry here to make it available in the next level up. "
+                                }
+                            ],
+                            "allConnectors": [],
+                            "fileTypeVersion": 1,
+                            "compiledBom": {}
                         }
                     ],
                     "allConnectors": [
