@@ -2247,9 +2247,9 @@
                         },
                         {
                             "atomType": "Molecule",
-                            "name": "Molecule",
-                            "x": 0.40608465608465605,
-                            "y": 0.47632311977715874,
+                            "name": "Corrugated Envlope",
+                            "x": 0.40542328042328046,
+                            "y": 0.4512534818941504,
                             "uniqueID": 1746922984330,
                             "ioValues": [],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
