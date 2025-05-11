@@ -1979,7 +1979,7 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.2347883597883598,
+                            "x": 0.24404761904761904,
                             "y": 0.2757660167130919,
                             "uniqueID": 1738957055746,
                             "ioValues": [
@@ -2251,7 +2251,12 @@
                             "x": 0.40542328042328046,
                             "y": 0.4512534818941504,
                             "uniqueID": 1746922984330,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "Old Shape",
+                                    "ioValue": 1738956990942
+                                }
+                            ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                             "topLevel": false,
                             "allAtoms": [
@@ -2263,6 +2268,137 @@
                                     "uniqueID": 1746922983948,
                                     "ioValues": [],
                                     "description": "Connect geometry here to make it available in the next level up. "
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Old Shape",
+                                    "x": 0.04,
+                                    "y": 0.5821727019498607,
+                                    "uniqueID": 1746925948442,
+                                    "ioValues": [],
+                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                    "type": "number"
+                                },
+                                {
+                                    "atomType": "GitHubMolecule",
+                                    "name": "Corrugated-Roofing-Circle",
+                                    "x": 0.32341269841269843,
+                                    "y": 0.4596100278551532,
+                                    "uniqueID": 1746925968231,
+                                    "ioValues": [
+                                        {
+                                            "name": "Number of Bumps",
+                                            "ioValue": 30
+                                        },
+                                        {
+                                            "name": "Thickness",
+                                            "ioValue": 12
+                                        }
+                                    ],
+                                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                                    "topLevel": false,
+                                    "allAtoms": [
+                                        {
+                                            "atomType": "Output",
+                                            "name": "Output",
+                                            "x": 0.98,
+                                            "y": 0.5,
+                                            "uniqueID": 1746925968705,
+                                            "ioValues": [
+                                                {
+                                                    "name": "number or geometry",
+                                                    "ioValue": 1746925968000
+                                                }
+                                            ],
+                                            "description": "Connect geometry here to make it available in the next level up. "
+                                        },
+                                        {
+                                            "atomType": "Code",
+                                            "name": "Code",
+                                            "x": 0.4755291005291006,
+                                            "y": 0.40111420612813375,
+                                            "uniqueID": 1746925968000,
+                                            "ioValues": [
+                                                {
+                                                    "name": "thickness",
+                                                    "ioValue": 10
+                                                },
+                                                {
+                                                    "name": "numBumps",
+                                                    "ioValue": 10
+                                                }
+                                            ],
+                                            "description": "Defines a Replicad code block.",
+                                            "codeVersion": 1,
+                                            "code": " \n      //Inputs:[thickness, numBumps]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Define a circle\n       const circleFunction = (t) => {\n\n         \n       const period = 72;\n       const circumference = numBumps * period;\n       const baseRadius = circumference / (2 * Math.PI);\n         console.log(\"Base Radius: \" + baseRadius);\n\n        t = t === 1 ? 0: t\n      \n        const length = Math.PI*2*baseRadius;\n        const amplitude = 19 / 2;\n        const sinX = t * length; // Scale  to the total length (circumference)\n        const sinY = amplitude * Math.sin((2 * Math.PI * sinX) / period)\n      \n        const angle = 2 * Math.PI * t;\n      \n        const radius = baseRadius + sinY;\n      \n        const circleX = radius * Math.cos(angle);\n        const circleY = radius * Math.sin(angle);\n      \n        const x = circleX ;\n        const y = circleY;\n      \n      \n        return [x, y];\n      };\n\n      // Step 3: Create the sinewave shape\n      const sinewaveShape = drawParametricFunction(circleFunction, { pointsCount: 6*numBumps });\n  \n    \n      // Return the combined shape\n      let createdShape =  sinewaveShape.sketchOnPlane().extrude(thickness);\n\n      //This is the plane we are going to put our new shape on\n      const newPlane = new Plane().pivot(0, 'Y');\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      return shape2\n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
+                                        },
+                                        {
+                                            "atomType": "Input",
+                                            "name": "Number of Bumps",
+                                            "x": 0.04,
+                                            "y": 0.42061281337047357,
+                                            "uniqueID": 1746925968467,
+                                            "ioValues": [],
+                                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                            "type": "number"
+                                        },
+                                        {
+                                            "atomType": "Input",
+                                            "name": "Thickness",
+                                            "x": 0.04,
+                                            "y": 0.67966573816156,
+                                            "uniqueID": 1746925968689,
+                                            "ioValues": [],
+                                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                            "type": "number"
+                                        }
+                                    ],
+                                    "allConnectors": [
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "number or geometry",
+                                            "ap2Primary": false,
+                                            "ap1ID": 1746925968000,
+                                            "ap2ID": 1746925968705
+                                        },
+                                        {
+                                            "ap1Name": "number or geometry",
+                                            "ap2Name": "numBumps",
+                                            "ap2Primary": false,
+                                            "ap1ID": 1746925968467,
+                                            "ap2ID": 1746925968000
+                                        },
+                                        {
+                                            "ap1Name": "number or geometry",
+                                            "ap2Name": "thickness",
+                                            "ap2Primary": false,
+                                            "ap1ID": 1746925968689,
+                                            "ap2ID": 1746925968000
+                                        }
+                                    ],
+                                    "parentRepo": {
+                                        "privateRepo": false,
+                                        "repoName": "Corrugated-Roofing-Circle",
+                                        "dateCreated": "2025-05-11T00:25:44Z",
+                                        "readMe": "https://raw.githubusercontent.com/BarbourSmith/Corrugated-Roofing-Circle/master/README.md?sanitize=true",
+                                        "yyyy": 2025,
+                                        "topMoleculeID": 1746923144518,
+                                        "githubMoleculesUsed": [],
+                                        "html_url": "https://github.com/BarbourSmith/Corrugated-Roofing-Circle",
+                                        "topics": [],
+                                        "parentRepo": null,
+                                        "forks": 0,
+                                        "dateModified": "739382",
+                                        "ranking": 0,
+                                        "searchField": "corrugated-roofing-circle barboursmith generates a circle with a patern cut into it to match corrugated roofing pannels ",
+                                        "owner": "BarbourSmith",
+                                        "description": "Generates a circle with a patern cut into it to match corrugated roofing pannels",
+                                        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Corrugated-Roofing-Circle/master/project.abundance?sanitize=true",
+                                        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Corrugated-Roofing-Circle/master/project.svg?sanitize=true"
+                                    },
+                                    "unitsKey": "MM",
+                                    "fileTypeVersion": 1,
+                                    "compiledBom": []
                                 }
                             ],
                             "allConnectors": [],
@@ -2277,6 +2413,13 @@
                             "ap2Primary": true,
                             "ap1ID": 1738956990942,
                             "ap2ID": 1738957055746
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "Old Shape",
+                            "ap2Primary": false,
+                            "ap1ID": 1738956990942,
+                            "ap2ID": 1746922984330
                         },
                         {
                             "ap1Name": "geometry",
