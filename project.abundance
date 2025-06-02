@@ -5853,12 +5853,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1738960093141,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1738960092907
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -9053,11 +9048,11 @@
                                                                 },
                                                                 {
                                                                     "name": "Number",
-                                                                    "ioValue": 10
+                                                                    "ioValue": 4
                                                                 },
                                                                 {
                                                                     "name": "Dist",
-                                                                    "ioValue": 10
+                                                                    "ioValue": 25
                                                                 }
                                                             ],
                                                             "description": "Defines a Replicad code block.",
@@ -10905,7 +10900,7 @@
                     "BOMitemName": "Wood Stove",
                     "numberNeeded": 1,
                     "costUSD": 150,
-                    "source": "https://amzn.to/3Q9mOg9"
+                    "source": "https://portland.craigslist.org/clc/spo/d/mulino-canvas-wall-tent-stove/7827117943.html"
                 }
             ]
         },
@@ -11586,7 +11581,7 @@
                     "BOMitemName": "Wood Stove",
                     "numberNeeded": 1,
                     "costUSD": 150,
-                    "source": "https://amzn.to/3Q9mOg9"
+                    "source": "https://portland.craigslist.org/clc/spo/d/mulino-canvas-wall-tent-stove/7827117943.html"
                 }
             ]
         },
