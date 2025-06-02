@@ -11656,6 +11656,13 @@
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [],
+    "compiledBom": [
+        {
+            "BOMitemName": "Wood Stove",
+            "numberNeeded": 2,
+            "costUSD": 300,
+            "source": "https://portland.craigslist.org/clc/spo/d/mulino-canvas-wall-tent-stove/7827117943.html"
+        }
+    ],
     "filetypeVersion": 1
 }
