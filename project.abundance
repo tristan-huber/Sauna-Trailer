@@ -6113,14 +6113,7 @@
                     },
                     "unitsKey": "MM",
                     "fileTypeVersion": 1,
-                    "compiledBom": [
-                        {
-                            "BOMitemName": "Wood Stove",
-                            "numberNeeded": 1,
-                            "costUSD": 150,
-                            "source": "https://portland.craigslist.org/clc/spo/d/mulino-canvas-wall-tent-stove/7827117943.html"
-                        }
-                    ]
+                    "compiledBom": []
                 },
                 {
                     "atomType": "Molecule",
@@ -6850,7 +6843,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1748897583999
+                            "ioValue": 1748899194694
                         },
                         {
                             "name": "xDist",
@@ -6858,11 +6851,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -400
+                            "ioValue": -250
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 101.6
+                            "ioValue": 131.6
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -6874,10 +6867,6 @@
                     "y": 0.30362116991643456,
                     "uniqueID": 1738960649623,
                     "ioValues": [
-                        {
-                            "name": "Shape 3",
-                            "ioValue": 1738960642869
-                        },
                         {
                             "name": "Shape 4",
                             "ioValue": 1738961511013
@@ -8887,9 +8876,9 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Sauna-Stove",
-                    "x": 0.5529100529100529,
-                    "y": 0.8519553072625697,
-                    "uniqueID": 1748897583999,
+                    "x": 0.5568783068783069,
+                    "y": 0.8631284916201117,
+                    "uniqueID": 1748899194694,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                     "topLevel": false,
@@ -8899,11 +8888,11 @@
                             "name": "Output",
                             "x": 0.98,
                             "y": 0.5,
-                            "uniqueID": 1748897583384,
+                            "uniqueID": 1748899195392,
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": 1748897584033
+                                    "ioValue": 1748899195273
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -8911,9 +8900,9 @@
                         {
                             "atomType": "Molecule",
                             "name": "Stove",
-                            "x": 0.32671957671957674,
-                            "y": 0.7011173184357542,
-                            "uniqueID": 1748897583798,
+                            "x": 0.3247354497354497,
+                            "y": 0.7262569832402235,
+                            "uniqueID": 1748899194704,
                             "ioValues": [],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                             "topLevel": false,
@@ -8981,8 +8970,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Stones",
-                                    "x": 0.4351851851851851,
-                                    "y": 0.7541899441340782,
+                                    "x": 0.3134920634920635,
+                                    "y": 0.7597765363128491,
                                     "uniqueID": 1748895810400,
                                     "ioValues": [
                                         {
@@ -9010,8 +8999,8 @@
                                         {
                                             "atomType": "Circle",
                                             "name": "Circle",
-                                            "x": 0.11574074074074073,
-                                            "y": 0.3064066852367688,
+                                            "x": 0.04365079365079365,
+                                            "y": 0.27932960893854747,
                                             "uniqueID": 1743277973069,
                                             "ioValues": [
                                                 {
@@ -9042,8 +9031,8 @@
                                         {
                                             "atomType": "Move",
                                             "name": "Move",
-                                            "x": 0.20502645502645506,
-                                            "y": 0.6100278551532033,
+                                            "x": 0.20238095238095238,
+                                            "y": 0.6005586592178771,
                                             "uniqueID": 1743278278839,
                                             "ioValues": [
                                                 {
@@ -9086,8 +9075,8 @@
                                         {
                                             "atomType": "Move",
                                             "name": "Move",
-                                            "x": 0.3604497354497354,
-                                            "y": 0.28690807799442897,
+                                            "x": 0.3531746031746032,
+                                            "y": 0.3044692737430168,
                                             "uniqueID": 1743279147961,
                                             "ioValues": [
                                                 {
@@ -9112,8 +9101,8 @@
                                         {
                                             "atomType": "Difference",
                                             "name": "Difference",
-                                            "x": 0.3855820105820106,
-                                            "y": 0.6601671309192201,
+                                            "x": 0.39351851851851855,
+                                            "y": 0.6396648044692737,
                                             "uniqueID": 1743279153491,
                                             "ioValues": [
                                                 {
@@ -9136,7 +9125,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "geometry",
-                                                    "ioValue": 1748895913931
+                                                    "ioValue": 1743279731933
                                                 },
                                                 {
                                                     "name": "height",
@@ -9163,8 +9152,8 @@
                                         {
                                             "atomType": "Rectangle",
                                             "name": "Rectangle",
-                                            "x": 0.2347883597883598,
-                                            "y": 0.8690807799442898,
+                                            "x": 0.30092592592592593,
+                                            "y": 0.776536312849162,
                                             "uniqueID": 1743279408178,
                                             "ioValues": [
                                                 {
@@ -9243,8 +9232,8 @@
                                         {
                                             "atomType": "Move",
                                             "name": "Move",
-                                            "x": 0.6342592592592592,
-                                            "y": 0.840782122905028,
+                                            "x": 0.6547619047619048,
+                                            "y": 0.9162011173184357,
                                             "uniqueID": 1748895904183,
                                             "ioValues": [
                                                 {
@@ -9269,8 +9258,8 @@
                                         {
                                             "atomType": "Difference",
                                             "name": "Difference",
-                                            "x": 0.705026455026455,
-                                            "y": 0.5139664804469274,
+                                            "x": 0.6990740740740741,
+                                            "y": 0.7402234636871509,
                                             "uniqueID": 1748895913931,
                                             "ioValues": [
                                                 {
@@ -9389,17 +9378,17 @@
                                         },
                                         {
                                             "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap2Primary": true,
+                                            "ap1ID": 1743279731933,
+                                            "ap2ID": 1743279258731
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
                                             "ap2Name": "geometry2",
                                             "ap2Primary": false,
                                             "ap1ID": 1748895904183,
                                             "ap2ID": 1748895913931
-                                        },
-                                        {
-                                            "ap1Name": "geometry",
-                                            "ap2Name": "geometry",
-                                            "ap2Primary": true,
-                                            "ap1ID": 1748895913931,
-                                            "ap2ID": 1743279258731
                                         },
                                         {
                                             "ap1Name": "number or geometry",
@@ -9415,8 +9404,8 @@
                                 {
                                     "atomType": "Rotate",
                                     "name": "Rotate",
-                                    "x": 0.5072751322751323,
-                                    "y": 0.7486033519553073,
+                                    "x": 0.371031746031746,
+                                    "y": 0.5027932960893855,
                                     "uniqueID": 1748895811329,
                                     "ioValues": [
                                         {
@@ -9441,8 +9430,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.621031746031746,
-                                    "y": 0.6843575418994413,
+                                    "x": 0.5178571428571428,
+                                    "y": 0.5726256983240223,
                                     "uniqueID": 1748895810413,
                                     "ioValues": [
                                         {
@@ -9451,11 +9440,11 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 0
+                                            "ioValue": -50
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 0
+                                            "ioValue": -52
                                         },
                                         {
                                             "name": "zDist",
@@ -9478,6 +9467,10 @@
                                         {
                                             "name": "Shape 2",
                                             "ioValue": 1748895810749
+                                        },
+                                        {
+                                            "name": "Shape 3",
+                                            "ioValue": 1748898200792
                                         }
                                     ],
                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -9485,8 +9478,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Fire Box",
-                                    "x": 0.12764550264550265,
-                                    "y": 0.36592178770949724,
+                                    "x": 0.13095238095238096,
+                                    "y": 0.3687150837988827,
                                     "uniqueID": 1748896120096,
                                     "ioValues": [],
                                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -9545,8 +9538,8 @@
                                         {
                                             "atomType": "Rectangle",
                                             "name": "Rectangle",
-                                            "x": 0.0701058201058201,
-                                            "y": 0.5698324022346368,
+                                            "x": 0.06812169312169312,
+                                            "y": 0.61731843575419,
                                             "uniqueID": 1748896300284,
                                             "ioValues": [
                                                 {
@@ -9607,8 +9600,8 @@
                                         {
                                             "atomType": "Difference",
                                             "name": "Difference",
-                                            "x": 0.32605820105820105,
-                                            "y": 0.4217877094972067,
+                                            "x": 0.3531746031746032,
+                                            "y": 0.24022346368715083,
                                             "uniqueID": 1748896343000,
                                             "ioValues": [
                                                 {
@@ -10007,8 +10000,8 @@
                                         {
                                             "atomType": "Molecule",
                                             "name": "Door",
-                                            "x": 0.35912698412698413,
-                                            "y": 0.7513966480446927,
+                                            "x": 0.531084656084656,
+                                            "y": 0.8910614525139664,
                                             "uniqueID": 1748896369213,
                                             "ioValues": [],
                                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -10087,8 +10080,8 @@
                                         {
                                             "atomType": "Assembly",
                                             "name": "Assembly",
-                                            "x": 0.5383597883597884,
-                                            "y": 0.32122905027932963,
+                                            "x": 0.7493386243386244,
+                                            "y": 0.3128491620111732,
                                             "uniqueID": 1748896436979,
                                             "ioValues": [
                                                 {
@@ -10102,6 +10095,10 @@
                                                 {
                                                     "name": "Shape 3",
                                                     "ioValue": 1748896953391
+                                                },
+                                                {
+                                                    "name": "Shape 4",
+                                                    "ioValue": 1748897988966
                                                 }
                                             ],
                                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -10109,8 +10106,8 @@
                                         {
                                             "atomType": "Move",
                                             "name": "Move",
-                                            "x": 0.4629629629629629,
-                                            "y": 0.6508379888268156,
+                                            "x": 0.623015873015873,
+                                            "y": 0.8268156424581006,
                                             "uniqueID": 1748896445740,
                                             "ioValues": [
                                                 {
@@ -10161,8 +10158,8 @@
                                         {
                                             "atomType": "Move",
                                             "name": "Move",
-                                            "x": 0.4173280423280424,
-                                            "y": 0.21787709497206706,
+                                            "x": 0.3988095238095238,
+                                            "y": 0.5726256983240223,
                                             "uniqueID": 1748896953391,
                                             "ioValues": [
                                                 {
@@ -10187,8 +10184,8 @@
                                         {
                                             "atomType": "Rotate",
                                             "name": "Rotate",
-                                            "x": 0.6779100529100529,
-                                            "y": 0.6703910614525139,
+                                            "x": 0.8743386243386243,
+                                            "y": 0.770949720670391,
                                             "uniqueID": 1748897029031,
                                             "ioValues": [
                                                 {
@@ -10209,6 +10206,58 @@
                                                 }
                                             ],
                                             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                                        },
+                                        {
+                                            "atomType": "Rotate",
+                                            "name": "Rotate",
+                                            "x": 0.38425925925925924,
+                                            "y": 0.8379888268156425,
+                                            "uniqueID": 1748897971772,
+                                            "ioValues": [
+                                                {
+                                                    "name": "geometry",
+                                                    "ioValue": 1748896936866
+                                                },
+                                                {
+                                                    "name": "x-axis degrees",
+                                                    "ioValue": 0
+                                                },
+                                                {
+                                                    "name": "y-axis degrees",
+                                                    "ioValue": 0
+                                                },
+                                                {
+                                                    "name": "z-axis degrees",
+                                                    "ioValue": 90
+                                                }
+                                            ],
+                                            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                                        },
+                                        {
+                                            "atomType": "Move",
+                                            "name": "Move",
+                                            "x": 0.46097883597883593,
+                                            "y": 0.7318435754189945,
+                                            "uniqueID": 1748897988966,
+                                            "ioValues": [
+                                                {
+                                                    "name": "geometry",
+                                                    "ioValue": 1748897971772
+                                                },
+                                                {
+                                                    "name": "xDist",
+                                                    "ioValue": -131
+                                                },
+                                                {
+                                                    "name": "yDist",
+                                                    "ioValue": -30
+                                                },
+                                                {
+                                                    "name": "zDist",
+                                                    "ioValue": 48
+                                                }
+                                            ],
+                                            "description": "Moves a shape laterally in X, Y, Z."
                                         }
                                     ],
                                     "allConnectors": [
@@ -10291,6 +10340,13 @@
                                         },
                                         {
                                             "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap2Primary": true,
+                                            "ap1ID": 1748896936866,
+                                            "ap2ID": 1748897971772
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
                                             "ap2Name": "Shape 3",
                                             "ap2Primary": false,
                                             "ap1ID": 1748896953391,
@@ -10302,6 +10358,20 @@
                                             "ap2Primary": false,
                                             "ap1ID": 1748897029031,
                                             "ap2ID": 1748896120109
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap2Primary": true,
+                                            "ap1ID": 1748897971772,
+                                            "ap2ID": 1748897988966
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "Shape 4",
+                                            "ap2Primary": false,
+                                            "ap1ID": 1748897988966,
+                                            "ap2ID": 1748896436979
                                         }
                                     ],
                                     "fileTypeVersion": 1,
@@ -10310,8 +10380,8 @@
                                 {
                                     "atomType": "Assembly",
                                     "name": "Assembly",
-                                    "x": 0.35648148148148145,
-                                    "y": 0.4217877094972067,
+                                    "x": 0.3082010582010582,
+                                    "y": 0.3128491620111732,
                                     "uniqueID": 1748897050169,
                                     "ioValues": [
                                         {
@@ -10433,6 +10503,520 @@
                                     ],
                                     "fileTypeVersion": 1,
                                     "compiledBom": []
+                                },
+                                {
+                                    "atomType": "Molecule",
+                                    "name": "Legs",
+                                    "x": 0.43187830687830686,
+                                    "y": 0.8463687150837989,
+                                    "uniqueID": 1748898200792,
+                                    "ioValues": [],
+                                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                                    "topLevel": false,
+                                    "allAtoms": [
+                                        {
+                                            "atomType": "Output",
+                                            "name": "Output",
+                                            "x": 0.98,
+                                            "y": 0.5,
+                                            "uniqueID": 1748898200425,
+                                            "ioValues": [
+                                                {
+                                                    "name": "number or geometry",
+                                                    "ioValue": 1748899072852
+                                                }
+                                            ],
+                                            "description": "Connect geometry here to make it available in the next level up. "
+                                        },
+                                        {
+                                            "atomType": "Circle",
+                                            "name": "Circle",
+                                            "x": 0.18386243386243387,
+                                            "y": 0.7150837988826816,
+                                            "uniqueID": 1748898207518,
+                                            "ioValues": [
+                                                {
+                                                    "name": "diameter",
+                                                    "ioValue": 25
+                                                }
+                                            ],
+                                            "description": "Creates a new circle."
+                                        },
+                                        {
+                                            "atomType": "Extrude",
+                                            "name": "Extrude",
+                                            "x": 0.30092592592592593,
+                                            "y": 0.611731843575419,
+                                            "uniqueID": 1748898224227,
+                                            "ioValues": [
+                                                {
+                                                    "name": "geometry",
+                                                    "ioValue": 1748898207518
+                                                },
+                                                {
+                                                    "name": "height",
+                                                    "ioValue": -65
+                                                }
+                                            ],
+                                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                                        },
+                                        {
+                                            "atomType": "GitHubMolecule",
+                                            "name": "Legs-Placement",
+                                            "x": 0.542989417989418,
+                                            "y": 0.5530726256983239,
+                                            "uniqueID": 1748899072852,
+                                            "ioValues": [
+                                                {
+                                                    "name": "Width (X)",
+                                                    "ioValue": 320
+                                                },
+                                                {
+                                                    "name": "Length (Y)",
+                                                    "ioValue": 200
+                                                },
+                                                {
+                                                    "name": "Geometry",
+                                                    "ioValue": 1748898224227
+                                                }
+                                            ],
+                                            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                                            "topLevel": false,
+                                            "allAtoms": [
+                                                {
+                                                    "atomType": "Output",
+                                                    "name": "Output",
+                                                    "x": 0.98,
+                                                    "y": 0.5,
+                                                    "uniqueID": 1748899072653,
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "number or geometry",
+                                                            "ioValue": 1748899072678
+                                                        }
+                                                    ],
+                                                    "description": "Connect geometry here to make it available in the next level up. "
+                                                },
+                                                {
+                                                    "atomType": "Input",
+                                                    "name": "Width (X)",
+                                                    "x": 0.04,
+                                                    "y": 0.9078212290502793,
+                                                    "uniqueID": 1748899072603,
+                                                    "ioValues": [],
+                                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                                    "type": "number"
+                                                },
+                                                {
+                                                    "atomType": "Input",
+                                                    "name": "Length (Y)",
+                                                    "x": 0.04,
+                                                    "y": 0.729050279329609,
+                                                    "uniqueID": 1748899072273,
+                                                    "ioValues": [],
+                                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                                    "type": "number"
+                                                },
+                                                {
+                                                    "atomType": "Input",
+                                                    "name": "Geometry",
+                                                    "x": 0.04,
+                                                    "y": 0.36312849162011174,
+                                                    "uniqueID": 1748899073051,
+                                                    "ioValues": [],
+                                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                                    "type": "number"
+                                                },
+                                                {
+                                                    "atomType": "Equation",
+                                                    "name": "W/2",
+                                                    "x": 0.1283068783068783,
+                                                    "y": 0.8212290502793296,
+                                                    "uniqueID": 1748899072629,
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "W",
+                                                            "ioValue": 320
+                                                        }
+                                                    ],
+                                                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                                    "currentEquation": "W/2"
+                                                },
+                                                {
+                                                    "atomType": "Equation",
+                                                    "name": "W/-2",
+                                                    "x": 0.12632275132275134,
+                                                    "y": 0.9385474860335196,
+                                                    "uniqueID": 1748899072656,
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "W",
+                                                            "ioValue": 320
+                                                        }
+                                                    ],
+                                                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                                    "currentEquation": "W/-2"
+                                                },
+                                                {
+                                                    "atomType": "Equation",
+                                                    "name": "L/2",
+                                                    "x": 0.12698412698412698,
+                                                    "y": 0.5335195530726257,
+                                                    "uniqueID": 1748899072870,
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "L",
+                                                            "ioValue": 200
+                                                        }
+                                                    ],
+                                                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                                    "currentEquation": "L/2"
+                                                },
+                                                {
+                                                    "atomType": "Equation",
+                                                    "name": "L/-2",
+                                                    "x": 0.12698412698412698,
+                                                    "y": 0.6843575418994413,
+                                                    "uniqueID": 1748899073073,
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "L",
+                                                            "ioValue": 200
+                                                        }
+                                                    ],
+                                                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                                    "currentEquation": "L/-2"
+                                                },
+                                                {
+                                                    "atomType": "Move",
+                                                    "name": "Move",
+                                                    "x": 0.23015873015873015,
+                                                    "y": 0.49720670391061456,
+                                                    "uniqueID": 1748899072910,
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "geometry",
+                                                            "ioValue": 1748898224227
+                                                        },
+                                                        {
+                                                            "name": "xDist",
+                                                            "ioValue": 160
+                                                        },
+                                                        {
+                                                            "name": "yDist",
+                                                            "ioValue": 100
+                                                        },
+                                                        {
+                                                            "name": "zDist",
+                                                            "ioValue": 0
+                                                        }
+                                                    ],
+                                                    "description": "Moves a shape laterally in X, Y, Z."
+                                                },
+                                                {
+                                                    "atomType": "Move",
+                                                    "name": "Move",
+                                                    "x": 0.292989417989418,
+                                                    "y": 0.6061452513966481,
+                                                    "uniqueID": 1748899072805,
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "geometry",
+                                                            "ioValue": 1748898224227
+                                                        },
+                                                        {
+                                                            "name": "xDist",
+                                                            "ioValue": 160
+                                                        },
+                                                        {
+                                                            "name": "yDist",
+                                                            "ioValue": -100
+                                                        },
+                                                        {
+                                                            "name": "zDist",
+                                                            "ioValue": 0
+                                                        }
+                                                    ],
+                                                    "description": "Moves a shape laterally in X, Y, Z."
+                                                },
+                                                {
+                                                    "atomType": "Move",
+                                                    "name": "Move",
+                                                    "x": 0.42063492063492064,
+                                                    "y": 0.6983240223463687,
+                                                    "uniqueID": 1748899073106,
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "geometry",
+                                                            "ioValue": 1748898224227
+                                                        },
+                                                        {
+                                                            "name": "xDist",
+                                                            "ioValue": -160
+                                                        },
+                                                        {
+                                                            "name": "yDist",
+                                                            "ioValue": 100
+                                                        },
+                                                        {
+                                                            "name": "zDist",
+                                                            "ioValue": 0
+                                                        }
+                                                    ],
+                                                    "description": "Moves a shape laterally in X, Y, Z."
+                                                },
+                                                {
+                                                    "atomType": "Move",
+                                                    "name": "Move",
+                                                    "x": 0.5125661375661376,
+                                                    "y": 0.8854748603351955,
+                                                    "uniqueID": 1748899072473,
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "geometry",
+                                                            "ioValue": 1748898224227
+                                                        },
+                                                        {
+                                                            "name": "xDist",
+                                                            "ioValue": -160
+                                                        },
+                                                        {
+                                                            "name": "yDist",
+                                                            "ioValue": -100
+                                                        },
+                                                        {
+                                                            "name": "zDist",
+                                                            "ioValue": 0
+                                                        }
+                                                    ],
+                                                    "description": "Moves a shape laterally in X, Y, Z."
+                                                },
+                                                {
+                                                    "atomType": "Assembly",
+                                                    "name": "Assembly",
+                                                    "x": 0.5476190476190477,
+                                                    "y": 0.3268156424581006,
+                                                    "uniqueID": 1748899072678,
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "Shape 1",
+                                                            "ioValue": 1748899072473
+                                                        },
+                                                        {
+                                                            "name": "Shape 2",
+                                                            "ioValue": 1748899073106
+                                                        },
+                                                        {
+                                                            "name": "Shape 3",
+                                                            "ioValue": 1748899072805
+                                                        },
+                                                        {
+                                                            "name": "Shape 4",
+                                                            "ioValue": 1748899072910
+                                                        }
+                                                    ],
+                                                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                                                }
+                                            ],
+                                            "allConnectors": [
+                                                {
+                                                    "ap1Name": "number or geometry",
+                                                    "ap2Name": "W",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 1748899072603,
+                                                    "ap2ID": 1748899072656
+                                                },
+                                                {
+                                                    "ap1Name": "number or geometry",
+                                                    "ap2Name": "W",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 1748899072603,
+                                                    "ap2ID": 1748899072629
+                                                },
+                                                {
+                                                    "ap1Name": "number or geometry",
+                                                    "ap2Name": "L",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 1748899072273,
+                                                    "ap2ID": 1748899072870
+                                                },
+                                                {
+                                                    "ap1Name": "number or geometry",
+                                                    "ap2Name": "L",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 1748899072273,
+                                                    "ap2ID": 1748899073073
+                                                },
+                                                {
+                                                    "ap1Name": "number or geometry",
+                                                    "ap2Name": "geometry",
+                                                    "ap2Primary": true,
+                                                    "ap1ID": 1748899073051,
+                                                    "ap2ID": 1748899072910
+                                                },
+                                                {
+                                                    "ap1Name": "number or geometry",
+                                                    "ap2Name": "geometry",
+                                                    "ap2Primary": true,
+                                                    "ap1ID": 1748899073051,
+                                                    "ap2ID": 1748899072805
+                                                },
+                                                {
+                                                    "ap1Name": "number or geometry",
+                                                    "ap2Name": "geometry",
+                                                    "ap2Primary": true,
+                                                    "ap1ID": 1748899073051,
+                                                    "ap2ID": 1748899073106
+                                                },
+                                                {
+                                                    "ap1Name": "number or geometry",
+                                                    "ap2Name": "geometry",
+                                                    "ap2Primary": true,
+                                                    "ap1ID": 1748899073051,
+                                                    "ap2ID": 1748899072473
+                                                },
+                                                {
+                                                    "ap1Name": "result",
+                                                    "ap2Name": "xDist",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 1748899072629,
+                                                    "ap2ID": 1748899072910
+                                                },
+                                                {
+                                                    "ap1Name": "result",
+                                                    "ap2Name": "xDist",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 1748899072629,
+                                                    "ap2ID": 1748899072805
+                                                },
+                                                {
+                                                    "ap1Name": "result",
+                                                    "ap2Name": "xDist",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 1748899072656,
+                                                    "ap2ID": 1748899072473
+                                                },
+                                                {
+                                                    "ap1Name": "result",
+                                                    "ap2Name": "xDist",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 1748899072656,
+                                                    "ap2ID": 1748899073106
+                                                },
+                                                {
+                                                    "ap1Name": "result",
+                                                    "ap2Name": "yDist",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 1748899072870,
+                                                    "ap2ID": 1748899072910
+                                                },
+                                                {
+                                                    "ap1Name": "result",
+                                                    "ap2Name": "yDist",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 1748899072870,
+                                                    "ap2ID": 1748899073106
+                                                },
+                                                {
+                                                    "ap1Name": "result",
+                                                    "ap2Name": "yDist",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 1748899073073,
+                                                    "ap2ID": 1748899072805
+                                                },
+                                                {
+                                                    "ap1Name": "result",
+                                                    "ap2Name": "yDist",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 1748899073073,
+                                                    "ap2ID": 1748899072473
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "Shape 4",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 1748899072910,
+                                                    "ap2ID": 1748899072678
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "Shape 3",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 1748899072805,
+                                                    "ap2ID": 1748899072678
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "Shape 2",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 1748899073106,
+                                                    "ap2ID": 1748899072678
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "Shape 1",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 1748899072473,
+                                                    "ap2ID": 1748899072678
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "number or geometry",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": 1748899072678,
+                                                    "ap2ID": 1748899072653
+                                                }
+                                            ],
+                                            "parentRepo": {
+                                                "privateRepo": false,
+                                                "repoName": "Legs-Placement",
+                                                "dateCreated": "2025-06-02T21:13:27Z",
+                                                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Legs-Placement/master/README.md?sanitize=true",
+                                                "yyyy": 2025,
+                                                "topMoleculeID": 1748898808042,
+                                                "githubMoleculesUsed": [],
+                                                "html_url": "https://github.com/BarbourSmith/Legs-Placement",
+                                                "topics": [],
+                                                "parentRepo": null,
+                                                "forks": 0,
+                                                "dateModified": "739404",
+                                                "ranking": 0,
+                                                "searchField": "legs-placement barboursmith a tool atom to place an input part on four corners of a rectangle defined by the input length and width. ",
+                                                "owner": "BarbourSmith",
+                                                "description": "A tool atom to place an input part on four corners of a rectangle defined by the input length and width.",
+                                                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Legs-Placement/master/project.abundance?sanitize=true",
+                                                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Legs-Placement/master/project.svg?sanitize=true"
+                                            },
+                                            "unitsKey": "Unitless",
+                                            "fileTypeVersion": 1,
+                                            "compiledBom": []
+                                        }
+                                    ],
+                                    "allConnectors": [
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap2Primary": true,
+                                            "ap1ID": 1748898207518,
+                                            "ap2ID": 1748898224227
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "Geometry",
+                                            "ap2Primary": false,
+                                            "ap1ID": 1748898224227,
+                                            "ap2ID": 1748899072852
+                                        },
+                                        {
+                                            "ap1Name": "Geometry",
+                                            "ap2Name": "number or geometry",
+                                            "ap2Primary": false,
+                                            "ap1ID": 1748899072852,
+                                            "ap2ID": 1748898200425
+                                        }
+                                    ],
+                                    "fileTypeVersion": 1,
+                                    "compiledBom": []
                                 }
                             ],
                             "allConnectors": [
@@ -10498,6 +11082,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": 1748897114885,
                                     "ap2ID": 1748897050169
+                                },
+                                {
+                                    "ap1Name": "Geometry",
+                                    "ap2Name": "Shape 3",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1748898200792,
+                                    "ap2ID": 1748895810590
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -10515,11 +11106,11 @@
                             "name": "Assembly",
                             "x": 0.5072751322751323,
                             "y": 0.5279329608938548,
-                            "uniqueID": 1748897584033,
+                            "uniqueID": 1748899195273,
                             "ioValues": [
                                 {
                                     "name": "Shape 1",
-                                    "ioValue": 1748897583798
+                                    "ioValue": 1748899194704
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -10530,15 +11121,15 @@
                             "ap1Name": "Geometry",
                             "ap2Name": "Shape 1",
                             "ap2Primary": false,
-                            "ap1ID": 1748897583798,
-                            "ap2ID": 1748897584033
+                            "ap1ID": 1748899194704,
+                            "ap2ID": 1748899195273
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
-                            "ap1ID": 1748897584033,
-                            "ap2ID": 1748897583384
+                            "ap1ID": 1748899195273,
+                            "ap2ID": 1748899195392
                         }
                     ],
                     "parentRepo": {
@@ -10637,13 +11228,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": 1738960642869,
-                    "ap2ID": 1738960649623
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 1738960649623,
@@ -10695,19 +11279,12 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 1748897583999,
+                    "ap1ID": 1748899194694,
                     "ap2ID": 1738960642869
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": [
-                {
-                    "BOMitemName": "Wood Stove",
-                    "numberNeeded": 1,
-                    "costUSD": 150,
-                    "source": "https://portland.craigslist.org/clc/spo/d/mulino-canvas-wall-tent-stove/7827117943.html"
-                }
-            ]
+            "compiledBom": []
         },
         {
             "atomType": "Assembly",
