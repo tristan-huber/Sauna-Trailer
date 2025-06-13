@@ -1897,8 +1897,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Envlope",
-                    "x": 0.05224867724867725,
-                    "y": 0.33147632311977715,
+                    "x": 0.052910052910052914,
+                    "y": 0.3435754189944134,
                     "uniqueID": 1738956981399,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2650,8 +2650,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.17592592592592593,
-                    "y": 0.26740947075208915,
+                    "x": 0.16732804232804233,
+                    "y": 0.29329608938547486,
                     "uniqueID": 1738957188514,
                     "ioValues": [
                         {
