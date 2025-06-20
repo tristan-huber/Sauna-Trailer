@@ -14,12 +14,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1738956155478,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1738956922193
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -1881,12 +1876,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1738956170776,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1738960649623
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -2242,12 +2232,7 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": 1746922983948,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": 1746926860223
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -2285,12 +2270,7 @@
                                             "x": 0.98,
                                             "y": 0.5,
                                             "uniqueID": 1746926860569,
-                                            "ioValues": [
-                                                {
-                                                    "name": "number or geometry",
-                                                    "ioValue": 1746926860289
-                                                }
-                                            ],
+                                            "ioValues": [],
                                             "description": "Connect geometry here to make it available in the next level up. "
                                         },
                                         {
@@ -4616,12 +4596,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1738958679126,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1738958970950
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -4692,12 +4667,7 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": 1741649117043,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": 1741649117244
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -4716,12 +4686,7 @@
                                             "x": 0.98,
                                             "y": 0.5,
                                             "uniqueID": 1741646560983,
-                                            "ioValues": [
-                                                {
-                                                    "name": "number or geometry",
-                                                    "ioValue": 1741646737793
-                                                }
-                                            ],
+                                            "ioValues": [],
                                             "description": "Connect geometry here to make it available in the next level up. "
                                         },
                                         {
@@ -4745,12 +4710,7 @@
                                                     "x": 0.98,
                                                     "y": 0.5,
                                                     "uniqueID": 1741646583813,
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "number or geometry",
-                                                            "ioValue": 1741646584054
-                                                        }
-                                                    ],
+                                                    "ioValues": [],
                                                     "description": "Connect geometry here to make it available in the next level up. "
                                                 },
                                                 {
@@ -4956,12 +4916,7 @@
                                                     "x": 0.98,
                                                     "y": 0.5,
                                                     "uniqueID": 1741646879498,
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "number or geometry",
-                                                            "ioValue": 1741646879374
-                                                        }
-                                                    ],
+                                                    "ioValues": [],
                                                     "description": "Connect geometry here to make it available in the next level up. "
                                                 },
                                                 {
@@ -7093,12 +7048,7 @@
                                                     "x": 0.98,
                                                     "y": 0.5,
                                                     "uniqueID": 1739990534991,
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "number or geometry",
-                                                            "ioValue": 1739990534755
-                                                        }
-                                                    ],
+                                                    "ioValues": [],
                                                     "description": "Connect geometry here to make it available in the next level up. "
                                                 },
                                                 {
@@ -10501,12 +10451,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1738958490772,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1738958491377
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -10835,12 +10780,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1740179206055,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1740179248398
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
