@@ -14,7 +14,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1738956155478,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1738956922193
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -1863,8 +1868,8 @@
         {
             "atomType": "Molecule",
             "name": "Sauna",
-            "x": 0.20105820105820105,
-            "y": 0.782122905027933,
+            "x": 0.20304232804232802,
+            "y": 0.7793296089385475,
             "uniqueID": 1738956170299,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1876,7 +1881,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1738956170776,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1738960649623
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -4569,7 +4579,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1738958679126,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1738958970950
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -4607,7 +4622,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1741649117457
+                                    "ioValue": "102e2039-afdd-406a-a76e-2f88d808f586"
                                 },
                                 {
                                     "name": "xDist",
@@ -4627,9 +4642,9 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Plexiglass-Window",
-                            "x": 0.42791005291005285,
-                            "y": 0.67966573816156,
-                            "uniqueID": "40e6f231-b173-4d06-86eb-c76d50ef6caf",
+                            "x": 0.4212962962962963,
+                            "y": 0.6843575418994413,
+                            "uniqueID": "102e2039-afdd-406a-a76e-2f88d808f586",
                             "ioValues": [],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                             "topLevel": false,
@@ -4639,8 +4654,13 @@
                                     "name": "Output",
                                     "x": 0.98,
                                     "y": 0.5,
-                                    "uniqueID": "9f81b4a2-6908-4919-a4fd-39febde5a599",
-                                    "ioValues": [],
+                                    "uniqueID": "7dbc5736-18cf-4632-9aaf-a2e45030c468",
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "f5267e3c-f1a7-4d07-aa65-2b05ac701a99"
+                                        }
+                                    ],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -4648,7 +4668,7 @@
                                     "name": "Sphere",
                                     "x": 0.19378306878306878,
                                     "y": 0.3175487465181059,
-                                    "uniqueID": "8b444653-7c71-43db-a569-7e923b13549f",
+                                    "uniqueID": "238cc9cb-e4b4-441b-aaa4-0fcdd37a5a26",
                                     "ioValues": [],
                                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                                     "topLevel": false,
@@ -5068,7 +5088,7 @@
                                     "name": "Outer Lip",
                                     "x": 0.1488095238095238,
                                     "y": 0.6824512534818942,
-                                    "uniqueID": "b58eeb02-c6c3-4458-a940-53ac99c4d822",
+                                    "uniqueID": "4dd49f02-4bfa-4e50-bdad-47ad6365abee",
                                     "ioValues": [],
                                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                                     "topLevel": false,
@@ -5390,11 +5410,11 @@
                                     "name": "Color",
                                     "x": 0.830026455026455,
                                     "y": 0.36211699164345407,
-                                    "uniqueID": "158819d4-909a-4b57-9adc-998143d20aea",
+                                    "uniqueID": "f5267e3c-f1a7-4d07-aa65-2b05ac701a99",
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": 1741648857575
+                                            "ioValue": "d2021fb4-72f6-46f2-a383-4c6a9303c578"
                                         }
                                     ],
                                     "description": "Changes the color of the shape.",
@@ -5405,7 +5425,7 @@
                                     "name": "Inner Lip",
                                     "x": 0.294973544973545,
                                     "y": 0.7883008356545962,
-                                    "uniqueID": "5fcb0793-85f6-454b-b69b-2857dbbaa777",
+                                    "uniqueID": "7b90ea6a-ba9a-4899-a4a6-e0d8b66a9925",
                                     "ioValues": [],
                                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                                     "topLevel": false,
@@ -5538,15 +5558,15 @@
                                     "name": "Fusion",
                                     "x": 0.4232804232804233,
                                     "y": 0.6155988857938719,
-                                    "uniqueID": "ce7d70e5-6645-4f1f-a98c-3eac62a99e06",
+                                    "uniqueID": "bdf70714-e1d6-481e-9aea-fb71effcc47f",
                                     "ioValues": [
                                         {
                                             "name": "Shape 1",
-                                            "ioValue": "5fcb0793-85f6-454b-b69b-2857dbbaa777"
+                                            "ioValue": "7b90ea6a-ba9a-4899-a4a6-e0d8b66a9925"
                                         },
                                         {
                                             "name": "Shape 2",
-                                            "ioValue": 1741646567223
+                                            "ioValue": "4dd49f02-4bfa-4e50-bdad-47ad6365abee"
                                         }
                                     ],
                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -5557,11 +5577,11 @@
                                     "name": "Rotate",
                                     "x": 0.6124338624338624,
                                     "y": 0.7743732590529249,
-                                    "uniqueID": "8f6b653a-74ee-4312-b612-6a4a14541a34",
+                                    "uniqueID": "56943a88-73c4-4236-bb8a-89eff49fe0d4",
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": 1741647849484
+                                            "ioValue": "bdf70714-e1d6-481e-9aea-fb71effcc47f"
                                         },
                                         {
                                             "name": "x-axis degrees",
@@ -5583,15 +5603,15 @@
                                     "name": "Fusion",
                                     "x": 0.6851851851851852,
                                     "y": 0.28690807799442897,
-                                    "uniqueID": "4047a0fb-825a-458c-8aef-3b3146eb8542",
+                                    "uniqueID": "d2021fb4-72f6-46f2-a383-4c6a9303c578",
                                     "ioValues": [
                                         {
                                             "name": "Shape 1",
-                                            "ioValue": 1741647929491
+                                            "ioValue": "56943a88-73c4-4236-bb8a-89eff49fe0d4"
                                         },
                                         {
                                             "name": "Shape 2",
-                                            "ioValue": 1741646560918
+                                            "ioValue": "238cc9cb-e4b4-441b-aaa4-0fcdd37a5a26"
                                         }
                                     ],
                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -5603,50 +5623,50 @@
                                     "ap1Name": "Geometry",
                                     "ap2Name": "Shape 2",
                                     "ap2Primary": false,
-                                    "ap1ID": "8b444653-7c71-43db-a569-7e923b13549f",
-                                    "ap2ID": "4047a0fb-825a-458c-8aef-3b3146eb8542"
+                                    "ap1ID": "238cc9cb-e4b4-441b-aaa4-0fcdd37a5a26",
+                                    "ap2ID": "d2021fb4-72f6-46f2-a383-4c6a9303c578"
                                 },
                                 {
                                     "ap1Name": "Geometry",
                                     "ap2Name": "Shape 2",
                                     "ap2Primary": false,
-                                    "ap1ID": "b58eeb02-c6c3-4458-a940-53ac99c4d822",
-                                    "ap2ID": "ce7d70e5-6645-4f1f-a98c-3eac62a99e06"
+                                    "ap1ID": "4dd49f02-4bfa-4e50-bdad-47ad6365abee",
+                                    "ap2ID": "bdf70714-e1d6-481e-9aea-fb71effcc47f"
                                 },
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "number or geometry",
                                     "ap2Primary": false,
-                                    "ap1ID": "158819d4-909a-4b57-9adc-998143d20aea",
-                                    "ap2ID": "9f81b4a2-6908-4919-a4fd-39febde5a599"
+                                    "ap1ID": "f5267e3c-f1a7-4d07-aa65-2b05ac701a99",
+                                    "ap2ID": "7dbc5736-18cf-4632-9aaf-a2e45030c468"
                                 },
                                 {
                                     "ap1Name": "Geometry",
                                     "ap2Name": "Shape 1",
                                     "ap2Primary": false,
-                                    "ap1ID": "5fcb0793-85f6-454b-b69b-2857dbbaa777",
-                                    "ap2ID": "ce7d70e5-6645-4f1f-a98c-3eac62a99e06"
+                                    "ap1ID": "7b90ea6a-ba9a-4899-a4a6-e0d8b66a9925",
+                                    "ap2ID": "bdf70714-e1d6-481e-9aea-fb71effcc47f"
                                 },
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
-                                    "ap1ID": "ce7d70e5-6645-4f1f-a98c-3eac62a99e06",
-                                    "ap2ID": "8f6b653a-74ee-4312-b612-6a4a14541a34"
+                                    "ap1ID": "bdf70714-e1d6-481e-9aea-fb71effcc47f",
+                                    "ap2ID": "56943a88-73c4-4236-bb8a-89eff49fe0d4"
                                 },
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "Shape 1",
                                     "ap2Primary": false,
-                                    "ap1ID": "8f6b653a-74ee-4312-b612-6a4a14541a34",
-                                    "ap2ID": "4047a0fb-825a-458c-8aef-3b3146eb8542"
+                                    "ap1ID": "56943a88-73c4-4236-bb8a-89eff49fe0d4",
+                                    "ap2ID": "d2021fb4-72f6-46f2-a383-4c6a9303c578"
                                 },
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
-                                    "ap1ID": "4047a0fb-825a-458c-8aef-3b3146eb8542",
-                                    "ap2ID": "158819d4-909a-4b57-9adc-998143d20aea"
+                                    "ap1ID": "d2021fb4-72f6-46f2-a383-4c6a9303c578",
+                                    "ap2ID": "f5267e3c-f1a7-4d07-aa65-2b05ac701a99"
                                 }
                             ],
                             "parentRepo": {
@@ -5702,7 +5722,7 @@
                             "ap1Name": "Geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
-                            "ap1ID": "40e6f231-b173-4d06-86eb-c76d50ef6caf",
+                            "ap1ID": "102e2039-afdd-406a-a76e-2f88d808f586",
                             "ap2ID": 1741648307282
                         }
                     ],
@@ -7980,7 +8000,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1748899778670,
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": 1748899778579
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -7999,7 +8024,12 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": 1748895810764,
-                                    "ioValues": [],
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": 1748895810407
+                                        }
+                                    ],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -10429,7 +10459,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1738958490772,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1738958491377
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -10758,7 +10793,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1740179206055,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1740179248398
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
