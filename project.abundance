@@ -6313,7 +6313,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 12
+                                            "ioValue": -12
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
@@ -6335,6 +6335,21 @@
                                         }
                                     ],
                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "-1*x",
+                                    "x": 0.16534391534391535,
+                                    "y": 0.7486033519553073,
+                                    "uniqueID": "6bd55a81-8693-4dff-8871-8e8844b73e33",
+                                    "ioValues": [
+                                        {
+                                            "name": "x",
+                                            "ioValue": 12
+                                        }
+                                    ],
+                                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                    "currentEquation": "-1*x"
                                 }
                             ],
                             "allConnectors": [
@@ -6354,10 +6369,10 @@
                                 },
                                 {
                                     "ap1Name": "number or geometry",
-                                    "ap2Name": "zDist",
+                                    "ap2Name": "x",
                                     "ap2Primary": false,
                                     "ap1ID": 1739774126801,
-                                    "ap2ID": "71fa2064-11a3-4663-bf8c-d06becc3273d"
+                                    "ap2ID": "6bd55a81-8693-4dff-8871-8e8844b73e33"
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -6498,6 +6513,13 @@
                                     "ap2Primary": true,
                                     "ap1ID": "63a309af-b4b9-455c-bfd2-28b71c53145e",
                                     "ap2ID": 1739774144339
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "zDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": "6bd55a81-8693-4dff-8871-8e8844b73e33",
+                                    "ap2ID": "71fa2064-11a3-4663-bf8c-d06becc3273d"
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -6914,8 +6936,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Base Piece",
-                                    "x": 0.14814814814814814,
-                                    "y": 0.6406685236768802,
+                                    "x": 0.14947089947089948,
+                                    "y": 0.6312849162011173,
                                     "uniqueID": 1739990460769,
                                     "ioValues": [
                                         {
@@ -11407,8 +11429,8 @@
     "compiledBom": [
         {
             "BOMitemName": "Wood Stove",
-            "numberNeeded": 2,
-            "costUSD": 300,
+            "numberNeeded": 1,
+            "costUSD": 150,
             "source": "https://portland.craigslist.org/clc/spo/d/mulino-canvas-wall-tent-stove/7827117943.html"
         }
     ],
