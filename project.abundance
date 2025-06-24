@@ -7731,32 +7731,12 @@
                             "compiledBom": []
                         },
                         {
-                            "atomType": "ExtractTag",
-                            "name": "Extract Tag",
-                            "x": 0.6309523809523809,
-                            "y": 0.729050279329609,
-                            "uniqueID": "f8ee95f9-5bab-43f3-9489-6c4bd978415b",
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1739774227831
-                                }
-                            ],
-                            "description": "Extracts geometry containing the specified tag.",
-                            "tag": "One1",
-                            "tagIndex": 0
-                        },
-                        {
                             "atomType": "CutLayout",
                             "name": "Cut Layout",
                             "x": 0.7579365079365079,
                             "y": 0.76536312849162,
                             "uniqueID": "eb0ffca9-012b-4f42-9a7e-c860f42a5eff",
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": "f8ee95f9-5bab-43f3-9489-6c4bd978415b"
-                                },
                                 {
                                     "name": "Sheet Width",
                                     "ioValue": 1219
@@ -7818,25 +7798,11 @@
                             "ap2ID": 1739773892054
                         },
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1739774227831,
-                            "ap2ID": "f8ee95f9-5bab-43f3-9489-6c4bd978415b"
-                        },
-                        {
                             "ap1Name": "Geometry",
                             "ap2Name": "Shape 2",
                             "ap2Primary": false,
                             "ap1ID": 1739774466258,
                             "ap2ID": 1739774227831
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": false,
-                            "ap1ID": "f8ee95f9-5bab-43f3-9489-6c4bd978415b",
-                            "ap2ID": "eb0ffca9-012b-4f42-9a7e-c860f42a5eff"
                         }
                     ],
                     "fileTypeVersion": 1,
