@@ -14,12 +14,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1738956155478,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1738956922193
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -6028,13 +6023,13 @@
                                 {
                                     "atomType": "Rotate",
                                     "name": "Rotate",
-                                    "x": 0.3641534391534392,
-                                    "y": 0.20069637883008357,
+                                    "x": 0.4510582010582011,
+                                    "y": 0.22625698324022345,
                                     "uniqueID": 1739774144339,
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": "63a309af-b4b9-455c-bfd2-28b71c53145e"
+                                            "ioValue": "d2b9ddf1-10f2-4e19-bce8-1e043d5e4c07"
                                         },
                                         {
                                             "name": "x-axis degrees",
@@ -6054,8 +6049,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.4887566137566138,
-                                    "y": 0.17548746518105848,
+                                    "x": 0.5813492063492063,
+                                    "y": 0.1759776536312849,
                                     "uniqueID": 1739774144388,
                                     "ioValues": [
                                         {
@@ -6080,8 +6075,8 @@
                                 {
                                     "atomType": "Assembly",
                                     "name": "Assembly",
-                                    "x": 0.5661375661375662,
-                                    "y": 0.47632311977715874,
+                                    "x": 0.7162698412698413,
+                                    "y": 0.5279329608938548,
                                     "uniqueID": 1739774145131,
                                     "ioValues": [
                                         {
@@ -6136,8 +6131,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.4173280423280424,
-                                    "y": 0.6824512534818942,
+                                    "x": 0.5238095238095238,
+                                    "y": 0.6368715083798883,
                                     "uniqueID": 1739774278882,
                                     "ioValues": [
                                         {
@@ -6162,8 +6157,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.5939153439153438,
-                                    "y": 0.21727019498607245,
+                                    "x": 0.6488095238095237,
+                                    "y": 0.25139664804469275,
                                     "uniqueID": 1739774308470,
                                     "ioValues": [
                                         {
@@ -6188,8 +6183,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.4656084656084656,
-                                    "y": 0.48467966573816157,
+                                    "x": 0.5555555555555556,
+                                    "y": 0.45530726256983234,
                                     "uniqueID": 1739774309062,
                                     "ioValues": [
                                         {
@@ -6214,8 +6209,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.6439153439153439,
-                                    "y": 0.16727019498607243,
+                                    "x": 0.7328042328042328,
+                                    "y": 0.16759776536312848,
                                     "uniqueID": 1739774347768,
                                     "ioValues": [
                                         {
@@ -6240,8 +6235,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.5125661375661376,
-                                    "y": 0.7325905292479109,
+                                    "x": 0.6408730158730158,
+                                    "y": 0.729050279329609,
                                     "uniqueID": 1739774347670,
                                     "ioValues": [
                                         {
@@ -6292,7 +6287,7 @@
                                 {
                                     "atomType": "Assembly",
                                     "name": "Assembly",
-                                    "x": 0.3167989417989418,
+                                    "x": 0.28439153439153436,
                                     "y": 0.40782122905027934,
                                     "uniqueID": "63a309af-b4b9-455c-bfd2-28b71c53145e",
                                     "ioValues": [
@@ -6802,7 +6797,7 @@
                                         }
                                     ],
                                     "fileTypeVersion": 1,
-                                    "compiledBom": {}
+                                    "compiledBom": []
                                 },
                                 {
                                     "atomType": "Rotate",
@@ -6829,6 +6824,32 @@
                                         }
                                     ],
                                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                                },
+                                {
+                                    "atomType": "Move",
+                                    "name": "Move",
+                                    "x": 0.3855820105820106,
+                                    "y": 0.44972067039106145,
+                                    "uniqueID": "d2b9ddf1-10f2-4e19-bce8-1e043d5e4c07",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "63a309af-b4b9-455c-bfd2-28b71c53145e"
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": -1000
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0
+                                        }
+                                    ],
+                                    "description": "Moves a shape laterally in X, Y, Z."
                                 }
                             ],
                             "allConnectors": [
@@ -6984,7 +7005,7 @@
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
                                     "ap1ID": "63a309af-b4b9-455c-bfd2-28b71c53145e",
-                                    "ap2ID": 1739774144339
+                                    "ap2ID": "d2b9ddf1-10f2-4e19-bce8-1e043d5e4c07"
                                 },
                                 {
                                     "ap1Name": "result",
@@ -7013,6 +7034,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": "91a777d7-7a7b-4f1e-a787-9afeb52d03b2",
                                     "ap2ID": "63a309af-b4b9-455c-bfd2-28b71c53145e"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": "d2b9ddf1-10f2-4e19-bce8-1e043d5e4c07",
+                                    "ap2ID": 1739774144339
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -11033,12 +11061,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1738958490772,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1738958491377
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -11367,12 +11390,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1740179206055,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1740179248398
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
