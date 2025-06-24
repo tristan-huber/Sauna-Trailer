@@ -5936,8 +5936,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Vertical",
-                            "x": 0.3187830687830688,
-                            "y": 0.26256983240223464,
+                            "x": 0.31547619047619047,
+                            "y": 0.25977653631284914,
                             "uniqueID": 1739774127244,
                             "ioValues": [
                                 {
@@ -6320,8 +6320,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Wedges",
-                                    "x": 0.18716931216931218,
-                                    "y": 0.4525139664804469,
+                                    "x": 0.1898148148148148,
+                                    "y": 0.44972067039106145,
                                     "uniqueID": "934982d2-d76e-422b-b514-41c4d0cef8c8",
                                     "ioValues": [
                                         {
@@ -6341,7 +6341,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "number or geometry",
-                                                    "ioValue": "228f11c5-c0cc-4719-9826-1018082cc7de"
+                                                    "ioValue": "cccb24c1-1a36-46e5-b35d-575c771c091b"
                                                 }
                                             ],
                                             "description": "Connect geometry here to make it available in the next level up. "
@@ -6757,6 +6757,23 @@
                                             ],
                                             "description": "Changes the color of the shape.",
                                             "selectedColorIndex": 0
+                                        },
+                                        {
+                                            "atomType": "Tag",
+                                            "name": "Vertical",
+                                            "x": 0.8597883597883598,
+                                            "y": 0.329608938547486,
+                                            "uniqueID": "cccb24c1-1a36-46e5-b35d-575c771c091b",
+                                            "ioValues": [
+                                                {
+                                                    "name": "geometry",
+                                                    "ioValue": "228f11c5-c0cc-4719-9826-1018082cc7de"
+                                                }
+                                            ],
+                                            "description": "Tags geometry so that it can be extracted later.",
+                                            "tags": [
+                                                "Vertical"
+                                            ]
                                         }
                                     ],
                                     "allConnectors": [
@@ -6790,9 +6807,16 @@
                                         },
                                         {
                                             "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap2Primary": true,
+                                            "ap1ID": "228f11c5-c0cc-4719-9826-1018082cc7de",
+                                            "ap2ID": "cccb24c1-1a36-46e5-b35d-575c771c091b"
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
                                             "ap2Name": "number or geometry",
                                             "ap2Primary": false,
-                                            "ap1ID": "228f11c5-c0cc-4719-9826-1018082cc7de",
+                                            "ap1ID": "cccb24c1-1a36-46e5-b35d-575c771c091b",
                                             "ap2ID": "7f2c02a7-7f82-49eb-94ab-70a43c0af0c2"
                                         }
                                     ],
