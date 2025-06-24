@@ -5891,6 +5891,14 @@
                         {
                             "name": "Wood Thickness",
                             "ioValue": 12
+                        },
+                        {
+                            "name": "name0 (1)",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "name0 (2)",
+                            "ioValue": 10
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -5913,8 +5921,8 @@
                         {
                             "atomType": "Input",
                             "name": "Geometry",
-                            "x": 0.0264,
-                            "y": 0.584958217270195,
+                            "x": 0.029699999999999997,
+                            "y": 0.6005586592178771,
                             "uniqueID": 1739773901139,
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -5923,8 +5931,8 @@
                         {
                             "atomType": "Input",
                             "name": "Wood Thickness",
-                            "x": 0.0264,
-                            "y": 0.34818941504178275,
+                            "x": 0.029699999999999997,
+                            "y": 0.3044692737430168,
                             "uniqueID": 1739773929058,
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -5933,8 +5941,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Vertical",
-                            "x": 0.34523809523809523,
-                            "y": 0.3899721448467966,
+                            "x": 0.3187830687830688,
+                            "y": 0.26256983240223464,
                             "uniqueID": 1739774127244,
                             "ioValues": [
                                 {
@@ -6509,8 +6517,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Horizontal",
-                            "x": 0.37367724867724866,
-                            "y": 0.6787709497206704,
+                            "x": 0.375,
+                            "y": 0.5977653631284916,
                             "uniqueID": 1739774466258,
                             "ioValues": [
                                 {
@@ -7731,27 +7739,24 @@
                             "compiledBom": []
                         },
                         {
-                            "atomType": "CutLayout",
-                            "name": "Cut Layout",
-                            "x": 0.7579365079365079,
-                            "y": 0.76536312849162,
-                            "uniqueID": "eb0ffca9-012b-4f42-9a7e-c860f42a5eff",
-                            "ioValues": [
-                                {
-                                    "name": "Sheet Width",
-                                    "ioValue": 1219
-                                },
-                                {
-                                    "name": "Sheet Height",
-                                    "ioValue": 2438
-                                },
-                                {
-                                    "name": "Part Padding",
-                                    "ioValue": 6
-                                }
-                            ],
-                            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-                            "placements": []
+                            "atomType": "Input",
+                            "name": "name0 (1)",
+                            "x": 0.029699999999999997,
+                            "y": 0.7374301675977654,
+                            "uniqueID": "539d0d29-4ccb-4d47-bcbc-1f199cb2ccb9",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "number"
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "name0 (2)",
+                            "x": 0.029699999999999997,
+                            "y": 0.9301675977653632,
+                            "uniqueID": "c90cd5bc-7208-4f13-9a1c-39b3370ce647",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "number"
                         }
                     ],
                     "allConnectors": [
