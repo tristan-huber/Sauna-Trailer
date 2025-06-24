@@ -8850,7 +8850,23 @@
                             },
                             "unitsKey": "MM",
                             "fileTypeVersion": 1,
-                            "compiledBom": {}
+                            "compiledBom": []
+                        },
+                        {
+                            "atomType": "ExtractTag",
+                            "name": "Extract Tag",
+                            "x": 0.7314814814814815,
+                            "y": 0.6480446927374302,
+                            "uniqueID": "dd17a27f-55ae-45a9-b836-44779f103cb1",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "08835bd2-59ef-4f3f-84ea-e9cd560462c6"
+                                }
+                            ],
+                            "description": "Extracts geometry containing the specified tag.",
+                            "tag": "Horizontal",
+                            "tagIndex": 0
                         }
                     ],
                     "allConnectors": [
@@ -8916,6 +8932,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1739774466258,
                             "ap2ID": "08835bd2-59ef-4f3f-84ea-e9cd560462c6"
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "08835bd2-59ef-4f3f-84ea-e9cd560462c6",
+                            "ap2ID": "dd17a27f-55ae-45a9-b836-44779f103cb1"
                         }
                     ],
                     "fileTypeVersion": 1,
