@@ -1647,7 +1647,12 @@
             "x": 0.19907407407407407,
             "y": 0.7932960893854748,
             "uniqueID": 1738956170299,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 12
+                }
+            ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
@@ -3502,8 +3507,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Door Opening",
-                    "x": 0.08597883597883599,
-                    "y": 0.5738161559888579,
+                    "x": 0.05026455026455026,
+                    "y": 0.4357541899441341,
                     "uniqueID": 1738958661904,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -5519,8 +5524,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.15343915343915343,
-                    "y": 0.5933147632311978,
+                    "x": 0.11507936507936507,
+                    "y": 0.5139664804469274,
                     "uniqueID": 1738958805059,
                     "ioValues": [
                         {
@@ -5668,7 +5673,7 @@
                     "atomType": "Molecule",
                     "name": "Split Apart",
                     "x": 0.36706349206349204,
-                    "y": 0.7122905027932961,
+                    "y": 0.7178770949720671,
                     "uniqueID": 1739773891659,
                     "ioValues": [
                         {
@@ -5720,8 +5725,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Vertical",
-                            "x": 0.335978835978836,
-                            "y": 0.34636871508379885,
+                            "x": 0.33465608465608465,
+                            "y": 0.3435754189944134,
                             "uniqueID": 1739774127244,
                             "ioValues": [
                                 {
@@ -6722,7 +6727,7 @@
                                 {
                                     "atomType": "Equation",
                                     "name": "1209.0+(2*T)+17.46",
-                                    "x": 0.5271164021164021,
+                                    "x": 0.531084656084656,
                                     "y": 0.15083798882681565,
                                     "uniqueID": "51095c2b-ed60-4533-9f38-a3b53b4cb068",
                                     "ioValues": [
@@ -8924,8 +8929,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Window Opening",
-                    "x": 0.06547619047619048,
-                    "y": 0.8885793871866295,
+                    "x": 0.031746031746031744,
+                    "y": 0.7318435754189945,
                     "uniqueID": 1741650496517,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -9102,8 +9107,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.2037037037037037,
-                    "y": 0.8105849582172702,
+                    "x": 0.1765873015873016,
+                    "y": 0.7374301675977654,
                     "uniqueID": 1741650501346,
                     "ioValues": [
                         {
@@ -9128,8 +9133,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.20965608465608468,
-                    "y": 0.5793871866295265,
+                    "x": 0.2037037037037037,
+                    "y": 0.541899441340782,
                     "uniqueID": 1741650522058,
                     "ioValues": [
                         {
@@ -11467,7 +11472,7 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Shiplap Wall",
+                    "name": "Shiplap Walls",
                     "x": 0.23809523809523808,
                     "y": 0.20111731843575417,
                     "uniqueID": "912e598d-23d3-429e-9e08-ab5f4ac3b768",
@@ -11475,6 +11480,10 @@
                         {
                             "name": "Envlope",
                             "ioValue": 1738956981399
+                        },
+                        {
+                            "name": "Wood Thickness",
+                            "ioValue": 12
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -11507,8 +11516,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "ShipLap Board",
-                            "x": 0.28439153439153436,
-                            "y": 0.6703910614525139,
+                            "x": 0.18121693121693122,
+                            "y": 0.6899441340782123,
                             "uniqueID": "e687a8a1-67aa-4c75-9111-2955c774c337",
                             "ioValues": [
                                 {
@@ -11817,8 +11826,8 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Linear-Pattern",
-                            "x": 0.4947089947089947,
-                            "y": 0.5865921787709497,
+                            "x": 0.25925925925925924,
+                            "y": 0.5139664804469274,
                             "uniqueID": "b4234f0c-9386-48b4-943e-f0668b12cf11",
                             "ioValues": [
                                 {
@@ -11831,7 +11840,7 @@
                                 },
                                 {
                                     "name": "Geometry",
-                                    "ioValue": "e687a8a1-67aa-4c75-9111-2955c774c337"
+                                    "ioValue": "NaN7a8a1-67aa-4c75-9111-2955c774c337"
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -11860,7 +11869,7 @@
                                     "ioValues": [
                                         {
                                             "name": "Shape",
-                                            "ioValue": "e687a8a1-67aa-4c75-9111-2955c774c337"
+                                            "ioValue": "NaN7a8a1-67aa-4c75-9111-2955c774c337"
                                         },
                                         {
                                             "name": "Number",
@@ -11990,8 +11999,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.6527777777777778,
-                            "y": 0.5642458100558659,
+                            "x": 0.417989417989418,
+                            "y": 0.39385474860335196,
                             "uniqueID": "b9b962ae-cd13-4a2f-8069-9a34c93323a7",
                             "ioValues": [
                                 {
@@ -12016,8 +12025,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.7962962962962963,
-                            "y": 0.6256983240223464,
+                            "x": 0.5165343915343915,
+                            "y": 0.6201117318435755,
                             "uniqueID": "55bc4e55-55a0-4026-910c-d267593bc3e6",
                             "ioValues": [
                                 {
@@ -12042,8 +12051,8 @@
                         {
                             "atomType": "Intersection",
                             "name": "Intersection",
-                            "x": 0.8201058201058202,
-                            "y": 0.27932960893854747,
+                            "x": 0.548941798941799,
+                            "y": 0.1983240223463687,
                             "uniqueID": "e4f808ec-0504-4f4a-984b-710a3482ab4a",
                             "ioValues": [
                                 {
@@ -12060,8 +12069,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.28174603174603174,
-                            "y": 0.2849162011173184,
+                            "x": 0.18452380952380953,
+                            "y": 0.25977653631284914,
                             "uniqueID": "7e7209a6-59fb-4449-9fae-3f792e66e321",
                             "ioValues": [
                                 {
@@ -12071,6 +12080,57 @@
                                 {
                                     "name": "xDist",
                                     "ioValue": -20
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "1209.0+(2*T)+(17.46/2)",
+                            "x": 0.4702380952380953,
+                            "y": 0.9301675977653632,
+                            "uniqueID": "a2efda75-4572-4df9-96c6-b92cdfb6c2d7",
+                            "ioValues": [
+                                {
+                                    "name": "T",
+                                    "ioValue": 12
+                                }
+                            ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                            "currentEquation": "1209.0+(2*T)+(17.46/2)"
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Wood Thickness",
+                            "x": 0.029699999999999997,
+                            "y": 0.8463687150837989,
+                            "uniqueID": "97dc5429-588b-45a3-be87-783ac7f561a4",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "number"
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.7731481481481481,
+                            "y": 0.61731843575419,
+                            "uniqueID": "fcd02852-5b9c-429f-8fb9-1738b4f8bb46",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "e4f808ec-0504-4f4a-984b-710a3482ab4a"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 1241.73
                                 },
                                 {
                                     "name": "yDist",
@@ -12129,10 +12189,31 @@
                         },
                         {
                             "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "e4f808ec-0504-4f4a-984b-710a3482ab4a",
+                            "ap2ID": "fcd02852-5b9c-429f-8fb9-1738b4f8bb46"
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "geometry2",
                             "ap2Primary": false,
                             "ap1ID": "7e7209a6-59fb-4449-9fae-3f792e66e321",
                             "ap2ID": "e4f808ec-0504-4f4a-984b-710a3482ab4a"
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "xDist",
+                            "ap2Primary": false,
+                            "ap1ID": "a2efda75-4572-4df9-96c6-b92cdfb6c2d7",
+                            "ap2ID": "fcd02852-5b9c-429f-8fb9-1738b4f8bb46"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "T",
+                            "ap2Primary": false,
+                            "ap1ID": "97dc5429-588b-45a3-be87-783ac7f561a4",
+                            "ap2ID": "a2efda75-4572-4df9-96c6-b92cdfb6c2d7"
                         }
                     ],
                     "fileTypeVersion": 1,
@@ -12179,6 +12260,16 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood Thickness",
+                    "x": 0.029699999999999997,
+                    "y": 0.9608938547486033,
+                    "uniqueID": "26ed2bbe-d151-4caf-acaa-8eb6ba364041",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
                 }
             ],
             "allConnectors": [
@@ -12314,6 +12405,20 @@
                     "ap2Primary": true,
                     "ap1ID": "912e598d-23d3-429e-9e08-ab5f4ac3b768",
                     "ap2ID": "637f3042-8753-4442-885b-47dbd048c5c7"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Wood Thickness",
+                    "ap2Primary": false,
+                    "ap1ID": "26ed2bbe-d151-4caf-acaa-8eb6ba364041",
+                    "ap2ID": 1739773891659
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Wood Thickness",
+                    "ap2Primary": false,
+                    "ap1ID": "26ed2bbe-d151-4caf-acaa-8eb6ba364041",
+                    "ap2ID": "912e598d-23d3-429e-9e08-ab5f4ac3b768"
                 }
             ],
             "fileTypeVersion": 1,
