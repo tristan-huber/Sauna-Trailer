@@ -12591,8 +12591,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Shiplap Wall",
-                    "x": 0.2195767195767196,
-                    "y": 0.15083798882681565,
+                    "x": 0.2605820105820106,
+                    "y": 0.18994413407821228,
                     "uniqueID": "912e598d-23d3-429e-9e08-ab5f4ac3b768",
                     "ioValues": [
                         {
@@ -12609,7 +12609,12 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": "ef4f5e27-31c8-4fce-8cee-2737a25cba13",
-                            "ioValues": [],
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "e4f808ec-0504-4f4a-984b-710a3482ab4a"
+                                }
+                            ],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -12625,8 +12630,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "ShipLap Board",
-                            "x": 0.3412698412698413,
-                            "y": 0.6452513966480448,
+                            "x": 0.28439153439153436,
+                            "y": 0.6703910614525139,
                             "uniqueID": "e687a8a1-67aa-4c75-9111-2955c774c337",
                             "ioValues": [
                                 {
@@ -12646,7 +12651,7 @@
                                     "ioValues": [
                                         {
                                             "name": "number or geometry",
-                                            "ioValue": "9a42489d-235f-4cc2-97c3-b660fa9bf265"
+                                            "ioValue": "280a5f55-b38d-4a4a-9753-d9aa5fcca42c"
                                         }
                                     ],
                                     "description": "Connect geometry here to make it available in the next level up. "
@@ -12828,6 +12833,26 @@
                                         }
                                     ],
                                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                                },
+                                {
+                                    "atomType": "Add-BOM-Tag",
+                                    "name": "Add BOM Tag",
+                                    "x": 0.8650793650793651,
+                                    "y": 0.76536312849162,
+                                    "uniqueID": "280a5f55-b38d-4a4a-9753-d9aa5fcca42c",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "9a42489d-235f-4cc2-97c3-b660fa9bf265"
+                                        }
+                                    ],
+                                    "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
+                                    "BOMitem": {
+                                        "BOMitemName": "Cedar Shiplap",
+                                        "numberNeeded": 1,
+                                        "costUSD": 0,
+                                        "source": "https://www.lowes.com/pd/RELIABILT-5-375-in-x-12-ft-Unfinished-Cedar-Tongue-and-Groove-Wall-Plank-1-Pack-Covers-5-38-sq-ft/1000456695?user=shopping&feed=yes&gad_source=1&gad_campaignid=21218170251&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJdk_r7n3FB7d_4rSmPHAxLzIKqJX_qTlfnD14cEg7dvBOpAPxnaE2hoCqocQAvD_BwE"
+                                    }
                                 }
                             ],
                             "allConnectors": [
@@ -12889,33 +12914,47 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": "9a42489d-235f-4cc2-97c3-b660fa9bf265",
+                                    "ap2ID": "280a5f55-b38d-4a4a-9753-d9aa5fcca42c"
+                                },
+                                {
+                                    "ap1Name": "geometry",
                                     "ap2Name": "number or geometry",
                                     "ap2Primary": false,
-                                    "ap1ID": "9a42489d-235f-4cc2-97c3-b660fa9bf265",
+                                    "ap1ID": "280a5f55-b38d-4a4a-9753-d9aa5fcca42c",
                                     "ap2ID": "b3504f8c-9cf6-40a2-a045-c4c31705fd67"
                                 }
                             ],
                             "fileTypeVersion": 1,
-                            "compiledBom": []
+                            "compiledBom": [
+                                {
+                                    "BOMitemName": "Cedar Shiplap",
+                                    "numberNeeded": 1,
+                                    "costUSD": 0,
+                                    "source": "https://www.lowes.com/pd/RELIABILT-5-375-in-x-12-ft-Unfinished-Cedar-Tongue-and-Groove-Wall-Plank-1-Pack-Covers-5-38-sq-ft/1000456695?user=shopping&feed=yes&gad_source=1&gad_campaignid=21218170251&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJdk_r7n3FB7d_4rSmPHAxLzIKqJX_qTlfnD14cEg7dvBOpAPxnaE2hoCqocQAvD_BwE"
+                                }
+                            ]
                         },
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Linear-Pattern",
-                            "x": 0.509920634920635,
-                            "y": 0.7122905027932961,
+                            "x": 0.4947089947089947,
+                            "y": 0.5865921787709497,
                             "uniqueID": "b4234f0c-9386-48b4-943e-f0668b12cf11",
                             "ioValues": [
                                 {
                                     "name": "Number",
-                                    "ioValue": 4
+                                    "ioValue": 20
                                 },
                                 {
                                     "name": "Dist",
-                                    "ioValue": 117.47
+                                    "ioValue": 107.47
                                 },
                                 {
                                     "name": "Geometry",
-                                    "ioValue": "NaN7a8a1-67aa-4c75-9111-2955c774c337"
+                                    "ioValue": "e687a8a1-67aa-4c75-9111-2955c774c337"
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -12944,15 +12983,15 @@
                                     "ioValues": [
                                         {
                                             "name": "Shape",
-                                            "ioValue": "NaN7a8a1-67aa-4c75-9111-2955c774c337"
+                                            "ioValue": "e687a8a1-67aa-4c75-9111-2955c774c337"
                                         },
                                         {
                                             "name": "Number",
-                                            "ioValue": 10
+                                            "ioValue": 20
                                         },
                                         {
                                             "name": "Dist",
-                                            "ioValue": 117.47
+                                            "ioValue": 107.47
                                         }
                                     ],
                                     "description": "Defines a Replicad code block.",
@@ -13062,20 +13101,172 @@
                             },
                             "unitsKey": "MM",
                             "fileTypeVersion": 1,
-                            "compiledBom": []
+                            "compiledBom": [
+                                {
+                                    "BOMitemName": "Cedar Shiplap",
+                                    "numberNeeded": 20,
+                                    "costUSD": 0,
+                                    "source": "https://www.lowes.com/pd/RELIABILT-5-375-in-x-12-ft-Unfinished-Cedar-Tongue-and-Groove-Wall-Plank-1-Pack-Covers-5-38-sq-ft/1000456695?user=shopping&feed=yes&gad_source=1&gad_campaignid=21218170251&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJdk_r7n3FB7d_4rSmPHAxLzIKqJX_qTlfnD14cEg7dvBOpAPxnaE2hoCqocQAvD_BwE"
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.6527777777777778,
+                            "y": 0.5642458100558659,
+                            "uniqueID": "b9b962ae-cd13-4a2f-8069-9a34c93323a7",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "b4234f0c-9386-48b4-943e-f0668b12cf11"
+                                },
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": -90
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.7962962962962963,
+                            "y": 0.6256983240223464,
+                            "uniqueID": "55bc4e55-55a0-4026-910c-d267593bc3e6",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "b9b962ae-cd13-4a2f-8069-9a34c93323a7"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 1828.7999999999997
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 53.735
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Intersection",
+                            "name": "Intersection",
+                            "x": 0.8201058201058202,
+                            "y": 0.27932960893854747,
+                            "uniqueID": "e4f808ec-0504-4f4a-984b-710a3482ab4a",
+                            "ioValues": [
+                                {
+                                    "name": "geometry1",
+                                    "ioValue": "55bc4e55-55a0-4026-910c-d267593bc3e6"
+                                },
+                                {
+                                    "name": "geometry2",
+                                    "ioValue": "7e7209a6-59fb-4449-9fae-3f792e66e321"
+                                }
+                            ],
+                            "description": "The space shared by two shapes."
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.28174603174603174,
+                            "y": 0.2849162011173184,
+                            "uniqueID": "7e7209a6-59fb-4449-9fae-3f792e66e321",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1738956981399
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": -20
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
                         }
                     ],
                     "allConnectors": [
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "01ed7e95-e78a-41fa-8150-170354547fc1",
+                            "ap2ID": "7e7209a6-59fb-4449-9fae-3f792e66e321"
+                        },
                         {
                             "ap1Name": "Geometry",
                             "ap2Name": "Geometry",
                             "ap2Primary": false,
                             "ap1ID": "e687a8a1-67aa-4c75-9111-2955c774c337",
                             "ap2ID": "b4234f0c-9386-48b4-943e-f0668b12cf11"
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "b4234f0c-9386-48b4-943e-f0668b12cf11",
+                            "ap2ID": "b9b962ae-cd13-4a2f-8069-9a34c93323a7"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "b9b962ae-cd13-4a2f-8069-9a34c93323a7",
+                            "ap2ID": "55bc4e55-55a0-4026-910c-d267593bc3e6"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry1",
+                            "ap2Primary": false,
+                            "ap1ID": "55bc4e55-55a0-4026-910c-d267593bc3e6",
+                            "ap2ID": "e4f808ec-0504-4f4a-984b-710a3482ab4a"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "e4f808ec-0504-4f4a-984b-710a3482ab4a",
+                            "ap2ID": "ef4f5e27-31c8-4fce-8cee-2737a25cba13"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry2",
+                            "ap2Primary": false,
+                            "ap1ID": "7e7209a6-59fb-4449-9fae-3f792e66e321",
+                            "ap2ID": "e4f808ec-0504-4f4a-984b-710a3482ab4a"
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "compiledBom": {}
+                    "compiledBom": [
+                        {
+                            "BOMitemName": "Cedar Shiplap",
+                            "numberNeeded": 20,
+                            "costUSD": 0,
+                            "source": "https://www.lowes.com/pd/RELIABILT-5-375-in-x-12-ft-Unfinished-Cedar-Tongue-and-Groove-Wall-Plank-1-Pack-Covers-5-38-sq-ft/1000456695?user=shopping&feed=yes&gad_source=1&gad_campaignid=21218170251&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJdk_r7n3FB7d_4rSmPHAxLzIKqJX_qTlfnD14cEg7dvBOpAPxnaE2hoCqocQAvD_BwE"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
