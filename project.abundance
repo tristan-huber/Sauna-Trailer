@@ -5497,8 +5497,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Ring",
-                            "x": 0.3134920634920635,
-                            "y": 0.8072625698324022,
+                            "x": 0.2605820105820106,
+                            "y": 0.7430167597765363,
                             "uniqueID": "11ace71c-57e9-40bd-916e-b3bf1d94d444",
                             "ioValues": [
                                 {
@@ -5624,6 +5624,32 @@
                             ],
                             "fileTypeVersion": 1,
                             "compiledBom": {}
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.4041005291005291,
+                            "y": 0.5446927374301677,
+                            "uniqueID": "05ae4127-7131-46a4-9fe1-c26583024f51",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "11ace71c-57e9-40bd-916e-b3bf1d94d444"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 560
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
                         }
                     ],
                     "allConnectors": [
@@ -5647,6 +5673,13 @@
                             "ap2Primary": true,
                             "ap1ID": "102e2039-afdd-406a-a76e-2f88d808f586",
                             "ap2ID": 1741648307282
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "11ace71c-57e9-40bd-916e-b3bf1d94d444",
+                            "ap2ID": "05ae4127-7131-46a4-9fe1-c26583024f51"
                         }
                     ],
                     "fileTypeVersion": 1,
