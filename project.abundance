@@ -6077,7 +6077,7 @@
                                                 },
                                                 {
                                                     "name": "zDist",
-                                                    "ioValue": -10
+                                                    "ioValue": 10
                                                 }
                                             ],
                                             "description": "Moves a shape laterally in X, Y, Z."
@@ -6110,7 +6110,7 @@
                                         },
                                         {
                                             "atomType": "Equation",
-                                            "name": "-1*T",
+                                            "name": "1*T",
                                             "x": 0.548941798941799,
                                             "y": 0.7988826815642459,
                                             "uniqueID": "318c6844-4901-4e20-93d4-37a71ea19421",
@@ -6121,7 +6121,7 @@
                                                 }
                                             ],
                                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                                            "currentEquation": "-1*T"
+                                            "currentEquation": "1*T"
                                         },
                                         {
                                             "atomType": "Assembly",
@@ -6244,7 +6244,7 @@
                                         }
                                     ],
                                     "fileTypeVersion": 1,
-                                    "compiledBom": {}
+                                    "compiledBom": []
                                 }
                             ],
                             "allConnectors": [
@@ -6325,6 +6325,164 @@
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                        },
+                        {
+                            "atomType": "CutLayout",
+                            "name": "Cut Layout",
+                            "x": 0.5284391534391535,
+                            "y": 0.7513966480446927,
+                            "uniqueID": "6deb3828-6c4f-4629-957b-fc8c8b198273",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "11ace71c-57e9-40bd-916e-b3bf1d94d444"
+                                },
+                                {
+                                    "name": "Sheet Width",
+                                    "ioValue": 1219
+                                },
+                                {
+                                    "name": "Sheet Height",
+                                    "ioValue": 2438
+                                },
+                                {
+                                    "name": "Part Padding",
+                                    "ioValue": 6
+                                }
+                            ],
+                            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+                            "placements": [
+                                [
+                                    {
+                                        "id": 2,
+                                        "rotate": 210,
+                                        "translate": {
+                                            "x": 93.4012533920228,
+                                            "y": 96.19469202022225
+                                        }
+                                    },
+                                    {
+                                        "id": 1,
+                                        "rotate": 120,
+                                        "translate": {
+                                            "x": 459.82388579380125,
+                                            "y": 285.03298918385985
+                                        }
+                                    },
+                                    {
+                                        "id": 7,
+                                        "rotate": 30,
+                                        "translate": {
+                                            "x": 21.777325161938478,
+                                            "y": 434.3860039485249
+                                        }
+                                    },
+                                    {
+                                        "id": 5,
+                                        "rotate": 150,
+                                        "translate": {
+                                            "x": 709.5467291672726,
+                                            "y": 237.2527758316172
+                                        }
+                                    },
+                                    {
+                                        "id": 3,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": -6.3553381000000115,
+                                            "y": 822.1868174
+                                        }
+                                    },
+                                    {
+                                        "id": 6,
+                                        "rotate": 330,
+                                        "translate": {
+                                            "x": 389.0239358480865,
+                                            "y": 501.74438589044297
+                                        }
+                                    },
+                                    {
+                                        "id": 14,
+                                        "rotate": 0,
+                                        "translate": {
+                                            "x": 545.4853220050596,
+                                            "y": 296.1427112096105
+                                        }
+                                    },
+                                    {
+                                        "id": 13,
+                                        "rotate": 30,
+                                        "translate": {
+                                            "x": 82.55655312223388,
+                                            "y": 948.127435810459
+                                        }
+                                    },
+                                    {
+                                        "id": 0,
+                                        "rotate": 60,
+                                        "translate": {
+                                            "x": 469.5256775014751,
+                                            "y": 724.3522529639421
+                                        }
+                                    },
+                                    {
+                                        "id": 4,
+                                        "rotate": 270,
+                                        "translate": {
+                                            "x": 472.1583395999999,
+                                            "y": 1048.6466335
+                                        }
+                                    },
+                                    {
+                                        "id": 12,
+                                        "rotate": 150,
+                                        "translate": {
+                                            "x": 128.22890964181056,
+                                            "y": 1763.257384612616
+                                        }
+                                    },
+                                    {
+                                        "id": 11,
+                                        "rotate": 330,
+                                        "translate": {
+                                            "x": 118.12103464025327,
+                                            "y": 1973.7325692195425
+                                        }
+                                    },
+                                    {
+                                        "id": 15,
+                                        "rotate": 330,
+                                        "translate": {
+                                            "x": 91.41152388426148,
+                                            "y": 2101.1618379386687
+                                        }
+                                    },
+                                    {
+                                        "id": 10,
+                                        "rotate": 210,
+                                        "translate": {
+                                            "x": 99.27693810952479,
+                                            "y": 1447.716327925512
+                                        }
+                                    },
+                                    {
+                                        "id": 8,
+                                        "rotate": 210,
+                                        "translate": {
+                                            "x": 603.8177107621294,
+                                            "y": 2316.1658210517708
+                                        }
+                                    },
+                                    {
+                                        "id": 9,
+                                        "rotate": 120,
+                                        "translate": {
+                                            "x": 689.9350993258456,
+                                            "y": 1689.3938038380209
+                                        }
+                                    }
+                                ]
+                            ]
                         }
                     ],
                     "allConnectors": [
@@ -6348,6 +6506,13 @@
                             "ap2Primary": false,
                             "ap1ID": "11ace71c-57e9-40bd-916e-b3bf1d94d444",
                             "ap2ID": "e2c1aa82-000c-4b36-8370-e22c59cc1978"
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "11ace71c-57e9-40bd-916e-b3bf1d94d444",
+                            "ap2ID": "6deb3828-6c4f-4629-957b-fc8c8b198273"
                         },
                         {
                             "ap1Name": "geometry",
