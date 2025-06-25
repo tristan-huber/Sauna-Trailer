@@ -5618,32 +5618,6 @@
                     "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.806878306878307,
-                    "y": 0.39385474860335196,
-                    "uniqueID": 1738960649623,
-                    "ioValues": [
-                        {
-                            "name": "Shape 4",
-                            "ioValue": 1738961511013
-                        },
-                        {
-                            "name": "Shape 6",
-                            "ioValue": 1738958989785
-                        },
-                        {
-                            "name": "Shape 7",
-                            "ioValue": 1738960642869
-                        },
-                        {
-                            "name": "Shape 8",
-                            "ioValue": 1739773891659
-                        }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-                },
-                {
                     "atomType": "Move",
                     "name": "Move",
                     "x": 0.7123015873015873,
@@ -11453,7 +11427,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1738960649623
+                            "ioValue": "2ede00f0-ba12-4a6b-8ffb-f770367f92cc"
                         },
                         {
                             "name": "xDist",
@@ -12438,24 +12412,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 6",
-                    "ap2Primary": false,
-                    "ap1ID": 1738958989785,
-                    "ap2ID": 1738960649623
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "Shape 3",
                     "ap2Primary": false,
                     "ap1ID": 1738958989785,
                     "ap2ID": "2ede00f0-ba12-4a6b-8ffb-f770367f92cc"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 7",
-                    "ap2Primary": false,
-                    "ap1ID": 1738960642869,
-                    "ap2ID": 1738960649623
                 },
                 {
                     "ap1Name": "geometry",
@@ -12466,31 +12426,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1738960649623,
-                    "ap2ID": "63c8e0a8-8199-47fa-a620-8f3f4bec0b56"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 4",
-                    "ap2Primary": false,
-                    "ap1ID": 1738961511013,
-                    "ap2ID": 1738960649623
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "Shape 4",
                     "ap2Primary": false,
                     "ap1ID": 1738961511013,
                     "ap2ID": "2ede00f0-ba12-4a6b-8ffb-f770367f92cc"
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "Shape 8",
-                    "ap2Primary": false,
-                    "ap1ID": 1739773891659,
-                    "ap2ID": 1738960649623
                 },
                 {
                     "ap1Name": "Geometry",
@@ -12568,6 +12507,13 @@
                     "ap2Primary": false,
                     "ap1ID": "da9e0d72-7116-4568-8734-1721e6a0e1e1",
                     "ap2ID": "2ede00f0-ba12-4a6b-8ffb-f770367f92cc"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "2ede00f0-ba12-4a6b-8ffb-f770367f92cc",
+                    "ap2ID": "63c8e0a8-8199-47fa-a620-8f3f4bec0b56"
                 }
             ],
             "fileTypeVersion": 1,
@@ -12577,6 +12523,12 @@
                     "numberNeeded": 1,
                     "costUSD": 150,
                     "source": "https://portland.craigslist.org/clc/spo/d/mulino-canvas-wall-tent-stove/7827117943.html"
+                },
+                {
+                    "BOMitemName": "Cedar Shiplap",
+                    "numberNeeded": 40,
+                    "costUSD": 0,
+                    "source": "https://www.lowes.com/pd/RELIABILT-5-375-in-x-12-ft-Unfinished-Cedar-Tongue-and-Groove-Wall-Plank-1-Pack-Covers-5-38-sq-ft/1000456695?user=shopping&feed=yes&gad_source=1&gad_campaignid=21218170251&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJdk_r7n3FB7d_4rSmPHAxLzIKqJX_qTlfnD14cEg7dvBOpAPxnaE2hoCqocQAvD_BwE"
                 }
             ]
         },
