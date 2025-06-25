@@ -5500,8 +5500,8 @@
                                 {
                                     "atomType": "Circle",
                                     "name": "Circle",
-                                    "x": 0.15608465608465608,
-                                    "y": 0.3044692737430168,
+                                    "x": 0.1574074074074074,
+                                    "y": 0.33519553072625696,
                                     "uniqueID": "d1d11676-1c16-4415-b2b4-4ebd3a851d5b",
                                     "ioValues": [
                                         {
@@ -5540,8 +5540,8 @@
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.4417989417989418,
-                                    "y": 0.4608938547486033,
+                                    "x": 0.4444444444444444,
+                                    "y": 0.48882681564245806,
                                     "uniqueID": "c0e9bd27-944e-4c85-a3b6-83726eb030ec",
                                     "ioValues": [
                                         {
@@ -5610,7 +5610,7 @@
                                         },
                                         {
                                             "name": "Geometry",
-                                            "ioValue": 10
+                                            "ioValue": "NaN9bd27-944e-4c85-a3b6-83726eb030ec"
                                         }
                                     ],
                                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -5647,8 +5647,8 @@
                                         {
                                             "atomType": "GitHubMolecule",
                                             "name": "Isosceles-Triangle---Angle",
-                                            "x": 0.24933862433862436,
-                                            "y": 0.8100558659217877,
+                                            "x": 0.2156084656084656,
+                                            "y": 0.8212290502793296,
                                             "uniqueID": "1b74319b-acfd-4b28-aa1d-e1439a6837ee",
                                             "ioValues": [
                                                 {
@@ -5794,8 +5794,8 @@
                                         {
                                             "atomType": "Move",
                                             "name": "Move",
-                                            "x": 0.3948412698412699,
-                                            "y": 0.776536312849162,
+                                            "x": 0.3425925925925926,
+                                            "y": 0.8184357541899442,
                                             "uniqueID": "cf6b2aac-e847-4c0e-aea2-088a5b869f8d",
                                             "ioValues": [
                                                 {
@@ -5808,7 +5808,7 @@
                                                 },
                                                 {
                                                     "name": "yDist",
-                                                    "ioValue": -1000
+                                                    "ioValue": -2000
                                                 },
                                                 {
                                                     "name": "zDist",
@@ -5820,8 +5820,8 @@
                                         {
                                             "atomType": "GitHubMolecule",
                                             "name": "RotatePattern",
-                                            "x": 0.5152116402116402,
-                                            "y": 0.7932960893854748,
+                                            "x": 0.5105820105820106,
+                                            "y": 0.7262569832402235,
                                             "uniqueID": "74e99b20-dee7-4eaf-b703-75f4e64475d9",
                                             "ioValues": [
                                                 {
@@ -6032,9 +6032,66 @@
                                             "unitsKey": "Inches",
                                             "fileTypeVersion": 1,
                                             "compiledBom": []
+                                        },
+                                        {
+                                            "atomType": "Intersection",
+                                            "name": "Intersection",
+                                            "x": 0.6355820105820106,
+                                            "y": 0.2569832402234637,
+                                            "uniqueID": "e655ff8c-360d-4c99-a3d4-7d05e810e93a",
+                                            "ioValues": [
+                                                {
+                                                    "name": "geometry1",
+                                                    "ioValue": "NaN9bd27-944e-4c85-a3b6-83726eb030ec"
+                                                },
+                                                {
+                                                    "name": "geometry2",
+                                                    "ioValue": "74e99b20-dee7-4eaf-b703-75f4e64475d9"
+                                                }
+                                            ],
+                                            "description": "The space shared by two shapes."
+                                        },
+                                        {
+                                            "atomType": "Intersection",
+                                            "name": "Intersection",
+                                            "x": 0.6494708994708994,
+                                            "y": 0.5,
+                                            "uniqueID": "1c56346c-0b03-4b43-ab4a-2ad29f0601a4",
+                                            "ioValues": [
+                                                {
+                                                    "name": "geometry1",
+                                                    "ioValue": "74e99b20-dee7-4eaf-b703-75f4e64475d9"
+                                                },
+                                                {
+                                                    "name": "geometry2",
+                                                    "ioValue": "NaN9bd27-944e-4c85-a3b6-83726eb030ec"
+                                                }
+                                            ],
+                                            "description": "The space shared by two shapes."
                                         }
                                     ],
                                     "allConnectors": [
+                                        {
+                                            "ap1Name": "number or geometry",
+                                            "ap2Name": "Thickness",
+                                            "ap2Primary": false,
+                                            "ap1ID": "18a3d009-7ca1-4b92-b7e9-450c6448dbe9",
+                                            "ap2ID": "1b74319b-acfd-4b28-aa1d-e1439a6837ee"
+                                        },
+                                        {
+                                            "ap1Name": "number or geometry",
+                                            "ap2Name": "geometry1",
+                                            "ap2Primary": false,
+                                            "ap1ID": "1a1ee5d2-887e-4a4a-bec8-1c6a147829ef",
+                                            "ap2ID": "e655ff8c-360d-4c99-a3d4-7d05e810e93a"
+                                        },
+                                        {
+                                            "ap1Name": "number or geometry",
+                                            "ap2Name": "geometry2",
+                                            "ap2Primary": false,
+                                            "ap1ID": "1a1ee5d2-887e-4a4a-bec8-1c6a147829ef",
+                                            "ap2ID": "1c56346c-0b03-4b43-ab4a-2ad29f0601a4"
+                                        },
                                         {
                                             "ap1Name": "Geometry",
                                             "ap2Name": "geometry",
@@ -6048,6 +6105,20 @@
                                             "ap2Primary": false,
                                             "ap1ID": "cf6b2aac-e847-4c0e-aea2-088a5b869f8d",
                                             "ap2ID": "74e99b20-dee7-4eaf-b703-75f4e64475d9"
+                                        },
+                                        {
+                                            "ap1Name": "Geometry",
+                                            "ap2Name": "geometry2",
+                                            "ap2Primary": false,
+                                            "ap1ID": "74e99b20-dee7-4eaf-b703-75f4e64475d9",
+                                            "ap2ID": "e655ff8c-360d-4c99-a3d4-7d05e810e93a"
+                                        },
+                                        {
+                                            "ap1Name": "Geometry",
+                                            "ap2Name": "geometry1",
+                                            "ap2Primary": false,
+                                            "ap1ID": "74e99b20-dee7-4eaf-b703-75f4e64475d9",
+                                            "ap2ID": "1c56346c-0b03-4b43-ab4a-2ad29f0601a4"
                                         }
                                     ],
                                     "fileTypeVersion": 1,
@@ -6077,11 +6148,25 @@
                                     "ap2ID": "df002fb8-148e-4b87-826f-53ef339bc64f"
                                 },
                                 {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "Geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": "c0e9bd27-944e-4c85-a3b6-83726eb030ec",
+                                    "ap2ID": "4c901fda-c35e-4c8c-ac7c-44bc0bda7220"
+                                },
+                                {
                                     "ap1Name": "number or geometry",
                                     "ap2Name": "height",
                                     "ap2Primary": false,
                                     "ap1ID": "8e273772-e2ad-4ef2-876d-7d6b320bc647",
                                     "ap2ID": "c0e9bd27-944e-4c85-a3b6-83726eb030ec"
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "Wood Thickness",
+                                    "ap2Primary": false,
+                                    "ap1ID": "8e273772-e2ad-4ef2-876d-7d6b320bc647",
+                                    "ap2ID": "4c901fda-c35e-4c8c-ac7c-44bc0bda7220"
                                 },
                                 {
                                     "ap1Name": "geometry",
