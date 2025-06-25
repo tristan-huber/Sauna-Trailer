@@ -4408,8 +4408,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5972222222222222,
-                            "y": 0.7409470752089137,
+                            "x": 0.5654761904761905,
+                            "y": 0.39385474860335196,
                             "uniqueID": 1741648307282,
                             "ioValues": [
                                 {
@@ -4434,8 +4434,8 @@
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Plexiglass-Window",
-                            "x": 0.4212962962962963,
-                            "y": 0.6843575418994413,
+                            "x": 0.22619047619047616,
+                            "y": 0.2849162011173184,
                             "uniqueID": "102e2039-afdd-406a-a76e-2f88d808f586",
                             "ioValues": [],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -5493,6 +5493,137 @@
                             "unitsKey": "Inches",
                             "fileTypeVersion": 1,
                             "compiledBom": []
+                        },
+                        {
+                            "atomType": "Molecule",
+                            "name": "Ring",
+                            "x": 0.3134920634920635,
+                            "y": 0.8072625698324022,
+                            "uniqueID": "11ace71c-57e9-40bd-916e-b3bf1d94d444",
+                            "ioValues": [
+                                {
+                                    "name": "Wood Thickness",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.98,
+                                    "y": 0.5,
+                                    "uniqueID": "55f51b68-2563-479e-9ad8-1340d0b466f6",
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "df002fb8-148e-4b87-826f-53ef339bc64f"
+                                        }
+                                    ],
+                                    "description": "Connect geometry here to make it available in the next level up. "
+                                },
+                                {
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.2427248677248677,
+                                    "y": 0.4748603351955307,
+                                    "uniqueID": "d1d11676-1c16-4415-b2b4-4ebd3a851d5b",
+                                    "ioValues": [
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 1400
+                                        }
+                                    ],
+                                    "description": "Creates a new circle."
+                                },
+                                {
+                                    "atomType": "Rotate",
+                                    "name": "Rotate",
+                                    "x": 0.6514550264550264,
+                                    "y": 0.5195530726256983,
+                                    "uniqueID": "df002fb8-148e-4b87-826f-53ef339bc64f",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "c0e9bd27-944e-4c85-a3b6-83726eb030ec"
+                                        },
+                                        {
+                                            "name": "x-axis degrees",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "y-axis degrees",
+                                            "ioValue": 90
+                                        },
+                                        {
+                                            "name": "z-axis degrees",
+                                            "ioValue": 0
+                                        }
+                                    ],
+                                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                                },
+                                {
+                                    "atomType": "Extrude",
+                                    "name": "Extrude",
+                                    "x": 0.47288359788359785,
+                                    "y": 0.48882681564245806,
+                                    "uniqueID": "c0e9bd27-944e-4c85-a3b6-83726eb030ec",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "d1d11676-1c16-4415-b2b4-4ebd3a851d5b"
+                                        },
+                                        {
+                                            "name": "height",
+                                            "ioValue": 10
+                                        }
+                                    ],
+                                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Wood Thickness",
+                                    "x": 0.029699999999999997,
+                                    "y": 0.8100558659217877,
+                                    "uniqueID": "8e273772-e2ad-4ef2-876d-7d6b320bc647",
+                                    "ioValues": [],
+                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                    "type": "number"
+                                }
+                            ],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": "d1d11676-1c16-4415-b2b4-4ebd3a851d5b",
+                                    "ap2ID": "c0e9bd27-944e-4c85-a3b6-83726eb030ec"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": "df002fb8-148e-4b87-826f-53ef339bc64f",
+                                    "ap2ID": "55f51b68-2563-479e-9ad8-1340d0b466f6"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": "c0e9bd27-944e-4c85-a3b6-83726eb030ec",
+                                    "ap2ID": "df002fb8-148e-4b87-826f-53ef339bc64f"
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "height",
+                                    "ap2Primary": false,
+                                    "ap1ID": "8e273772-e2ad-4ef2-876d-7d6b320bc647",
+                                    "ap2ID": "c0e9bd27-944e-4c85-a3b6-83726eb030ec"
+                                }
+                            ],
+                            "fileTypeVersion": 1,
+                            "compiledBom": {}
                         }
                     ],
                     "allConnectors": [
