@@ -1644,8 +1644,8 @@
         {
             "atomType": "Molecule",
             "name": "Sauna",
-            "x": 0.19444444444444442,
-            "y": 0.7988826815642459,
+            "x": 0.1917989417989418,
+            "y": 0.8044692737430167,
             "uniqueID": 1738956170299,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -5667,8 +5667,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Split Apart",
-                    "x": 0.45502645502645506,
-                    "y": 0.24581005586592178,
+                    "x": 0.45701058201058203,
+                    "y": 0.23743016759776536,
                     "uniqueID": 1739773891659,
                     "ioValues": [
                         {
@@ -12591,8 +12591,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Shiplap Wall",
-                    "x": 0.2189153439153439,
-                    "y": 0.14804469273743018,
+                    "x": 0.2195767195767196,
+                    "y": 0.15083798882681565,
                     "uniqueID": "912e598d-23d3-429e-9e08-ab5f4ac3b768",
                     "ioValues": [
                         {
@@ -12643,7 +12643,12 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": "b3504f8c-9cf6-40a2-a045-c4c31705fd67",
-                                    "ioValues": [],
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "9a42489d-235f-4cc2-97c3-b660fa9bf265"
+                                        }
+                                    ],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -12793,10 +12798,36 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 10
+                                            "ioValue": 3657.6
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
+                                },
+                                {
+                                    "atomType": "Rotate",
+                                    "name": "Rotate",
+                                    "x": 0.8101851851851852,
+                                    "y": 0.5335195530726257,
+                                    "uniqueID": "9a42489d-235f-4cc2-97c3-b660fa9bf265",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "779f8221-2eac-4060-9e80-40b306b93a36"
+                                        },
+                                        {
+                                            "name": "x-axis degrees",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "y-axis degrees",
+                                            "ioValue": 90
+                                        },
+                                        {
+                                            "name": "z-axis degrees",
+                                            "ioValue": -90
+                                        }
+                                    ],
+                                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                                 }
                             ],
                             "allConnectors": [
@@ -12848,13 +12879,201 @@
                                     "ap2Primary": true,
                                     "ap1ID": "12ca03b9-e453-4013-9b71-448fb809ddc6",
                                     "ap2ID": "779f8221-2eac-4060-9e80-40b306b93a36"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": "779f8221-2eac-4060-9e80-40b306b93a36",
+                                    "ap2ID": "9a42489d-235f-4cc2-97c3-b660fa9bf265"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": "9a42489d-235f-4cc2-97c3-b660fa9bf265",
+                                    "ap2ID": "b3504f8c-9cf6-40a2-a045-c4c31705fd67"
                                 }
                             ],
                             "fileTypeVersion": 1,
-                            "compiledBom": {}
+                            "compiledBom": []
+                        },
+                        {
+                            "atomType": "GitHubMolecule",
+                            "name": "Linear-Pattern",
+                            "x": 0.509920634920635,
+                            "y": 0.7122905027932961,
+                            "uniqueID": "b4234f0c-9386-48b4-943e-f0668b12cf11",
+                            "ioValues": [
+                                {
+                                    "name": "Number",
+                                    "ioValue": 4
+                                },
+                                {
+                                    "name": "Dist",
+                                    "ioValue": 117.47
+                                },
+                                {
+                                    "name": "Geometry",
+                                    "ioValue": "NaN7a8a1-67aa-4c75-9111-2955c774c337"
+                                }
+                            ],
+                            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.98,
+                                    "y": 0.5,
+                                    "uniqueID": "8d16edf8-d8bc-4023-a802-d766123b9e80",
+                                    "ioValues": [
+                                        {
+                                            "name": "number or geometry",
+                                            "ioValue": "e037cdd2-5ca6-4621-9686-d78c6c1240c1"
+                                        }
+                                    ],
+                                    "description": "Connect geometry here to make it available in the next level up. "
+                                },
+                                {
+                                    "atomType": "Code",
+                                    "name": "Code",
+                                    "x": 0.5112433862433863,
+                                    "y": 0.4345403899721449,
+                                    "uniqueID": "e037cdd2-5ca6-4621-9686-d78c6c1240c1",
+                                    "ioValues": [
+                                        {
+                                            "name": "Shape",
+                                            "ioValue": "NaN7a8a1-67aa-4c75-9111-2955c774c337"
+                                        },
+                                        {
+                                            "name": "Number",
+                                            "ioValue": 10
+                                        },
+                                        {
+                                            "name": "Dist",
+                                            "ioValue": 117.47
+                                        }
+                                    ],
+                                    "description": "Defines a Replicad code block.",
+                                    "codeVersion": 1,
+                                    "code": "//Inputs:[Shape, Number, Dist];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, Dist * i, 0, 0);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
+                                },
+                                {
+                                    "atomType": "Rectangle",
+                                    "name": "Rectangle",
+                                    "x": 0.27976190476190477,
+                                    "y": 0.2116991643454039,
+                                    "uniqueID": "656eacc1-b9a5-4538-b46e-5285ec39aa0c",
+                                    "ioValues": [
+                                        {
+                                            "name": "x length",
+                                            "ioValue": 10
+                                        },
+                                        {
+                                            "name": "y length",
+                                            "ioValue": 10
+                                        }
+                                    ],
+                                    "description": "Creates a new rectangle."
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Number",
+                                    "x": 0.029699999999999997,
+                                    "y": 0.32869080779944293,
+                                    "uniqueID": "707b6a38-d225-4964-ada0-1b0704821bf5",
+                                    "ioValues": [],
+                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                    "type": "number"
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Dist",
+                                    "x": 0.029699999999999997,
+                                    "y": 0.6434540389972144,
+                                    "uniqueID": "b0b2fe36-3c4a-4e33-b202-d0cb8bfe5fe9",
+                                    "ioValues": [],
+                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                    "type": "number"
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Geometry",
+                                    "x": 0.029699999999999997,
+                                    "y": 0.9108635097493036,
+                                    "uniqueID": "3969a2d1-99e3-4d5e-a5df-2f3f2d155080",
+                                    "ioValues": [],
+                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                    "type": "number"
+                                }
+                            ],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": "e037cdd2-5ca6-4621-9686-d78c6c1240c1",
+                                    "ap2ID": "8d16edf8-d8bc-4023-a802-d766123b9e80"
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "Number",
+                                    "ap2Primary": false,
+                                    "ap1ID": "707b6a38-d225-4964-ada0-1b0704821bf5",
+                                    "ap2ID": "e037cdd2-5ca6-4621-9686-d78c6c1240c1"
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "Dist",
+                                    "ap2Primary": false,
+                                    "ap1ID": "b0b2fe36-3c4a-4e33-b202-d0cb8bfe5fe9",
+                                    "ap2ID": "e037cdd2-5ca6-4621-9686-d78c6c1240c1"
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "Shape",
+                                    "ap2Primary": false,
+                                    "ap1ID": "3969a2d1-99e3-4d5e-a5df-2f3f2d155080",
+                                    "ap2ID": "e037cdd2-5ca6-4621-9686-d78c6c1240c1"
+                                }
+                            ],
+                            "parentRepo": {
+                                "lastFoundGit": "2025-03-02T16:20:37.798Z",
+                                "privateRepo": false,
+                                "repoName": "Linear-Pattern",
+                                "dateCreated": "2025-02-19T00:40:13Z",
+                                "readMe": "https://raw.githubusercontent.com/BarbourSmith/Linear-Pattern/master/README.md?sanitize=true",
+                                "yyyy": 2025,
+                                "topMoleculeID": 1739925613779,
+                                "githubMoleculesUsed": [],
+                                "html_url": "https://github.com/BarbourSmith/Linear-Pattern",
+                                "topics": [],
+                                "parentRepo": null,
+                                "forks": 0,
+                                "dateModified": "739301",
+                                "ranking": 0,
+                                "searchField": "linear-pattern barboursmith returns the input shape formed into an assembly translated n times ",
+                                "owner": "BarbourSmith",
+                                "description": "Returns the input shape formed into an assembly translated n times",
+                                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Linear-Pattern/master/project.abundance?sanitize=true",
+                                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Linear-Pattern/master/project.svg?sanitize=true",
+                                "isLocal": false
+                            },
+                            "unitsKey": "MM",
+                            "fileTypeVersion": 1,
+                            "compiledBom": []
                         }
                     ],
-                    "allConnectors": [],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "Geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "e687a8a1-67aa-4c75-9111-2955c774c337",
+                            "ap2ID": "b4234f0c-9386-48b4-943e-f0668b12cf11"
+                        }
+                    ],
                     "fileTypeVersion": 1,
                     "compiledBom": {}
                 }
