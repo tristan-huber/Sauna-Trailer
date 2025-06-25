@@ -5887,7 +5887,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Split Apart",
-                    "x": 0.4477513227513228,
+                    "x": 0.45502645502645506,
                     "y": 0.24581005586592178,
                     "uniqueID": 1739773891659,
                     "ioValues": [
@@ -8409,6 +8409,10 @@
                                         {
                                             "name": "Shape 12",
                                             "ioValue": "03cec89d-33bc-4a0d-92a1-f606c13d25cc"
+                                        },
+                                        {
+                                            "name": "Shape 13",
+                                            "ioValue": "4ec5ba13-abe1-4724-a974-4b002a465097"
                                         }
                                     ],
                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -9378,8 +9382,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Notches",
-                                    "x": 0.33994708994708994,
-                                    "y": 0.6229050279329609,
+                                    "x": 0.3472222222222222,
+                                    "y": 0.6508379888268156,
                                     "uniqueID": "03cec89d-33bc-4a0d-92a1-f606c13d25cc",
                                     "ioValues": [
                                         {
@@ -9960,6 +9964,32 @@
                                         }
                                     ],
                                     "description": "The space shared by two shapes."
+                                },
+                                {
+                                    "atomType": "Rotate",
+                                    "name": "Rotate",
+                                    "x": 0.5244708994708994,
+                                    "y": 0.33519553072625696,
+                                    "uniqueID": "4ec5ba13-abe1-4724-a974-4b002a465097",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "03cec89d-33bc-4a0d-92a1-f606c13d25cc"
+                                        },
+                                        {
+                                            "name": "x-axis degrees",
+                                            "ioValue": 45
+                                        },
+                                        {
+                                            "name": "y-axis degrees",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "z-axis degrees",
+                                            "ioValue": 0
+                                        }
+                                    ],
+                                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                                 }
                             ],
                             "allConnectors": [
@@ -10104,6 +10134,13 @@
                                     "ap2ID": "0da6c66c-2183-4594-aa3e-a8ecb26cd84a"
                                 },
                                 {
+                                    "ap1Name": "Geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": "03cec89d-33bc-4a0d-92a1-f606c13d25cc",
+                                    "ap2ID": "4ec5ba13-abe1-4724-a974-4b002a465097"
+                                },
+                                {
                                     "ap1Name": "number or geometry",
                                     "ap2Name": "Wood Thickness",
                                     "ap2Primary": false,
@@ -10130,6 +10167,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": "0bdefb7c-feab-4f6c-b917-7caac4ca6f91",
                                     "ap2ID": "03cec89d-33bc-4a0d-92a1-f606c13d25cc"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "Shape 13",
+                                    "ap2Primary": false,
+                                    "ap1ID": "4ec5ba13-abe1-4724-a974-4b002a465097",
+                                    "ap2ID": "0da6c66c-2183-4594-aa3e-a8ecb26cd84a"
                                 }
                             ],
                             "fileTypeVersion": 1,
