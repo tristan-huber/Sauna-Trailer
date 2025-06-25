@@ -6245,6 +6245,70 @@
                                     ],
                                     "fileTypeVersion": 1,
                                     "compiledBom": []
+                                },
+                                {
+                                    "atomType": "Molecule",
+                                    "name": "Quick Release Bolt",
+                                    "x": 0.5866402116402116,
+                                    "y": 0.36592178770949724,
+                                    "uniqueID": "5a598683-9a73-4c74-93d6-fb73ba7649f6",
+                                    "ioValues": [],
+                                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                                    "topLevel": false,
+                                    "allAtoms": [
+                                        {
+                                            "atomType": "Output",
+                                            "name": "Output",
+                                            "x": 0.98,
+                                            "y": 0.5,
+                                            "uniqueID": "eb82a407-7363-430d-b628-b6273e3cc48c",
+                                            "ioValues": [],
+                                            "description": "Connect geometry here to make it available in the next level up. "
+                                        },
+                                        {
+                                            "atomType": "Circle",
+                                            "name": "Circle",
+                                            "x": 0.28505291005291006,
+                                            "y": 0.4860335195530726,
+                                            "uniqueID": "d27ee89e-88bc-472b-8748-9001d8908513",
+                                            "ioValues": [
+                                                {
+                                                    "name": "diameter",
+                                                    "ioValue": 30
+                                                }
+                                            ],
+                                            "description": "Creates a new circle."
+                                        },
+                                        {
+                                            "atomType": "Extrude",
+                                            "name": "Extrude",
+                                            "x": 0.43452380952380953,
+                                            "y": 0.34916201117318435,
+                                            "uniqueID": "79a5b869-ef92-44a4-b914-99d5c17c7b6f",
+                                            "ioValues": [
+                                                {
+                                                    "name": "geometry",
+                                                    "ioValue": "d27ee89e-88bc-472b-8748-9001d8908513"
+                                                },
+                                                {
+                                                    "name": "height",
+                                                    "ioValue": 10
+                                                }
+                                            ],
+                                            "description": "Extrudes a 2D shape. Input can be negitive. "
+                                        }
+                                    ],
+                                    "allConnectors": [
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap2Primary": true,
+                                            "ap1ID": "d27ee89e-88bc-472b-8748-9001d8908513",
+                                            "ap2ID": "79a5b869-ef92-44a4-b914-99d5c17c7b6f"
+                                        }
+                                    ],
+                                    "fileTypeVersion": 1,
+                                    "compiledBom": {}
                                 }
                             ],
                             "allConnectors": [
