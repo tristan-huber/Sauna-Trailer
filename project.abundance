@@ -5720,8 +5720,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Vertical",
-                            "x": 0.3134920634920635,
-                            "y": 0.2653631284916201,
+                            "x": 0.3220899470899471,
+                            "y": 0.3044692737430168,
                             "uniqueID": 1739774127244,
                             "ioValues": [
                                 {
@@ -9958,6 +9958,22 @@
                             ],
                             "fileTypeVersion": 1,
                             "compiledBom": []
+                        },
+                        {
+                            "atomType": "ExtractTag",
+                            "name": "Extract Tag",
+                            "x": 0.7142857142857143,
+                            "y": 0.6424581005586593,
+                            "uniqueID": "559dbe58-2d5a-4362-80fe-42ccba71abf7",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1739774227831
+                                }
+                            ],
+                            "description": "Extracts geometry containing the specified tag.",
+                            "tag": "Vertical",
+                            "tagIndex": 0
                         }
                     ],
                     "allConnectors": [
@@ -10009,6 +10025,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1739774227831,
                             "ap2ID": 1739773892054
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1739774227831,
+                            "ap2ID": "559dbe58-2d5a-4362-80fe-42ccba71abf7"
                         },
                         {
                             "ap1Name": "Geometry",
