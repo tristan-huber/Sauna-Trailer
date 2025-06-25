@@ -11840,7 +11840,7 @@
                                 },
                                 {
                                     "name": "Geometry",
-                                    "ioValue": "NaN7a8a1-67aa-4c75-9111-2955c774c337"
+                                    "ioValue": "e687a8a1-67aa-4c75-9111-2955c774c337"
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -11869,7 +11869,7 @@
                                     "ioValues": [
                                         {
                                             "name": "Shape",
-                                            "ioValue": "NaN7a8a1-67aa-4c75-9111-2955c774c337"
+                                            "ioValue": "e687a8a1-67aa-4c75-9111-2955c774c337"
                                         },
                                         {
                                             "name": "Number",
