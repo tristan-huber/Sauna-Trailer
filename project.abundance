@@ -5667,8 +5667,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Split Apart",
-                    "x": 0.4100529100529101,
-                    "y": 0.2318435754189944,
+                    "x": 0.408068783068783,
+                    "y": 0.24860335195530728,
                     "uniqueID": 1739773891659,
                     "ioValues": [
                         {
@@ -6662,8 +6662,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.5793650793650793,
-                                    "y": 0.21787709497206706,
+                                    "x": 0.6263227513227514,
+                                    "y": 0.2569832402234637,
                                     "uniqueID": "9e37a033-39eb-4ead-bcc9-45ee39ad6e12",
                                     "ioValues": [
                                         {
@@ -6672,7 +6672,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 1209
+                                            "ioValue": 1185
                                         },
                                         {
                                             "name": "yDist",
@@ -6710,6 +6710,21 @@
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "1209.0-(2*T)",
+                                    "x": 0.5271164021164021,
+                                    "y": 0.15083798882681565,
+                                    "uniqueID": "51095c2b-ed60-4533-9f38-a3b53b4cb068",
+                                    "ioValues": [
+                                        {
+                                            "name": "T",
+                                            "ioValue": 12
+                                        }
+                                    ],
+                                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                    "currentEquation": "1209.0-(2*T)"
                                 }
                             ],
                             "allConnectors": [
@@ -6740,6 +6755,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": 1739774126801,
                                     "ap2ID": "934982d2-d76e-422b-b514-41c4d0cef8c8"
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "T",
+                                    "ap2Primary": false,
+                                    "ap1ID": 1739774126801,
+                                    "ap2ID": "51095c2b-ed60-4533-9f38-a3b53b4cb068"
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -6915,6 +6937,13 @@
                                     "ap2Primary": true,
                                     "ap1ID": "d2b9ddf1-10f2-4e19-bce8-1e043d5e4c07",
                                     "ap2ID": 1739774144339
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "xDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": "51095c2b-ed60-4533-9f38-a3b53b4cb068",
+                                    "ap2ID": "9e37a033-39eb-4ead-bcc9-45ee39ad6e12"
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -11411,8 +11440,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Shiplap Wall",
-                    "x": 0.22751322751322753,
-                    "y": 0.29050279329608936,
+                    "x": 0.20238095238095238,
+                    "y": 0.37988826815642457,
                     "uniqueID": "912e598d-23d3-429e-9e08-ab5f4ac3b768",
                     "ioValues": [
                         {
