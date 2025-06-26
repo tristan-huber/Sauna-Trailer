@@ -4358,8 +4358,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Window",
-                    "x": 0.46097883597883593,
-                    "y": 0.8575418994413407,
+                    "x": 0.46230158730158727,
+                    "y": 0.8603351955307261,
                     "uniqueID": 1738958678830,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -6393,8 +6393,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Quick Release Bolts",
-                            "x": 0.3776455026455026,
-                            "y": 0.8240223463687151,
+                            "x": 0.3697089947089947,
+                            "y": 0.8128491620111732,
                             "uniqueID": "f4fe253c-dfae-4c38-b8f4-97ee627b2734",
                             "ioValues": [],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -6620,8 +6620,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.453042328042328,
-                                    "y": 0.6368715083798883,
+                                    "x": 0.46362433862433866,
+                                    "y": 0.6312849162011173,
                                     "uniqueID": "cac3f80d-27bb-4dfd-84c6-7dbf798dbcc0",
                                     "ioValues": [
                                         {
@@ -6630,7 +6630,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 700
+                                            "ioValue": 730
                                         },
                                         {
                                             "name": "yDist",
@@ -6946,7 +6946,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 0
+                                    "ioValue": 40
                                 },
                                 {
                                     "name": "yDist",
