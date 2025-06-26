@@ -4358,8 +4358,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Window",
-                    "x": 0.4642857142857143,
-                    "y": 0.8770949720670391,
+                    "x": 0.46097883597883593,
+                    "y": 0.8575418994413407,
                     "uniqueID": 1738958678830,
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -6375,17 +6375,13 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.5363756613756614,
-                            "y": 0.270949720670391,
+                            "x": 0.5707671957671958,
+                            "y": 0.3016759776536313,
                             "uniqueID": "e2c1aa82-000c-4b36-8370-e22c59cc1978",
                             "ioValues": [
                                 {
                                     "name": "Shape 1",
                                     "ioValue": "102e2039-afdd-406a-a76e-2f88d808f586"
-                                },
-                                {
-                                    "name": "Shape 2",
-                                    "ioValue": "11ace71c-57e9-40bd-916e-b3bf1d94d444"
                                 },
                                 {
                                     "name": "Shape 3",
@@ -6940,8 +6936,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.47817460317460314,
-                            "y": 0.5502793296089385,
+                            "x": 0.48412698412698413,
+                            "y": 0.5446927374301677,
                             "uniqueID": "ae28888f-9b3f-4738-9f3c-4a0b41a46849",
                             "ioValues": [
                                 {
@@ -6977,13 +6973,6 @@
                             "ap2Name": "Shape 1",
                             "ap2Primary": false,
                             "ap1ID": "102e2039-afdd-406a-a76e-2f88d808f586",
-                            "ap2ID": "e2c1aa82-000c-4b36-8370-e22c59cc1978"
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "Shape 2",
-                            "ap2Primary": false,
-                            "ap1ID": "11ace71c-57e9-40bd-916e-b3bf1d94d444",
                             "ap2ID": "e2c1aa82-000c-4b36-8370-e22c59cc1978"
                         },
                         {
@@ -14887,6 +14876,12 @@
             "numberNeeded": 1,
             "costUSD": 150,
             "source": "https://portland.craigslist.org/clc/spo/d/mulino-canvas-wall-tent-stove/7827117943.html"
+        },
+        {
+            "BOMitemName": "Quick Release Bolt",
+            "numberNeeded": 6,
+            "costUSD": 30,
+            "source": "https://www.amazon.com/dp/B0CSMGRBN6"
         },
         {
             "BOMitemName": "Cedar Shiplap",
