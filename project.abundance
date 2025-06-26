@@ -7100,8 +7100,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.19642857142857142,
-                                    "y": 0.6871508379888268,
+                                    "x": 0.15211640211640212,
+                                    "y": 0.6815642458100559,
                                     "uniqueID": "71fa2064-11a3-4663-bf8c-d06becc3273d",
                                     "ioValues": [
                                         {
@@ -7159,8 +7159,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Wedges",
-                                    "x": 0.1898148148148148,
-                                    "y": 0.44972067039106145,
+                                    "x": 0.14682539682539683,
+                                    "y": 0.4329608938547486,
                                     "uniqueID": "934982d2-d76e-422b-b514-41c4d0cef8c8",
                                     "ioValues": [
                                         {
@@ -7665,8 +7665,8 @@
                                 {
                                     "atomType": "Rotate",
                                     "name": "Rotate",
-                                    "x": 0.2744708994708995,
-                                    "y": 0.6256983240223464,
+                                    "x": 0.24603174603174605,
+                                    "y": 0.5810055865921787,
                                     "uniqueID": "91a777d7-7a7b-4f1e-a787-9afeb52d03b2",
                                     "ioValues": [
                                         {
@@ -7743,8 +7743,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.7757936507936508,
-                                    "y": 0.3519553072625698,
+                                    "x": 0.7797619047619048,
+                                    "y": 0.36592178770949724,
                                     "uniqueID": "00329448-6f2a-4117-87ba-a36abf6e834c",
                                     "ioValues": [
                                         {
@@ -7795,33 +7795,6 @@
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                                     "currentEquation": "-1*X"
-                                },
-                                {
-                                    "atomType": "CutLayout",
-                                    "name": "Cut Layout",
-                                    "x": 0.38095238095238093,
-                                    "y": 0.8212290502793296,
-                                    "uniqueID": "4b510c09-3e96-439f-89a7-05c42d01e70e",
-                                    "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": 1739774163691
-                                        },
-                                        {
-                                            "name": "Sheet Width",
-                                            "ioValue": 1219
-                                        },
-                                        {
-                                            "name": "Sheet Height",
-                                            "ioValue": 2438
-                                        },
-                                        {
-                                            "name": "Part Padding",
-                                            "ioValue": 6
-                                        }
-                                    ],
-                                    "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-                                    "placements": []
                                 }
                             ],
                             "allConnectors": [
@@ -7950,13 +7923,6 @@
                                     "ap2Primary": true,
                                     "ap1ID": 1739774163691,
                                     "ap2ID": "00329448-6f2a-4117-87ba-a36abf6e834c"
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "geometry",
-                                    "ap2Primary": false,
-                                    "ap1ID": 1739774163691,
-                                    "ap2ID": "4b510c09-3e96-439f-89a7-05c42d01e70e"
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -9261,7 +9227,7 @@
                                         {
                                             "atomType": "Extrude",
                                             "name": "Extrude",
-                                            "x": 0.2037037037037037,
+                                            "x": 0.20833333333333334,
                                             "y": 0.8547486033519552,
                                             "uniqueID": "9c2e236c-a8f1-4aaf-8f32-58724fafb12e",
                                             "ioValues": [
@@ -9537,6 +9503,88 @@
                                             ],
                                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                                             "unionType": "Fusion"
+                                        },
+                                        {
+                                            "atomType": "Move",
+                                            "name": "Move",
+                                            "x": 0.6763227513227514,
+                                            "y": 0.2069832402234637,
+                                            "uniqueID": "1a3fb868-2f6c-495c-8b7c-e3f2872f977a",
+                                            "ioValues": [
+                                                {
+                                                    "name": "geometry",
+                                                    "ioValue": 1739774163691
+                                                },
+                                                {
+                                                    "name": "xDist",
+                                                    "ioValue": 1250.46
+                                                },
+                                                {
+                                                    "name": "yDist",
+                                                    "ioValue": 0
+                                                },
+                                                {
+                                                    "name": "zDist",
+                                                    "ioValue": 0
+                                                }
+                                            ],
+                                            "description": "Moves a shape laterally in X, Y, Z."
+                                        },
+                                        {
+                                            "atomType": "Move",
+                                            "name": "Move",
+                                            "x": 0.8297619047619048,
+                                            "y": 0.31592178770949725,
+                                            "uniqueID": "1bba4916-edcc-41f6-83a1-33e56245b28b",
+                                            "ioValues": [
+                                                {
+                                                    "name": "geometry",
+                                                    "ioValue": 1739774163691
+                                                },
+                                                {
+                                                    "name": "xDist",
+                                                    "ioValue": -1250.46
+                                                },
+                                                {
+                                                    "name": "yDist",
+                                                    "ioValue": 0
+                                                },
+                                                {
+                                                    "name": "zDist",
+                                                    "ioValue": 0
+                                                }
+                                            ],
+                                            "description": "Moves a shape laterally in X, Y, Z."
+                                        },
+                                        {
+                                            "atomType": "Equation",
+                                            "name": "1209.0+(2*T)+17.46",
+                                            "x": 0.5810846560846561,
+                                            "y": 0.10083798882681565,
+                                            "uniqueID": "f07340c4-bf53-484a-af3e-0aa73df5df32",
+                                            "ioValues": [
+                                                {
+                                                    "name": "T",
+                                                    "ioValue": 12
+                                                }
+                                            ],
+                                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                            "currentEquation": "1209.0+(2*T)+17.46"
+                                        },
+                                        {
+                                            "atomType": "Equation",
+                                            "name": "-1*X",
+                                            "x": 0.7411375661375662,
+                                            "y": 0.12318435754189942,
+                                            "uniqueID": "fbf488c4-1862-47ac-8c95-f1ea4bc949e5",
+                                            "ioValues": [
+                                                {
+                                                    "name": "X",
+                                                    "ioValue": 1250.46
+                                                }
+                                            ],
+                                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                            "currentEquation": "-1*X"
                                         }
                                     ],
                                     "allConnectors": [
