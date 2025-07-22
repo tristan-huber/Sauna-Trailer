@@ -7278,7 +7278,7 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": "d2b9ddf1-10f2-4e19-bce8-1e043d5e4c07"
+                                            "ioValue": "f683e790-1410-404f-a46b-25ba9749615b"
                                         },
                                         {
                                             "name": "x-axis degrees",
@@ -7370,8 +7370,8 @@
                                 {
                                     "atomType": "Intersection",
                                     "name": "Intersection",
-                                    "x": 0.48148148148148145,
-                                    "y": 0.425,
+                                    "x": 0.33664021164021163,
+                                    "y": 0.5611111111111111,
                                     "uniqueID": 1739774163691,
                                     "ioValues": [
                                         {
@@ -7518,8 +7518,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.15211640211640212,
-                                    "y": 0.6815642458100559,
+                                    "x": 0.13293650793650794,
+                                    "y": 0.6916666666666667,
                                     "uniqueID": "71fa2064-11a3-4663-bf8c-d06becc3273d",
                                     "ioValues": [
                                         {
@@ -7544,8 +7544,8 @@
                                 {
                                     "atomType": "Assembly",
                                     "name": "Assembly",
-                                    "x": 0.28439153439153436,
-                                    "y": 0.40782122905027934,
+                                    "x": 0.20701058201058203,
+                                    "y": 0.4111111111111111,
                                     "uniqueID": "63a309af-b4b9-455c-bfd2-28b71c53145e",
                                     "ioValues": [
                                         {
@@ -7562,8 +7562,8 @@
                                 {
                                     "atomType": "Equation",
                                     "name": "-1*x",
-                                    "x": 0.06613756613756615,
-                                    "y": 0.76536312849162,
+                                    "x": 0.04563492063492063,
+                                    "y": 0.7694444444444444,
                                     "uniqueID": "6bd55a81-8693-4dff-8871-8e8844b73e33",
                                     "ioValues": [
                                         {
@@ -7577,8 +7577,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Wedges",
-                                    "x": 0.14682539682539683,
-                                    "y": 0.4329608938547486,
+                                    "x": 0.1044973544973545,
+                                    "y": 0.46388888888888885,
                                     "uniqueID": "934982d2-d76e-422b-b514-41c4d0cef8c8",
                                     "ioValues": [
                                         {
@@ -8083,8 +8083,8 @@
                                 {
                                     "atomType": "Rotate",
                                     "name": "Rotate",
-                                    "x": 0.24603174603174605,
-                                    "y": 0.5810055865921787,
+                                    "x": 0.1984126984126984,
+                                    "y": 0.5750000000000001,
                                     "uniqueID": "91a777d7-7a7b-4f1e-a787-9afeb52d03b2",
                                     "ioValues": [
                                         {
@@ -8109,8 +8109,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.37037037037037035,
-                                    "y": 0.375,
+                                    "x": 0.27380952380952384,
+                                    "y": 0.37777777777777777,
                                     "uniqueID": "d2b9ddf1-10f2-4e19-bce8-1e043d5e4c07",
                                     "ioValues": [
                                         {
@@ -8217,8 +8217,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Add T Nuts",
-                                    "x": 0.39219576719576715,
-                                    "y": 0.7138888888888889,
+                                    "x": 0.37566137566137564,
+                                    "y": 0.7972222222222223,
                                     "uniqueID": "4c815208-1bec-4ea8-85cd-ee13cef9c217",
                                     "ioValues": [
                                         {
@@ -8242,272 +8242,6 @@
                                                 }
                                             ],
                                             "description": "Connect geometry here to make it available in the next level up. "
-                                        },
-                                        {
-                                            "atomType": "GitHubMolecule",
-                                            "name": "12-20-T-Nut-",
-                                            "x": 0.15674603174603174,
-                                            "y": 0.8111111111111111,
-                                            "uniqueID": "0d37d992-571b-45ee-aba5-d738c4ff6d88",
-                                            "ioValues": [],
-                                            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-                                            "topLevel": false,
-                                            "allAtoms": [
-                                                {
-                                                    "atomType": "Output",
-                                                    "name": "Output",
-                                                    "x": 0.98,
-                                                    "y": 0.5,
-                                                    "uniqueID": "63f6c80d-2a97-438d-aa5a-382ab6608a79",
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "number or geometry",
-                                                            "ioValue": "48b64930-0b5d-414d-aa6c-6d4c2863dad2"
-                                                        }
-                                                    ],
-                                                    "description": "Connect geometry here to make it available in the next level up. "
-                                                },
-                                                {
-                                                    "atomType": "Rectangle",
-                                                    "name": "Rectangle",
-                                                    "x": 0.22751322751322753,
-                                                    "y": 0.6888888888888889,
-                                                    "uniqueID": "564cd656-8bc9-47b3-8355-a6ef965aaee3",
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "x length",
-                                                            "ioValue": 30
-                                                        },
-                                                        {
-                                                            "name": "y length",
-                                                            "ioValue": 18
-                                                        }
-                                                    ],
-                                                    "description": "Creates a new rectangle."
-                                                },
-                                                {
-                                                    "atomType": "Extrude",
-                                                    "name": "Extrude",
-                                                    "x": 0.42526455026455023,
-                                                    "y": 0.6388888888888888,
-                                                    "uniqueID": "afcbba2e-7c83-4d6d-9eec-dcee35347809",
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "geometry",
-                                                            "ioValue": "564cd656-8bc9-47b3-8355-a6ef965aaee3"
-                                                        },
-                                                        {
-                                                            "name": "height",
-                                                            "ioValue": 3
-                                                        }
-                                                    ],
-                                                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                                                },
-                                                {
-                                                    "atomType": "Rectangle",
-                                                    "name": "Rectangle",
-                                                    "x": 0.19378306878306878,
-                                                    "y": 0.26666666666666666,
-                                                    "uniqueID": "03d4a104-67a8-4273-8bb9-b06195ecf0af",
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "x length",
-                                                            "ioValue": 10
-                                                        },
-                                                        {
-                                                            "name": "y length",
-                                                            "ioValue": 10
-                                                        }
-                                                    ],
-                                                    "description": "Creates a new rectangle."
-                                                },
-                                                {
-                                                    "atomType": "Extrude",
-                                                    "name": "Extrude",
-                                                    "x": 0.37566137566137564,
-                                                    "y": 0.3611111111111111,
-                                                    "uniqueID": "9e74b208-218e-4ed0-bec4-705fa0f1ae8e",
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "geometry",
-                                                            "ioValue": "03d4a104-67a8-4273-8bb9-b06195ecf0af"
-                                                        },
-                                                        {
-                                                            "name": "height",
-                                                            "ioValue": 100
-                                                        }
-                                                    ],
-                                                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                                                },
-                                                {
-                                                    "atomType": "Move",
-                                                    "name": "Move",
-                                                    "x": 0.5370370370370371,
-                                                    "y": 0.3805555555555556,
-                                                    "uniqueID": "54c1aa48-3b2b-444f-9cdc-2b188719579a",
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "geometry",
-                                                            "ioValue": "9e74b208-218e-4ed0-bec4-705fa0f1ae8e"
-                                                        },
-                                                        {
-                                                            "name": "xDist",
-                                                            "ioValue": 0
-                                                        },
-                                                        {
-                                                            "name": "yDist",
-                                                            "ioValue": 0
-                                                        },
-                                                        {
-                                                            "name": "zDist",
-                                                            "ioValue": -90
-                                                        }
-                                                    ],
-                                                    "description": "Moves a shape laterally in X, Y, Z."
-                                                },
-                                                {
-                                                    "atomType": "Color",
-                                                    "name": "Color",
-                                                    "x": 0.6653439153439153,
-                                                    "y": 0.23333333333333334,
-                                                    "uniqueID": "f524e7bc-e32f-4386-bae9-033b38ab1fe9",
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "geometry",
-                                                            "ioValue": "54c1aa48-3b2b-444f-9cdc-2b188719579a"
-                                                        }
-                                                    ],
-                                                    "description": "Changes the color of the shape.",
-                                                    "selectedColorIndex": 22
-                                                },
-                                                {
-                                                    "atomType": "Add-BOM-Tag",
-                                                    "name": "Add BOM Tag",
-                                                    "x": 0.5462962962962963,
-                                                    "y": 0.8472222222222222,
-                                                    "uniqueID": "cda95870-d66f-4a58-b5d2-9a310c29de11",
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "geometry",
-                                                            "ioValue": "afcbba2e-7c83-4d6d-9eec-dcee35347809"
-                                                        }
-                                                    ],
-                                                    "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
-                                                    "BOMitem": {
-                                                        "BOMitemName": "1/4-20 T-Nut",
-                                                        "numberNeeded": 1,
-                                                        "costUSD": 0.51,
-                                                        "source": "https://www.amazon.com/dp/B08WFG7WYP?ref=ppx_yo2ov_dt_b_fed_asin_title"
-                                                    }
-                                                },
-                                                {
-                                                    "atomType": "Assembly",
-                                                    "name": "Assembly",
-                                                    "x": 0.7427248677248677,
-                                                    "y": 0.5888888888888889,
-                                                    "uniqueID": "48b64930-0b5d-414d-aa6c-6d4c2863dad2",
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "Shape 1",
-                                                            "ioValue": "cda95870-d66f-4a58-b5d2-9a310c29de11"
-                                                        },
-                                                        {
-                                                            "name": "Shape 2",
-                                                            "ioValue": "f524e7bc-e32f-4386-bae9-033b38ab1fe9"
-                                                        }
-                                                    ],
-                                                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-                                                }
-                                            ],
-                                            "allConnectors": [
-                                                {
-                                                    "ap1Name": "geometry",
-                                                    "ap2Name": "geometry",
-                                                    "ap2Primary": true,
-                                                    "ap1ID": "564cd656-8bc9-47b3-8355-a6ef965aaee3",
-                                                    "ap2ID": "afcbba2e-7c83-4d6d-9eec-dcee35347809"
-                                                },
-                                                {
-                                                    "ap1Name": "geometry",
-                                                    "ap2Name": "geometry",
-                                                    "ap2Primary": true,
-                                                    "ap1ID": "afcbba2e-7c83-4d6d-9eec-dcee35347809",
-                                                    "ap2ID": "cda95870-d66f-4a58-b5d2-9a310c29de11"
-                                                },
-                                                {
-                                                    "ap1Name": "geometry",
-                                                    "ap2Name": "geometry",
-                                                    "ap2Primary": true,
-                                                    "ap1ID": "03d4a104-67a8-4273-8bb9-b06195ecf0af",
-                                                    "ap2ID": "9e74b208-218e-4ed0-bec4-705fa0f1ae8e"
-                                                },
-                                                {
-                                                    "ap1Name": "geometry",
-                                                    "ap2Name": "geometry",
-                                                    "ap2Primary": true,
-                                                    "ap1ID": "9e74b208-218e-4ed0-bec4-705fa0f1ae8e",
-                                                    "ap2ID": "54c1aa48-3b2b-444f-9cdc-2b188719579a"
-                                                },
-                                                {
-                                                    "ap1Name": "geometry",
-                                                    "ap2Name": "geometry",
-                                                    "ap2Primary": true,
-                                                    "ap1ID": "54c1aa48-3b2b-444f-9cdc-2b188719579a",
-                                                    "ap2ID": "f524e7bc-e32f-4386-bae9-033b38ab1fe9"
-                                                },
-                                                {
-                                                    "ap1Name": "geometry",
-                                                    "ap2Name": "Shape 2",
-                                                    "ap2Primary": false,
-                                                    "ap1ID": "f524e7bc-e32f-4386-bae9-033b38ab1fe9",
-                                                    "ap2ID": "48b64930-0b5d-414d-aa6c-6d4c2863dad2"
-                                                },
-                                                {
-                                                    "ap1Name": "geometry",
-                                                    "ap2Name": "Shape 1",
-                                                    "ap2Primary": false,
-                                                    "ap1ID": "cda95870-d66f-4a58-b5d2-9a310c29de11",
-                                                    "ap2ID": "48b64930-0b5d-414d-aa6c-6d4c2863dad2"
-                                                },
-                                                {
-                                                    "ap1Name": "geometry",
-                                                    "ap2Name": "number or geometry",
-                                                    "ap2Primary": false,
-                                                    "ap1ID": "48b64930-0b5d-414d-aa6c-6d4c2863dad2",
-                                                    "ap2ID": "63f6c80d-2a97-438d-aa5a-382ab6608a79"
-                                                }
-                                            ],
-                                            "parentRepo": {
-                                                "privateRepo": false,
-                                                "repoName": "12-20-T-Nut-",
-                                                "dateCreated": "2025-07-22T18:42:42Z",
-                                                "readMe": "https://raw.githubusercontent.com/BarbourSmith/12-20-T-Nut-/master/README.md?sanitize=true",
-                                                "yyyy": 2025,
-                                                "topMoleculeID": "46c8ed3a-3d31-49c6-8f07-ee7f924d554c",
-                                                "githubMoleculesUsed": [],
-                                                "html_url": "https://github.com/BarbourSmith/12-20-T-Nut-",
-                                                "topics": [],
-                                                "parentRepo": null,
-                                                "forks": 0,
-                                                "dateModified": "739454",
-                                                "ranking": 0,
-                                                "searchField": "12-20-t-nut- barboursmith a 1/4-20 t nut with a slot for the bolt  ",
-                                                "owner": "BarbourSmith",
-                                                "description": "A 1/4-20 T nut with a slot for the bolt ",
-                                                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/12-20-T-Nut-/master/project.abundance?sanitize=true",
-                                                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/12-20-T-Nut-/master/project.svg?sanitize=true",
-                                                "isLocal": false
-                                            },
-                                            "unitsKey": "MM",
-                                            "fileTypeVersion": 1,
-                                            "compiledBom": [
-                                                {
-                                                    "BOMitemName": "1/4-20 T-Nut",
-                                                    "numberNeeded": 1,
-                                                    "costUSD": 0.51,
-                                                    "source": "https://www.amazon.com/dp/B08WFG7WYP?ref=ppx_yo2ov_dt_b_fed_asin_title"
-                                                }
-                                            ]
                                         },
                                         {
                                             "atomType": "Input",
@@ -8550,7 +8284,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "geometry",
-                                                    "ioValue": "0d37d992-571b-45ee-aba5-d738c4ff6d88"
+                                                    "ioValue": "d679c7a2-11ab-4716-a8c6-4aa28a493470"
                                                 },
                                                 {
                                                     "name": "xDist",
@@ -8576,7 +8310,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "geometry",
-                                                    "ioValue": "0d37d992-571b-45ee-aba5-d738c4ff6d88"
+                                                    "ioValue": "d679c7a2-11ab-4716-a8c6-4aa28a493470"
                                                 },
                                                 {
                                                     "name": "xDist",
@@ -8592,23 +8326,275 @@
                                                 }
                                             ],
                                             "description": "Moves a shape laterally in X, Y, Z."
+                                        },
+                                        {
+                                            "atomType": "GitHubMolecule",
+                                            "name": "12-20-T-Nut-",
+                                            "x": 0.15674603174603174,
+                                            "y": 0.8111111111111111,
+                                            "uniqueID": "d679c7a2-11ab-4716-a8c6-4aa28a493470",
+                                            "ioValues": [],
+                                            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                                            "topLevel": false,
+                                            "allAtoms": [
+                                                {
+                                                    "atomType": "Output",
+                                                    "name": "Output",
+                                                    "x": 0.98,
+                                                    "y": 0.5,
+                                                    "uniqueID": "7e81de36-fed2-416a-9805-60d5ecc32435",
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "number or geometry",
+                                                            "ioValue": "9f9a773c-6c57-4aab-83fb-04600ef96b45"
+                                                        }
+                                                    ],
+                                                    "description": "Connect geometry here to make it available in the next level up. "
+                                                },
+                                                {
+                                                    "atomType": "Rectangle",
+                                                    "name": "Rectangle",
+                                                    "x": 0.22751322751322753,
+                                                    "y": 0.6888888888888889,
+                                                    "uniqueID": "6c150c5c-bd2d-4077-a110-da782ee2d812",
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "x length",
+                                                            "ioValue": 30
+                                                        },
+                                                        {
+                                                            "name": "y length",
+                                                            "ioValue": 18
+                                                        }
+                                                    ],
+                                                    "description": "Creates a new rectangle."
+                                                },
+                                                {
+                                                    "atomType": "Extrude",
+                                                    "name": "Extrude",
+                                                    "x": 0.419973544973545,
+                                                    "y": 0.6416666666666666,
+                                                    "uniqueID": "1b09f1ea-80d3-422c-a066-b09b1af5c91e",
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "geometry",
+                                                            "ioValue": "6c150c5c-bd2d-4077-a110-da782ee2d812"
+                                                        },
+                                                        {
+                                                            "name": "height",
+                                                            "ioValue": 7
+                                                        }
+                                                    ],
+                                                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                                                },
+                                                {
+                                                    "atomType": "Rectangle",
+                                                    "name": "Rectangle",
+                                                    "x": 0.19378306878306878,
+                                                    "y": 0.26666666666666666,
+                                                    "uniqueID": "a0df6c52-bba8-4e8e-ad85-06001abf9613",
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "x length",
+                                                            "ioValue": 10
+                                                        },
+                                                        {
+                                                            "name": "y length",
+                                                            "ioValue": 10
+                                                        }
+                                                    ],
+                                                    "description": "Creates a new rectangle."
+                                                },
+                                                {
+                                                    "atomType": "Extrude",
+                                                    "name": "Extrude",
+                                                    "x": 0.37566137566137564,
+                                                    "y": 0.3611111111111111,
+                                                    "uniqueID": "b1522ef5-371a-4b00-9054-d9dd55d08774",
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "geometry",
+                                                            "ioValue": "a0df6c52-bba8-4e8e-ad85-06001abf9613"
+                                                        },
+                                                        {
+                                                            "name": "height",
+                                                            "ioValue": 100
+                                                        }
+                                                    ],
+                                                    "description": "Extrudes a 2D shape. Input can be negitive. "
+                                                },
+                                                {
+                                                    "atomType": "Move",
+                                                    "name": "Move",
+                                                    "x": 0.5370370370370371,
+                                                    "y": 0.3805555555555556,
+                                                    "uniqueID": "4ea45507-e638-4d89-bc36-3bfde62d8805",
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "geometry",
+                                                            "ioValue": "b1522ef5-371a-4b00-9054-d9dd55d08774"
+                                                        },
+                                                        {
+                                                            "name": "xDist",
+                                                            "ioValue": 0
+                                                        },
+                                                        {
+                                                            "name": "yDist",
+                                                            "ioValue": 0
+                                                        },
+                                                        {
+                                                            "name": "zDist",
+                                                            "ioValue": -60
+                                                        }
+                                                    ],
+                                                    "description": "Moves a shape laterally in X, Y, Z."
+                                                },
+                                                {
+                                                    "atomType": "Color",
+                                                    "name": "Color",
+                                                    "x": 0.6653439153439153,
+                                                    "y": 0.23333333333333334,
+                                                    "uniqueID": "083e1b88-86c2-43e0-a0ad-c843e3f091eb",
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "geometry",
+                                                            "ioValue": "4ea45507-e638-4d89-bc36-3bfde62d8805"
+                                                        }
+                                                    ],
+                                                    "description": "Changes the color of the shape.",
+                                                    "selectedColorIndex": 22
+                                                },
+                                                {
+                                                    "atomType": "Add-BOM-Tag",
+                                                    "name": "Add BOM Tag",
+                                                    "x": 0.5462962962962963,
+                                                    "y": 0.8472222222222222,
+                                                    "uniqueID": "f2c8d2a8-7ad7-4b5f-bf2a-818df209f11e",
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "geometry",
+                                                            "ioValue": "1b09f1ea-80d3-422c-a066-b09b1af5c91e"
+                                                        }
+                                                    ],
+                                                    "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
+                                                    "BOMitem": {
+                                                        "BOMitemName": "1/4-20 T-Nut",
+                                                        "numberNeeded": 1,
+                                                        "costUSD": 0.51,
+                                                        "source": "https://www.amazon.com/dp/B08WFG7WYP?ref=ppx_yo2ov_dt_b_fed_asin_title"
+                                                    }
+                                                },
+                                                {
+                                                    "atomType": "Assembly",
+                                                    "name": "Assembly",
+                                                    "x": 0.7427248677248677,
+                                                    "y": 0.5888888888888889,
+                                                    "uniqueID": "9f9a773c-6c57-4aab-83fb-04600ef96b45",
+                                                    "ioValues": [
+                                                        {
+                                                            "name": "Shape 1",
+                                                            "ioValue": "f2c8d2a8-7ad7-4b5f-bf2a-818df209f11e"
+                                                        },
+                                                        {
+                                                            "name": "Shape 2",
+                                                            "ioValue": "083e1b88-86c2-43e0-a0ad-c843e3f091eb"
+                                                        }
+                                                    ],
+                                                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                                                }
+                                            ],
+                                            "allConnectors": [
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "geometry",
+                                                    "ap2Primary": true,
+                                                    "ap1ID": "6c150c5c-bd2d-4077-a110-da782ee2d812",
+                                                    "ap2ID": "1b09f1ea-80d3-422c-a066-b09b1af5c91e"
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "geometry",
+                                                    "ap2Primary": true,
+                                                    "ap1ID": "1b09f1ea-80d3-422c-a066-b09b1af5c91e",
+                                                    "ap2ID": "f2c8d2a8-7ad7-4b5f-bf2a-818df209f11e"
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "geometry",
+                                                    "ap2Primary": true,
+                                                    "ap1ID": "a0df6c52-bba8-4e8e-ad85-06001abf9613",
+                                                    "ap2ID": "b1522ef5-371a-4b00-9054-d9dd55d08774"
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "geometry",
+                                                    "ap2Primary": true,
+                                                    "ap1ID": "b1522ef5-371a-4b00-9054-d9dd55d08774",
+                                                    "ap2ID": "4ea45507-e638-4d89-bc36-3bfde62d8805"
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "geometry",
+                                                    "ap2Primary": true,
+                                                    "ap1ID": "4ea45507-e638-4d89-bc36-3bfde62d8805",
+                                                    "ap2ID": "083e1b88-86c2-43e0-a0ad-c843e3f091eb"
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "Shape 2",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": "083e1b88-86c2-43e0-a0ad-c843e3f091eb",
+                                                    "ap2ID": "9f9a773c-6c57-4aab-83fb-04600ef96b45"
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "Shape 1",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": "f2c8d2a8-7ad7-4b5f-bf2a-818df209f11e",
+                                                    "ap2ID": "9f9a773c-6c57-4aab-83fb-04600ef96b45"
+                                                },
+                                                {
+                                                    "ap1Name": "geometry",
+                                                    "ap2Name": "number or geometry",
+                                                    "ap2Primary": false,
+                                                    "ap1ID": "9f9a773c-6c57-4aab-83fb-04600ef96b45",
+                                                    "ap2ID": "7e81de36-fed2-416a-9805-60d5ecc32435"
+                                                }
+                                            ],
+                                            "parentRepo": {
+                                                "privateRepo": false,
+                                                "repoName": "12-20-T-Nut-",
+                                                "dateCreated": "2025-07-22T18:42:42Z",
+                                                "readMe": "https://raw.githubusercontent.com/BarbourSmith/12-20-T-Nut-/master/README.md?sanitize=true",
+                                                "yyyy": 2025,
+                                                "topMoleculeID": "46c8ed3a-3d31-49c6-8f07-ee7f924d554c",
+                                                "githubMoleculesUsed": [],
+                                                "html_url": "https://github.com/BarbourSmith/12-20-T-Nut-",
+                                                "topics": [],
+                                                "parentRepo": null,
+                                                "forks": 0,
+                                                "dateModified": "739454",
+                                                "ranking": 0,
+                                                "searchField": "12-20-t-nut- barboursmith a 1/4-20 t nut with a slot for the bolt  ",
+                                                "owner": "BarbourSmith",
+                                                "description": "A 1/4-20 T nut with a slot for the bolt ",
+                                                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/12-20-T-Nut-/master/project.abundance?sanitize=true",
+                                                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/12-20-T-Nut-/master/project.svg?sanitize=true",
+                                                "isLocal": false
+                                            },
+                                            "unitsKey": "MM",
+                                            "fileTypeVersion": 1,
+                                            "compiledBom": [
+                                                {
+                                                    "BOMitemName": "1/4-20 T-Nut",
+                                                    "numberNeeded": 1,
+                                                    "costUSD": 0.51,
+                                                    "source": "https://www.amazon.com/dp/B08WFG7WYP?ref=ppx_yo2ov_dt_b_fed_asin_title"
+                                                }
+                                            ]
                                         }
                                     ],
                                     "allConnectors": [
-                                        {
-                                            "ap1Name": "Geometry",
-                                            "ap2Name": "geometry",
-                                            "ap2Primary": true,
-                                            "ap1ID": "0d37d992-571b-45ee-aba5-d738c4ff6d88",
-                                            "ap2ID": "22322860-0b05-4148-aadc-5f03f200fa08"
-                                        },
-                                        {
-                                            "ap1Name": "Geometry",
-                                            "ap2Name": "geometry",
-                                            "ap2Primary": true,
-                                            "ap1ID": "0d37d992-571b-45ee-aba5-d738c4ff6d88",
-                                            "ap2ID": "9e268c49-8ede-4543-b3f4-ddb796d71427"
-                                        },
                                         {
                                             "ap1Name": "number or geometry",
                                             "ap2Name": "Shape 1",
@@ -8636,10 +8622,41 @@
                                             "ap2Primary": false,
                                             "ap1ID": "9e268c49-8ede-4543-b3f4-ddb796d71427",
                                             "ap2ID": "5dfb2994-55fd-46f2-9cda-e90844423e31"
+                                        },
+                                        {
+                                            "ap1Name": "Geometry",
+                                            "ap2Name": "geometry",
+                                            "ap2Primary": true,
+                                            "ap1ID": "d679c7a2-11ab-4716-a8c6-4aa28a493470",
+                                            "ap2ID": "22322860-0b05-4148-aadc-5f03f200fa08"
+                                        },
+                                        {
+                                            "ap1Name": "Geometry",
+                                            "ap2Name": "geometry",
+                                            "ap2Primary": true,
+                                            "ap1ID": "d679c7a2-11ab-4716-a8c6-4aa28a493470",
+                                            "ap2ID": "9e268c49-8ede-4543-b3f4-ddb796d71427"
                                         }
                                     ],
                                     "fileTypeVersion": 1,
                                     "compiledBom": {}
+                                },
+                                {
+                                    "atomType": "Tag",
+                                    "name": "Ring Wood",
+                                    "x": 0.3611111111111111,
+                                    "y": 0.275,
+                                    "uniqueID": "f683e790-1410-404f-a46b-25ba9749615b",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "d2b9ddf1-10f2-4e19-bce8-1e043d5e4c07"
+                                        }
+                                    ],
+                                    "description": "Tags geometry so that it can be extracted later.",
+                                    "tags": [
+                                        "Ring Wood"
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -8858,7 +8875,7 @@
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
                                     "ap1ID": "d2b9ddf1-10f2-4e19-bce8-1e043d5e4c07",
-                                    "ap2ID": 1739774144339
+                                    "ap2ID": "f683e790-1410-404f-a46b-25ba9749615b"
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -8894,6 +8911,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": "67553a88-3ecf-47c7-9c5e-cf85f19b9755",
                                     "ap2ID": "00329448-6f2a-4117-87ba-a36abf6e834c"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": "f683e790-1410-404f-a46b-25ba9749615b",
+                                    "ap2ID": 1739774144339
                                 }
                             ],
                             "fileTypeVersion": 1,
