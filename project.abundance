@@ -8671,8 +8671,158 @@
                                         }
                                     ],
                                     "description": "Extracts geometry containing the specified tag.",
-                                    "tag": "",
+                                    "tag": "Ring Wood",
                                     "tagIndex": 0
+                                },
+                                {
+                                    "atomType": "CutLayout",
+                                    "name": "Cut Layout",
+                                    "x": 0.36574074074074076,
+                                    "y": 0.861111111111111,
+                                    "uniqueID": "4295d040-7dad-441b-9ef7-7ff556dfe94f",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "aef3fcff-7b51-457f-bbff-3d6a853e2a23"
+                                        },
+                                        {
+                                            "name": "Sheet Width",
+                                            "ioValue": 1219
+                                        },
+                                        {
+                                            "name": "Sheet Height",
+                                            "ioValue": 2438
+                                        },
+                                        {
+                                            "name": "Part Padding",
+                                            "ioValue": 6
+                                        }
+                                    ],
+                                    "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+                                    "placements": [
+                                        [
+                                            {
+                                                "id": 4,
+                                                "rotate": 0,
+                                                "translate": {
+                                                    "x": 38015.42898177381,
+                                                    "y": 286.13649558588656
+                                                }
+                                            },
+                                            {
+                                                "id": 1,
+                                                "rotate": 90,
+                                                "translate": {
+                                                    "x": 106.91537269999483,
+                                                    "y": -84007.6694028
+                                                }
+                                            },
+                                            {
+                                                "id": 2,
+                                                "rotate": 90,
+                                                "translate": {
+                                                    "x": 484.2418063966036,
+                                                    "y": -83818.59021461601
+                                                }
+                                            },
+                                            {
+                                                "id": 3,
+                                                "rotate": 150,
+                                                "translate": {
+                                                    "x": -5.355370281041019,
+                                                    "y": 1129.0254113092446
+                                                }
+                                            },
+                                            {
+                                                "id": 5,
+                                                "rotate": 180,
+                                                "translate": {
+                                                    "x": -52428.98982472249,
+                                                    "y": 702.7901304478482
+                                                }
+                                            },
+                                            {
+                                                "id": 6,
+                                                "rotate": 60,
+                                                "translate": {
+                                                    "x": 19073.784407011997,
+                                                    "y": 32371.910667057768
+                                                }
+                                            },
+                                            {
+                                                "id": 12,
+                                                "rotate": 330,
+                                                "translate": {
+                                                    "x": 41047.366490923254,
+                                                    "y": -24821.660259516444
+                                                }
+                                            },
+                                            {
+                                                "id": 13,
+                                                "rotate": 60,
+                                                "translate": {
+                                                    "x": 25222.059494729332,
+                                                    "y": 44559.86489063917
+                                                }
+                                            },
+                                            {
+                                                "id": 0,
+                                                "rotate": 180,
+                                                "translate": {
+                                                    "x": 764.6688421604451,
+                                                    "y": 1649.6082698944028
+                                                }
+                                            },
+                                            {
+                                                "id": 7,
+                                                "rotate": 180,
+                                                "translate": {
+                                                    "x": 18807.541737900003,
+                                                    "y": 1803.2471077999976
+                                                }
+                                            },
+                                            {
+                                                "id": 11,
+                                                "rotate": 150,
+                                                "translate": {
+                                                    "x": -15660.331403906634,
+                                                    "y": 11214.743094196805
+                                                }
+                                            },
+                                            {
+                                                "id": 14,
+                                                "rotate": 0,
+                                                "translate": {
+                                                    "x": 22426.16479072767,
+                                                    "y": 2119.964238241421
+                                                }
+                                            },
+                                            {
+                                                "id": 9,
+                                                "rotate": 120,
+                                                "translate": {
+                                                    "x": -59584.5572505241,
+                                                    "y": 104747.48123124943
+                                                }
+                                            },
+                                            {
+                                                "id": 8,
+                                                "rotate": 270,
+                                                "translate": {
+                                                    "x": 720.9403940141252,
+                                                    "y": -124452.26993532835
+                                                }
+                                            },
+                                            {
+                                                "id": 10,
+                                                "rotate": 300,
+                                                "translate": {
+                                                    "x": -10343.670910379551,
+                                                    "y": 19932.935536639598
+                                                }
+                                            }
+                                        ]
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -8941,6 +9091,13 @@
                                     "ap2Primary": true,
                                     "ap1ID": "f683e790-1410-404f-a46b-25ba9749615b",
                                     "ap2ID": 1739774144339
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": "aef3fcff-7b51-457f-bbff-3d6a853e2a23",
+                                    "ap2ID": "4295d040-7dad-441b-9ef7-7ff556dfe94f"
                                 }
                             ],
                             "fileTypeVersion": 1,
