@@ -14,12 +14,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1738956155478,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1738956922193
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -1662,12 +1657,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1738956170776,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "63c8e0a8-8199-47fa-a620-8f3f4bec0b56"
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -7185,8 +7175,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Vertical",
-                            "x": 0.33465608465608465,
-                            "y": 0.3435754189944134,
+                            "x": 0.3406084656084656,
+                            "y": 0.3638888888888889,
                             "uniqueID": 1739774127244,
                             "ioValues": [
                                 {
@@ -14843,12 +14833,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1740179206055,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1740179248398
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
