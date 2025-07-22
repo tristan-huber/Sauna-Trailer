@@ -7370,8 +7370,8 @@
                                 {
                                     "atomType": "Intersection",
                                     "name": "Intersection",
-                                    "x": 0.3716931216931217,
-                                    "y": 0.7416666666666667,
+                                    "x": 0.2962962962962963,
+                                    "y": 0.7111111111111111,
                                     "uniqueID": 1739774163691,
                                     "ioValues": [
                                         {
@@ -8217,8 +8217,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Add T Nuts",
-                                    "x": 0.48412698412698413,
-                                    "y": 0.4666666666666667,
+                                    "x": 0.46825396825396826,
+                                    "y": 0.47500000000000003,
                                     "uniqueID": "4c815208-1bec-4ea8-85cd-ee13cef9c217",
                                     "ioValues": [
                                         {
@@ -8657,6 +8657,22 @@
                                     "tags": [
                                         "Ring Wood"
                                     ]
+                                },
+                                {
+                                    "atomType": "ExtractTag",
+                                    "name": "Extract Tag",
+                                    "x": 0.18849206349206352,
+                                    "y": 0.9027777777777777,
+                                    "uniqueID": "aef3fcff-7b51-457f-bbff-3d6a853e2a23",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "4c815208-1bec-4ea8-85cd-ee13cef9c217"
+                                        }
+                                    ],
+                                    "description": "Extracts geometry containing the specified tag.",
+                                    "tag": "",
+                                    "tagIndex": 0
                                 }
                             ],
                             "allConnectors": [
@@ -8911,6 +8927,13 @@
                                     "ap2Primary": true,
                                     "ap1ID": "4c815208-1bec-4ea8-85cd-ee13cef9c217",
                                     "ap2ID": "9e37a033-39eb-4ead-bcc9-45ee39ad6e12"
+                                },
+                                {
+                                    "ap1Name": "Geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": "4c815208-1bec-4ea8-85cd-ee13cef9c217",
+                                    "ap2ID": "aef3fcff-7b51-457f-bbff-3d6a853e2a23"
                                 },
                                 {
                                     "ap1Name": "geometry",
