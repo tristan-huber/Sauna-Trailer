@@ -1639,8 +1639,8 @@
         {
             "atomType": "Molecule",
             "name": "Sauna",
-            "x": 0.20105820105820105,
-            "y": 0.7888888888888889,
+            "x": 0.19444444444444442,
+            "y": 0.7944444444444444,
             "uniqueID": 1738956170299,
             "ioValues": [
                 {
@@ -7122,8 +7122,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Split Apart",
-                    "x": 0.36904761904761907,
-                    "y": 0.7,
+                    "x": 0.3664021164021164,
+                    "y": 0.7111111111111111,
                     "uniqueID": 1739773891659,
                     "ioValues": [
                         {
@@ -7144,12 +7144,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1739773892054,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1739774227831
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -8207,8 +8202,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Add T Nuts",
-                                    "x": 0.46825396825396826,
-                                    "y": 0.47500000000000003,
+                                    "x": 0.42063492063492064,
+                                    "y": 0.4444444444444444,
                                     "uniqueID": "4c815208-1bec-4ea8-85cd-ee13cef9c217",
                                     "ioValues": [
                                         {
@@ -8651,8 +8646,8 @@
                                 {
                                     "atomType": "ExtractTag",
                                     "name": "Extract Tag",
-                                    "x": 0.18783068783068782,
-                                    "y": 0.9249999999999999,
+                                    "x": 0.3406084656084656,
+                                    "y": 0.9222222222222223,
                                     "uniqueID": "aef3fcff-7b51-457f-bbff-3d6a853e2a23",
                                     "ioValues": [
                                         {
@@ -8667,8 +8662,8 @@
                                 {
                                     "atomType": "CutLayout",
                                     "name": "Cut Layout",
-                                    "x": 0.3855820105820106,
-                                    "y": 0.8888888888888888,
+                                    "x": 0.408068783068783,
+                                    "y": 0.8805555555555555,
                                     "uniqueID": "4295d040-7dad-441b-9ef7-7ff556dfe94f",
                                     "ioValues": [
                                         {
