@@ -5568,8 +5568,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Split Apart",
-                                    "x": 0.4470899470899471,
-                                    "y": 0.766016713091922,
+                                    "x": 0.46097883597883593,
+                                    "y": 0.796657381615599,
                                     "uniqueID": "4c901fda-c35e-4c8c-ac7c-44bc0bda7220",
                                     "ioValues": [
                                         {
@@ -5620,13 +5620,13 @@
                                         {
                                             "atomType": "GitHubMolecule",
                                             "name": "Isosceles-Triangle---Angle",
-                                            "x": 0.17724867724867727,
-                                            "y": 0.611731843575419,
+                                            "x": 0.17592592592592593,
+                                            "y": 0.6350974930362118,
                                             "uniqueID": "1b74319b-acfd-4b28-aa1d-e1439a6837ee",
                                             "ioValues": [
                                                 {
                                                     "name": "Angle",
-                                                    "ioValue": 45
+                                                    "ioValue": 72
                                                 },
                                                 {
                                                     "name": "Height",
@@ -5663,7 +5663,7 @@
                                                     "ioValues": [
                                                         {
                                                             "name": "angle",
-                                                            "ioValue": 45
+                                                            "ioValue": 72
                                                         },
                                                         {
                                                             "name": "height",
@@ -5793,8 +5793,8 @@
                                         {
                                             "atomType": "GitHubMolecule",
                                             "name": "RotatePattern",
-                                            "x": 0.41865079365079366,
-                                            "y": 0.5921787709497207,
+                                            "x": 0.4173280423280424,
+                                            "y": 0.4512534818941504,
                                             "uniqueID": "74e99b20-dee7-4eaf-b703-75f4e64475d9",
                                             "ioValues": [
                                                 {
@@ -5803,11 +5803,11 @@
                                                 },
                                                 {
                                                     "name": "Number",
-                                                    "ioValue": 8
+                                                    "ioValue": 5
                                                 },
                                                 {
                                                     "name": "Angle",
-                                                    "ioValue": 45
+                                                    "ioValue": 72
                                                 }
                                             ],
                                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -5907,11 +5907,11 @@
                                                         },
                                                         {
                                                             "name": "Number",
-                                                            "ioValue": 8
+                                                            "ioValue": 5
                                                         },
                                                         {
                                                             "name": "Angle",
-                                                            "ioValue": 45
+                                                            "ioValue": 72
                                                         }
                                                     ],
                                                     "description": "Defines a Replicad code block.",
@@ -6331,8 +6331,8 @@
                                 {
                                     "atomType": "CutLayout",
                                     "name": "Cut Layout",
-                                    "x": 0.6388888888888888,
-                                    "y": 0.6880222841225626,
+                                    "x": 0.6375661375661376,
+                                    "y": 0.6991643454038997,
                                     "uniqueID": "0f7ee4ac-1ad2-4749-a48e-69dee07c8169",
                                     "ioValues": [
                                         {
@@ -6426,19 +6426,45 @@
                                     "atomType": "Rectangle",
                                     "name": "Rectangle",
                                     "x": 0.7585978835978836,
-                                    "y": 0.777158774373259,
+                                    "y": 0.7910863509749304,
                                     "uniqueID": "69d603a2-5351-4e7a-a78b-c8f94165cd54",
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 2438
+                                            "ioValue": 1219
                                         },
                                         {
                                             "name": "y length",
-                                            "ioValue": 1219
+                                            "ioValue": 2438
                                         }
                                     ],
                                     "description": "Creates a new rectangle."
+                                },
+                                {
+                                    "atomType": "Move",
+                                    "name": "Move",
+                                    "x": 0.8756613756613756,
+                                    "y": 0.796657381615599,
+                                    "uniqueID": "f61c6220-1dd7-43e8-aa75-24e14e32e674",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": ""
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0
+                                        }
+                                    ],
+                                    "description": "Moves a shape laterally in X, Y, Z."
                                 }
                             ],
                             "allConnectors": [
