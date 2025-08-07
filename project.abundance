@@ -5626,7 +5626,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "Angle",
-                                                    "ioValue": 72
+                                                    "ioValue": 90
                                                 },
                                                 {
                                                     "name": "Height",
@@ -5663,7 +5663,7 @@
                                                     "ioValues": [
                                                         {
                                                             "name": "angle",
-                                                            "ioValue": 72
+                                                            "ioValue": 90
                                                         },
                                                         {
                                                             "name": "height",
@@ -5803,11 +5803,11 @@
                                                 },
                                                 {
                                                     "name": "Number",
-                                                    "ioValue": 5
+                                                    "ioValue": 4
                                                 },
                                                 {
                                                     "name": "Angle",
-                                                    "ioValue": 72
+                                                    "ioValue": 90
                                                 }
                                             ],
                                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -5907,11 +5907,11 @@
                                                         },
                                                         {
                                                             "name": "Number",
-                                                            "ioValue": 5
+                                                            "ioValue": 4
                                                         },
                                                         {
                                                             "name": "Angle",
-                                                            "ioValue": 72
+                                                            "ioValue": 90
                                                         }
                                                     ],
                                                     "description": "Defines a Replicad code block.",
@@ -6331,8 +6331,8 @@
                                 {
                                     "atomType": "CutLayout",
                                     "name": "Cut Layout",
-                                    "x": 0.6441798941798942,
-                                    "y": 0.7270194986072424,
+                                    "x": 0.6448412698412699,
+                                    "y": 0.7437325905292479,
                                     "uniqueID": "0f7ee4ac-1ad2-4749-a48e-69dee07c8169",
                                     "ioValues": [
                                         {
@@ -6356,83 +6356,67 @@
                                     "placements": [
                                         [
                                             {
+                                                "id": 1,
+                                                "rotate": 0,
+                                                "translate": {
+                                                    "x": 0,
+                                                    "y": 0
+                                                }
+                                            },
+                                            {
                                                 "id": 3,
                                                 "rotate": 60,
                                                 "translate": {
-                                                    "x": 405.4958790621956,
-                                                    "y": 207.83201469345408
-                                                }
-                                            },
-                                            {
-                                                "id": 1,
-                                                "rotate": 240,
-                                                "translate": {
-                                                    "x": 443.266179441889,
-                                                    "y": 558.5951924208825
-                                                }
-                                            },
-                                            {
-                                                "id": 4,
-                                                "rotate": 240,
-                                                "translate": {
-                                                    "x": 319.10778468731286,
-                                                    "y": 810.9916839130174
-                                                }
-                                            },
-                                            {
-                                                "id": 2,
-                                                "rotate": 300,
-                                                "translate": {
-                                                    "x": 474.9598392304823,
-                                                    "y": 1109.7897324547569
-                                                }
-                                            },
-                                            {
-                                                "id": 5,
-                                                "rotate": 270,
-                                                "translate": {
-                                                    "x": 544.3769008872081,
-                                                    "y": 1392.2605899403611
-                                                }
-                                            },
-                                            {
-                                                "id": 8,
-                                                "rotate": 30,
-                                                "translate": {
-                                                    "x": 464.10013006309305,
-                                                    "y": 1956.0894809253
+                                                    "x": 475.5616849381019,
+                                                    "y": 305.82243633607436
                                                 }
                                             },
                                             {
                                                 "id": 0,
-                                                "rotate": 300,
+                                                "rotate": 90,
                                                 "translate": {
-                                                    "x": 191.25902176625056,
-                                                    "y": 1486.2687482252409
+                                                    "x": 854.853686313636,
+                                                    "y": 699.2574481384111
+                                                }
+                                            },
+                                            {
+                                                "id": 2,
+                                                "rotate": 210,
+                                                "translate": {
+                                                    "x": 516.4329631747378,
+                                                    "y": 1220.8648898739796
                                                 }
                                             },
                                             {
                                                 "id": 6,
-                                                "rotate": 60,
+                                                "rotate": 270,
                                                 "translate": {
-                                                    "x": 444.53313849004076,
-                                                    "y": 2104.904777823114
+                                                    "x": 252.01109070585713,
+                                                    "y": 1616.227253899386
                                                 }
                                             },
                                             {
                                                 "id": 7,
-                                                "rotate": 330,
+                                                "rotate": 180,
                                                 "translate": {
-                                                    "x": 430.46745691962445,
-                                                    "y": 2407.935361551689
+                                                    "x": 342.2106204766411,
+                                                    "y": 1657.1893465869073
                                                 }
                                             },
                                             {
-                                                "id": 9,
-                                                "rotate": 0,
+                                                "id": 4,
+                                                "rotate": 180,
                                                 "translate": {
-                                                    "x": 594.1733794571162,
-                                                    "y": 2730.3740253421083
+                                                    "x": 503.2357339,
+                                                    "y": 2356.9444951
+                                                }
+                                            },
+                                            {
+                                                "id": 5,
+                                                "rotate": 90,
+                                                "translate": {
+                                                    "x": 503.23573390894325,
+                                                    "y": 2508.9574559927037
                                                 }
                                             }
                                         ]
