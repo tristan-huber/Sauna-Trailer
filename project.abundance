@@ -5492,7 +5492,7 @@
                                     "ioValues": [
                                         {
                                             "name": "number or geometry",
-                                            "ioValue": "df002fb8-148e-4b87-826f-53ef339bc64f"
+                                            "ioValue": "69d603a2-5351-4e7a-a78b-c8f94165cd54"
                                         }
                                     ],
                                     "description": "Connect geometry here to make it available in the next level up. "
@@ -6331,8 +6331,8 @@
                                 {
                                     "atomType": "CutLayout",
                                     "name": "Cut Layout",
-                                    "x": 0.6421957671957672,
-                                    "y": 0.7075208913649026,
+                                    "x": 0.6388888888888888,
+                                    "y": 0.6880222841225626,
                                     "uniqueID": "0f7ee4ac-1ad2-4749-a48e-69dee07c8169",
                                     "ioValues": [
                                         {
@@ -6353,17 +6353,95 @@
                                         }
                                     ],
                                     "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
-                                    "placements": []
+                                    "placements": [
+                                        [
+                                            {
+                                                "id": 5,
+                                                "rotate": 120,
+                                                "translate": {
+                                                    "x": 113.70458464815022,
+                                                    "y": 290.6959262178145
+                                                }
+                                            },
+                                            {
+                                                "id": 1,
+                                                "rotate": 330,
+                                                "translate": {
+                                                    "x": 327.239975156143,
+                                                    "y": 281.5751942694218
+                                                }
+                                            },
+                                            {
+                                                "id": 7,
+                                                "rotate": 180,
+                                                "translate": {
+                                                    "x": 222.89561711130548,
+                                                    "y": 728.5830655149568
+                                                }
+                                            },
+                                            {
+                                                "id": 6,
+                                                "rotate": 330,
+                                                "translate": {
+                                                    "x": 150.54556943920448,
+                                                    "y": 869.2991398498264
+                                                }
+                                            },
+                                            {
+                                                "id": 2,
+                                                "rotate": 30,
+                                                "translate": {
+                                                    "x": 416.12072869959457,
+                                                    "y": 406.4325579484555
+                                                }
+                                            },
+                                            {
+                                                "id": 3,
+                                                "rotate": 0,
+                                                "translate": {
+                                                    "x": 222.8956171,
+                                                    "y": 1172.0186741
+                                                }
+                                            },
+                                            {
+                                                "id": 4,
+                                                "rotate": 330,
+                                                "translate": {
+                                                    "x": 310.93688696334107,
+                                                    "y": 1481.7773297393826
+                                                }
+                                            },
+                                            {
+                                                "id": 0,
+                                                "rotate": 150,
+                                                "translate": {
+                                                    "x": 293.9329251669483,
+                                                    "y": 1608.304469414973
+                                                }
+                                            }
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "atomType": "Rectangle",
+                                    "name": "Rectangle",
+                                    "x": 0.7585978835978836,
+                                    "y": 0.777158774373259,
+                                    "uniqueID": "69d603a2-5351-4e7a-a78b-c8f94165cd54",
+                                    "ioValues": [
+                                        {
+                                            "name": "x length",
+                                            "ioValue": 2438
+                                        },
+                                        {
+                                            "name": "y length",
+                                            "ioValue": 1219
+                                        }
+                                    ],
+                                    "description": "Creates a new rectangle."
                                 }
                             ],
                             "allConnectors": [
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "number or geometry",
-                                    "ap2Primary": false,
-                                    "ap1ID": "df002fb8-148e-4b87-826f-53ef339bc64f",
-                                    "ap2ID": "55f51b68-2563-479e-9ad8-1340d0b466f6"
-                                },
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry2",
@@ -6426,6 +6504,13 @@
                                     "ap2Primary": true,
                                     "ap1ID": "d8f70552-442b-464b-b4b9-426621383bcf",
                                     "ap2ID": "099b599d-3ced-488b-a209-63c5e1edf803"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": "69d603a2-5351-4e7a-a78b-c8f94165cd54",
+                                    "ap2ID": "55f51b68-2563-479e-9ad8-1340d0b466f6"
                                 }
                             ],
                             "fileTypeVersion": 1,
