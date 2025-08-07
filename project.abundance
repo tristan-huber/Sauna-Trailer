@@ -5492,7 +5492,7 @@
                                     "ioValues": [
                                         {
                                             "name": "number or geometry",
-                                            "ioValue": "69d603a2-5351-4e7a-a78b-c8f94165cd54"
+                                            "ioValue": "df002fb8-148e-4b87-826f-53ef339bc64f"
                                         }
                                     ],
                                     "description": "Connect geometry here to make it available in the next level up. "
@@ -5500,8 +5500,8 @@
                                 {
                                     "atomType": "Rotate",
                                     "name": "Rotate",
-                                    "x": 0.9047619047619047,
-                                    "y": 0.29329608938547486,
+                                    "x": 0.6798941798941799,
+                                    "y": 0.23676880222841226,
                                     "uniqueID": "df002fb8-148e-4b87-826f-53ef339bc64f",
                                     "ioValues": [
                                         {
@@ -5568,8 +5568,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Split Apart",
-                                    "x": 0.46097883597883593,
-                                    "y": 0.796657381615599,
+                                    "x": 0.4537037037037038,
+                                    "y": 0.6518105849582172,
                                     "uniqueID": "4c901fda-c35e-4c8c-ac7c-44bc0bda7220",
                                     "ioValues": [
                                         {
@@ -6215,70 +6215,6 @@
                                     "compiledBom": []
                                 },
                                 {
-                                    "atomType": "Molecule",
-                                    "name": "Quick Release Bolt",
-                                    "x": 0.5866402116402116,
-                                    "y": 0.36592178770949724,
-                                    "uniqueID": "5a598683-9a73-4c74-93d6-fb73ba7649f6",
-                                    "ioValues": [],
-                                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-                                    "topLevel": false,
-                                    "allAtoms": [
-                                        {
-                                            "atomType": "Output",
-                                            "name": "Output",
-                                            "x": 0.98,
-                                            "y": 0.5,
-                                            "uniqueID": "eb82a407-7363-430d-b628-b6273e3cc48c",
-                                            "ioValues": [],
-                                            "description": "Connect geometry here to make it available in the next level up. "
-                                        },
-                                        {
-                                            "atomType": "Circle",
-                                            "name": "Circle",
-                                            "x": 0.28505291005291006,
-                                            "y": 0.4860335195530726,
-                                            "uniqueID": "d27ee89e-88bc-472b-8748-9001d8908513",
-                                            "ioValues": [
-                                                {
-                                                    "name": "diameter",
-                                                    "ioValue": 30
-                                                }
-                                            ],
-                                            "description": "Creates a new circle."
-                                        },
-                                        {
-                                            "atomType": "Extrude",
-                                            "name": "Extrude",
-                                            "x": 0.43452380952380953,
-                                            "y": 0.34916201117318435,
-                                            "uniqueID": "79a5b869-ef92-44a4-b914-99d5c17c7b6f",
-                                            "ioValues": [
-                                                {
-                                                    "name": "geometry",
-                                                    "ioValue": "d27ee89e-88bc-472b-8748-9001d8908513"
-                                                },
-                                                {
-                                                    "name": "height",
-                                                    "ioValue": 10
-                                                }
-                                            ],
-                                            "description": "Extrudes a 2D shape. Input can be negitive. "
-                                        }
-                                    ],
-                                    "allConnectors": [
-                                        {
-                                            "ap1Name": "geometry",
-                                            "ap2Name": "geometry",
-                                            "ap2Primary": true,
-                                            "ap1ID": "d27ee89e-88bc-472b-8748-9001d8908513",
-                                            "ap2ID": "79a5b869-ef92-44a4-b914-99d5c17c7b6f"
-                                        }
-                                    ],
-                                    "fileTypeVersion": 1,
-                                    "compiledBom": {}
-                                },
-                                {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
                                     "x": 0.23346560846560846,
@@ -6299,8 +6235,8 @@
                                 {
                                     "atomType": "Difference",
                                     "name": "Difference",
-                                    "x": 0.3994708994708995,
-                                    "y": 0.45403899721448465,
+                                    "x": 0.3505291005291006,
+                                    "y": 0.33983286908078,
                                     "uniqueID": "34cd7f8a-7eb2-41a7-a38c-6a36334399e8",
                                     "ioValues": [
                                         {
@@ -6331,8 +6267,8 @@
                                 {
                                     "atomType": "CutLayout",
                                     "name": "Cut Layout",
-                                    "x": 0.6474867724867724,
-                                    "y": 0.7520891364902507,
+                                    "x": 0.583994708994709,
+                                    "y": 0.7548746518105849,
                                     "uniqueID": "0f7ee4ac-1ad2-4749-a48e-69dee07c8169",
                                     "ioValues": [
                                         {
@@ -6389,85 +6325,83 @@
                                             },
                                             {
                                                 "id": 6,
-                                                "rotate": 0,
+                                                "rotate": -112,
                                                 "translate": {
-                                                    "x": -650,
+                                                    "x": -718,
                                                     "y": 0
                                                 }
                                             },
                                             {
                                                 "id": 7,
-                                                "rotate": 180,
+                                                "rotate": -202,
                                                 "translate": {
-                                                    "x": 342.2106204766411,
-                                                    "y": 1657.1893465869073
+                                                    "x": -618,
+                                                    "y": 0
                                                 }
                                             },
                                             {
                                                 "id": 4,
-                                                "rotate": 180,
+                                                "rotate": 68,
                                                 "translate": {
-                                                    "x": 503.2357339,
-                                                    "y": 2356.9444951
+                                                    "x": -518,
+                                                    "y": 0.94
                                                 }
                                             },
                                             {
                                                 "id": 5,
-                                                "rotate": 90,
+                                                "rotate": -22,
                                                 "translate": {
-                                                    "x": 503.23573390894325,
-                                                    "y": 2508.9574559927037
+                                                    "x": -418,
+                                                    "y": 0
                                                 }
                                             }
                                         ]
                                     ]
                                 },
                                 {
-                                    "atomType": "Rectangle",
-                                    "name": "Rectangle",
-                                    "x": 0.7645502645502645,
-                                    "y": 0.6183844011142061,
-                                    "uniqueID": "69d603a2-5351-4e7a-a78b-c8f94165cd54",
+                                    "atomType": "Gcode",
+                                    "name": "Gcode",
+                                    "x": 0.7242063492063492,
+                                    "y": 0.6908077994428969,
+                                    "uniqueID": "a4c3674e-6955-4c90-b1cd-5a3a37d1904e",
                                     "ioValues": [
                                         {
-                                            "name": "x length",
-                                            "ioValue": 2438
+                                            "name": "Geometry",
+                                            "ioValue": "0f7ee4ac-1ad2-4749-a48e-69dee07c8169"
                                         },
                                         {
-                                            "name": "y length",
-                                            "ioValue": 1219
+                                            "name": "Tool Size",
+                                            "ioValue": 6.35
+                                        },
+                                        {
+                                            "name": "Passes",
+                                            "ioValue": 1
+                                        },
+                                        {
+                                            "name": "Speed",
+                                            "ioValue": 1500
+                                        },
+                                        {
+                                            "name": "Cut Through",
+                                            "ioValue": 1.5
+                                        },
+                                        {
+                                            "name": "Part Name",
+                                            "ioValue": "Ring"
                                         }
                                     ],
-                                    "description": "Creates a new rectangle."
-                                },
-                                {
-                                    "atomType": "Move",
-                                    "name": "Move",
-                                    "x": 0.8756613756613756,
-                                    "y": 0.796657381615599,
-                                    "uniqueID": "f61c6220-1dd7-43e8-aa75-24e14e32e674",
-                                    "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": ""
-                                        },
-                                        {
-                                            "name": "xDist",
-                                            "ioValue": 0
-                                        },
-                                        {
-                                            "name": "yDist",
-                                            "ioValue": 0
-                                        },
-                                        {
-                                            "name": "zDist",
-                                            "ioValue": 0
-                                        }
-                                    ],
-                                    "description": "Moves a shape laterally in X, Y, Z."
+                                    "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+                                    "partName": "Ring"
                                 }
                             ],
                             "allConnectors": [
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": "df002fb8-148e-4b87-826f-53ef339bc64f",
+                                    "ap2ID": "55f51b68-2563-479e-9ad8-1340d0b466f6"
+                                },
                                 {
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry2",
@@ -6533,10 +6467,10 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
-                                    "ap2Name": "number or geometry",
+                                    "ap2Name": "Geometry",
                                     "ap2Primary": false,
-                                    "ap1ID": "69d603a2-5351-4e7a-a78b-c8f94165cd54",
-                                    "ap2ID": "55f51b68-2563-479e-9ad8-1340d0b466f6"
+                                    "ap1ID": "0f7ee4ac-1ad2-4749-a48e-69dee07c8169",
+                                    "ap2ID": "a4c3674e-6955-4c90-b1cd-5a3a37d1904e"
                                 }
                             ],
                             "fileTypeVersion": 1,
