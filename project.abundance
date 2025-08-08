@@ -6267,8 +6267,8 @@
                                 {
                                     "atomType": "CutLayout",
                                     "name": "Cut Layout",
-                                    "x": 0.5925925925925926,
-                                    "y": 0.766016713091922,
+                                    "x": 0.5383597883597884,
+                                    "y": 0.818941504178273,
                                     "uniqueID": "0f7ee4ac-1ad2-4749-a48e-69dee07c8169",
                                     "ioValues": [
                                         {
@@ -6361,13 +6361,13 @@
                                 {
                                     "atomType": "Gcode",
                                     "name": "Gcode",
-                                    "x": 0.7261904761904762,
-                                    "y": 0.6935933147632313,
+                                    "x": 0.7301587301587301,
+                                    "y": 0.5877437325905293,
                                     "uniqueID": "a4c3674e-6955-4c90-b1cd-5a3a37d1904e",
                                     "ioValues": [
                                         {
                                             "name": "Geometry",
-                                            "ioValue": "0f7ee4ac-1ad2-4749-a48e-69dee07c8169"
+                                            "ioValue": "68b8ddf9-f707-4e8d-b532-76234d2032d9"
                                         },
                                         {
                                             "name": "Tool Size",
@@ -6387,11 +6387,51 @@
                                         },
                                         {
                                             "name": "Part Name",
-                                            "ioValue": "Wood Ring"
+                                            "ioValue": "Ring"
                                         }
                                     ],
                                     "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
                                     "partName": "Ring"
+                                },
+                                {
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.8207671957671958,
+                                    "y": 0.7186629526462396,
+                                    "uniqueID": "a845b38c-ca04-4700-9174-2bacb7f48cbc",
+                                    "ioValues": [
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 10
+                                        }
+                                    ],
+                                    "description": "Creates a new circle."
+                                },
+                                {
+                                    "atomType": "Move",
+                                    "name": "Move",
+                                    "x": 0.6276455026455026,
+                                    "y": 0.5264623955431754,
+                                    "uniqueID": "68b8ddf9-f707-4e8d-b532-76234d2032d9",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "0f7ee4ac-1ad2-4749-a48e-69dee07c8169"
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 200
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0
+                                        }
+                                    ],
+                                    "description": "Moves a shape laterally in X, Y, Z."
                                 }
                             ],
                             "allConnectors": [
@@ -6467,9 +6507,16 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": "0f7ee4ac-1ad2-4749-a48e-69dee07c8169",
+                                    "ap2ID": "68b8ddf9-f707-4e8d-b532-76234d2032d9"
+                                },
+                                {
+                                    "ap1Name": "geometry",
                                     "ap2Name": "Geometry",
                                     "ap2Primary": false,
-                                    "ap1ID": "0f7ee4ac-1ad2-4749-a48e-69dee07c8169",
+                                    "ap1ID": "68b8ddf9-f707-4e8d-b532-76234d2032d9",
                                     "ap2ID": "a4c3674e-6955-4c90-b1cd-5a3a37d1904e"
                                 }
                             ],
