@@ -6387,11 +6387,11 @@
                                         },
                                         {
                                             "name": "Part Name",
-                                            "ioValue": "Ring"
+                                            "ioValue": "Ring 4"
                                         }
                                     ],
                                     "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                                    "partName": "Ring"
+                                    "partName": "Ring 4"
                                 },
                                 {
                                     "atomType": "Circle",
