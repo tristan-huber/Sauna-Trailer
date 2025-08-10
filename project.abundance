@@ -14,12 +14,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1738956155478,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1738956922193
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -6391,7 +6386,7 @@
                                         }
                                     ],
                                     "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                                    "partName": "Ring 4"
+                                    "partName": "Ring"
                                 },
                                 {
                                     "atomType": "Circle",
@@ -7391,8 +7386,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Split Apart",
-                    "x": 0.3664021164021164,
-                    "y": 0.7111111111111111,
+                    "x": 0.36772486772486773,
+                    "y": 0.7047353760445683,
                     "uniqueID": 1739773891659,
                     "ioValues": [
                         {
@@ -15102,12 +15097,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1740179206055,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1740179248398
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
