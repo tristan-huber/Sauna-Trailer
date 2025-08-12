@@ -7391,8 +7391,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Split Apart",
-                    "x": 0.36772486772486773,
-                    "y": 0.7047353760445683,
+                    "x": 0.3492063492063492,
+                    "y": 0.6100278551532033,
                     "uniqueID": 1739773891659,
                     "ioValues": [
                         {
@@ -14876,13 +14876,17 @@
                 {
                     "atomType": "Molecule",
                     "name": "Door",
-                    "x": 0.3631051752921536,
-                    "y": 0.8941504178272981,
+                    "x": 0.3353174603174603,
+                    "y": 0.871866295264624,
                     "uniqueID": "ca143840-319a-49c1-9c8a-a460bdd9ac75",
                     "ioValues": [
                         {
                             "name": "Wood Thickness",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "Height",
+                            "ioValue": 1500
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -14897,7 +14901,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": "c66fd928-cd0b-4ef7-88ed-6b11bb50cacf"
+                                    "ioValue": "300fe507-e3f1-42d8-8ef2-3b73512e5784"
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -14937,13 +14941,17 @@
                         {
                             "atomType": "Molecule",
                             "name": "Frame",
-                            "x": 0.24801587301587302,
-                            "y": 0.24512534818941506,
+                            "x": 0.2506613756613757,
+                            "y": 0.22005571030640667,
                             "uniqueID": "7724c452-d3b0-4289-a792-2c240ef3c13d",
                             "ioValues": [
                                 {
                                     "name": "Wood Thickness",
                                     "ioValue": 10
+                                },
+                                {
+                                    "name": "Height",
+                                    "ioValue": 1500
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -15636,8 +15644,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.23082010582010581,
-                                    "y": 0.7158774373259054,
+                                    "x": 0.2804232804232804,
+                                    "y": 0.7381615598885795,
                                     "uniqueID": "efcffa8c-c4e2-4cc3-8008-f43b65046338",
                                     "ioValues": [
                                         {
@@ -15650,7 +15658,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": -274.8
+                                            "ioValue": -750
                                         },
                                         {
                                             "name": "zDist",
@@ -15675,6 +15683,31 @@
                                     "tags": [
                                         "Door"
                                     ]
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Height",
+                                    "x": 0.029699999999999997,
+                                    "y": 0.40668523676880225,
+                                    "uniqueID": "20db04db-c089-4acb-84ad-986fd7ef200f",
+                                    "ioValues": [],
+                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                    "type": "geometry"
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "H/-2",
+                                    "x": 0.0496031746031746,
+                                    "y": 0.8495821727019498,
+                                    "uniqueID": "1f1ff44c-e964-476b-a531-ec016d30987e",
+                                    "ioValues": [
+                                        {
+                                            "name": "H",
+                                            "ioValue": 1500
+                                        }
+                                    ],
+                                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                    "currentEquation": "H/-2"
                                 }
                             ],
                             "allConnectors": [
@@ -15740,6 +15773,27 @@
                                     "ap2Primary": false,
                                     "ap1ID": "6f75ef87-ca93-4f25-b994-ab50d95222a2",
                                     "ap2ID": "4eef1f1b-2eb8-4ada-a8d3-45fdf3cea963"
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "Width",
+                                    "ap2Primary": false,
+                                    "ap1ID": "20db04db-c089-4acb-84ad-986fd7ef200f",
+                                    "ap2ID": "ec128f76-e873-4598-9ad5-897a4f815cab"
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "H",
+                                    "ap2Primary": false,
+                                    "ap1ID": "20db04db-c089-4acb-84ad-986fd7ef200f",
+                                    "ap2ID": "1f1ff44c-e964-476b-a531-ec016d30987e"
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "yDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": "1f1ff44c-e964-476b-a531-ec016d30987e",
+                                    "ap2ID": "efcffa8c-c4e2-4cc3-8008-f43b65046338"
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -15755,6 +15809,10 @@
                                 {
                                     "name": "Wood Thickness",
                                     "ioValue": 10
+                                },
+                                {
+                                    "name": "Height",
+                                    "ioValue": 1500
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -16486,6 +16544,16 @@
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Height",
+                                    "x": 0.17407407407407408,
+                                    "y": 0.6016713091922006,
+                                    "uniqueID": "ac470349-6bab-44a2-b79e-733a9846dcef",
+                                    "ioValues": [],
+                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                    "type": "geometry"
                                 }
                             ],
                             "allConnectors": [
@@ -16566,6 +16634,10 @@
                                 {
                                     "name": "Wood Thickness",
                                     "ioValue": 10
+                                },
+                                {
+                                    "name": "Height",
+                                    "ioValue": 1500
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -17321,6 +17393,16 @@
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Height",
+                                    "x": 0.1496031746031746,
+                                    "y": 0.35097493036211697,
+                                    "uniqueID": "70787af7-39e7-47ea-90f4-c315845672db",
+                                    "ioValues": [],
+                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                    "type": "geometry"
                                 }
                             ],
                             "allConnectors": [
@@ -17448,6 +17530,68 @@
                             ],
                             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
                             "partName": "Door"
+                        },
+                        {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.6825396825396826,
+                            "y": 0.20055710306406688,
+                            "uniqueID": "dc601a4e-ce58-4d51-9d72-ae80f331218d",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "c66fd928-cd0b-4ef7-88ed-6b11bb50cacf"
+                                },
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 90
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": 0
+                                }
+                            ],
+                            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.8406084656084656,
+                            "y": 0.2562674094707521,
+                            "uniqueID": "300fe507-e3f1-42d8-8ef2-3b73512e5784",
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "dc601a4e-ce58-4d51-9d72-ae80f331218d"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 750
+                                }
+                            ],
+                            "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Height",
+                            "x": 0.029699999999999997,
+                            "y": 0.8551532033426184,
+                            "uniqueID": "7db3a8f8-183e-4990-a92b-a149e9fe4757",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "number"
                         }
                     ],
                     "allConnectors": [
@@ -17474,17 +17618,17 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": "c66fd928-cd0b-4ef7-88ed-6b11bb50cacf",
-                            "ap2ID": "9c3f1723-1787-47a4-a366-35fd339ce6fc"
+                            "ap2ID": "65956b67-42c2-47d4-b92f-d29bfc886496"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
                             "ap1ID": "c66fd928-cd0b-4ef7-88ed-6b11bb50cacf",
-                            "ap2ID": "65956b67-42c2-47d4-b92f-d29bfc886496"
+                            "ap2ID": "dc601a4e-ce58-4d51-9d72-ae80f331218d"
                         },
                         {
                             "ap1Name": "Geometry",
@@ -17513,10 +17657,71 @@
                             "ap2Primary": false,
                             "ap1ID": "65956b67-42c2-47d4-b92f-d29bfc886496",
                             "ap2ID": "12186001-b041-4c5e-9f44-ddfbe49792ed"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": "dc601a4e-ce58-4d51-9d72-ae80f331218d",
+                            "ap2ID": "300fe507-e3f1-42d8-8ef2-3b73512e5784"
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": "300fe507-e3f1-42d8-8ef2-3b73512e5784",
+                            "ap2ID": "9c3f1723-1787-47a4-a366-35fd339ce6fc"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Height",
+                            "ap2Primary": false,
+                            "ap1ID": "7db3a8f8-183e-4990-a92b-a149e9fe4757",
+                            "ap2ID": "6722707f-edaa-4516-be89-0395448705ad"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Height",
+                            "ap2Primary": false,
+                            "ap1ID": "7db3a8f8-183e-4990-a92b-a149e9fe4757",
+                            "ap2ID": "151e3804-1320-4ce8-b20c-c7ec855520d4"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Height",
+                            "ap2Primary": false,
+                            "ap1ID": "7db3a8f8-183e-4990-a92b-a149e9fe4757",
+                            "ap2ID": "7724c452-d3b0-4289-a792-2c240ef3c13d"
                         }
                     ],
                     "fileTypeVersion": 1,
                     "compiledBom": {}
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.41534391534391535,
+                    "y": 0.766016713091922,
+                    "uniqueID": "ad165ccc-3064-46d0-8f5c-1ab595d5fc86",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "ca143840-319a-49c1-9c8a-a460bdd9ac75"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 1239
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 200
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
                 }
             ],
             "allConnectors": [
@@ -17673,6 +17878,13 @@
                     "ap2Primary": true,
                     "ap1ID": "2ede00f0-ba12-4a6b-8ffb-f770367f92cc",
                     "ap2ID": "63c8e0a8-8199-47fa-a620-8f3f4bec0b56"
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "ca143840-319a-49c1-9c8a-a460bdd9ac75",
+                    "ap2ID": "ad165ccc-3064-46d0-8f5c-1ab595d5fc86"
                 }
             ],
             "fileTypeVersion": 1,
