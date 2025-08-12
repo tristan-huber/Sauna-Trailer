@@ -15736,7 +15736,12 @@
                                             "x": 0.98,
                                             "y": 0.5,
                                             "uniqueID": "88221c0d-1f70-4e6c-a459-655cf98c00ef",
-                                            "ioValues": [],
+                                            "ioValues": [
+                                                {
+                                                    "name": "number or geometry",
+                                                    "ioValue": "52d260ce-b49a-4931-b075-610d94a8d662"
+                                                }
+                                            ],
                                             "description": "Connect geometry here to make it available in the next level up. "
                                         },
                                         {
@@ -16298,7 +16303,7 @@
                                     "ioValues": [
                                         {
                                             "name": "Shape 3",
-                                            "ioValue": "81252aa4-881f-4014-a03f-a807820fd169"
+                                            "ioValue": "ceee4aaa-523e-4c1b-8e46-dfbaddeaf292"
                                         }
                                     ],
                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -16313,7 +16318,7 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": "ef056be1-40f7-4a9d-ad9f-8c47d9c6dc90"
+                                            "ioValue": "1f9420b4-29fa-4adb-b7a4-0a8dd410accb"
                                         },
                                         {
                                             "name": "height",
