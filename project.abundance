@@ -14933,8 +14933,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Frame",
-                            "x": 0.24140211640211642,
-                            "y": 0.23676880222841226,
+                            "x": 0.24338624338624337,
+                            "y": 0.23119777158774377,
                             "uniqueID": "7724c452-d3b0-4289-a792-2c240ef3c13d",
                             "ioValues": [
                                 {
@@ -14954,7 +14954,7 @@
                                     "ioValues": [
                                         {
                                             "name": "number or geometry",
-                                            "ioValue": "2eff94f6-752a-431f-8661-1b9e91ffebad"
+                                            "ioValue": "6f75ef87-ca93-4f25-b994-ab50d95222a2"
                                         }
                                     ],
                                     "description": "Connect geometry here to make it available in the next level up. "
@@ -15654,6 +15654,23 @@
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
+                                },
+                                {
+                                    "atomType": "Tag",
+                                    "name": "Door",
+                                    "x": 0.6058201058201058,
+                                    "y": 0.7353760445682451,
+                                    "uniqueID": "6f75ef87-ca93-4f25-b994-ab50d95222a2",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "2eff94f6-752a-431f-8661-1b9e91ffebad"
+                                        }
+                                    ],
+                                    "description": "Tags geometry so that it can be extracted later.",
+                                    "tags": [
+                                        "Door"
+                                    ]
                                 }
                             ],
                             "allConnectors": [
@@ -15687,10 +15704,10 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
-                                    "ap2Name": "number or geometry",
-                                    "ap2Primary": false,
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
                                     "ap1ID": "2eff94f6-752a-431f-8661-1b9e91ffebad",
-                                    "ap2ID": "4eef1f1b-2eb8-4ada-a8d3-45fdf3cea963"
+                                    "ap2ID": "6f75ef87-ca93-4f25-b994-ab50d95222a2"
                                 },
                                 {
                                     "ap1Name": "Geometry",
@@ -15712,6 +15729,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": "efcffa8c-c4e2-4cc3-8008-f43b65046338",
                                     "ap2ID": "9fb00624-80ac-4b4e-ae17-e2614979cf90"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": "6f75ef87-ca93-4f25-b994-ab50d95222a2",
+                                    "ap2ID": "4eef1f1b-2eb8-4ada-a8d3-45fdf3cea963"
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -15720,8 +15744,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Door",
-                            "x": 0.33201058201058203,
-                            "y": 0.6908077994428969,
+                            "x": 0.33994708994708994,
+                            "y": 0.4958217270194986,
                             "uniqueID": "6722707f-edaa-4516-be89-0395448705ad",
                             "ioValues": [
                                 {
@@ -15741,7 +15765,7 @@
                                     "ioValues": [
                                         {
                                             "name": "number or geometry",
-                                            "ioValue": "cd97d110-3b5b-45e0-9db8-2638cc5109ae"
+                                            "ioValue": "3da4b77e-caa5-458e-89df-56b4fc581e13"
                                         }
                                     ],
                                     "description": "Connect geometry here to make it available in the next level up. "
@@ -16348,7 +16372,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": -500
+                                            "ioValue": 500
                                         },
                                         {
                                             "name": "yDist",
@@ -16397,6 +16421,63 @@
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
+                                },
+                                {
+                                    "atomType": "Tag",
+                                    "name": "Door",
+                                    "x": 0.71494708994709,
+                                    "y": 0.44011142061281333,
+                                    "uniqueID": "3da4b77e-caa5-458e-89df-56b4fc581e13",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "cd97d110-3b5b-45e0-9db8-2638cc5109ae"
+                                        }
+                                    ],
+                                    "description": "Tags geometry so that it can be extracted later.",
+                                    "tags": [
+                                        "Door"
+                                    ]
+                                },
+                                {
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.49007936507936506,
+                                    "y": 0.7298050139275767,
+                                    "uniqueID": "a1153909-a9a6-44ab-8e50-f94c30d4066b",
+                                    "ioValues": [
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 120
+                                        }
+                                    ],
+                                    "description": "Creates a new circle."
+                                },
+                                {
+                                    "atomType": "Move",
+                                    "name": "Move",
+                                    "x": 0.5873015873015873,
+                                    "y": 0.8913649025069639,
+                                    "uniqueID": "7e62bc39-925b-4731-aa9a-02df125f575f",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": ""
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0
+                                        }
+                                    ],
+                                    "description": "Moves a shape laterally in X, Y, Z."
                                 }
                             ],
                             "allConnectors": [
@@ -16437,9 +16518,16 @@
                                 },
                                 {
                                     "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": "cd97d110-3b5b-45e0-9db8-2638cc5109ae",
+                                    "ap2ID": "3da4b77e-caa5-458e-89df-56b4fc581e13"
+                                },
+                                {
+                                    "ap1Name": "geometry",
                                     "ap2Name": "number or geometry",
                                     "ap2Primary": false,
-                                    "ap1ID": "cd97d110-3b5b-45e0-9db8-2638cc5109ae",
+                                    "ap1ID": "3da4b77e-caa5-458e-89df-56b4fc581e13",
                                     "ap2ID": "1cc03fef-f6c1-4f97-973f-f5c4b0c1d04c"
                                 }
                             ],
