@@ -14876,13 +14876,13 @@
                 {
                     "atomType": "Molecule",
                     "name": "Door",
-                    "x": 0.8558201058201057,
-                    "y": 0.8022284122562675,
+                    "x": 0.3631051752921536,
+                    "y": 0.8941504178272981,
                     "uniqueID": "ca143840-319a-49c1-9c8a-a460bdd9ac75",
                     "ioValues": [
                         {
                             "name": "Wood Thickness",
-                            "ioValue": 12
+                            "ioValue": 10
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -14943,7 +14943,7 @@
                             "ioValues": [
                                 {
                                     "name": "Wood Thickness",
-                                    "ioValue": 12
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -15053,7 +15053,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 12
+                                            "ioValue": 10
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -15754,7 +15754,7 @@
                             "ioValues": [
                                 {
                                     "name": "Wood Thickness",
-                                    "ioValue": 12
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -16425,7 +16425,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 12
+                                            "ioValue": 10
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -16565,7 +16565,7 @@
                             "ioValues": [
                                 {
                                     "name": "Wood Thickness",
-                                    "ioValue": 12
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -17226,8 +17226,8 @@
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.6203703703703703,
-                                    "y": 0.520891364902507,
+                                    "x": 0.5467445742904842,
+                                    "y": 0.4818941504178273,
                                     "uniqueID": "5595e556-6393-4fce-ad7b-7abddf63fac8",
                                     "ioValues": [
                                         {
@@ -17236,7 +17236,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 12
+                                            "ioValue": -40
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -17244,8 +17244,8 @@
                                 {
                                     "atomType": "Circle",
                                     "name": "Circle",
-                                    "x": 0.27711640211640215,
-                                    "y": 0.883008356545961,
+                                    "x": 0.17696160267111855,
+                                    "y": 0.7409470752089137,
                                     "uniqueID": "d0e1069a-7535-4531-b0c4-a0c5f1a459ed",
                                     "ioValues": [
                                         {
@@ -17258,8 +17258,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.38690476190476186,
-                                    "y": 0.8857938718662952,
+                                    "x": 0.3021702838063439,
+                                    "y": 0.7493036211699164,
                                     "uniqueID": "0df14f38-c6f8-4525-b84f-62c06c6425f7",
                                     "ioValues": [
                                         {
@@ -17290,20 +17290,46 @@
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": "5595e556-6393-4fce-ad7b-7abddf63fac8"
+                                            "ioValue": "0a1aac21-17bd-48b4-83e9-9fa531fe33d4"
                                         }
                                     ],
                                     "description": "Changes the color of the shape.",
                                     "selectedColorIndex": 22
+                                },
+                                {
+                                    "atomType": "Move",
+                                    "name": "Move",
+                                    "x": 0.5884808013355592,
+                                    "y": 0.7158774373259054,
+                                    "uniqueID": "0a1aac21-17bd-48b4-83e9-9fa531fe33d4",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "5595e556-6393-4fce-ad7b-7abddf63fac8"
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 10
+                                        }
+                                    ],
+                                    "description": "Moves a shape laterally in X, Y, Z."
                                 }
                             ],
                             "allConnectors": [
                                 {
                                     "ap1Name": "number or geometry",
-                                    "ap2Name": "height",
+                                    "ap2Name": "zDist",
                                     "ap2Primary": false,
                                     "ap1ID": "05eb35bb-13fa-4a99-91a8-471545d5846b",
-                                    "ap2ID": "5595e556-6393-4fce-ad7b-7abddf63fac8"
+                                    "ap2ID": "0a1aac21-17bd-48b4-83e9-9fa531fe33d4"
                                 },
                                 {
                                     "ap1Name": "Geometry",
@@ -17338,7 +17364,7 @@
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
                                     "ap1ID": "5595e556-6393-4fce-ad7b-7abddf63fac8",
-                                    "ap2ID": "8e678839-2a66-4e3d-b0bb-20c56fd4f29a"
+                                    "ap2ID": "0a1aac21-17bd-48b4-83e9-9fa531fe33d4"
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -17360,6 +17386,13 @@
                                     "ap2Primary": false,
                                     "ap1ID": "8e678839-2a66-4e3d-b0bb-20c56fd4f29a",
                                     "ap2ID": "94ab4abd-da94-4ab8-8091-412d7e962d87"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": "0a1aac21-17bd-48b4-83e9-9fa531fe33d4",
+                                    "ap2ID": "8e678839-2a66-4e3d-b0bb-20c56fd4f29a"
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -17394,7 +17427,7 @@
                                 },
                                 {
                                     "name": "Tool Size",
-                                    "ioValue": 3.175
+                                    "ioValue": 3.17
                                 },
                                 {
                                     "name": "Passes",
@@ -17626,13 +17659,6 @@
                     "ap2Primary": false,
                     "ap1ID": "26ed2bbe-d151-4caf-acaa-8eb6ba364041",
                     "ap2ID": "912e598d-23d3-429e-9e08-ab5f4ac3b768"
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "Wood Thickness",
-                    "ap2Primary": false,
-                    "ap1ID": "26ed2bbe-d151-4caf-acaa-8eb6ba364041",
-                    "ap2ID": "ca143840-319a-49c1-9c8a-a460bdd9ac75"
                 },
                 {
                     "ap1Name": "geometry",
