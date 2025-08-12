@@ -14886,7 +14886,7 @@
                         },
                         {
                             "name": "Height",
-                            "ioValue": 1700
+                            "ioValue": 1600
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -14951,7 +14951,7 @@
                                 },
                                 {
                                     "name": "Height",
-                                    "ioValue": 1700
+                                    "ioValue": 1600
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -15012,7 +15012,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 600
+                                            "ioValue": 550
                                         },
                                         {
                                             "name": "yDist",
@@ -15075,7 +15075,7 @@
                                     "ioValues": [
                                         {
                                             "name": "Width",
-                                            "ioValue": 1700
+                                            "ioValue": 1600
                                         },
                                         {
                                             "name": "Height",
@@ -15194,7 +15194,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 750
+                                                    "ioValue": 700
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -15234,7 +15234,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "W",
-                                                    "ioValue": 1700
+                                                    "ioValue": 1600
                                                 },
                                                 {
                                                     "name": "R",
@@ -15276,7 +15276,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 750
+                                                    "ioValue": 700
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -15302,7 +15302,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": -750
+                                                    "ioValue": -700
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -15328,7 +15328,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": -750
+                                                    "ioValue": -700
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -15350,7 +15350,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "W",
-                                                    "ioValue": 1700
+                                                    "ioValue": 1600
                                                 },
                                                 {
                                                     "name": "R",
@@ -15703,7 +15703,7 @@
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 1700
+                                            "ioValue": 1600
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -15812,7 +15812,7 @@
                                 },
                                 {
                                     "name": "Height",
-                                    "ioValue": 1700
+                                    "ioValue": 1600
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -15851,7 +15851,7 @@
                                     "ioValues": [
                                         {
                                             "name": "Width",
-                                            "ioValue": 1432
+                                            "ioValue": 1532
                                         },
                                         {
                                             "name": "Height",
@@ -15970,7 +15970,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 646
+                                                    "ioValue": 696
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -16010,7 +16010,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "W",
-                                                    "ioValue": 1432
+                                                    "ioValue": 1532
                                                 },
                                                 {
                                                     "name": "R",
@@ -16052,7 +16052,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 646
+                                                    "ioValue": 696
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -16078,7 +16078,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": -646
+                                                    "ioValue": -696
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -16104,7 +16104,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": -646
+                                                    "ioValue": -696
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -16126,7 +16126,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "W",
-                                                    "ioValue": 1432
+                                                    "ioValue": 1532
                                                 },
                                                 {
                                                     "name": "R",
@@ -16434,7 +16434,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 500
+                                            "ioValue": 550
                                         },
                                         {
                                             "name": "yDist",
@@ -16549,11 +16549,41 @@
                                     "atomType": "Input",
                                     "name": "Height",
                                     "x": 0.029699999999999997,
-                                    "y": 0.6016713091922006,
+                                    "y": 0.4428969359331476,
                                     "uniqueID": "ac470349-6bab-44a2-b79e-733a9846dcef",
                                     "ioValues": [],
                                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                                     "type": "geometry"
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "(H/2)-250",
+                                    "x": 0.13558201058201058,
+                                    "y": 0.5571030640668524,
+                                    "uniqueID": "840a2dcd-8307-4edb-b18e-bad5929f495e",
+                                    "ioValues": [
+                                        {
+                                            "name": "H",
+                                            "ioValue": 1600
+                                        }
+                                    ],
+                                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                    "currentEquation": "(H/2)-250"
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "H-68",
+                                    "x": 0.11441798941798942,
+                                    "y": 0.2813370473537604,
+                                    "uniqueID": "15ae4eb7-831a-4628-ae02-f9f34799428f",
+                                    "ioValues": [
+                                        {
+                                            "name": "H",
+                                            "ioValue": 1600
+                                        }
+                                    ],
+                                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                    "currentEquation": "H-68"
                                 }
                             ],
                             "allConnectors": [
@@ -16619,6 +16649,34 @@
                                     "ap2Primary": false,
                                     "ap1ID": "7e62bc39-925b-4731-aa9a-02df125f575f",
                                     "ap2ID": "cd6f5860-ca60-4d74-9d84-166f280b1eb4"
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "H",
+                                    "ap2Primary": false,
+                                    "ap1ID": "ac470349-6bab-44a2-b79e-733a9846dcef",
+                                    "ap2ID": "840a2dcd-8307-4edb-b18e-bad5929f495e"
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "H",
+                                    "ap2Primary": false,
+                                    "ap1ID": "ac470349-6bab-44a2-b79e-733a9846dcef",
+                                    "ap2ID": "15ae4eb7-831a-4628-ae02-f9f34799428f"
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "xDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": "840a2dcd-8307-4edb-b18e-bad5929f495e",
+                                    "ap2ID": "2a5a063e-8e9c-48da-a1bd-59989f44a5c6"
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "Width",
+                                    "ap2Primary": false,
+                                    "ap1ID": "15ae4eb7-831a-4628-ae02-f9f34799428f",
+                                    "ap2ID": "373fec4b-5b00-4db7-87f3-ba3d412a666c"
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -16637,7 +16695,7 @@
                                 },
                                 {
                                     "name": "Height",
-                                    "ioValue": 1700
+                                    "ioValue": 1600
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -16676,7 +16734,7 @@
                                     "ioValues": [
                                         {
                                             "name": "Width",
-                                            "ioValue": 1440
+                                            "ioValue": 1540
                                         },
                                         {
                                             "name": "Height",
@@ -16795,7 +16853,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 650
+                                                    "ioValue": 700
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -16835,7 +16893,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "W",
-                                                    "ioValue": 1440
+                                                    "ioValue": 1540
                                                 },
                                                 {
                                                     "name": "R",
@@ -16877,7 +16935,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 650
+                                                    "ioValue": 700
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -16903,7 +16961,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": -650
+                                                    "ioValue": -700
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -16929,7 +16987,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": -650
+                                                    "ioValue": -700
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -16951,7 +17009,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "W",
-                                                    "ioValue": 1440
+                                                    "ioValue": 1540
                                                 },
                                                 {
                                                     "name": "R",
@@ -17231,8 +17289,8 @@
                                 {
                                     "atomType": "Rectangle",
                                     "name": "Rectangle",
-                                    "x": 0.21296296296296294,
-                                    "y": 0.5403899721448467,
+                                    "x": 0.16666666666666666,
+                                    "y": 0.47075208913649025,
                                     "uniqueID": "64c36a4d-5d02-441d-8175-22378439ca4a",
                                     "ioValues": [
                                         {
@@ -17282,7 +17340,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 500
+                                            "ioValue": 550
                                         },
                                         {
                                             "name": "yDist",
@@ -17407,13 +17465,13 @@
                                 {
                                     "atomType": "Equation",
                                     "name": "(H/2)-250",
-                                    "x": 0.082010582010582,
-                                    "y": 0.649025069637883,
+                                    "x": 0.09722222222222221,
+                                    "y": 0.5626740947075208,
                                     "uniqueID": "4f0e5b54-b619-42cd-baa5-9f53a5b825c2",
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 1700
+                                            "ioValue": 1600
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -17428,7 +17486,7 @@
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 1700
+                                            "ioValue": 1600
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -17520,7 +17578,20 @@
                                     "ap1ID": "70787af7-39e7-47ea-90f4-c315845672db",
                                     "ap2ID": "3a38483d-1092-4c3a-98a5-92dd73955f74"
                                 },
-                                null
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "xDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": "4f0e5b54-b619-42cd-baa5-9f53a5b825c2",
+                                    "ap2ID": "a393feb8-0147-4a5c-a37c-d89c2c76cd02"
+                                },
+                                {
+                                    "ap1Name": "result",
+                                    "ap2Name": "Width",
+                                    "ap2Primary": false,
+                                    "ap1ID": "3a38483d-1092-4c3a-98a5-92dd73955f74",
+                                    "ap2ID": "7665e8d9-b40d-4a4b-a1c5-54040cf07b6f"
+                                }
                             ],
                             "fileTypeVersion": 1,
                             "compiledBom": {}
@@ -17528,8 +17599,8 @@
                         {
                             "atomType": "ExtractTag",
                             "name": "Extract Tag",
-                            "x": 0.5787037037037037,
-                            "y": 0.7938718662952646,
+                            "x": 0.5873015873015873,
+                            "y": 0.43732590529247906,
                             "uniqueID": "65956b67-42c2-47d4-b92f-d29bfc886496",
                             "ioValues": [
                                 {
@@ -17544,8 +17615,8 @@
                         {
                             "atomType": "Gcode",
                             "name": "Gcode",
-                            "x": 0.707010582010582,
-                            "y": 0.7715877437325905,
+                            "x": 0.6977513227513228,
+                            "y": 0.4818941504178273,
                             "uniqueID": "12186001-b041-4c5e-9f44-ddfbe49792ed",
                             "ioValues": [
                                 {
@@ -17623,7 +17694,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 750
+                                    "ioValue": 800
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -17637,6 +17708,21 @@
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "H/2",
+                            "x": 0.7156084656084657,
+                            "y": 0.8885793871866295,
+                            "uniqueID": "2077e72e-6cb5-4dd3-9686-1ac2f7f0dd35",
+                            "ioValues": [
+                                {
+                                    "name": "H",
+                                    "ioValue": 1600
+                                }
+                            ],
+                            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                            "currentEquation": "H/2"
                         }
                     ],
                     "allConnectors": [
@@ -17737,6 +17823,20 @@
                             "ap2Primary": false,
                             "ap1ID": "7db3a8f8-183e-4990-a92b-a149e9fe4757",
                             "ap2ID": "7724c452-d3b0-4289-a792-2c240ef3c13d"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "H",
+                            "ap2Primary": false,
+                            "ap1ID": "7db3a8f8-183e-4990-a92b-a149e9fe4757",
+                            "ap2ID": "2077e72e-6cb5-4dd3-9686-1ac2f7f0dd35"
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "zDist",
+                            "ap2Primary": false,
+                            "ap1ID": "2077e72e-6cb5-4dd3-9686-1ac2f7f0dd35",
+                            "ap2ID": "300fe507-e3f1-42d8-8ef2-3b73512e5784"
                         }
                     ],
                     "fileTypeVersion": 1,
