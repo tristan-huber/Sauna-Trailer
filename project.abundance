@@ -1644,8 +1644,8 @@
         {
             "atomType": "Molecule",
             "name": "Sauna",
-            "x": 0.21031746031746032,
-            "y": 0.7576601671309192,
+            "x": 0.21693121693121695,
+            "y": 0.7381615598885795,
             "uniqueID": 1738956170299,
             "ioValues": [
                 {
@@ -14876,8 +14876,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Door",
-                    "x": 0.3353174603174603,
-                    "y": 0.871866295264624,
+                    "x": 0.3306878306878307,
+                    "y": 0.8690807799442898,
                     "uniqueID": "ca143840-319a-49c1-9c8a-a460bdd9ac75",
                     "ioValues": [
                         {
@@ -14886,7 +14886,7 @@
                         },
                         {
                             "name": "Height",
-                            "ioValue": 1500
+                            "ioValue": 1700
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -14942,7 +14942,7 @@
                             "atomType": "Molecule",
                             "name": "Frame",
                             "x": 0.2506613756613757,
-                            "y": 0.22005571030640667,
+                            "y": 0.18384401114206128,
                             "uniqueID": "7724c452-d3b0-4289-a792-2c240ef3c13d",
                             "ioValues": [
                                 {
@@ -14951,7 +14951,7 @@
                                 },
                                 {
                                     "name": "Height",
-                                    "ioValue": 1500
+                                    "ioValue": 1700
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -15002,8 +15002,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.18121693121693122,
-                                    "y": 0.5376044568245125,
+                                    "x": 0.2189153439153439,
+                                    "y": 0.5543175487465182,
                                     "uniqueID": "e5e98103-261c-45cd-82f8-ed8f0ecc8c12",
                                     "ioValues": [
                                         {
@@ -15012,7 +15012,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 500
+                                            "ioValue": 600
                                         },
                                         {
                                             "name": "yDist",
@@ -15041,8 +15041,8 @@
                                             "ioValue": "ec128f76-e873-4598-9ad5-897a4f815cab"
                                         },
                                         {
-                                            "name": "Shape 5",
-                                            "ioValue": "efcffa8c-c4e2-4cc3-8008-f43b65046338"
+                                            "name": "Shape 6",
+                                            "ioValue": "e8223292-408b-4592-ba7c-554cd891dc61"
                                         }
                                     ],
                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -15075,7 +15075,7 @@
                                     "ioValues": [
                                         {
                                             "name": "Width",
-                                            "ioValue": 1500
+                                            "ioValue": 1700
                                         },
                                         {
                                             "name": "Height",
@@ -15194,7 +15194,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 650
+                                                    "ioValue": 750
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -15234,7 +15234,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "W",
-                                                    "ioValue": 1500
+                                                    "ioValue": 1700
                                                 },
                                                 {
                                                     "name": "R",
@@ -15276,7 +15276,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 650
+                                                    "ioValue": 750
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -15302,7 +15302,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": -650
+                                                    "ioValue": -750
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -15328,7 +15328,7 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": -650
+                                                    "ioValue": -750
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -15350,7 +15350,7 @@
                                             "ioValues": [
                                                 {
                                                     "name": "W",
-                                                    "ioValue": 1500
+                                                    "ioValue": 1700
                                                 },
                                                 {
                                                     "name": "R",
@@ -15642,32 +15642,6 @@
                                     "description": "Creates a new circle."
                                 },
                                 {
-                                    "atomType": "Move",
-                                    "name": "Move",
-                                    "x": 0.2804232804232804,
-                                    "y": 0.7381615598885795,
-                                    "uniqueID": "efcffa8c-c4e2-4cc3-8008-f43b65046338",
-                                    "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": "bdcdcf49-5c3b-4a38-aacf-d9753d9233d6"
-                                        },
-                                        {
-                                            "name": "xDist",
-                                            "ioValue": 0
-                                        },
-                                        {
-                                            "name": "yDist",
-                                            "ioValue": -750
-                                        },
-                                        {
-                                            "name": "zDist",
-                                            "ioValue": 0
-                                        }
-                                    ],
-                                    "description": "Moves a shape laterally in X, Y, Z."
-                                },
-                                {
                                     "atomType": "Tag",
                                     "name": "Door",
                                     "x": 0.6058201058201058,
@@ -15695,19 +15669,45 @@
                                     "type": "geometry"
                                 },
                                 {
+                                    "atomType": "Move",
+                                    "name": "Move",
+                                    "x": 0.2718253968253968,
+                                    "y": 0.7465181058495821,
+                                    "uniqueID": "e8223292-408b-4592-ba7c-554cd891dc61",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "bdcdcf49-5c3b-4a38-aacf-d9753d9233d6"
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": -274.8
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0
+                                        }
+                                    ],
+                                    "description": "Moves a shape laterally in X, Y, Z."
+                                },
+                                {
                                     "atomType": "Equation",
-                                    "name": "H/-2",
-                                    "x": 0.0496031746031746,
-                                    "y": 0.8495821727019498,
-                                    "uniqueID": "1f1ff44c-e964-476b-a531-ec016d30987e",
+                                    "name": "(H/2)-250",
+                                    "x": 0.05423280423280424,
+                                    "y": 0.883008356545961,
+                                    "uniqueID": "ae484ce3-1118-4409-8465-bd2812aefdfd",
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 1500
+                                            "ioValue": 1700
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                                    "currentEquation": "H/-2"
+                                    "currentEquation": "(H/2)-250"
                                 }
                             ],
                             "allConnectors": [
@@ -15758,14 +15758,7 @@
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
                                     "ap1ID": "bdcdcf49-5c3b-4a38-aacf-d9753d9233d6",
-                                    "ap2ID": "efcffa8c-c4e2-4cc3-8008-f43b65046338"
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "Shape 5",
-                                    "ap2Primary": false,
-                                    "ap1ID": "efcffa8c-c4e2-4cc3-8008-f43b65046338",
-                                    "ap2ID": "9fb00624-80ac-4b4e-ae17-e2614979cf90"
+                                    "ap2ID": "e8223292-408b-4592-ba7c-554cd891dc61"
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -15786,14 +15779,21 @@
                                     "ap2Name": "H",
                                     "ap2Primary": false,
                                     "ap1ID": "20db04db-c089-4acb-84ad-986fd7ef200f",
-                                    "ap2ID": "1f1ff44c-e964-476b-a531-ec016d30987e"
+                                    "ap2ID": "ae484ce3-1118-4409-8465-bd2812aefdfd"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "Shape 6",
+                                    "ap2Primary": false,
+                                    "ap1ID": "e8223292-408b-4592-ba7c-554cd891dc61",
+                                    "ap2ID": "9fb00624-80ac-4b4e-ae17-e2614979cf90"
                                 },
                                 {
                                     "ap1Name": "result",
-                                    "ap2Name": "yDist",
+                                    "ap2Name": "xDist",
                                     "ap2Primary": false,
-                                    "ap1ID": "1f1ff44c-e964-476b-a531-ec016d30987e",
-                                    "ap2ID": "efcffa8c-c4e2-4cc3-8008-f43b65046338"
+                                    "ap1ID": "ae484ce3-1118-4409-8465-bd2812aefdfd",
+                                    "ap2ID": "e5e98103-261c-45cd-82f8-ed8f0ecc8c12"
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -15812,7 +15812,7 @@
                                 },
                                 {
                                     "name": "Height",
-                                    "ioValue": 1500
+                                    "ioValue": 1700
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -16628,7 +16628,7 @@
                             "atomType": "Molecule",
                             "name": "Keep Out",
                             "x": 0.2996031746031746,
-                            "y": 0.35097493036211697,
+                            "y": 0.32869080779944293,
                             "uniqueID": "151e3804-1320-4ce8-b20c-c7ec855520d4",
                             "ioValues": [
                                 {
@@ -16637,7 +16637,7 @@
                                 },
                                 {
                                     "name": "Height",
-                                    "ioValue": 1500
+                                    "ioValue": 1700
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -17403,6 +17403,36 @@
                                     "ioValues": [],
                                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                                     "type": "geometry"
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "(H/2)-250",
+                                    "x": 0.082010582010582,
+                                    "y": 0.649025069637883,
+                                    "uniqueID": "4f0e5b54-b619-42cd-baa5-9f53a5b825c2",
+                                    "ioValues": [
+                                        {
+                                            "name": "H",
+                                            "ioValue": 1700
+                                        }
+                                    ],
+                                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                    "currentEquation": "(H/2)-250"
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "H-60",
+                                    "x": 0.09391534391534391,
+                                    "y": 0.20891364902506962,
+                                    "uniqueID": "3a38483d-1092-4c3a-98a5-92dd73955f74",
+                                    "ioValues": [
+                                        {
+                                            "name": "H",
+                                            "ioValue": 1700
+                                        }
+                                    ],
+                                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                                    "currentEquation": "H-60"
                                 }
                             ],
                             "allConnectors": [
@@ -17475,7 +17505,22 @@
                                     "ap2Primary": true,
                                     "ap1ID": "0a1aac21-17bd-48b4-83e9-9fa531fe33d4",
                                     "ap2ID": "8e678839-2a66-4e3d-b0bb-20c56fd4f29a"
-                                }
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "H",
+                                    "ap2Primary": false,
+                                    "ap1ID": "70787af7-39e7-47ea-90f4-c315845672db",
+                                    "ap2ID": "4f0e5b54-b619-42cd-baa5-9f53a5b825c2"
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "H",
+                                    "ap2Primary": false,
+                                    "ap1ID": "70787af7-39e7-47ea-90f4-c315845672db",
+                                    "ap2ID": "3a38483d-1092-4c3a-98a5-92dd73955f74"
+                                },
+                                null
                             ],
                             "fileTypeVersion": 1,
                             "compiledBom": {}
