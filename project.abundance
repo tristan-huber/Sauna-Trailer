@@ -14933,8 +14933,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Frame",
-                            "x": 0.24338624338624337,
-                            "y": 0.23119777158774377,
+                            "x": 0.24801587301587302,
+                            "y": 0.24512534818941506,
                             "uniqueID": "7724c452-d3b0-4289-a792-2c240ef3c13d",
                             "ioValues": [
                                 {
@@ -15632,8 +15632,8 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.2328042328042328,
-                                    "y": 0.7186629526462396,
+                                    "x": 0.23082010582010581,
+                                    "y": 0.7158774373259054,
                                     "uniqueID": "efcffa8c-c4e2-4cc3-8008-f43b65046338",
                                     "ioValues": [
                                         {
@@ -15744,7 +15744,7 @@
                         {
                             "atomType": "Molecule",
                             "name": "Door",
-                            "x": 0.33994708994708994,
+                            "x": 0.33796296296296297,
                             "y": 0.4958217270194986,
                             "uniqueID": "6722707f-edaa-4516-be89-0395448705ad",
                             "ioValues": [
@@ -16399,6 +16399,10 @@
                                         {
                                             "name": "Shape 2",
                                             "ioValue": "373fec4b-5b00-4db7-87f3-ba3d412a666c"
+                                        },
+                                        {
+                                            "name": "Shape 3",
+                                            "ioValue": "7e62bc39-925b-4731-aa9a-02df125f575f"
                                         }
                                     ],
                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -16442,8 +16446,8 @@
                                 {
                                     "atomType": "Circle",
                                     "name": "Circle",
-                                    "x": 0.49007936507936506,
-                                    "y": 0.7298050139275767,
+                                    "x": 0.41931216931216936,
+                                    "y": 0.8857938718662952,
                                     "uniqueID": "a1153909-a9a6-44ab-8e50-f94c30d4066b",
                                     "ioValues": [
                                         {
@@ -16456,13 +16460,13 @@
                                 {
                                     "atomType": "Move",
                                     "name": "Move",
-                                    "x": 0.5873015873015873,
-                                    "y": 0.8913649025069639,
+                                    "x": 0.45833333333333337,
+                                    "y": 0.6991643454038997,
                                     "uniqueID": "7e62bc39-925b-4731-aa9a-02df125f575f",
                                     "ioValues": [
                                         {
                                             "name": "geometry",
-                                            "ioValue": ""
+                                            "ioValue": "a1153909-a9a6-44ab-8e50-f94c30d4066b"
                                         },
                                         {
                                             "name": "xDist",
@@ -16470,7 +16474,7 @@
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 0
+                                            "ioValue": -274.8
                                         },
                                         {
                                             "name": "zDist",
@@ -16529,8 +16533,61 @@
                                     "ap2Primary": false,
                                     "ap1ID": "3da4b77e-caa5-458e-89df-56b4fc581e13",
                                     "ap2ID": "1cc03fef-f6c1-4f97-973f-f5c4b0c1d04c"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": "a1153909-a9a6-44ab-8e50-f94c30d4066b",
+                                    "ap2ID": "7e62bc39-925b-4731-aa9a-02df125f575f"
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "Shape 3",
+                                    "ap2Primary": false,
+                                    "ap1ID": "7e62bc39-925b-4731-aa9a-02df125f575f",
+                                    "ap2ID": "cd6f5860-ca60-4d74-9d84-166f280b1eb4"
                                 }
                             ],
+                            "fileTypeVersion": 1,
+                            "compiledBom": {}
+                        },
+                        {
+                            "atomType": "Molecule",
+                            "name": "Keep Out",
+                            "x": 0.3161375661375661,
+                            "y": 0.7715877437325905,
+                            "uniqueID": "151e3804-1320-4ce8-b20c-c7ec855520d4",
+                            "ioValues": [
+                                {
+                                    "name": "Wood Thickness",
+                                    "ioValue": 12
+                                }
+                            ],
+                            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.98,
+                                    "y": 0.5,
+                                    "uniqueID": "94ab4abd-da94-4ab8-8091-412d7e962d87",
+                                    "ioValues": [],
+                                    "description": "Connect geometry here to make it available in the next level up. "
+                                },
+                                {
+                                    "atomType": "Input",
+                                    "name": "Wood Thickness",
+                                    "x": 0.2355820105820106,
+                                    "y": 0.8941504178272981,
+                                    "uniqueID": "05eb35bb-13fa-4a99-91a8-471545d5846b",
+                                    "ioValues": [],
+                                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                                    "type": "geometry"
+                                }
+                            ],
+                            "allConnectors": [],
                             "fileTypeVersion": 1,
                             "compiledBom": {}
                         }
@@ -16549,6 +16606,13 @@
                             "ap2Primary": false,
                             "ap1ID": "513af9fe-374f-4956-bf5b-7d2055f12e71",
                             "ap2ID": "6722707f-edaa-4516-be89-0395448705ad"
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "Wood Thickness",
+                            "ap2Primary": false,
+                            "ap1ID": "513af9fe-374f-4956-bf5b-7d2055f12e71",
+                            "ap2ID": "151e3804-1320-4ce8-b20c-c7ec855520d4"
                         },
                         {
                             "ap1Name": "geometry",
