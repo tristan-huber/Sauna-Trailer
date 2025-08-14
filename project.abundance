@@ -6391,7 +6391,8 @@
                                         }
                                     ],
                                     "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                                    "partName": "Ring"
+                                    "partName": "Ring",
+                                    "sortDirection": "Left"
                                 },
                                 {
                                     "atomType": "Circle",
@@ -17649,7 +17650,8 @@
                                 }
                             ],
                             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                            "partName": "Door"
+                            "partName": "Door",
+                            "sortDirection": "Left"
                         },
                         {
                             "atomType": "Rotate",
@@ -17761,7 +17763,8 @@
                                 }
                             ],
                             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                            "partName": "Door"
+                            "partName": "Door",
+                            "sortDirection": "Left"
                         }
                     ],
                     "allConnectors": [
@@ -18146,12 +18149,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1740179206055,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1740179248398
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
