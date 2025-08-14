@@ -57,12 +57,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1738956281289,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1738956500203
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -90,10 +85,6 @@
                             "y": 0.31197771587743733,
                             "uniqueID": 1738956325623,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1738956295218
-                                },
                                 {
                                     "name": "height",
                                     "ioValue": -101.6
@@ -127,10 +118,6 @@
                             "uniqueID": 1738956427202,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1738956395394
-                                },
-                                {
                                     "name": "height",
                                     "ioValue": -100
                                 }
@@ -144,10 +131,6 @@
                             "y": 0.34818941504178275,
                             "uniqueID": 1738956444952,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1738956427202
-                                },
                                 {
                                     "name": "x-axis degrees",
                                     "ioValue": 0
@@ -171,10 +154,6 @@
                             "uniqueID": 1738956481089,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1738956427202
-                                },
-                                {
                                     "name": "x-axis degrees",
                                     "ioValue": 0
                                 },
@@ -196,10 +175,6 @@
                             "y": 0.6657381615598886,
                             "uniqueID": 1738956495554,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1738956481089
-                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": 1600
@@ -224,15 +199,15 @@
                             "ioValues": [
                                 {
                                     "name": "Shape 1",
-                                    "ioValue": 1738956325623
+                                    "ioValue": null
                                 },
                                 {
                                     "name": "Shape 2",
-                                    "ioValue": 1738956495554
+                                    "ioValue": null
                                 },
                                 {
                                     "name": "Shape 3",
-                                    "ioValue": 1738956569985
+                                    "ioValue": null
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -245,10 +220,6 @@
                             "y": 0.5041782729805014,
                             "uniqueID": 1738956569985,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1738956444952
-                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": 1600
@@ -2152,12 +2123,7 @@
                             "x": 0.34457671957671954,
                             "y": 0.17039106145251398,
                             "uniqueID": 1746922984330,
-                            "ioValues": [
-                                {
-                                    "name": "Wood Thickness",
-                                    "ioValue": 2438.4
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                             "topLevel": false,
                             "allAtoms": [
@@ -2167,12 +2133,7 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": 1746922983948,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": "0ea23283-efb4-42db-95d2-12ba04b47c02"
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -2201,16 +2162,7 @@
                                     "x": 0.39351851851851855,
                                     "y": 0.34818941504178275,
                                     "uniqueID": "0ea23283-efb4-42db-95d2-12ba04b47c02",
-                                    "ioValues": [
-                                        {
-                                            "name": "Number of Bumps",
-                                            "ioValue": 79
-                                        },
-                                        {
-                                            "name": "Thickness",
-                                            "ioValue": 2438.4
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                                     "topLevel": false,
                                     "allAtoms": [
@@ -2220,12 +2172,7 @@
                                             "x": 0.98,
                                             "y": 0.5,
                                             "uniqueID": "34424395-6e85-48b1-8e4a-6f4eb5d23e22",
-                                            "ioValues": [
-                                                {
-                                                    "name": "number or geometry",
-                                                    "ioValue": "0ea5a829-0678-4375-9453-03e3c109e8c3"
-                                                }
-                                            ],
+                                            "ioValues": [],
                                             "description": "Connect geometry here to make it available in the next level up. "
                                         },
                                         {
@@ -2234,16 +2181,7 @@
                                             "x": 0,
                                             "y": 0,
                                             "uniqueID": "0ea5a829-0678-4375-9453-03e3c109e8c3",
-                                            "ioValues": [
-                                                {
-                                                    "name": "thickness",
-                                                    "ioValue": 2438.4
-                                                },
-                                                {
-                                                    "name": "numBumps",
-                                                    "ioValue": 79
-                                                }
-                                            ],
+                                            "ioValues": [],
                                             "description": "Defines a Replicad code block.",
                                             "codeVersion": 1,
                                             "code": " \n      //Inputs:[thickness, numBumps]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Define a circle\n       const circleFunction = (t) => {\n\n         \n       const period = 72;\n       const circumference = numBumps * period;\n       const baseRadius = circumference / (2 * Math.PI);\n       console.log(\"Base Radius: \" + baseRadius);\n\n        t = t === 1 ? 0: t\n      \n        const length = Math.PI*2*baseRadius;\n        const amplitude = 19 / 2;\n        const sinX = t * length; // Scale  to the total length (circumference)\n        const sinY = amplitude * Math.sin((2 * Math.PI * sinX) / period)\n      \n        const angle = 2 * Math.PI * t;\n      \n        const radius = baseRadius + sinY;\n      \n        const circleX = radius * Math.cos(angle);\n        const circleY = radius * Math.sin(angle);\n      \n        const x = circleX ;\n        const y = circleY;\n      \n      \n        return [x, y];\n      };\n\n      // Step 3: Create the sinewave shape\n      const points = Math.max(200, 6*numBumps);\n      const sinewaveShape = replicad.drawParametricFunction(circleFunction, { pointsCount: points });\n  \n    \n      // Return the combined shape\n      let createdShape =  sinewaveShape.sketchOnPlane().extrude(thickness);\n\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      return shape2\n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
@@ -2354,10 +2292,6 @@
                             "y": 0.1759776536312849,
                             "uniqueID": 1746927716452,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1746922984330
-                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": -1000
@@ -2585,12 +2519,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1738958654316,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1741650259777
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -2622,11 +2551,11 @@
                             "ioValues": [
                                 {
                                     "name": "Bench Height",
-                                    "ioValue": 609.5999999999999
+                                    "ioValue": 10
                                 },
                                 {
                                     "name": "Bench Depth",
-                                    "ioValue": 500
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -2638,12 +2567,7 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": 1738961006273,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": 1738961313687
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -2734,12 +2658,8 @@
                                             "ioValue": 1738961050352
                                         },
                                         {
-                                            "name": "xDist",
-                                            "ioValue": 50
-                                        },
-                                        {
                                             "name": "yDist",
-                                            "ioValue": 559.5999999999999
+                                            "ioValue": -40
                                         },
                                         {
                                             "name": "zDist",
@@ -2760,16 +2680,12 @@
                                             "ioValue": 1738961053368
                                         },
                                         {
-                                            "name": "Shape 2",
-                                            "ioValue": 1738961082030
-                                        },
-                                        {
                                             "name": "Shape 1",
                                             "ioValue": 1738961053368
                                         },
                                         {
                                             "name": "Shape 2",
-                                            "ioValue": 1738961082030
+                                            "ioValue": null
                                         },
                                         {
                                             "name": "Shape 3",
@@ -2797,7 +2713,7 @@
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 609.5999999999999
+                                            "ioValue": 10
                                         },
                                         {
                                             "name": "R",
@@ -2835,11 +2751,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": 470
-                                        },
-                                        {
-                                            "name": "yDist",
-                                            "ioValue": 579.5999999999999
+                                            "ioValue": -20
                                         },
                                         {
                                             "name": "zDist",
@@ -2857,19 +2769,11 @@
                                     "ioValues": [
                                         {
                                             "name": "Shape 1",
-                                            "ioValue": 1738961082030
+                                            "ioValue": null
                                         },
                                         {
                                             "name": "Shape 2",
-                                            "ioValue": 1738961236809
-                                        },
-                                        {
-                                            "name": "Shape 1",
-                                            "ioValue": 1738961082030
-                                        },
-                                        {
-                                            "name": "Shape 2",
-                                            "ioValue": 1738961236809
+                                            "ioValue": null
                                         },
                                         {
                                             "name": "Shape 3",
@@ -2887,7 +2791,7 @@
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 609.5999999999999
+                                            "ioValue": 10
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -2902,7 +2806,7 @@
                                     "ioValues": [
                                         {
                                             "name": "W",
-                                            "ioValue": 500
+                                            "ioValue": 10
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -2917,11 +2821,11 @@
                                     "ioValues": [
                                         {
                                             "name": "Shape 1",
-                                            "ioValue": 1738961257234
+                                            "ioValue": null
                                         },
                                         {
                                             "name": "Shape 2",
-                                            "ioValue": 1738961095898
+                                            "ioValue": null
                                         }
                                     ],
                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -3061,10 +2965,6 @@
                             "uniqueID": 1738961961076,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1738961006391
-                                },
-                                {
                                     "name": "x-axis degrees",
                                     "ioValue": 0
                                 },
@@ -3087,12 +2987,8 @@
                             "uniqueID": 1738961998336,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1738961961076
-                                },
-                                {
                                     "name": "xDist",
-                                    "ioValue": 325
+                                    "ioValue": 10
                                 },
                                 {
                                     "name": "yDist",
@@ -3113,12 +3009,8 @@
                             "uniqueID": 1738962016928,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1738961006391
-                                },
-                                {
                                     "name": "xDist",
-                                    "ioValue": 325
+                                    "ioValue": 10
                                 },
                                 {
                                     "name": "yDist",
@@ -3139,10 +3031,6 @@
                             "uniqueID": 1738962040930,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1738962016928
-                                },
-                                {
                                     "name": "height",
                                     "ioValue": 1800
                                 }
@@ -3156,10 +3044,6 @@
                             "y": 0.6128133704735376,
                             "uniqueID": 1738962049644,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1738961998336
-                                },
                                 {
                                     "name": "height",
                                     "ioValue": -1800
@@ -3176,11 +3060,11 @@
                             "ioValues": [
                                 {
                                     "name": "Shape 1",
-                                    "ioValue": 1738962049644
+                                    "ioValue": null
                                 },
                                 {
                                     "name": "Shape 2",
-                                    "ioValue": 1738962040930
+                                    "ioValue": null
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -3193,10 +3077,6 @@
                             "y": 0.49860724233983283,
                             "uniqueID": 1738962082892,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1738962060600
-                                },
                                 {
                                     "name": "x-axis degrees",
                                     "ioValue": 90
@@ -3429,7 +3309,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 609.5999999999999
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -3443,7 +3323,7 @@
                             "ioValues": [
                                 {
                                     "name": "Shape 1",
-                                    "ioValue": 1738962082892
+                                    "ioValue": null
                                 },
                                 {
                                     "name": "Shape 2",
@@ -3577,12 +3457,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1738958662323,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1738958779044
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -3614,12 +3489,7 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": 1738958702535,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": 1738958702240
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -3661,7 +3531,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 150
+                                            "ioValue": 20
                                         }
                                     ],
                                     "description": "Creates a new circle."
@@ -3675,7 +3545,7 @@
                                     "ioValues": [
                                         {
                                             "name": "R",
-                                            "ioValue": 75
+                                            "ioValue": 10
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3690,11 +3560,11 @@
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 1600
+                                            "ioValue": 10
                                         },
                                         {
                                             "name": "R",
-                                            "ioValue": 75
+                                            "ioValue": 10
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3710,14 +3580,6 @@
                                         {
                                             "name": "geometry",
                                             "ioValue": 1738958702340
-                                        },
-                                        {
-                                            "name": "xDist",
-                                            "ioValue": 255
-                                        },
-                                        {
-                                            "name": "yDist",
-                                            "ioValue": 725
                                         },
                                         {
                                             "name": "zDist",
@@ -3753,11 +3615,11 @@
                                     "ioValues": [
                                         {
                                             "name": "W",
-                                            "ioValue": 660
+                                            "ioValue": 10
                                         },
                                         {
                                             "name": "R",
-                                            "ioValue": 75
+                                            "ioValue": 10
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3772,11 +3634,11 @@
                                     "ioValues": [
                                         {
                                             "name": "H",
-                                            "ioValue": 1600
+                                            "ioValue": 10
                                         },
                                         {
                                             "name": "R",
-                                            "ioValue": 75
+                                            "ioValue": 10
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3794,12 +3656,8 @@
                                             "ioValue": 1738958702340
                                         },
                                         {
-                                            "name": "xDist",
-                                            "ioValue": 255
-                                        },
-                                        {
                                             "name": "yDist",
-                                            "ioValue": -725
+                                            "ioValue": 5
                                         },
                                         {
                                             "name": "zDist",
@@ -3821,11 +3679,7 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": -255
-                                        },
-                                        {
-                                            "name": "yDist",
-                                            "ioValue": 725
+                                            "ioValue": 5
                                         },
                                         {
                                             "name": "zDist",
@@ -3847,11 +3701,11 @@
                                         },
                                         {
                                             "name": "xDist",
-                                            "ioValue": -255
+                                            "ioValue": 5
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": -725
+                                            "ioValue": 5
                                         },
                                         {
                                             "name": "zDist",
@@ -3869,11 +3723,11 @@
                                     "ioValues": [
                                         {
                                             "name": "W",
-                                            "ioValue": 660
+                                            "ioValue": 10
                                         },
                                         {
                                             "name": "R",
-                                            "ioValue": 75
+                                            "ioValue": 10
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3891,32 +3745,20 @@
                                             "ioValue": 1738958702460
                                         },
                                         {
-                                            "name": "Shape 2",
-                                            "ioValue": 1738958702588
-                                        },
-                                        {
-                                            "name": "Shape 3",
-                                            "ioValue": 1738958702252
-                                        },
-                                        {
-                                            "name": "Shape 4",
-                                            "ioValue": 1738958703040
-                                        },
-                                        {
                                             "name": "Shape 1",
                                             "ioValue": 1738958702460
                                         },
                                         {
                                             "name": "Shape 2",
-                                            "ioValue": 1738958702588
+                                            "ioValue": null
                                         },
                                         {
                                             "name": "Shape 3",
-                                            "ioValue": 1738958702252
+                                            "ioValue": null
                                         },
                                         {
                                             "name": "Shape 4",
-                                            "ioValue": 1738958703040
+                                            "ioValue": null
                                         },
                                         {
                                             "name": "Shape 5",
@@ -4122,10 +3964,6 @@
                             "uniqueID": 1738958739820,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1741645947098
-                                },
-                                {
                                     "name": "height",
                                     "ioValue": 75
                                 }
@@ -4139,10 +3977,6 @@
                             "y": 0.467966573816156,
                             "uniqueID": 1738958756719,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1738958739820
-                                },
                                 {
                                     "name": "x-axis degrees",
                                     "ioValue": 90
@@ -4165,10 +3999,6 @@
                             "y": 0.45403899721448465,
                             "uniqueID": 1738958779044,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1738958756719
-                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": 0
@@ -4233,7 +4063,7 @@
                             "ioValues": [
                                 {
                                     "name": "Shape 2",
-                                    "ioValue": 1738958702501
+                                    "ioValue": null
                                 },
                                 {
                                     "name": "Shape 3",
@@ -4657,7 +4487,7 @@
                                                     "ioValues": [
                                                         {
                                                             "name": "radius",
-                                                            "ioValue": 740
+                                                            "ioValue": 10
                                                         }
                                                     ],
                                                     "description": "Defines a Replicad code block.",
@@ -4760,7 +4590,7 @@
                                                     "ioValues": [
                                                         {
                                                             "name": "radius",
-                                                            "ioValue": 750
+                                                            "ioValue": 10
                                                         }
                                                     ],
                                                     "description": "Defines a Replicad code block.",
@@ -5501,10 +5331,6 @@
                     "uniqueID": 1738958805059,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": 1738958661904
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 1150
                         },
@@ -5529,10 +5355,6 @@
                         {
                             "name": "geometry1",
                             "ioValue": 1738957188514
-                        },
-                        {
-                            "name": "geometry2",
-                            "ioValue": 1741650522058
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
@@ -5571,10 +5393,6 @@
                     "uniqueID": 1738960642869,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": 1748899778010
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 1100
                         },
@@ -5598,7 +5416,7 @@
                     "ioValues": [
                         {
                             "name": "Shape 4",
-                            "ioValue": 1738961511013
+                            "ioValue": null
                         },
                         {
                             "name": "Shape 5",
@@ -5610,7 +5428,7 @@
                         },
                         {
                             "name": "Shape 7",
-                            "ioValue": 1738960642869
+                            "ioValue": null
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -5622,10 +5440,6 @@
                     "y": 0.6072423398328691,
                     "uniqueID": 1738961511013,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1738958654002
-                        },
                         {
                             "name": "xDist",
                             "ioValue": -1159.2
@@ -5648,10 +5462,6 @@
                     "y": 0.21787709497206706,
                     "uniqueID": 1739773891659,
                     "ioValues": [
-                        {
-                            "name": "Geometry",
-                            "ioValue": 1738958842644
-                        },
                         {
                             "name": "Wood Thickness",
                             "ioValue": 12
@@ -5705,12 +5515,8 @@
                             "uniqueID": 1739774127244,
                             "ioValues": [
                                 {
-                                    "name": "Geometry",
-                                    "ioValue": 1738958842644
-                                },
-                                {
                                     "name": "Wood Thickness",
-                                    "ioValue": 12
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -5767,16 +5573,7 @@
                                     "x": 0.21362433862433863,
                                     "y": 0.20949720670391062,
                                     "uniqueID": 1739774144436,
-                                    "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": 1739774144880
-                                        },
-                                        {
-                                            "name": "height",
-                                            "ioValue": 12
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
                                 },
                                 {
@@ -5786,10 +5583,6 @@
                                     "y": 0.22625698324022345,
                                     "uniqueID": 1739774144339,
                                     "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": "d2b9ddf1-10f2-4e19-bce8-1e043d5e4c07"
-                                        },
                                         {
                                             "name": "x-axis degrees",
                                             "ioValue": 0
@@ -5812,10 +5605,6 @@
                                     "y": 0.1759776536312849,
                                     "uniqueID": 1739774144388,
                                     "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": 1739774144339
-                                        },
                                         {
                                             "name": "xDist",
                                             "ioValue": 1209
@@ -5840,31 +5629,31 @@
                                     "ioValues": [
                                         {
                                             "name": "Shape 2",
-                                            "ioValue": 1739774144339
+                                            "ioValue": null
                                         },
                                         {
                                             "name": "Shape 3",
-                                            "ioValue": 1739774144388
+                                            "ioValue": null
                                         },
                                         {
                                             "name": "Shape 4",
-                                            "ioValue": 1739774278882
+                                            "ioValue": null
                                         },
                                         {
                                             "name": "Shape 6",
-                                            "ioValue": 1739774308470
+                                            "ioValue": null
                                         },
                                         {
                                             "name": "Shape 7",
-                                            "ioValue": 1739774347670
+                                            "ioValue": null
                                         },
                                         {
                                             "name": "Shape 8",
-                                            "ioValue": 1739774347768
+                                            "ioValue": null
                                         },
                                         {
                                             "name": "Shape 9",
-                                            "ioValue": "d9272c6b-31ed-4f4f-a3c2-c64b2d2d6361"
+                                            "ioValue": null
                                         }
                                     ],
                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -5875,16 +5664,7 @@
                                     "x": 0.7552910052910052,
                                     "y": 0.7743732590529249,
                                     "uniqueID": 1739774163691,
-                                    "ioValues": [
-                                        {
-                                            "name": "geometry1",
-                                            "ioValue": 1739774145131
-                                        },
-                                        {
-                                            "name": "geometry2",
-                                            "ioValue": 1738958842644
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "The space shared by two shapes."
                                 },
                                 {
@@ -5894,10 +5674,6 @@
                                     "y": 0.6368715083798883,
                                     "uniqueID": 1739774278882,
                                     "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": 1739774144339
-                                        },
                                         {
                                             "name": "xDist",
                                             "ioValue": -1209
@@ -5921,10 +5697,6 @@
                                     "uniqueID": 1739774308470,
                                     "ioValues": [
                                         {
-                                            "name": "geometry",
-                                            "ioValue": 1739774144339
-                                        },
-                                        {
                                             "name": "xDist",
                                             "ioValue": 403
                                         },
@@ -5946,10 +5718,6 @@
                                     "y": 0.45530726256983234,
                                     "uniqueID": 1739774309062,
                                     "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": 1739774144339
-                                        },
                                         {
                                             "name": "xDist",
                                             "ioValue": -403
@@ -5973,10 +5741,6 @@
                                     "uniqueID": 1739774347768,
                                     "ioValues": [
                                         {
-                                            "name": "geometry",
-                                            "ioValue": 1739774144339
-                                        },
-                                        {
                                             "name": "xDist",
                                             "ioValue": 806
                                         },
@@ -5998,10 +5762,6 @@
                                     "y": 0.729050279329609,
                                     "uniqueID": 1739774347670,
                                     "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": 1739774144339
-                                        },
                                         {
                                             "name": "xDist",
                                             "ioValue": -806
@@ -6025,20 +5785,12 @@
                                     "uniqueID": "71fa2064-11a3-4663-bf8c-d06becc3273d",
                                     "ioValues": [
                                         {
-                                            "name": "geometry",
-                                            "ioValue": "934982d2-d76e-422b-b514-41c4d0cef8c8"
-                                        },
-                                        {
                                             "name": "xDist",
                                             "ioValue": 0
                                         },
                                         {
                                             "name": "yDist",
                                             "ioValue": 0
-                                        },
-                                        {
-                                            "name": "zDist",
-                                            "ioValue": -12
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
@@ -6052,11 +5804,11 @@
                                     "ioValues": [
                                         {
                                             "name": "Shape 3",
-                                            "ioValue": "934982d2-d76e-422b-b514-41c4d0cef8c8"
+                                            "ioValue": null
                                         },
                                         {
                                             "name": "Shape 5",
-                                            "ioValue": "91a777d7-7a7b-4f1e-a787-9afeb52d03b2"
+                                            "ioValue": null
                                         }
                                     ],
                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -6067,12 +5819,7 @@
                                     "x": 0.06613756613756615,
                                     "y": 0.76536312849162,
                                     "uniqueID": "6bd55a81-8693-4dff-8871-8e8844b73e33",
-                                    "ioValues": [
-                                        {
-                                            "name": "x",
-                                            "ioValue": 12
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                                     "currentEquation": "-1*x"
                                 },
@@ -6082,12 +5829,7 @@
                                     "x": 0.1898148148148148,
                                     "y": 0.44972067039106145,
                                     "uniqueID": "934982d2-d76e-422b-b514-41c4d0cef8c8",
-                                    "ioValues": [
-                                        {
-                                            "name": "Wood Thickness",
-                                            "ioValue": 12
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                                     "topLevel": false,
                                     "allAtoms": [
@@ -6097,12 +5839,7 @@
                                             "x": 0.98,
                                             "y": 0.5,
                                             "uniqueID": "7f2c02a7-7f82-49eb-94ab-70a43c0af0c2",
-                                            "ioValues": [
-                                                {
-                                                    "name": "number or geometry",
-                                                    "ioValue": "cccb24c1-1a36-46e5-b35d-575c771c091b"
-                                                }
-                                            ],
+                                            "ioValues": [],
                                             "description": "Connect geometry here to make it available in the next level up. "
                                         },
                                         {
@@ -6129,10 +5866,6 @@
                                                 {
                                                     "name": "Height",
                                                     "ioValue": 2000
-                                                },
-                                                {
-                                                    "name": "Thickness",
-                                                    "ioValue": 12
                                                 }
                                             ],
                                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -6144,12 +5877,7 @@
                                                     "x": 0.98,
                                                     "y": 0.5,
                                                     "uniqueID": "a1a477b0-c7db-438f-ba6b-2a056467ad81",
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "number or geometry",
-                                                            "ioValue": "17098c0b-df97-42d9-a365-0f697ca41db0"
-                                                        }
-                                                    ],
+                                                    "ioValues": [],
                                                     "description": "Connect geometry here to make it available in the next level up. "
                                                 },
                                                 {
@@ -6158,20 +5886,7 @@
                                                     "x": 0,
                                                     "y": 0,
                                                     "uniqueID": "17098c0b-df97-42d9-a365-0f697ca41db0",
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "angle",
-                                                            "ioValue": 45
-                                                        },
-                                                        {
-                                                            "name": "height",
-                                                            "ioValue": 2000
-                                                        },
-                                                        {
-                                                            "name": "thickness",
-                                                            "ioValue": 12
-                                                        }
-                                                    ],
+                                                    "ioValues": [],
                                                     "description": "Defines a Replicad code block.",
                                                     "codeVersion": 1,
                                                     "code": " \n      //Inputs:[angle, height, thickness]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n    \n      \n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(5,7)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new replicad.Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n\n      let angleRad = angle * Math.PI / 180;\n      let base = 2 * height * Math.tan(angleRad / 2);\n\n      const triangle = replicad.draw([-base/2, 0])\n              .lineTo([base/2, 0])\n              .lineTo([0, height])\n              .close()\n              .sketchOnPlane()\n              .extrude(thickness)\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [triangle], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      return shape2\n \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
@@ -6265,10 +5980,6 @@
                                             "uniqueID": "e12806de-f112-43b3-861c-36bbe8f8ee71",
                                             "ioValues": [
                                                 {
-                                                    "name": "geometry",
-                                                    "ioValue": "b9d14393-1230-4eb5-b573-5cd3b43b00e1"
-                                                },
-                                                {
                                                     "name": "xDist",
                                                     "ioValue": 0
                                                 },
@@ -6291,10 +6002,6 @@
                                             "uniqueID": "377e8f43-717e-4bbc-bdfc-5c0eb88e670f",
                                             "ioValues": [
                                                 {
-                                                    "name": "Shape",
-                                                    "ioValue": "e12806de-f112-43b3-861c-36bbe8f8ee71"
-                                                },
-                                                {
                                                     "name": "Number",
                                                     "ioValue": 8
                                                 },
@@ -6312,12 +6019,7 @@
                                                     "x": 0.98,
                                                     "y": 0.5,
                                                     "uniqueID": "9eeadb82-2bed-4576-9d9e-f757b1b4b214",
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "number or geometry",
-                                                            "ioValue": "1d8db0cb-967d-4eff-9ff9-7846ef219f1c"
-                                                        }
-                                                    ],
+                                                    "ioValues": [],
                                                     "description": "Connect geometry here to make it available in the next level up. "
                                                 },
                                                 {
@@ -6369,10 +6071,6 @@
                                                     "uniqueID": "2495defe-6108-47b0-a7d6-d61f19d6b595",
                                                     "ioValues": [
                                                         {
-                                                            "name": "geometry",
-                                                            "ioValue": "a2d166e2-07c4-4a4f-996a-646529b332be"
-                                                        },
-                                                        {
                                                             "name": "xDist",
                                                             "ioValue": 100
                                                         },
@@ -6393,20 +6091,7 @@
                                                     "x": 0,
                                                     "y": 0,
                                                     "uniqueID": "1d8db0cb-967d-4eff-9ff9-7846ef219f1c",
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "Shape",
-                                                            "ioValue": "e12806de-f112-43b3-861c-36bbe8f8ee71"
-                                                        },
-                                                        {
-                                                            "name": "Number",
-                                                            "ioValue": 8
-                                                        },
-                                                        {
-                                                            "name": "Angle",
-                                                            "ioValue": 45
-                                                        }
-                                                    ],
+                                                    "ioValues": [],
                                                     "description": "Defines a Replicad code block.",
                                                     "codeVersion": 1,
                                                     "code": "//Inputs:[Shape, Number, Angle];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Rotate(Shape, 0, 0, Angle * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
@@ -6418,10 +6103,6 @@
                                                     "y": 0.2618384401114206,
                                                     "uniqueID": "4e971e11-95b5-40f9-9216-c3bc38fd730d",
                                                     "ioValues": [
-                                                        {
-                                                            "name": "geometry",
-                                                            "ioValue": "2495defe-6108-47b0-a7d6-d61f19d6b595"
-                                                        },
                                                         {
                                                             "name": "height",
                                                             "ioValue": 10
@@ -6498,12 +6179,7 @@
                                             "x": 0.7943121693121694,
                                             "y": 0.4720670391061452,
                                             "uniqueID": "228f11c5-c0cc-4719-9826-1018082cc7de",
-                                            "ioValues": [
-                                                {
-                                                    "name": "geometry",
-                                                    "ioValue": "377e8f43-717e-4bbc-bdfc-5c0eb88e670f"
-                                                }
-                                            ],
+                                            "ioValues": [],
                                             "description": "Changes the color of the shape.",
                                             "selectedColorIndex": 0
                                         },
@@ -6513,12 +6189,7 @@
                                             "x": 0.8597883597883598,
                                             "y": 0.329608938547486,
                                             "uniqueID": "cccb24c1-1a36-46e5-b35d-575c771c091b",
-                                            "ioValues": [
-                                                {
-                                                    "name": "geometry",
-                                                    "ioValue": "228f11c5-c0cc-4719-9826-1018082cc7de"
-                                                }
-                                            ],
+                                            "ioValues": [],
                                             "description": "Tags geometry so that it can be extracted later.",
                                             "tags": [
                                                 "Vertical"
@@ -6574,10 +6245,6 @@
                                     "uniqueID": "91a777d7-7a7b-4f1e-a787-9afeb52d03b2",
                                     "ioValues": [
                                         {
-                                            "name": "geometry",
-                                            "ioValue": "71fa2064-11a3-4663-bf8c-d06becc3273d"
-                                        },
-                                        {
                                             "name": "x-axis degrees",
                                             "ioValue": 0
                                         },
@@ -6600,10 +6267,6 @@
                                     "uniqueID": "d2b9ddf1-10f2-4e19-bce8-1e043d5e4c07",
                                     "ioValues": [
                                         {
-                                            "name": "geometry",
-                                            "ioValue": "63a309af-b4b9-455c-bfd2-28b71c53145e"
-                                        },
-                                        {
                                             "name": "xDist",
                                             "ioValue": -1000
                                         },
@@ -6624,12 +6287,7 @@
                                     "x": 0.42122395833333337,
                                     "y": 0.6755952380952381,
                                     "uniqueID": "d9272c6b-31ed-4f4f-a3c2-c64b2d2d6361",
-                                    "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": 1739774309062
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Tags geometry so that it can be extracted later.",
                                     "tags": [
                                         "rib"
@@ -6979,7 +6637,7 @@
                                 },
                                 {
                                     "name": "Shape 2",
-                                    "ioValue": 1739774466258
+                                    "ioValue": null
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -6992,12 +6650,8 @@
                             "uniqueID": 1739774466258,
                             "ioValues": [
                                 {
-                                    "name": "Geometry",
-                                    "ioValue": 1738958842644
-                                },
-                                {
                                     "name": "Wood Thickness",
-                                    "ioValue": 12
+                                    "ioValue": 10
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -7009,12 +6663,7 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": 1739774466651,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": 1739774466080
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -7066,7 +6715,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 12
+                                            "ioValue": 10
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -7107,10 +6756,6 @@
                                         {
                                             "name": "geometry1",
                                             "ioValue": 1739774530316
-                                        },
-                                        {
-                                            "name": "geometry2",
-                                            "ioValue": 1738958842644
                                         }
                                     ],
                                     "description": "The space shared by two shapes."
@@ -7543,20 +7188,7 @@
                                                     "x": 0,
                                                     "y": 0,
                                                     "uniqueID": 1739990534755,
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "Shape",
-                                                            "ioValue": 10
-                                                        },
-                                                        {
-                                                            "name": "Number",
-                                                            "ioValue": 4
-                                                        },
-                                                        {
-                                                            "name": "Dist",
-                                                            "ioValue": 800
-                                                        }
-                                                    ],
+                                                    "ioValues": [],
                                                     "description": "Defines a Replicad code block.",
                                                     "codeVersion": 1,
                                                     "code": "//Inputs:[Shape, Number, Dist];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, Dist * i, 0, 0);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
@@ -7711,11 +7343,11 @@
                                                         },
                                                         {
                                                             "name": "Number",
-                                                            "ioValue": 5
+                                                            "ioValue": 10
                                                         },
                                                         {
                                                             "name": "Dist",
-                                                            "ioValue": 800
+                                                            "ioValue": 10
                                                         }
                                                     ],
                                                     "description": "Defines a Replicad code block.",
@@ -7937,7 +7569,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -12
+                                            "ioValue": -10
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
@@ -7951,7 +7583,7 @@
                                     "ioValues": [
                                         {
                                             "name": "h",
-                                            "ioValue": 12
+                                            "ioValue": 10
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -8192,12 +7824,7 @@
                             "x": 0.5476190476190477,
                             "y": 0.6899441340782123,
                             "uniqueID": "08835bd2-59ef-4f3f-84ea-e9cd560462c6",
-                            "ioValues": [
-                                {
-                                    "name": "Assembly2",
-                                    "ioValue": 1739774466258
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
                             "topLevel": false,
                             "allAtoms": [
@@ -8247,10 +7874,6 @@
                                     "uniqueID": "eb206053-279f-4c5c-bc7f-4024d3198fa7",
                                     "ioValues": [
                                         {
-                                            "name": "geometry",
-                                            "ioValue": "e4910522-2f12-41ea-8ecb-525eedfe9d09"
-                                        },
-                                        {
                                             "name": "height",
                                             "ioValue": 5
                                         }
@@ -8283,10 +7906,6 @@
                                     "uniqueID": "58953a5f-b9b0-46be-a0bb-51474ed2a0e6",
                                     "ioValues": [
                                         {
-                                            "name": "geometry",
-                                            "ioValue": "41866b64-c17f-40de-8c77-d156277a7b16"
-                                        },
-                                        {
                                             "name": "height",
                                             "ioValue": 50
                                         }
@@ -8300,10 +7919,6 @@
                                     "y": 0.8154761904761905,
                                     "uniqueID": "36f6e7bc-0931-4798-a234-06b3abf74c71",
                                     "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": "58953a5f-b9b0-46be-a0bb-51474ed2a0e6"
-                                        },
                                         {
                                             "name": "xDist",
                                             "ioValue": -2.5
@@ -8325,16 +7940,7 @@
                                     "x": 0,
                                     "y": 0,
                                     "uniqueID": "285aac4e-0864-469e-a830-2b4b75c95243",
-                                    "ioValues": [
-                                        {
-                                            "name": "shape1",
-                                            "ioValue": "a3ca60e4-f275-4520-a493-c9d92df18733"
-                                        },
-                                        {
-                                            "name": "shape2",
-                                            "ioValue": "d6745e9e-29f9-4db4-9ee5-cbdc9e52cc9b"
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Defines a Replicad code block.",
                                     "codeVersion": 1,
                                     "code": " \n//Inputs:[shape1, shape2]\n\n\nfunction lengthAlongDirection(shape, direction) {\n  let targetOrientation = new replicad.Vector([1, 0, 0]);\n  let rotationAxis = direction.cross(targetOrientation);\n  if (rotationAxis.Length != 0) {   // If direction isn't parallel to X axis..\n    rotationDegrees =\n      (Math.acos(\n        direction.dot(targetOrientation) /\n          (targetOrientation.Length * direction.Length)\n      ) *\n        360) /\n      (2 * Math.PI);\n  \n    shape = shape.clone()\n      .rotate(rotationDegrees, new replicad.Vector([0,0,0]), rotationAxis);\n  }\n\n  const bounds = shape.boundingBox.bounds;\n  return Math.abs(bounds[0][0] - bounds[1][0])\n}\n\nfunction vecStr(vec) {\n  return vec.x + \", \" + vec.y + \", \" + vec.z\n}\n\n/**\n * Return a new copy of shape1 with have of it's intersection with shape 2 removed\n * \n * Which half is selected is based on the shape of the intersectoin, we always split\n * the shared volume along its longest axis.\n */\nasync function performHalfLap(shape1, shape2) {\n  let wrapperShape = await Intersect(shape1, shape2)\n  let intersect = wrapperShape.geometry[0]\n  let boundingBox = intersect.boundingBox\n  let newBounds = undefined;\n  try {\n    newBounds = boundingBox.bounds;\n  } catch (error) {\n    // there' isn't an intersecting volume\n    console.log(\"no intersection. returning shape1 unmodified\")\n    return shape1\n  }\n\n  // collect candidate directions\n  const planarFaces = []\n  intersect.faces.forEach((face) => {\n    if (face.geomType == \"PLANE\") {\n      planarFaces.push(face)\n    }\n  });\n  const candidates = []\n  for (let i = 0; i < planarFaces.length; i++) {\n    for (let j = i + 1; j < planarFaces.length; j++) {\n      const vec = planarFaces[i].normalAt().cross(planarFaces[j].normalAt())\n      candidates.push(vec)\n    }\n  }\n\n  console.log(candidates.map((v) => {return [v.x, v.y, v.z]}))\n  // remove parallel candidates\n  for (var i = candidates.length - 1; i > 0; i--) {\n    for (var j = i - 1; j >= 0; j--) {\n      const v1 = candidates[i]\n      const v2 = candidates[j]\n      if (v1.cross(v2).Length == 0) { // parallel\n      //if (v1.x == v2.x && v1.y == v2.y && v1.z == v2.z) {\n        candidates.splice(j,1)\n        i = i - 1\n      }\n    }\n  }\n\n  console.log(candidates.map((v) => {return [v.x, v.y, v.z]}))\n  \n  if (candidates.length == 0) {\n    // Something is wrong, bail out without crashing\n    console.warn(\"unexpectely found no planar adjascent planar faces when doing half-lap\")\n    return shape1;\n  }\n\n  var maxLength = 0;\n  var splittingAxis = new replicad.Vector([1,0,0])\n  for (const axis of candidates) {\n    let len = lengthAlongDirection(intersect.clone(), axis)\n    if (len > maxLength) {\n      splittingAxis = axis;\n      maxLength = len\n    }\n  }\n\n  console.log(\"selected candidate:\")\n  console.log(maxLength)\n  console.log(vecStr(splittingAxis))\n\n\n  // get half of the intersected volume\n  const translationVec = splittingAxis.multiply(maxLength / 2)\n  const temporary = intersect.clone().translate(translationVec.x, translationVec.y, translationVec.z);\n  intersect = intersect.clone().cut(temporary);\n\n  wrapperShape.geometry[0] = temporary\n // return wrapperShape;\n\n let newShape1 = {\n    geometry: [shape1.geometry[0].clone().cut(intersect)],\n    tags: shape1.tags || [],\n    color: shape1.color,\n    plane: shape1.plane,\n    bom: shape1.bom || []\n  };\n  console.log(\"result for leaf: \")\n  console.log(newShape1)\n\n  return newShape1;\n\n//  return await Assembly([shape2, newShape1])//, cube]);\n}\n\n// choose midpoint\n         console.log(\"starting... \");\n         console.log(shape1)\n         console.log(shape2)\n         if (library[shape1] == undefined) {\n           throw new Error(\"Shape1 \" + shape1 + \" not a geometry id\")\n         }\n         if (library[shape2] == undefined) {\n           throw new Error(\"Shape2 \" + shape2 + \" not a geometry id\")\n         }\n\n         // TODO: someday we should pass the geoms directly, user should never have to deal with\n         // library lookups imo\n         shape1 = library[shape1]\n         shape2 = library[shape2]\n         \n\n         s2AsList = await AssemblyAsIterable(shape2);\n         console.log(\"s2AsList: \")\n         console.log(s2AsList);\n         let updatedShape1 = await AssemblyMap(shape1, async (s1leaf, _) => {\n            for (const el of s2AsList) {\n              s1leaf = await performHalfLap(s1leaf, el)\n            }\n            return s1leaf\n          })\n         console.log(\"done\");\n         console.log(updatedShape1)\n         const newShape2 = CutAssembly(shape2, [updatedShape1])\n         return Assembly([updatedShape1, newShape2])\n\n      \n\n      \n\n//      return Intersect(shape1, shape2)\n\n\n\n      //This makes a new copy of of the shape (to prevent garbage collection issues),\n      //and moves it in the X direction. Note that this will not work if the input is an assembly\n      /*let movedShape = importedShape.geometry[0].clone().translate([dist,0,0])\n      \n      //Console.log works for debugging to better see what is happening under the hood\n      console.log(\"Shape:\")\n      console.log(importedShape);\n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [movedShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      //We could at this point return shape1 as a complete shape and it will be automatically written to the library for us\n      //return shape1\n      \n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(5,7)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      //return shape2\n      \n      //If we want to return both shapes at once, we can create an assembly with them\n      let anAssembly = {\n        geometry: [shape1, shape2], \n        tags: [\"aNewTag\"],\n        color: '#A3CF5B',\n        plane: newPlane,\n        bom: []\n      }\n      \n      //And we can return that in the same way\n      return anAssembly\n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
@@ -8346,10 +7952,6 @@
                                     "y": 0.8392857142857143,
                                     "uniqueID": "a3ca60e4-f275-4520-a493-c9d92df18733",
                                     "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": "36f6e7bc-0931-4798-a234-06b3abf74c71"
-                                        },
                                         {
                                             "name": "x-axis degrees",
                                             "ioValue": 20
@@ -8372,10 +7974,6 @@
                                     "y": 0.4107142857142857,
                                     "uniqueID": "cd589913-f525-44b2-afa1-0ba3721c00dc",
                                     "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": "eb206053-279f-4c5c-bc7f-4024d3198fa7"
-                                        },
                                         {
                                             "name": "xDist",
                                             "ioValue": 0
@@ -8400,11 +7998,11 @@
                                     "ioValues": [
                                         {
                                             "name": "Shape 1",
-                                            "ioValue": "cd589913-f525-44b2-afa1-0ba3721c00dc"
+                                            "ioValue": null
                                         },
                                         {
                                             "name": "Shape 2",
-                                            "ioValue": "eb206053-279f-4c5c-bc7f-4024d3198fa7"
+                                            "ioValue": null
                                         }
                                     ],
                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -8449,10 +8047,6 @@
                                     "uniqueID": "d6745e9e-29f9-4db4-9ee5-cbdc9e52cc9b",
                                     "ioValues": [
                                         {
-                                            "name": "geometry",
-                                            "ioValue": "7c821617-3209-4d06-97af-6aa6996f5a84"
-                                        },
-                                        {
                                             "name": "x-axis degrees",
                                             "ioValue": 0
                                         },
@@ -8484,12 +8078,7 @@
                                     "x": 0,
                                     "y": 0,
                                     "uniqueID": "bcbf0225-5d2d-4848-9676-df78cfe6295b",
-                                    "ioValues": [
-                                        {
-                                            "name": "shape2",
-                                            "ioValue": 1739774466258
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Defines a Replicad code block.",
                                     "codeVersion": 1,
                                     "code": " \n//Inputs:[shape1, shape2]\n\n\nfunction lengthAlongDirection(shape, direction) {\n  let targetOrientation = new replicad.Vector([1, 0, 0]);\n  let rotationAxis = direction.cross(targetOrientation);\n  if (rotationAxis.Length != 0) {   // If direction isn't parallel to X axis..\n    rotationDegrees =\n      (Math.acos(\n        direction.dot(targetOrientation) /\n          (targetOrientation.Length * direction.Length)\n      ) *\n        360) /\n      (2 * Math.PI);\n  \n    shape = shape.clone()\n      .rotate(rotationDegrees, new replicad.Vector([0,0,0]), rotationAxis);\n  }\n\n  const bounds = shape.boundingBox.bounds;\n  return Math.abs(bounds[0][0] - bounds[1][0])\n}\n\nfunction vecStr(vec) {\n  return vec.x + \", \" + vec.y + \", \" + vec.z\n}\n\n/**\n * Return a new copy of shape1 with have of it's intersection with shape 2 removed\n * \n * Which half is selected is based on the shape of the intersectoin, we always split\n * the shared volume along its longest axis.\n */\nasync function performHalfLap(shape1, shape2) {\n  let wrapperShape = await Intersect(shape1, shape2)\n  let intersect = wrapperShape.geometry[0]\n  let boundingBox = intersect.boundingBox\n  let newBounds = undefined;\n  try {\n    newBounds = boundingBox.bounds;\n  } catch (error) {\n    // there' isn't an intersecting volume\n    console.log(\"no intersection. returning shape1 unmodified\")\n    return shape1\n  }\n\n  // collect candidate directions\n  const planarFaces = []\n  intersect.faces.forEach((face) => {\n    if (face.geomType == \"PLANE\") {\n      planarFaces.push(face)\n    }\n  });\n  const candidates = []\n  for (let i = 0; i < planarFaces.length; i++) {\n    for (let j = i + 1; j < planarFaces.length; j++) {\n      const vec = planarFaces[i].normalAt().cross(planarFaces[j].normalAt())\n      candidates.push(vec)\n    }\n  }\n\n  console.log(candidates.map((v) => {return [v.x, v.y, v.z]}))\n  // remove parallel candidates\n  for (var i = candidates.length - 1; i > 0; i--) {\n    for (var j = i - 1; j >= 0; j--) {\n      const v1 = candidates[i]\n      const v2 = candidates[j]\n      if (v1.cross(v2).Length == 0) { // parallel\n      //if (v1.x == v2.x && v1.y == v2.y && v1.z == v2.z) {\n        candidates.splice(j,1)\n        i = i - 1\n      }\n    }\n  }\n\n  console.log(candidates.map((v) => {return [v.x, v.y, v.z]}))\n  \n  if (candidates.length == 0) {\n    // Something is wrong, bail out without crashing\n    console.warn(\"unexpectely found no planar adjascent planar faces when doing half-lap\")\n    return shape1;\n  }\n\n  var maxLength = 0;\n  var splittingAxis = new replicad.Vector([1,0,0])\n  for (const axis of candidates) {\n    let len = lengthAlongDirection(intersect.clone(), axis)\n    if (len > maxLength) {\n      splittingAxis = axis;\n      maxLength = len\n    }\n  }\n\n  console.log(\"selected candidate:\")\n  console.log(maxLength)\n  console.log(vecStr(splittingAxis))\n\n\n  // get half of the intersected volume\n  const translationVec = splittingAxis.multiply(maxLength / 2)\n  const temporary = intersect.clone().translate(translationVec.x, translationVec.y, translationVec.z);\n  intersect = intersect.clone().cut(temporary);\n\n  wrapperShape.geometry[0] = temporary\n // return wrapperShape;\n\n let newShape1 = {\n    geometry: [shape1.geometry[0].clone().cut(intersect)],\n    tags: shape1.tags || [],\n    color: shape1.color,\n    plane: shape1.plane,\n    bom: shape1.bom || []\n  };\n  console.log(\"result for leaf: \")\n  console.log(newShape1)\n\n  return newShape1;\n\n//  return await Assembly([shape2, newShape1])//, cube]);\n}\n\n// choose midpoint\n         console.log(\"starting... \");\n         console.log(shape1)\n         console.log(shape2)\n         if (library[shape1] == undefined) {\n           throw new Error(\"Shape1 \" + shape1 + \" not a geometry id\")\n         }\n         if (library[shape2] == undefined) {\n           throw new Error(\"Shape2 \" + shape2 + \" not a geometry id\")\n         }\n\n         // TODO: someday we should pass the geoms directly, user should never have to deal with\n         // library lookups imo\n         shape1 = library[shape1]\n         shape2 = library[shape2]\n         \n\n         s2AsList = await AssemblyAsIterable(shape2);\n         console.log(\"s2AsList: \")\n         console.log(s2AsList);\n         let updatedShape1 = await AssemblyMap(shape1, async (s1leaf, _) => {\n            for (const el of s2AsList) {\n              s1leaf = await performHalfLap(s1leaf, el)\n            }\n            return s1leaf\n          })\n         console.log(\"done\");\n         console.log(updatedShape1)\n         const newShape2 = CutAssembly(shape2, [updatedShape1])\n         return Assembly([updatedShape1, newShape2])\n\n      \n\n      \n\n//      return Intersect(shape1, shape2)\n\n\n\n      //This makes a new copy of of the shape (to prevent garbage collection issues),\n      //and moves it in the X direction. Note that this will not work if the input is an assembly\n      /*let movedShape = importedShape.geometry[0].clone().translate([dist,0,0])\n      \n      //Console.log works for debugging to better see what is happening under the hood\n      console.log(\"Shape:\")\n      console.log(importedShape);\n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [movedShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      //We could at this point return shape1 as a complete shape and it will be automatically written to the library for us\n      //return shape1\n      \n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(5,7)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      //return shape2\n      \n      //If we want to return both shapes at once, we can create an assembly with them\n      let anAssembly = {\n        geometry: [shape1, shape2], \n        tags: [\"aNewTag\"],\n        color: '#A3CF5B',\n        plane: newPlane,\n        bom: []\n      }\n      \n      //And we can return that in the same way\n      return anAssembly\n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
@@ -8971,7 +8560,7 @@
                         },
                         {
                             "name": "Shape 2",
-                            "ioValue": 1738958805059
+                            "ioValue": null
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -8993,12 +8582,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1748899778670,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1748899778579
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -9017,12 +8601,7 @@
                                     "x": 0.98,
                                     "y": 0.5,
                                     "uniqueID": 1748895810764,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": 1748895810407
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Connect geometry here to make it available in the next level up. "
                                 },
                                 {
@@ -9031,12 +8610,7 @@
                                     "x": 0.8842592592592592,
                                     "y": 0.5642458100558659,
                                     "uniqueID": 1748895810407,
-                                    "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": 1748895810590
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
                                     "BOMitem": {
                                         "BOMitemName": "Wood Stove",
@@ -9345,10 +8919,6 @@
                                                     "ioValue": 1743279703700
                                                 },
                                                 {
-                                                    "name": "xDist",
-                                                    "ioValue": -382
-                                                },
-                                                {
                                                     "name": "yDist",
                                                     "ioValue": -30
                                                 },
@@ -9369,10 +8939,6 @@
                                                 {
                                                     "name": "geometry1",
                                                     "ioValue": 1743279731933
-                                                },
-                                                {
-                                                    "name": "geometry2",
-                                                    "ioValue": 1748895904183
                                                 }
                                             ],
                                             "description": "Subtracts shape two from shape one."
@@ -9558,7 +9124,7 @@
                                         },
                                         {
                                             "name": "Shape 3",
-                                            "ioValue": 1748898200792
+                                            "ioValue": null
                                         }
                                     ],
                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -9849,11 +9415,11 @@
                                                                 },
                                                                 {
                                                                     "name": "Number",
-                                                                    "ioValue": 4
+                                                                    "ioValue": 10
                                                                 },
                                                                 {
                                                                     "name": "Dist",
-                                                                    "ioValue": 25
+                                                                    "ioValue": 10
                                                                 }
                                                             ],
                                                             "description": "Defines a Replicad code block.",
@@ -10575,12 +10141,7 @@
                                             "x": 0.98,
                                             "y": 0.5,
                                             "uniqueID": 1748898200425,
-                                            "ioValues": [
-                                                {
-                                                    "name": "number or geometry",
-                                                    "ioValue": 1748899072852
-                                                }
-                                            ],
+                                            "ioValues": [],
                                             "description": "Connect geometry here to make it available in the next level up. "
                                         },
                                         {
@@ -10644,12 +10205,7 @@
                                                     "x": 0.98,
                                                     "y": 0.5,
                                                     "uniqueID": 1748899072653,
-                                                    "ioValues": [
-                                                        {
-                                                            "name": "number or geometry",
-                                                            "ioValue": 1748899072678
-                                                        }
-                                                    ],
+                                                    "ioValues": [],
                                                     "description": "Connect geometry here to make it available in the next level up. "
                                                 },
                                                 {
@@ -10691,7 +10247,7 @@
                                                     "ioValues": [
                                                         {
                                                             "name": "W",
-                                                            "ioValue": 320
+                                                            "ioValue": 10
                                                         }
                                                     ],
                                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -10706,7 +10262,7 @@
                                                     "ioValues": [
                                                         {
                                                             "name": "W",
-                                                            "ioValue": 320
+                                                            "ioValue": 10
                                                         }
                                                     ],
                                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -10721,7 +10277,7 @@
                                                     "ioValues": [
                                                         {
                                                             "name": "L",
-                                                            "ioValue": 200
+                                                            "ioValue": 10
                                                         }
                                                     ],
                                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -10736,7 +10292,7 @@
                                                     "ioValues": [
                                                         {
                                                             "name": "L",
-                                                            "ioValue": 200
+                                                            "ioValue": 10
                                                         }
                                                     ],
                                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -10752,14 +10308,6 @@
                                                         {
                                                             "name": "geometry",
                                                             "ioValue": 1748898224227
-                                                        },
-                                                        {
-                                                            "name": "xDist",
-                                                            "ioValue": 160
-                                                        },
-                                                        {
-                                                            "name": "yDist",
-                                                            "ioValue": 100
                                                         },
                                                         {
                                                             "name": "zDist",
@@ -10780,12 +10328,8 @@
                                                             "ioValue": 1748898224227
                                                         },
                                                         {
-                                                            "name": "xDist",
-                                                            "ioValue": 160
-                                                        },
-                                                        {
                                                             "name": "yDist",
-                                                            "ioValue": -100
+                                                            "ioValue": -5
                                                         },
                                                         {
                                                             "name": "zDist",
@@ -10807,11 +10351,7 @@
                                                         },
                                                         {
                                                             "name": "xDist",
-                                                            "ioValue": -160
-                                                        },
-                                                        {
-                                                            "name": "yDist",
-                                                            "ioValue": 100
+                                                            "ioValue": -5
                                                         },
                                                         {
                                                             "name": "zDist",
@@ -10833,11 +10373,11 @@
                                                         },
                                                         {
                                                             "name": "xDist",
-                                                            "ioValue": -160
+                                                            "ioValue": -5
                                                         },
                                                         {
                                                             "name": "yDist",
-                                                            "ioValue": -100
+                                                            "ioValue": -5
                                                         },
                                                         {
                                                             "name": "zDist",
@@ -10859,15 +10399,15 @@
                                                         },
                                                         {
                                                             "name": "Shape 2",
-                                                            "ioValue": 1748899073106
+                                                            "ioValue": null
                                                         },
                                                         {
                                                             "name": "Shape 3",
-                                                            "ioValue": 1748899072805
+                                                            "ioValue": null
                                                         },
                                                         {
                                                             "name": "Shape 4",
-                                                            "ioValue": 1748899072910
+                                                            "ioValue": null
                                                         }
                                                     ],
                                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -11131,7 +10671,7 @@
                             "ioValues": [
                                 {
                                     "name": "Shape 1",
-                                    "ioValue": 1748899778681
+                                    "ioValue": null
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -11426,10 +10966,6 @@
                     "uniqueID": 1738958491172,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": 1738958491202
-                        },
-                        {
                             "name": "height",
                             "ioValue": 4000
                         }
@@ -11444,20 +10980,12 @@
                     "uniqueID": 1738958491639,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": 1738958491172
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
                         {
                             "name": "yDist",
                             "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 1000
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -11468,24 +10996,7 @@
                     "x": 0.40939153439153436,
                     "y": 0.83008356545961,
                     "uniqueID": 1738958491139,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1738958491639
-                        },
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 },
                 {
@@ -11494,12 +11005,7 @@
                     "x": 0.5238095238095238,
                     "y": 0.24233983286908078,
                     "uniqueID": 1738958491377,
-                    "ioValues": [
-                        {
-                            "name": "geometry2",
-                            "ioValue": 1738958491139
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Subtracts shape two from shape one."
                 }
             ],
@@ -11679,7 +11185,7 @@
                         },
                         {
                             "name": "Shape 4",
-                            "ioValue": 1740179933892
+                            "ioValue": null
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -11700,12 +11206,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1740179759122,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1740179759521
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -11715,10 +11216,6 @@
                             "y": 0.1894150417827298,
                             "uniqueID": 1740179758681,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1740179758998
-                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": 114
@@ -11741,10 +11238,6 @@
                             "y": 0.3008356545961003,
                             "uniqueID": 1740179758568,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1740179758998
-                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": -114
@@ -11769,27 +11262,27 @@
                             "ioValues": [
                                 {
                                     "name": "Shape 1",
-                                    "ioValue": 1740179758568
+                                    "ioValue": null
                                 },
                                 {
                                     "name": "Shape 2",
-                                    "ioValue": 1740179758681
+                                    "ioValue": null
                                 },
                                 {
                                     "name": "Shape 3",
-                                    "ioValue": 1740179758716
+                                    "ioValue": null
                                 },
                                 {
                                     "name": "Shape 4",
-                                    "ioValue": 1740179758603
+                                    "ioValue": null
                                 },
                                 {
                                     "name": "Shape 5",
-                                    "ioValue": 1740179758602
+                                    "ioValue": null
                                 },
                                 {
                                     "name": "Shape 6",
-                                    "ioValue": 1740179759127
+                                    "ioValue": null
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -11802,10 +11295,6 @@
                             "y": 0.7855153203342619,
                             "uniqueID": 1740179758716,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1740179758606
-                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": 0
@@ -11829,10 +11318,6 @@
                             "uniqueID": 1740179758603,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1740179759220
-                                },
-                                {
                                     "name": "xDist",
                                     "ioValue": 300
                                 },
@@ -11855,10 +11340,6 @@
                             "uniqueID": 1740179759446,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1740179758575
-                                },
-                                {
                                     "name": "height",
                                     "ioValue": 228.6
                                 }
@@ -11872,10 +11353,6 @@
                             "y": 0.5376044568245125,
                             "uniqueID": 1740179758602,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1740179759220
-                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": -300
@@ -11899,10 +11376,6 @@
                             "uniqueID": 1740179759127,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1740179759187
-                                },
-                                {
                                     "name": "xDist",
                                     "ioValue": 0
                                 },
@@ -11924,10 +11397,6 @@
                             "y": 0.7437325905292479,
                             "uniqueID": 1740179759521,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1740179759446
-                                },
                                 {
                                     "name": "x-axis degrees",
                                     "ioValue": 90
@@ -12157,10 +11626,6 @@
                     "uniqueID": 1740179932105,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": 1740179759038
-                        },
-                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -12182,10 +11647,6 @@
                     "y": 0.27019498607242337,
                     "uniqueID": 1740179933892,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1740179932105
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
