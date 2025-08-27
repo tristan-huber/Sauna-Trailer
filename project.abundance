@@ -14,7 +14,13 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1738956155478,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1738956922193,
+                    "currentEquation": null
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -58,13 +64,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1738956281289,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1738956500203,
-                                    "currentEquation": null
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -94,11 +94,6 @@
                             "y": 0.31197771587743733,
                             "uniqueID": 1738956325623,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1738956295218,
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "height",
                                     "ioValue": -101.6,
@@ -135,11 +130,6 @@
                             "uniqueID": 1738956427202,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1738956395394,
-                                    "currentEquation": null
-                                },
-                                {
                                     "name": "height",
                                     "ioValue": -100,
                                     "currentEquation": null
@@ -154,11 +144,6 @@
                             "y": 0.34818941504178275,
                             "uniqueID": 1738956444952,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1738956427202,
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "x-axis degrees",
                                     "ioValue": 0,
@@ -185,11 +170,6 @@
                             "uniqueID": 1738956481089,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1738956427202,
-                                    "currentEquation": null
-                                },
-                                {
                                     "name": "x-axis degrees",
                                     "ioValue": 0,
                                     "currentEquation": null
@@ -214,11 +194,6 @@
                             "y": 0.6657381615598886,
                             "uniqueID": 1738956495554,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1738956481089,
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": 1600,
@@ -246,15 +221,15 @@
                             "ioValues": [
                                 {
                                     "name": "Shape 1",
-                                    "ioValue": 1738956325623
+                                    "ioValue": null
                                 },
                                 {
                                     "name": "Shape 2",
-                                    "ioValue": 1738956495554
+                                    "ioValue": null
                                 },
                                 {
                                     "name": "Shape 3",
-                                    "ioValue": 1738956569985
+                                    "ioValue": null
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -267,11 +242,6 @@
                             "y": 0.5041782729805014,
                             "uniqueID": 1738956569985,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1738956444952,
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": 1600,
@@ -1963,7 +1933,13 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1738956170776,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1738960649623,
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -5977,7 +5953,7 @@
                         },
                         {
                             "name": "Shape 5",
-                            "ioValue": null
+                            "ioValue": 1739773891659
                         },
                         {
                             "name": "Shape 6",
@@ -6167,11 +6143,6 @@
                                     "y": 0.20949720670391062,
                                     "uniqueID": 1739774144436,
                                     "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": 1739774144880,
-                                            "currentEquation": null
-                                        },
                                         {
                                             "name": "height",
                                             "ioValue": 12,
@@ -9048,18 +9019,7 @@
                                     "x": 0,
                                     "y": 0,
                                     "uniqueID": "bcbf0225-5d2d-4848-9676-df78cfe6295b",
-                                    "ioValues": [
-                                        {
-                                            "name": "shape1",
-                                            "ioValue": 1739774127244,
-                                            "currentEquation": null
-                                        },
-                                        {
-                                            "name": "shape2",
-                                            "ioValue": 1739774466258,
-                                            "currentEquation": null
-                                        }
-                                    ],
+                                    "ioValues": [],
                                     "description": "Defines a Replicad code block.",
                                     "codeVersion": 1,
                                     "code": " \n//Inputs:[shape1, shape2]\n\n\nfunction lengthAlongDirection(shape, direction) {\n  let targetOrientation = new replicad.Vector([1, 0, 0]);\n  let rotationAxis = direction.cross(targetOrientation);\n  if (rotationAxis.Length != 0) {   // If direction isn't parallel to X axis..\n    rotationDegrees =\n      (Math.acos(\n        direction.dot(targetOrientation) /\n          (targetOrientation.Length * direction.Length)\n      ) *\n        360) /\n      (2 * Math.PI);\n  \n    shape = shape.clone()\n      .rotate(rotationDegrees, new replicad.Vector([0,0,0]), rotationAxis);\n  }\n\n  const bounds = shape.boundingBox.bounds;\n  return Math.abs(bounds[0][0] - bounds[1][0])\n}\n\nfunction vecStr(vec) {\n  return vec.x + \", \" + vec.y + \", \" + vec.z\n}\n\n/**\n * Return a new copy of shape1 with have of it's intersection with shape 2 removed\n * \n * Which half is selected is based on the shape of the intersectoin, we always split\n * the shared volume along its longest axis.\n */\nasync function performHalfLap(shape1, shape2) {\n  let wrapperShape = await Intersect(shape1, shape2)\n  let intersect = wrapperShape.geometry[0]\n  let boundingBox = intersect.boundingBox\n  let newBounds = undefined;\n  try {\n    newBounds = boundingBox.bounds;\n  } catch (error) {\n    // there' isn't an intersecting volume\n    console.log(\"no intersection. returning shape1 unmodified\")\n    return shape1\n  }\n\n  // collect candidate directions\n  const planarFaces = []\n  intersect.faces.forEach((face) => {\n    if (face.geomType == \"PLANE\") {\n      planarFaces.push(face)\n    }\n  });\n  const candidates = []\n  for (let i = 0; i < planarFaces.length; i++) {\n    for (let j = i + 1; j < planarFaces.length; j++) {\n      const vec = planarFaces[i].normalAt().cross(planarFaces[j].normalAt())\n      candidates.push(vec)\n    }\n  }\n\n  console.log(candidates.map((v) => {return [v.x, v.y, v.z]}))\n  // remove parallel candidates\n  for (var i = candidates.length - 1; i > 0; i--) {\n    for (var j = i - 1; j >= 0; j--) {\n      const v1 = candidates[i]\n      const v2 = candidates[j]\n      if (v1.cross(v2).Length == 0) { // parallel\n      //if (v1.x == v2.x && v1.y == v2.y && v1.z == v2.z) {\n        candidates.splice(j,1)\n        i = i - 1\n      }\n    }\n  }\n\n  console.log(candidates.map((v) => {return [v.x, v.y, v.z]}))\n  \n  if (candidates.length == 0) {\n    // Something is wrong, bail out without crashing\n    console.warn(\"unexpectely found no planar adjascent planar faces when doing half-lap\")\n    return shape1;\n  }\n\n  var maxLength = 0;\n  var splittingAxis = new replicad.Vector([1,0,0])\n  for (const axis of candidates) {\n    let len = lengthAlongDirection(intersect.clone(), axis)\n    if (len > maxLength) {\n      splittingAxis = axis;\n      maxLength = len\n    }\n  }\n\n  console.log(\"selected candidate:\")\n  console.log(maxLength)\n  console.log(vecStr(splittingAxis))\n\n\n  // get half of the intersected volume\n  const translationVec = splittingAxis.multiply(maxLength / 2)\n  const temporary = intersect.clone().translate(translationVec.x, translationVec.y, translationVec.z);\n  intersect = intersect.clone().cut(temporary);\n\n  wrapperShape.geometry[0] = temporary\n // return wrapperShape;\n\n let newShape1 = {\n    geometry: [shape1.geometry[0].clone().cut(intersect)],\n    tags: shape1.tags || [],\n    color: shape1.color,\n    plane: shape1.plane,\n    bom: shape1.bom || []\n  };\n  console.log(\"result for leaf: \")\n  console.log(newShape1)\n\n  return newShape1;\n\n//  return await Assembly([shape2, newShape1])//, cube]);\n}\n\n// choose midpoint\n         console.log(\"starting... \");\n         console.log(shape1)\n         console.log(shape2)\n         if (library[shape1] == undefined) {\n           throw new Error(\"Shape1 \" + shape1 + \" not a geometry id\")\n         }\n         if (library[shape2] == undefined) {\n           throw new Error(\"Shape2 \" + shape2 + \" not a geometry id\")\n         }\n\n         // TODO: someday we should pass the geoms directly, user should never have to deal with\n         // library lookups imo\n         shape1 = library[shape1]\n         shape2 = library[shape2]\n         \n\n         s2AsList = await AssemblyAsIterable(shape2);\n         console.log(\"s2AsList: \")\n         console.log(s2AsList);\n         let updatedShape1 = await AssemblyMap(shape1, async (s1leaf, _) => {\n            for (const el of s2AsList) {\n              s1leaf = await performHalfLap(s1leaf, el)\n            }\n            return s1leaf\n          })\n         console.log(\"done\");\n         console.log(updatedShape1)\n         const newShape2 = CutAssembly(shape2, [updatedShape1])\n         return Assembly([updatedShape1, newShape2])\n\n      \n\n      \n\n//      return Intersect(shape1, shape2)\n\n\n\n      //This makes a new copy of of the shape (to prevent garbage collection issues),\n      //and moves it in the X direction. Note that this will not work if the input is an assembly\n      /*let movedShape = importedShape.geometry[0].clone().translate([dist,0,0])\n      \n      //Console.log works for debugging to better see what is happening under the hood\n      console.log(\"Shape:\")\n      console.log(importedShape);\n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [movedShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      //We could at this point return shape1 as a complete shape and it will be automatically written to the library for us\n      //return shape1\n      \n      //We can also create a new shape from scratch\n      let createdRectangle = replicad.drawRectangle(5,7)\n      //This is the plane we are going to put our new shape on\n      const newPlane = new Plane().pivot(0, 'Y');\n      //And we extrude the shape to make it 3D\n      let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n      \n      //For our new geometry we need to define the tags, color, plane, etc\n      let shape2 = {\n          geometry: [createdShape], \n          tags: [\"aTag\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n      \n      //Then we can return our created shape in just the same way\n      //return shape2\n      \n      //If we want to return both shapes at once, we can create an assembly with them\n      let anAssembly = {\n        geometry: [shape1, shape2], \n        tags: [\"aNewTag\"],\n        color: '#A3CF5B',\n        plane: newPlane,\n        bom: []\n      }\n      \n      //And we can return that in the same way\n      return anAssembly\n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
@@ -12044,7 +12004,7 @@
                 },
                 {
                     "name": "Shape 2",
-                    "ioValue": null
+                    "ioValue": 1738956170299
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -12056,6 +12016,11 @@
             "y": 0.829608938547486,
             "uniqueID": 1738958490734,
             "ioValues": [
+                {
+                    "name": "Geometry",
+                    "ioValue": 1738956922193,
+                    "currentEquation": null
+                },
                 {
                     "name": "Offset",
                     "ioValue": 1000,
@@ -12086,7 +12051,13 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1738958490772,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1738958491377,
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -12220,6 +12191,21 @@
                             "name": "geometry",
                             "ioValue": 1738958491639,
                             "currentEquation": null
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0,
+                            "currentEquation": null
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -12230,7 +12216,18 @@
                     "x": 0.5238095238095238,
                     "y": 0.24233983286908078,
                     "uniqueID": 1738958491377,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": 1738956922193,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": 1738958491139,
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Subtracts shape two from shape one."
                 }
             ],
@@ -12336,6 +12333,11 @@
             "uniqueID": 1738958530879,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": 1738958490734,
+                    "currentEquation": null
+                },
+                {
                     "name": "xDist",
                     "ioValue": 0,
                     "currentEquation": null
@@ -12362,11 +12364,11 @@
             "ioValues": [
                 {
                     "name": "Shape 1",
-                    "ioValue": null
+                    "ioValue": 1738958530879
                 },
                 {
                     "name": "Shape 2",
-                    "ioValue": null
+                    "ioValue": 1738956922193
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -12377,7 +12379,13 @@
             "x": 0.4834656084656085,
             "y": 0.20055710306406688,
             "uniqueID": 1740179206026,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Sauna",
+                    "ioValue": 1738956922193,
+                    "currentEquation": null
+                }
+            ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
@@ -12387,7 +12395,13 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1740179206055,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1740179248398,
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -12409,7 +12423,7 @@
                     "ioValues": [
                         {
                             "name": "Shape 1",
-                            "ioValue": null
+                            "ioValue": 1738956922193
                         },
                         {
                             "name": "Shape 4",
