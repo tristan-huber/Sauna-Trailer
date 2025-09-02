@@ -6,8 +6,7 @@
 
 
 
- The shell walls are 60mm thick
-
+ Readme text here
 
 
 
