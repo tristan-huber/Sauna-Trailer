@@ -4101,7 +4101,13 @@
                                             "x": 0.98,
                                             "y": 0.5,
                                             "uniqueID": "4aa3d357-bc8c-4c6d-80bd-041370b695a4",
-                                            "ioValues": [],
+                                            "ioValues": [
+                                                {
+                                                    "name": "number or geometry",
+                                                    "ioValue": "07e2c2f5-7d82-42ea-b083-07c580d454da",
+                                                    "currentEquation": null
+                                                }
+                                            ],
                                             "description": "Connect geometry here to make it available in the next level up. "
                                         },
                                         {
@@ -4147,6 +4153,11 @@
                                             "uniqueID": "662fc5bc-a7fe-4bdb-a927-63fb02e13190",
                                             "ioValues": [
                                                 {
+                                                    "name": "geometry",
+                                                    "ioValue": "d5628e80-40bd-48d2-9b5f-cdf0521e5223",
+                                                    "currentEquation": null
+                                                },
+                                                {
                                                     "name": "xDist",
                                                     "ioValue": 5,
                                                     "currentEquation": null
@@ -4171,6 +4182,11 @@
                                             "y": 0.7576601671309192,
                                             "uniqueID": "bda58675-0e56-442f-a89d-ca53bd9c726b",
                                             "ioValues": [
+                                                {
+                                                    "name": "geometry",
+                                                    "ioValue": "1b1430e1-6a6c-4b79-afe0-9638f47e53ed",
+                                                    "currentEquation": null
+                                                },
                                                 {
                                                     "name": "xDist",
                                                     "ioValue": 400,
@@ -4202,24 +4218,44 @@
                                                     "currentEquation": null
                                                 },
                                                 {
+                                                    "name": "Shape 1",
+                                                    "ioValue": "bda58675-0e56-442f-a89d-ca53bd9c726b",
+                                                    "currentEquation": null
+                                                },
+                                                {
+                                                    "name": "Shape 2",
+                                                    "ioValue": "662fc5bc-a7fe-4bdb-a927-63fb02e13190",
+                                                    "currentEquation": null
+                                                },
+                                                {
+                                                    "name": "Shape 3",
+                                                    "ioValue": "47076808-ecbf-4305-b814-b946acb3f88a",
+                                                    "currentEquation": null
+                                                },
+                                                {
+                                                    "name": "Shape 4",
+                                                    "ioValue": "42bfe33f-ad32-4a3e-a26d-b773f4a29b50",
+                                                    "currentEquation": null
+                                                },
+                                                {
                                                     "name": "Shape 5",
                                                     "ioValue": ""
                                                 },
                                                 {
                                                     "name": "Shape 1",
-                                                    "ioValue": null
+                                                    "ioValue": "bda58675-0e56-442f-a89d-ca53bd9c726b"
                                                 },
                                                 {
                                                     "name": "Shape 2",
-                                                    "ioValue": null
+                                                    "ioValue": "662fc5bc-a7fe-4bdb-a927-63fb02e13190"
                                                 },
                                                 {
                                                     "name": "Shape 3",
-                                                    "ioValue": null
+                                                    "ioValue": "47076808-ecbf-4305-b814-b946acb3f88a"
                                                 },
                                                 {
                                                     "name": "Shape 4",
-                                                    "ioValue": null
+                                                    "ioValue": "42bfe33f-ad32-4a3e-a26d-b773f4a29b50"
                                                 }
                                             ],
                                             "description": "Joins two or more drawings into a single sketch by filling in the space between them. Also called 'hull'"
@@ -4231,6 +4267,11 @@
                                             "y": 0.6183844011142061,
                                             "uniqueID": "42bfe33f-ad32-4a3e-a26d-b773f4a29b50",
                                             "ioValues": [
+                                                {
+                                                    "name": "geometry",
+                                                    "ioValue": "662fc5bc-a7fe-4bdb-a927-63fb02e13190",
+                                                    "currentEquation": null
+                                                },
                                                 {
                                                     "name": "xDist",
                                                     "ioValue": 0,
@@ -4257,6 +4298,11 @@
                                             "uniqueID": "47076808-ecbf-4305-b814-b946acb3f88a",
                                             "ioValues": [
                                                 {
+                                                    "name": "geometry",
+                                                    "ioValue": "662fc5bc-a7fe-4bdb-a927-63fb02e13190",
+                                                    "currentEquation": null
+                                                },
+                                                {
                                                     "name": "xDist",
                                                     "ioValue": 390,
                                                     "currentEquation": null
@@ -4282,6 +4328,11 @@
                                             "uniqueID": "bc58cdf3-8c9a-4c57-aea9-d711208ce967",
                                             "ioValues": [
                                                 {
+                                                    "name": "geometry",
+                                                    "ioValue": "fbd607f4-29cb-4168-80e0-cbd905a21fe1",
+                                                    "currentEquation": null
+                                                },
+                                                {
                                                     "name": "height",
                                                     "ioValue": 12.5,
                                                     "currentEquation": null
@@ -4295,7 +4346,13 @@
                                             "x": 0.7671957671957672,
                                             "y": 0.6072423398328691,
                                             "uniqueID": "07e2c2f5-7d82-42ea-b083-07c580d454da",
-                                            "ioValues": [],
+                                            "ioValues": [
+                                                {
+                                                    "name": "geometry",
+                                                    "ioValue": "bc58cdf3-8c9a-4c57-aea9-d711208ce967",
+                                                    "currentEquation": null
+                                                }
+                                            ],
                                             "description": "Tags geometry so that it can be extracted later.",
                                             "tags": [
                                                 "Bad Wood"
