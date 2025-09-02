@@ -4846,12 +4846,12 @@
                                             "uniqueID": "eecc9e03-e598-4072-9b41-15a87bf311ce",
                                             "ioValues": [
                                                 {
-                                                    "name": "Shape 1",
-                                                    "ioValue": "d8737883-14f6-4bd4-beda-18ab96b0bc4b"
-                                                },
-                                                {
                                                     "name": "Shape 2",
                                                     "ioValue": "e22479bf-64a6-4ec1-be81-f43a77bcb08f"
+                                                },
+                                                {
+                                                    "name": "Shape 3",
+                                                    "ioValue": "a6d4220f-57a8-486b-87f9-1fb0439ac6be"
                                                 }
                                             ],
                                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -4859,8 +4859,8 @@
                                         {
                                             "atomType": "Circle",
                                             "name": "Circle",
-                                            "x": 0.2919937205651491,
-                                            "y": 0.777158774373259,
+                                            "x": 0.11616954474097331,
+                                            "y": 0.7938718662952646,
                                             "uniqueID": "488c9bf1-6217-4e17-bc79-b3ebb50deb27",
                                             "ioValues": [
                                                 {
@@ -4874,8 +4874,8 @@
                                         {
                                             "atomType": "Move",
                                             "name": "Move",
-                                            "x": 0.7872841444270016,
-                                            "y": 0.6295264623955432,
+                                            "x": 0.5557299843014128,
+                                            "y": 0.9192200557103064,
                                             "uniqueID": "90a0ca1d-030e-4827-bd47-7060914af41f",
                                             "ioValues": [
                                                 {
@@ -4885,8 +4885,8 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 30,
-                                                    "currentEquation": "30"
+                                                    "ioValue": 25,
+                                                    "currentEquation": "25"
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -4904,8 +4904,8 @@
                                         {
                                             "atomType": "Rectangle",
                                             "name": "Rectangle",
-                                            "x": 0.4160125588697017,
-                                            "y": 0.9303621169916434,
+                                            "x": 0.1640502354788069,
+                                            "y": 0.9331476323119776,
                                             "uniqueID": "826d4b32-022c-44cf-8969-52580190134d",
                                             "ioValues": [
                                                 {
@@ -4924,8 +4924,8 @@
                                         {
                                             "atomType": "Move",
                                             "name": "Move",
-                                            "x": 0.5439560439560439,
-                                            "y": 0.9220055710306407,
+                                            "x": 0.32417582417582413,
+                                            "y": 0.9164345403899721,
                                             "uniqueID": "1c2612b2-dad0-43cd-a1fe-31e8144c3996",
                                             "ioValues": [
                                                 {
@@ -4954,8 +4954,8 @@
                                         {
                                             "atomType": "Difference",
                                             "name": "Difference",
-                                            "x": 0.6742543171114599,
-                                            "y": 0.8495821727019498,
+                                            "x": 0.4340659340659341,
+                                            "y": 0.8579387186629527,
                                             "uniqueID": "30ef1a70-bb23-4d1f-9195-7b8d754c4898",
                                             "ioValues": [
                                                 {
@@ -4974,8 +4974,8 @@
                                         {
                                             "atomType": "Move",
                                             "name": "Move",
-                                            "x": 0.598116169544741,
-                                            "y": 0.6295264623955432,
+                                            "x": 0.3281004709576138,
+                                            "y": 0.6462395543175488,
                                             "uniqueID": "2c3730bc-6867-4f34-aeb8-91c964807ec3",
                                             "ioValues": [
                                                 {
@@ -5000,6 +5000,46 @@
                                                 }
                                             ],
                                             "description": "Moves a shape laterally in X, Y, Z."
+                                        },
+                                        {
+                                            "atomType": "Difference",
+                                            "name": "Difference",
+                                            "x": 0.6428571428571428,
+                                            "y": 0.520891364902507,
+                                            "uniqueID": "a6d4220f-57a8-486b-87f9-1fb0439ac6be",
+                                            "ioValues": [
+                                                {
+                                                    "name": "geometry1",
+                                                    "ioValue": "d8737883-14f6-4bd4-beda-18ab96b0bc4b",
+                                                    "currentEquation": null
+                                                },
+                                                {
+                                                    "name": "geometry2",
+                                                    "ioValue": "908e0632-8fd6-41b0-a77d-9783593fcb8f",
+                                                    "currentEquation": null
+                                                }
+                                            ],
+                                            "description": "Subtracts shape two from shape one."
+                                        },
+                                        {
+                                            "atomType": "Extrude",
+                                            "name": "Extrude",
+                                            "x": 0.6695447409733124,
+                                            "y": 0.7632311977715878,
+                                            "uniqueID": "908e0632-8fd6-41b0-a77d-9783593fcb8f",
+                                            "ioValues": [
+                                                {
+                                                    "name": "geometry",
+                                                    "ioValue": "90a0ca1d-030e-4827-bd47-7060914af41f",
+                                                    "currentEquation": null
+                                                },
+                                                {
+                                                    "name": "height",
+                                                    "ioValue": 100,
+                                                    "currentEquation": "100"
+                                                }
+                                            ],
+                                            "description": "Extrudes a 2D shape. Input can be negative."
                                         }
                                     ],
                                     "allConnectors": [
@@ -5041,9 +5081,9 @@
                                         },
                                         {
                                             "ap1Name": "geometry",
-                                            "ap2Name": "Shape 1",
+                                            "ap2Name": "geometry1",
                                             "ap1ID": "d8737883-14f6-4bd4-beda-18ab96b0bc4b",
-                                            "ap2ID": "eecc9e03-e598-4072-9b41-15a87bf311ce"
+                                            "ap2ID": "a6d4220f-57a8-486b-87f9-1fb0439ac6be"
                                         },
                                         {
                                             "ap1Name": "geometry",
@@ -5062,6 +5102,12 @@
                                             "ap2Name": "geometry",
                                             "ap1ID": "488c9bf1-6217-4e17-bc79-b3ebb50deb27",
                                             "ap2ID": "2c3730bc-6867-4f34-aeb8-91c964807ec3"
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap1ID": "90a0ca1d-030e-4827-bd47-7060914af41f",
+                                            "ap2ID": "908e0632-8fd6-41b0-a77d-9783593fcb8f"
                                         },
                                         {
                                             "ap1Name": "geometry",
@@ -5086,10 +5132,22 @@
                                             "ap2Name": "geometry2",
                                             "ap1ID": "2c3730bc-6867-4f34-aeb8-91c964807ec3",
                                             "ap2ID": "30ef1a70-bb23-4d1f-9195-7b8d754c4898"
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "Shape 3",
+                                            "ap1ID": "a6d4220f-57a8-486b-87f9-1fb0439ac6be",
+                                            "ap2ID": "eecc9e03-e598-4072-9b41-15a87bf311ce"
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry2",
+                                            "ap1ID": "908e0632-8fd6-41b0-a77d-9783593fcb8f",
+                                            "ap2ID": "a6d4220f-57a8-486b-87f9-1fb0439ac6be"
                                         }
                                     ],
                                     "fileTypeVersion": 1,
-                                    "compiledBom": {}
+                                    "compiledBom": []
                                 },
                                 {
                                     "atomType": "Assembly",
