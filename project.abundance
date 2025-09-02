@@ -2512,8 +2512,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Benches",
-                    "x": 0.5729984301412873,
-                    "y": 0.9387186629526462,
+                    "x": 0.576138147566719,
+                    "y": 0.8384401114206128,
                     "uniqueID": 1738958654002,
                     "ioValues": [
                         {
@@ -2529,6 +2529,11 @@
                         {
                             "name": "Spacing",
                             "ioValue": 325,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "Frame",
+                            "ioValue": 1739773891659,
                             "currentEquation": null
                         }
                     ],
@@ -3835,8 +3840,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "One Edge",
-                            "x": 0.24603174603174605,
-                            "y": 0.8245125348189415,
+                            "x": 0.22135007849293564,
+                            "y": 0.8857938718662952,
                             "uniqueID": "78628416-9696-4248-8895-7b05c274a154",
                             "ioValues": [
                                 {
@@ -4681,7 +4686,7 @@
                                     "atomType": "Input",
                                     "name": "Wood Thickness",
                                     "x": 0.029699999999999997,
-                                    "y": 0.6072423398328691,
+                                    "y": 0.7938718662952646,
                                     "uniqueID": "34545e09-65f7-4fa5-9897-ed9b82e27337",
                                     "ioValues": [],
                                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -5294,8 +5299,8 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": -800,
-                                    "currentEquation": null
+                                    "ioValue": -750,
+                                    "currentEquation": "-750"
                                 },
                                 {
                                     "name": "zDist",
@@ -5527,6 +5532,16 @@
                             "unitsKey": "MM",
                             "fileTypeVersion": 1,
                             "compiledBom": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Frame",
+                            "x": 0.029699999999999997,
+                            "y": 0.7493036211699164,
+                            "uniqueID": "be1ae96e-a377-4a94-a885-9833896204e0",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "number"
                         }
                     ],
                     "allConnectors": [
@@ -20288,6 +20303,12 @@
                     "ap2Name": "Shape 2",
                     "ap1ID": 1739773891659,
                     "ap2ID": "2ede00f0-ba12-4a6b-8ffb-f770367f92cc"
+                },
+                {
+                    "ap1Name": "geometry or number",
+                    "ap2Name": "Frame",
+                    "ap1ID": 1739773891659,
+                    "ap2ID": 1738958654002
                 },
                 {
                     "ap1Name": "geometry or number",
