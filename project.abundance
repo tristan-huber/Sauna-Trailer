@@ -1718,8 +1718,8 @@
         {
             "atomType": "Molecule",
             "name": "Sauna",
-            "x": 0.2328042328042328,
-            "y": 0.7186629526462396,
+            "x": 0.23233908948194662,
+            "y": 0.7270194986072424,
             "uniqueID": 1738956170299,
             "ioValues": [
                 {
@@ -2512,19 +2512,19 @@
                 {
                     "atomType": "Molecule",
                     "name": "Benches",
-                    "x": 0.5674603174603174,
-                    "y": 0.9192200557103064,
+                    "x": 0.5729984301412873,
+                    "y": 0.9387186629526462,
                     "uniqueID": 1738958654002,
                     "ioValues": [
                         {
                             "name": "Bench Height",
                             "ioValue": 609.59,
-                            "currentEquation": "609.59"
+                            "currentEquation": null
                         },
                         {
                             "name": "Bench Depth",
                             "ioValue": 5,
-                            "currentEquation": "5"
+                            "currentEquation": null
                         },
                         {
                             "name": "Spacing",
@@ -4271,7 +4271,7 @@
                                                 {
                                                     "name": "diameter",
                                                     "ioValue": 100,
-                                                    "currentEquation": "100"
+                                                    "currentEquation": null
                                                 }
                                             ],
                                             "description": "Creates a new circle."
@@ -4632,17 +4632,17 @@
                                         {
                                             "name": "x-axis degrees",
                                             "ioValue": 90,
-                                            "currentEquation": "90"
+                                            "currentEquation": null
                                         },
                                         {
                                             "name": "y-axis degrees",
                                             "ioValue": 0,
-                                            "currentEquation": "0"
+                                            "currentEquation": null
                                         },
                                         {
                                             "name": "z-axis degrees",
                                             "ioValue": 90,
-                                            "currentEquation": "90"
+                                            "currentEquation": null
                                         }
                                     ],
                                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -4689,7 +4689,7 @@
                                 },
                                 {
                                     "atomType": "Molecule",
-                                    "name": "Split Apar",
+                                    "name": "Split Apart",
                                     "x": 0.4715608465608465,
                                     "y": 0.5515320334261838,
                                     "uniqueID": "bf89c874-6e78-47ea-b867-426e6aadccf8",
@@ -4732,12 +4732,12 @@
                                                 {
                                                     "name": "x length",
                                                     "ioValue": 5000,
-                                                    "currentEquation": "5000"
+                                                    "currentEquation": null
                                                 },
                                                 {
                                                     "name": "y length",
                                                     "ioValue": 5000,
-                                                    "currentEquation": "5000"
+                                                    "currentEquation": null
                                                 }
                                             ],
                                             "description": "Creates a new rectangle."
@@ -4757,7 +4757,7 @@
                                                 {
                                                     "name": "height",
                                                     "ioValue": 100,
-                                                    "currentEquation": "100"
+                                                    "currentEquation": null
                                                 }
                                             ],
                                             "description": "Extrudes a 2D shape. Input can be negative."
@@ -4781,8 +4781,8 @@
                                                 },
                                                 {
                                                     "name": "yDist",
-                                                    "ioValue": -2500,
-                                                    "currentEquation": "-2500"
+                                                    "ioValue": -2400,
+                                                    "currentEquation": "-2400"
                                                 },
                                                 {
                                                     "name": "zDist",
@@ -4802,6 +4802,11 @@
                                                 {
                                                     "name": "geometry1",
                                                     "ioValue": "7bbcb764-7b9d-42c0-855e-04f598cc7c90",
+                                                    "currentEquation": null
+                                                },
+                                                {
+                                                    "name": "geometry2",
+                                                    "ioValue": "eaf731a4-16e4-48a4-a9b3-ec8e93362ad2",
                                                     "currentEquation": null
                                                 }
                                             ],
@@ -4917,7 +4922,7 @@
                                 {
                                     "name": "yDist",
                                     "ioValue": -800,
-                                    "currentEquation": "-800"
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "zDist",
@@ -4937,7 +4942,7 @@
                                 {
                                     "name": "Number",
                                     "ioValue": 6,
-                                    "currentEquation": "6"
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "Geometry",
@@ -4947,17 +4952,17 @@
                                 {
                                     "name": "distX",
                                     "ioValue": 340,
-                                    "currentEquation": "340"
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "distY",
                                     "ioValue": 0,
-                                    "currentEquation": "0"
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "distZ",
                                     "ioValue": 0,
-                                    "currentEquation": "0"
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
