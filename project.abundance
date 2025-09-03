@@ -1718,8 +1718,8 @@
         {
             "atomType": "Molecule",
             "name": "Sauna",
-            "x": 0.23861852433281003,
-            "y": 0.7186629526462396,
+            "x": 0.24140211640211642,
+            "y": 0.7465181058495821,
             "uniqueID": 1738956170299,
             "ioValues": [
                 {
@@ -2519,7 +2519,7 @@
                         {
                             "name": "Bench Height",
                             "ioValue": 609.5,
-                            "currentEquation": "609.5"
+                            "currentEquation": null
                         },
                         {
                             "name": "Bench Depth",
@@ -5234,7 +5234,7 @@
                                         {
                                             "name": "yDist",
                                             "ioValue": -670,
-                                            "currentEquation": "-670"
+                                            "currentEquation": null
                                         },
                                         {
                                             "name": "zDist",
@@ -5712,7 +5712,7 @@
                                 {
                                     "name": "z-axis degrees",
                                     "ioValue": 180,
-                                    "currentEquation": "180"
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -9715,8 +9715,8 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 60,
-                            "currentEquation": null
+                            "ioValue": 0,
+                            "currentEquation": "0"
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
