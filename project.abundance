@@ -2512,8 +2512,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Benches",
-                    "x": 0.5777080062794349,
-                    "y": 0.8133704735376045,
+                    "x": 0.5773809523809523,
+                    "y": 0.8105849582172702,
                     "uniqueID": 1738958654002,
                     "ioValues": [
                         {
@@ -4927,8 +4927,8 @@
                                 {
                                     "atomType": "Molecule",
                                     "name": "Add Ring",
-                                    "x": 0.4513343799058085,
-                                    "y": 0.20612813370473537,
+                                    "x": 0.4543650793650794,
+                                    "y": 0.1977715877437326,
                                     "uniqueID": "971d6878-6767-4a35-a45d-8e242f9d3ded",
                                     "ioValues": [
                                         {
@@ -5026,7 +5026,7 @@
                                         {
                                             "atomType": "Molecule",
                                             "name": "Cut Away",
-                                            "x": 0.43720565149136575,
+                                            "x": 0.4417989417989418,
                                             "y": 0.3983286908077995,
                                             "uniqueID": "d302c0f4-9807-4190-84f2-f2210849ecd2",
                                             "ioValues": [
@@ -5074,12 +5074,12 @@
                                                         {
                                                             "name": "x length",
                                                             "ioValue": 2000,
-                                                            "currentEquation": "2000"
+                                                            "currentEquation": null
                                                         },
                                                         {
                                                             "name": "y length",
                                                             "ioValue": 2000,
-                                                            "currentEquation": "2000"
+                                                            "currentEquation": null
                                                         }
                                                     ],
                                                     "description": "Creates a new rectangle."
@@ -5099,7 +5099,7 @@
                                                         {
                                                             "name": "height",
                                                             "ioValue": 2000,
-                                                            "currentEquation": "2000"
+                                                            "currentEquation": null
                                                         }
                                                     ],
                                                     "description": "Extrudes a 2D shape. Input can be negative."
@@ -5107,8 +5107,8 @@
                                                 {
                                                     "atomType": "Move",
                                                     "name": "Move",
-                                                    "x": 0.4081632653061224,
-                                                    "y": 0.8022284122562675,
+                                                    "x": 0.41269841269841273,
+                                                    "y": 0.807799442896936,
                                                     "uniqueID": "73681f59-4607-41ff-ae1d-3cd42af048cc",
                                                     "ioValues": [
                                                         {
@@ -5119,17 +5119,17 @@
                                                         {
                                                             "name": "xDist",
                                                             "ioValue": 1000,
-                                                            "currentEquation": "1000"
-                                                        },
-                                                        {
-                                                            "name": "yDist",
-                                                            "ioValue": 0,
                                                             "currentEquation": null
                                                         },
                                                         {
-                                                            "name": "zDist",
+                                                            "name": "yDist",
                                                             "ioValue": -1000,
                                                             "currentEquation": "-1000"
+                                                        },
+                                                        {
+                                                            "name": "zDist",
+                                                            "ioValue": -1500,
+                                                            "currentEquation": "-1500"
                                                         }
                                                     ],
                                                     "description": "Moves a shape laterally in X, Y, Z."
@@ -5137,8 +5137,8 @@
                                                 {
                                                     "atomType": "Intersection",
                                                     "name": "Intersection",
-                                                    "x": 0.5180533751962323,
-                                                    "y": 0.4094707520891365,
+                                                    "x": 0.5205026455026455,
+                                                    "y": 0.3565459610027855,
                                                     "uniqueID": "1dabec20-d2c2-42bc-a5d4-ffcdfa6351cc",
                                                     "ioValues": [
                                                         {
