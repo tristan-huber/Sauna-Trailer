@@ -9716,7 +9716,7 @@
                         {
                             "name": "zDist",
                             "ioValue": 0,
-                            "currentEquation": "0"
+                            "currentEquation": null
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
