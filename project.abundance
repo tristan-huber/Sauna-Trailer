@@ -17273,7 +17273,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": "ba08016d-ae1f-4ed0-ac2b-465127dcac96",
+                                    "ioValue": "300fe507-e3f1-42d8-8ef2-3b73512e5784",
                                     "currentEquation": null
                                 }
                             ],
@@ -17283,7 +17283,7 @@
                             "atomType": "Input",
                             "name": "Wood Thickness",
                             "x": 0.029699999999999997,
-                            "y": 0.5877437325905293,
+                            "y": 0.5236768802228412,
                             "uniqueID": "513af9fe-374f-4956-bf5b-7d2055f12e71",
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -20056,7 +20056,7 @@
                                 },
                                 {
                                     "name": "Passes",
-                                    "ioValue": 3,
+                                    "ioValue": 4,
                                     "currentEquation": null
                                 },
                                 {
@@ -20164,43 +20164,6 @@
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                             "currentEquation": "H/2"
-                        },
-                        {
-                            "atomType": "Gcode",
-                            "name": "Gcode",
-                            "x": 0.6157407407407408,
-                            "y": 0.7437325905292479,
-                            "uniqueID": "d7524f9c-f1eb-43f2-b9fe-7eadad665ca9",
-                            "ioValues": [
-                                {
-                                    "name": "Tool Size",
-                                    "ioValue": 2,
-                                    "currentEquation": null
-                                },
-                                {
-                                    "name": "Passes",
-                                    "ioValue": 3,
-                                    "currentEquation": null
-                                },
-                                {
-                                    "name": "Speed",
-                                    "ioValue": 1500,
-                                    "currentEquation": null
-                                },
-                                {
-                                    "name": "Cut Through",
-                                    "ioValue": 1.5,
-                                    "currentEquation": null
-                                },
-                                {
-                                    "name": "Part Name",
-                                    "ioValue": "Door",
-                                    "currentEquation": null
-                                }
-                            ],
-                            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                            "partName": "Door",
-                            "sortDirection": "Left"
                         },
                         {
                             "atomType": "Move",
@@ -20325,6 +20288,12 @@
                             "ap2ID": "300fe507-e3f1-42d8-8ef2-3b73512e5784"
                         },
                         {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap1ID": "300fe507-e3f1-42d8-8ef2-3b73512e5784",
+                            "ap2ID": "9c3f1723-1787-47a4-a366-35fd339ce6fc"
+                        },
+                        {
                             "ap1Name": "number or geometry",
                             "ap2Name": "Height",
                             "ap1ID": "7db3a8f8-183e-4990-a92b-a149e9fe4757",
@@ -20359,12 +20328,6 @@
                             "ap2Name": "geometry",
                             "ap1ID": "ba08016d-ae1f-4ed0-ac2b-465127dcac96",
                             "ap2ID": "12186001-b041-4c5e-9f44-ddfbe49792ed"
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap1ID": "ba08016d-ae1f-4ed0-ac2b-465127dcac96",
-                            "ap2ID": "9c3f1723-1787-47a4-a366-35fd339ce6fc"
                         },
                         {
                             "ap1Name": "geometry",
