@@ -17257,8 +17257,8 @@
                         },
                         {
                             "name": "Thickness",
-                            "ioValue": 12,
-                            "currentEquation": "12"
+                            "ioValue": 13,
+                            "currentEquation": "13"
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -17304,13 +17304,13 @@
                         {
                             "atomType": "Molecule",
                             "name": "Frame",
-                            "x": 0.2506613756613757,
-                            "y": 0.18384401114206128,
+                            "x": 0.2552910052910053,
+                            "y": 0.1615598885793872,
                             "uniqueID": "7724c452-d3b0-4289-a792-2c240ef3c13d",
                             "ioValues": [
                                 {
                                     "name": "Wood Thickness",
-                                    "ioValue": 12,
+                                    "ioValue": 13,
                                     "currentEquation": null
                                 },
                                 {
@@ -17434,7 +17434,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 12,
+                                            "ioValue": 13,
                                             "currentEquation": null
                                         }
                                     ],
@@ -18028,7 +18028,7 @@
                                 },
                                 {
                                     "atomType": "Tag",
-                                    "name": "Door",
+                                    "name": "Door Frame",
                                     "x": 0.6058201058201058,
                                     "y": 0.7353760445682451,
                                     "uniqueID": "6f75ef87-ca93-4f25-b994-ab50d95222a2",
@@ -18041,7 +18041,7 @@
                                     ],
                                     "description": "Tags geometry so that it can be extracted later.",
                                     "tags": [
-                                        "Door"
+                                        "Door Frame"
                                     ]
                                 },
                                 {
@@ -18187,7 +18187,7 @@
                             "ioValues": [
                                 {
                                     "name": "Wood Thickness",
-                                    "ioValue": 12,
+                                    "ioValue": 13,
                                     "currentEquation": null
                                 },
                                 {
@@ -18882,7 +18882,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 12,
+                                            "ioValue": 13,
                                             "currentEquation": null
                                         }
                                     ],
@@ -19086,7 +19086,7 @@
                             "ioValues": [
                                 {
                                     "name": "Wood Thickness",
-                                    "ioValue": 12,
+                                    "ioValue": 13,
                                     "currentEquation": null
                                 },
                                 {
@@ -19872,7 +19872,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 12,
+                                            "ioValue": 13,
                                             "currentEquation": null
                                         }
                                     ],
@@ -20024,14 +20024,14 @@
                                 }
                             ],
                             "description": "Extracts geometry containing the specified tag.",
-                            "tag": "Door",
+                            "tag": "Door Frame",
                             "tagIndex": 0
                         },
                         {
                             "atomType": "Gcode",
                             "name": "Gcode",
-                            "x": 0.7222222222222222,
-                            "y": 0.5877437325905293,
+                            "x": 0.7175925925925926,
+                            "y": 0.5738161559888579,
                             "uniqueID": "12186001-b041-4c5e-9f44-ddfbe49792ed",
                             "ioValues": [
                                 {
@@ -20061,12 +20061,12 @@
                                 },
                                 {
                                     "name": "Part Name",
-                                    "ioValue": "Door",
+                                    "ioValue": "Just Frame",
                                     "currentEquation": null
                                 }
                             ],
                             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                            "partName": "Door",
+                            "partName": "Just Frame",
                             "sortDirection": "Left"
                         },
                         {
@@ -20188,8 +20188,8 @@
                         {
                             "atomType": "Rotate",
                             "name": "Rotate",
-                            "x": 0.5337301587301587,
-                            "y": 0.7381615598885795,
+                            "x": 0.5436507936507936,
+                            "y": 0.7353760445682451,
                             "uniqueID": "52c5e4f0-9e05-4df3-a570-18f70552ab57",
                             "ioValues": [
                                 {
