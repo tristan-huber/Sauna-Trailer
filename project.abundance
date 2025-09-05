@@ -5517,8 +5517,8 @@
                         {
                             "atomType": "ExtractTag",
                             "name": "Extract Tag",
-                            "x": 0.4312169312169312,
-                            "y": 0.5654596100278552,
+                            "x": 0.4378306878306878,
+                            "y": 0.5793871866295265,
                             "uniqueID": "65956b67-42c2-47d4-b92f-d29bfc886496",
                             "ioValues": [
                                 {
@@ -5528,14 +5528,14 @@
                                 }
                             ],
                             "description": "Extracts geometry containing the specified tag.",
-                            "tag": "Door",
+                            "tag": "Door Frame",
                             "tagIndex": 0
                         },
                         {
                             "atomType": "Gcode",
                             "name": "Gcode",
-                            "x": 0.7175925925925926,
-                            "y": 0.5738161559888579,
+                            "x": 0.7142857142857143,
+                            "y": 0.5821727019498607,
                             "uniqueID": "12186001-b041-4c5e-9f44-ddfbe49792ed",
                             "ioValues": [
                                 {
@@ -5565,12 +5565,12 @@
                                 },
                                 {
                                     "name": "Part Name",
-                                    "ioValue": "Door with Feedrate",
+                                    "ioValue": "Frame with Feedrate",
                                     "currentEquation": null
                                 }
                             ],
                             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                            "partName": "Door with Feedrate",
+                            "partName": "Frame with Feedrate",
                             "sortDirection": "Left"
                         },
                         {
