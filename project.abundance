@@ -6006,22 +6006,22 @@
                         {
                             "name": "Geometry",
                             "ioValue": 1738958842644,
-                            "currentEquation": "1738958842644"
+                            "currentEquation": null
                         },
                         {
                             "name": "Wood Thickness",
                             "ioValue": 12,
-                            "currentEquation": "12"
+                            "currentEquation": null
                         },
                         {
                             "name": "name0 (1)",
                             "ioValue": 10,
-                            "currentEquation": "10"
+                            "currentEquation": null
                         },
                         {
                             "name": "name0 (2)",
                             "ioValue": 10,
-                            "currentEquation": "10"
+                            "currentEquation": null
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -6072,12 +6072,12 @@
                                 {
                                     "name": "Geometry",
                                     "ioValue": 1738958842644,
-                                    "currentEquation": "1738958842644"
+                                    "currentEquation": null
                                 },
                                 {
                                     "name": "Wood Thickness",
                                     "ioValue": 12,
-                                    "currentEquation": "12"
+                                    "currentEquation": null
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
