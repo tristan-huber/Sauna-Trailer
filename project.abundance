@@ -5517,7 +5517,7 @@
                         {
                             "atomType": "ExtractTag",
                             "name": "Extract Tag",
-                            "x": 0.4464285714285714,
+                            "x": 0.4312169312169312,
                             "y": 0.5654596100278552,
                             "uniqueID": "65956b67-42c2-47d4-b92f-d29bfc886496",
                             "ioValues": [
@@ -5528,7 +5528,7 @@
                                 }
                             ],
                             "description": "Extracts geometry containing the specified tag.",
-                            "tag": "Door Frame",
+                            "tag": "Door",
                             "tagIndex": 0
                         },
                         {
@@ -5565,12 +5565,12 @@
                                 },
                                 {
                                     "name": "Part Name",
-                                    "ioValue": "Just Frame",
+                                    "ioValue": "Door with Feedrate",
                                     "currentEquation": null
                                 }
                             ],
                             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them left to right based on bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
-                            "partName": "Just Frame",
+                            "partName": "Door with Feedrate",
                             "sortDirection": "Left"
                         },
                         {
