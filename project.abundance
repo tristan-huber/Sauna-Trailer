@@ -5555,7 +5555,7 @@
                                 },
                                 {
                                     "name": "Speed",
-                                    "ioValue": 1500,
+                                    "ioValue": 1200,
                                     "currentEquation": null
                                 },
                                 {
