@@ -14628,14 +14628,14 @@
                                         {
                                             "atomType": "Circle",
                                             "name": "Circle",
-                                            "x": 0.031746031746031744,
-                                            "y": 0.7520891364902507,
+                                            "x": 0.026455026455026457,
+                                            "y": 0.7715877437325905,
                                             "uniqueID": "d55fa51e-1490-44b9-8083-6ff7f4719ad8",
                                             "ioValues": [
                                                 {
                                                     "name": "diameter",
-                                                    "ioValue": 10,
-                                                    "currentEquation": "10"
+                                                    "ioValue": 6.4,
+                                                    "currentEquation": "6.4"
                                                 }
                                             ],
                                             "description": "Creates a new circle."
@@ -15023,8 +15023,8 @@
                                         {
                                             "atomType": "Gcode",
                                             "name": "Gcode",
-                                            "x": 0.8578042328042328,
-                                            "y": 0.7325905292479109,
+                                            "x": 0.835978835978836,
+                                            "y": 0.48467966573816157,
                                             "uniqueID": "34131146-09a7-4997-a76d-9318341cee2f",
                                             "ioValues": [
                                                 {
@@ -15061,6 +15061,40 @@
                                             "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
                                             "partName": "Hole Guide",
                                             "sortDirection": "Left"
+                                        },
+                                        {
+                                            "atomType": "Export",
+                                            "name": "Export",
+                                            "x": 0.8207671957671958,
+                                            "y": 0.7604456824512534,
+                                            "uniqueID": "47a9f1e5-8397-4e32-8d61-f5583a07a884",
+                                            "ioValues": [
+                                                {
+                                                    "name": "geometry",
+                                                    "ioValue": "2d1f04c4-fcc9-4ad6-87e8-3dca61ff9669",
+                                                    "currentEquation": null
+                                                },
+                                                {
+                                                    "name": "File Type",
+                                                    "ioValue": "SVG",
+                                                    "currentEquation": null
+                                                },
+                                                {
+                                                    "name": "Resolution (dpi)",
+                                                    "ioValue": 96,
+                                                    "currentEquation": null
+                                                },
+                                                {
+                                                    "name": "Part Name",
+                                                    "ioValue": "Hole Guide",
+                                                    "currentEquation": null
+                                                }
+                                            ],
+                                            "description": "Export Atom, let's you choose a type of file to Export.",
+                                            "type": "SVG",
+                                            "resolution": 96,
+                                            "importIndex": 0,
+                                            "partName": "Hole Guide"
                                         }
                                     ],
                                     "allConnectors": [
@@ -15147,6 +15181,12 @@
                                             "ap2Name": "geometry",
                                             "ap1ID": "2d1f04c4-fcc9-4ad6-87e8-3dca61ff9669",
                                             "ap2ID": "34131146-09a7-4997-a76d-9318341cee2f"
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap1ID": "2d1f04c4-fcc9-4ad6-87e8-3dca61ff9669",
+                                            "ap2ID": "47a9f1e5-8397-4e32-8d61-f5583a07a884"
                                         }
                                     ],
                                     "fileTypeVersion": 1,
