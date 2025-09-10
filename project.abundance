@@ -10093,8 +10093,8 @@
                                         {
                                             "atomType": "Assembly",
                                             "name": "Assembly",
-                                            "x": 0.6805555555555555,
-                                            "y": 0.20891364902506962,
+                                            "x": 0.6818783068783069,
+                                            "y": 0.21448467966573817,
                                             "uniqueID": "eecc9e03-e598-4072-9b41-15a87bf311ce",
                                             "ioValues": [
                                                 {
@@ -10137,8 +10137,8 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 35,
-                                                    "currentEquation": "35"
+                                                    "ioValue": 30,
+                                                    "currentEquation": "30"
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -10176,8 +10176,8 @@
                                         {
                                             "atomType": "Move",
                                             "name": "Move",
-                                            "x": 0.32417582417582413,
-                                            "y": 0.9164345403899721,
+                                            "x": 0.3273809523809524,
+                                            "y": 0.8885793871866295,
                                             "uniqueID": "1c2612b2-dad0-43cd-a1fe-31e8144c3996",
                                             "ioValues": [
                                                 {
@@ -10206,7 +10206,7 @@
                                         {
                                             "atomType": "Difference",
                                             "name": "Difference",
-                                            "x": 0.4340659340659341,
+                                            "x": 0.4378306878306878,
                                             "y": 0.8579387186629527,
                                             "uniqueID": "30ef1a70-bb23-4d1f-9195-7b8d754c4898",
                                             "ioValues": [
@@ -10226,8 +10226,8 @@
                                         {
                                             "atomType": "Move",
                                             "name": "Move",
-                                            "x": 0.3281004709576138,
-                                            "y": 0.6462395543175488,
+                                            "x": 0.3353174603174603,
+                                            "y": 0.6601671309192201,
                                             "uniqueID": "2c3730bc-6867-4f34-aeb8-91c964807ec3",
                                             "ioValues": [
                                                 {
@@ -10237,8 +10237,8 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 25,
-                                                    "currentEquation": null
+                                                    "ioValue": 35,
+                                                    "currentEquation": "35"
                                                 },
                                                 {
                                                     "name": "yDist",
