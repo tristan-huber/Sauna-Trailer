@@ -9734,6 +9734,56 @@
                                             "ioValues": [],
                                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                                             "type": "geometry"
+                                        },
+                                        {
+                                            "atomType": "Rectangle",
+                                            "name": "Rectangle",
+                                            "x": 0.5314361350099273,
+                                            "y": 0.8440111420612814,
+                                            "uniqueID": "85e9a6ef-3401-433e-b44d-2ec3d7eaed42",
+                                            "ioValues": [
+                                                {
+                                                    "name": "x length",
+                                                    "ioValue": 40.64,
+                                                    "currentEquation": "1.6*25.4"
+                                                },
+                                                {
+                                                    "name": "y length",
+                                                    "ioValue": 300,
+                                                    "currentEquation": "300"
+                                                }
+                                            ],
+                                            "description": "Creates a new rectangle."
+                                        },
+                                        {
+                                            "atomType": "Move",
+                                            "name": "Move",
+                                            "x": 0.6419589675711449,
+                                            "y": 0.7381615598885795,
+                                            "uniqueID": "db11c450-7fb7-4b1e-ac40-5cd2fb39e615",
+                                            "ioValues": [
+                                                {
+                                                    "name": "geometry",
+                                                    "ioValue": "85e9a6ef-3401-433e-b44d-2ec3d7eaed42",
+                                                    "currentEquation": null
+                                                },
+                                                {
+                                                    "name": "xDist",
+                                                    "ioValue": 0,
+                                                    "currentEquation": null
+                                                },
+                                                {
+                                                    "name": "yDist",
+                                                    "ioValue": 150,
+                                                    "currentEquation": "150"
+                                                },
+                                                {
+                                                    "name": "zDist",
+                                                    "ioValue": 0,
+                                                    "currentEquation": null
+                                                }
+                                            ],
+                                            "description": "Moves a shape laterally in X, Y, Z."
                                         }
                                     ],
                                     "allConnectors": [
@@ -9808,6 +9858,12 @@
                                             "ap2Name": "height",
                                             "ap1ID": "cd50ba13-a5c2-410d-b20a-9d14c36911ec",
                                             "ap2ID": "bc58cdf3-8c9a-4c57-aea9-d711208ce967"
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap1ID": "85e9a6ef-3401-433e-b44d-2ec3d7eaed42",
+                                            "ap2ID": "db11c450-7fb7-4b1e-ac40-5cd2fb39e615"
                                         }
                                     ],
                                     "fileTypeVersion": 1,
