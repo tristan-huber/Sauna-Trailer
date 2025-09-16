@@ -2782,6 +2782,22 @@
                     "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.671740569159497,
+                    "y": 0.8690807799442898,
+                    "uniqueID": "4578c673-546b-48ba-a291-34d87a4d4e21",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1748899778010,
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "Changes the color of the shape.",
+                    "selectedColorIndex": 20
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Window Opening",
                     "x": 0.031746031746031744,
@@ -8554,8 +8570,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Benches",
-                    "x": 0.5221707478491066,
-                    "y": 0.7799442896935932,
+                    "x": 0.5188616810059563,
+                    "y": 0.777158774373259,
                     "uniqueID": 1738958654002,
                     "ioValues": [
                         {
@@ -9080,6 +9096,36 @@
                                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
                                 },
                                 {
+                                    "atomType": "Move",
+                                    "name": "Move",
+                                    "x": 0.6551952349437459,
+                                    "y": 0.8690807799442898,
+                                    "uniqueID": "cca0b2e7-1237-4615-9675-aa31e05af6e7",
+                                    "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "971d6878-6767-4a35-a45d-8e242f9d3ded",
+                                            "currentEquation": null
+                                        },
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 12,
+                                            "currentEquation": null
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 0,
+                                            "currentEquation": null
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0,
+                                            "currentEquation": null
+                                        }
+                                    ],
+                                    "description": "Moves a shape laterally in X, Y, Z."
+                                },
+                                {
                                     "atomType": "Molecule",
                                     "name": "One Side",
                                     "x": 0.1515552614162806,
@@ -9305,7 +9351,7 @@
                                                 {
                                                     "name": "xDist",
                                                     "ioValue": 490,
-                                                    "currentEquation": "490"
+                                                    "currentEquation": null
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -9557,7 +9603,7 @@
                                                 {
                                                     "name": "xDist",
                                                     "ioValue": 325,
-                                                    "currentEquation": "325"
+                                                    "currentEquation": null
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -9671,8 +9717,8 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 375,
-                                                    "currentEquation": "375"
+                                                    "ioValue": 365,
+                                                    "currentEquation": "365"
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -9690,8 +9736,8 @@
                                         {
                                             "atomType": "Extrude",
                                             "name": "Extrude",
-                                            "x": 0.6320317670416942,
-                                            "y": 0.08913649025069638,
+                                            "x": 0.6786324786324787,
+                                            "y": 0.21727019498607245,
                                             "uniqueID": "bc58cdf3-8c9a-4c57-aea9-d711208ce967",
                                             "ioValues": [
                                                 {
@@ -9749,8 +9795,8 @@
                                                 },
                                                 {
                                                     "name": "y length",
-                                                    "ioValue": 300,
-                                                    "currentEquation": "300"
+                                                    "ioValue": 400,
+                                                    "currentEquation": "400"
                                                 }
                                             ],
                                             "description": "Creates a new rectangle."
@@ -9758,8 +9804,8 @@
                                         {
                                             "atomType": "Move",
                                             "name": "Move",
-                                            "x": 0.6485771012574454,
-                                            "y": 0.7465181058495821,
+                                            "x": 0.6487179487179487,
+                                            "y": 0.7437325905292479,
                                             "uniqueID": "db11c450-7fb7-4b1e-ac40-5cd2fb39e615",
                                             "ioValues": [
                                                 {
@@ -9774,8 +9820,8 @@
                                                 },
                                                 {
                                                     "name": "yDist",
-                                                    "ioValue": 191,
-                                                    "currentEquation": "191"
+                                                    "ioValue": 141,
+                                                    "currentEquation": "191-50"
                                                 },
                                                 {
                                                     "name": "zDist",
@@ -10207,36 +10253,6 @@
                                     ],
                                     "fileTypeVersion": 1,
                                     "compiledBom": []
-                                },
-                                {
-                                    "atomType": "Move",
-                                    "name": "Move",
-                                    "x": 0.6551952349437459,
-                                    "y": 0.8690807799442898,
-                                    "uniqueID": "cca0b2e7-1237-4615-9675-aa31e05af6e7",
-                                    "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": "971d6878-6767-4a35-a45d-8e242f9d3ded",
-                                            "currentEquation": null
-                                        },
-                                        {
-                                            "name": "xDist",
-                                            "ioValue": 12,
-                                            "currentEquation": null
-                                        },
-                                        {
-                                            "name": "yDist",
-                                            "ioValue": 0,
-                                            "currentEquation": null
-                                        },
-                                        {
-                                            "name": "zDist",
-                                            "ioValue": 0,
-                                            "currentEquation": null
-                                        }
-                                    ],
-                                    "description": "Moves a shape laterally in X, Y, Z."
                                 }
                             ],
                             "allConnectors": [
@@ -10295,6 +10311,12 @@
                                     "ap2ID": "ace57798-99bb-4905-8097-71d11c042ee5"
                                 },
                                 {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "Shape 3",
+                                    "ap1ID": "cca0b2e7-1237-4615-9675-aa31e05af6e7",
+                                    "ap2ID": "66dfdcbc-18a5-4bd7-b683-d31799234602"
+                                },
+                                {
                                     "ap1Name": "geometry or number",
                                     "ap2Name": "geometry1",
                                     "ap1ID": "4eb7129c-5737-40fb-9b2f-46336b0c3ce9",
@@ -10317,12 +10339,6 @@
                                     "ap2Name": "geometry",
                                     "ap1ID": "971d6878-6767-4a35-a45d-8e242f9d3ded",
                                     "ap2ID": "cca0b2e7-1237-4615-9675-aa31e05af6e7"
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "Shape 3",
-                                    "ap1ID": "cca0b2e7-1237-4615-9675-aa31e05af6e7",
-                                    "ap2ID": "66dfdcbc-18a5-4bd7-b683-d31799234602"
                                 }
                             ],
                             "fileTypeVersion": 1,
@@ -20186,22 +20202,6 @@
                             "source": "https://portland.craigslist.org/clc/spo/d/mulino-canvas-wall-tent-stove/7827117943.html"
                         }
                     ]
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.671740569159497,
-                    "y": 0.8690807799442898,
-                    "uniqueID": "4578c673-546b-48ba-a291-34d87a4d4e21",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": 1748899778010,
-                            "currentEquation": null
-                        }
-                    ],
-                    "description": "Changes the color of the shape.",
-                    "selectedColorIndex": 20
                 }
             ],
             "allConnectors": [
@@ -20296,6 +20296,12 @@
                     "ap2ID": "2ede00f0-ba12-4a6b-8ffb-f770367f92cc"
                 },
                 {
+                    "ap1Name": "color",
+                    "ap2Name": "geometry",
+                    "ap1ID": "4578c673-546b-48ba-a291-34d87a4d4e21",
+                    "ap2ID": 1738960642869
+                },
+                {
                     "ap1Name": "geometry or number",
                     "ap2Name": "geometry",
                     "ap1ID": 1741650496517,
@@ -20360,12 +20366,6 @@
                     "ap2Name": "geometry",
                     "ap1ID": 1748899778010,
                     "ap2ID": "4578c673-546b-48ba-a291-34d87a4d4e21"
-                },
-                {
-                    "ap1Name": "color",
-                    "ap2Name": "geometry",
-                    "ap1ID": "4578c673-546b-48ba-a291-34d87a4d4e21",
-                    "ap2ID": 1738960642869
                 }
             ],
             "fileTypeVersion": 1,
