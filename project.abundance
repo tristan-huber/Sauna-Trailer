@@ -9671,8 +9671,8 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 340,
-                                                    "currentEquation": null
+                                                    "ioValue": 375,
+                                                    "currentEquation": "375"
                                                 },
                                                 {
                                                     "name": "yDist",
