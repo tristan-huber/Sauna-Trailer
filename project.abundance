@@ -9690,13 +9690,13 @@
                                         {
                                             "atomType": "Extrude",
                                             "name": "Extrude",
-                                            "x": 0.7407407407407407,
-                                            "y": 0.3593314763231198,
+                                            "x": 0.6320317670416942,
+                                            "y": 0.08913649025069638,
                                             "uniqueID": "bc58cdf3-8c9a-4c57-aea9-d711208ce967",
                                             "ioValues": [
                                                 {
                                                     "name": "geometry",
-                                                    "ioValue": "fbd607f4-29cb-4168-80e0-cbd905a21fe1",
+                                                    "ioValue": "e150a89e-9c93-4fec-a150-f248280bf9e5",
                                                     "currentEquation": null
                                                 },
                                                 {
@@ -9710,8 +9710,8 @@
                                         {
                                             "atomType": "Tag",
                                             "name": "Bad Wood",
-                                            "x": 0.7671957671957672,
-                                            "y": 0.6072423398328691,
+                                            "x": 0.8927862342819325,
+                                            "y": 0.2395543175487465,
                                             "uniqueID": "07e2c2f5-7d82-42ea-b083-07c580d454da",
                                             "ioValues": [
                                                 {
@@ -9729,7 +9729,7 @@
                                             "atomType": "Input",
                                             "name": "Wood Thickness",
                                             "x": 0.029699999999999997,
-                                            "y": 0.7270194986072424,
+                                            "y": 0.1615598885793872,
                                             "uniqueID": "cd50ba13-a5c2-410d-b20a-9d14c36911ec",
                                             "ioValues": [],
                                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -9758,8 +9758,8 @@
                                         {
                                             "atomType": "Move",
                                             "name": "Move",
-                                            "x": 0.6419589675711449,
-                                            "y": 0.7381615598885795,
+                                            "x": 0.6485771012574454,
+                                            "y": 0.7465181058495821,
                                             "uniqueID": "db11c450-7fb7-4b1e-ac40-5cd2fb39e615",
                                             "ioValues": [
                                                 {
@@ -9769,13 +9769,13 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 0,
-                                                    "currentEquation": null
+                                                    "ioValue": 480,
+                                                    "currentEquation": "430+50"
                                                 },
                                                 {
                                                     "name": "yDist",
-                                                    "ioValue": 150,
-                                                    "currentEquation": "150"
+                                                    "ioValue": 191,
+                                                    "currentEquation": "191"
                                                 },
                                                 {
                                                     "name": "zDist",
@@ -9784,6 +9784,25 @@
                                                 }
                                             ],
                                             "description": "Moves a shape laterally in X, Y, Z."
+                                        },
+                                        {
+                                            "atomType": "Fusion",
+                                            "name": "Fusion",
+                                            "x": 0.6896095301125083,
+                                            "y": 0.5431754874651811,
+                                            "uniqueID": "e150a89e-9c93-4fec-a150-f248280bf9e5",
+                                            "ioValues": [
+                                                {
+                                                    "name": "Shape 1",
+                                                    "ioValue": "db11c450-7fb7-4b1e-ac40-5cd2fb39e615"
+                                                },
+                                                {
+                                                    "name": "Shape 2",
+                                                    "ioValue": "fbd607f4-29cb-4168-80e0-cbd905a21fe1"
+                                                }
+                                            ],
+                                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+                                            "unionType": "Fusion"
                                         }
                                     ],
                                     "allConnectors": [
@@ -9825,9 +9844,9 @@
                                         },
                                         {
                                             "ap1Name": "geometry",
-                                            "ap2Name": "geometry",
+                                            "ap2Name": "Shape 2",
                                             "ap1ID": "fbd607f4-29cb-4168-80e0-cbd905a21fe1",
-                                            "ap2ID": "bc58cdf3-8c9a-4c57-aea9-d711208ce967"
+                                            "ap2ID": "e150a89e-9c93-4fec-a150-f248280bf9e5"
                                         },
                                         {
                                             "ap1Name": "geometry",
@@ -9864,6 +9883,18 @@
                                             "ap2Name": "geometry",
                                             "ap1ID": "85e9a6ef-3401-433e-b44d-2ec3d7eaed42",
                                             "ap2ID": "db11c450-7fb7-4b1e-ac40-5cd2fb39e615"
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "Shape 1",
+                                            "ap1ID": "db11c450-7fb7-4b1e-ac40-5cd2fb39e615",
+                                            "ap2ID": "e150a89e-9c93-4fec-a150-f248280bf9e5"
+                                        },
+                                        {
+                                            "ap1Name": "geometry",
+                                            "ap2Name": "geometry",
+                                            "ap1ID": "e150a89e-9c93-4fec-a150-f248280bf9e5",
+                                            "ap2ID": "bc58cdf3-8c9a-4c57-aea9-d711208ce967"
                                         }
                                     ],
                                     "fileTypeVersion": 1,
