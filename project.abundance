@@ -7253,11 +7253,6 @@
                     "uniqueID": 1739773891659,
                     "ioValues": [
                         {
-                            "name": "Geometry",
-                            "ioValue": 10,
-                            "currentEquation": null
-                        },
-                        {
                             "name": "Wood Thickness",
                             "ioValue": 12,
                             "currentEquation": null
@@ -7372,11 +7367,6 @@
                             "y": 0.25977653631284914,
                             "uniqueID": 1739774127244,
                             "ioValues": [
-                                {
-                                    "name": "Geometry",
-                                    "ioValue": 10,
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "Wood Thickness",
                                     "ioValue": 12,
@@ -7556,11 +7546,6 @@
                                         {
                                             "name": "geometry1",
                                             "ioValue": 1739774145131,
-                                            "currentEquation": null
-                                        },
-                                        {
-                                            "name": "geometry2",
-                                            "ioValue": 10,
                                             "currentEquation": null
                                         }
                                     ],
@@ -8715,11 +8700,6 @@
                             "uniqueID": 1739774466258,
                             "ioValues": [
                                 {
-                                    "name": "Geometry",
-                                    "ioValue": 10,
-                                    "currentEquation": null
-                                },
-                                {
                                     "name": "Wood Thickness",
                                     "ioValue": 12,
                                     "currentEquation": null
@@ -8835,11 +8815,6 @@
                                         {
                                             "name": "geometry1",
                                             "ioValue": 1739774530316,
-                                            "currentEquation": null
-                                        },
-                                        {
-                                            "name": "geometry2",
-                                            "ioValue": 10,
                                             "currentEquation": null
                                         }
                                     ],
@@ -12808,6 +12783,12 @@
                     "ap2Name": "Shape 2",
                     "ap1ID": 1738958805059,
                     "ap2ID": 1741650522058
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Geometry",
+                    "ap1ID": 1738958842644,
+                    "ap2ID": 1739773891659
                 },
                 {
                     "ap1Name": "geometry",
