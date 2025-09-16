@@ -9448,7 +9448,7 @@
                                 },
                                 {
                                     "atomType": "Molecule",
-                                    "name": "One Side",
+                                    "name": "Cut Away",
                                     "x": 0.23891462607544672,
                                     "y": 0.7715877437325905,
                                     "uniqueID": "f3a58f83-6d32-438f-8334-53b2c99a25d7",
@@ -9556,8 +9556,8 @@
                                                 },
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 400,
-                                                    "currentEquation": null
+                                                    "ioValue": 325,
+                                                    "currentEquation": "325"
                                                 },
                                                 {
                                                     "name": "yDist",
@@ -9630,8 +9630,8 @@
                                         {
                                             "atomType": "Move",
                                             "name": "Move",
-                                            "x": 0.2962962962962963,
-                                            "y": 0.6183844011142061,
+                                            "x": 0.3683760683760684,
+                                            "y": 0.3259052924791086,
                                             "uniqueID": "42bfe33f-ad32-4a3e-a26d-b773f4a29b50",
                                             "ioValues": [
                                                 {
@@ -9660,8 +9660,8 @@
                                         {
                                             "atomType": "Move",
                                             "name": "Move",
-                                            "x": 0.3472222222222222,
-                                            "y": 0.2590529247910863,
+                                            "x": 0.3487179487179487,
+                                            "y": 0.6601671309192201,
                                             "uniqueID": "47076808-ecbf-4305-b814-b946acb3f88a",
                                             "ioValues": [
                                                 {
