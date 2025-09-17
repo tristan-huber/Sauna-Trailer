@@ -2,7 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Wood Stove|1|$150|https://portland.craigslist.org/clc/spo/d/mulino-canvas-wall-tent-stove/7827117943.html|
-|Total: |1|$150| |
+|Total: |0|$0| |
 
- 3xCOG MSRP: $450.00
+ 3xCOG MSRP: $0.00

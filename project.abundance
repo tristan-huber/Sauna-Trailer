@@ -49,6 +49,11 @@
             "uniqueID": 1738958530879,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": 1738958490734,
+                    "currentEquation": null
+                },
+                {
                     "name": "xDist",
                     "ioValue": 0,
                     "currentEquation": null
@@ -75,7 +80,7 @@
             "ioValues": [
                 {
                     "name": "Shape 1",
-                    "ioValue": null
+                    "ioValue": 1738958530879
                 },
                 {
                     "name": "Shape 2",
@@ -126,7 +131,13 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1738958490772,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1738958491377,
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -385,14 +396,7 @@
             },
             "unitsKey": "MM",
             "fileTypeVersion": 1,
-            "compiledBom": [
-                {
-                    "BOMitemName": "Wood Stove",
-                    "numberNeeded": 1,
-                    "costUSD": 150,
-                    "source": "https://portland.craigslist.org/clc/spo/d/mulino-canvas-wall-tent-stove/7827117943.html"
-                }
-            ]
+            "compiledBom": []
         },
         {
             "atomType": "Molecule",
@@ -416,7 +420,13 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1740179206055,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1740179248398,
+                            "currentEquation": null
+                        }
+                    ],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -1045,14 +1055,7 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": [
-                {
-                    "BOMitemName": "Wood Stove",
-                    "numberNeeded": 1,
-                    "costUSD": 150,
-                    "source": "https://portland.craigslist.org/clc/spo/d/mulino-canvas-wall-tent-stove/7827117943.html"
-                }
-            ]
+            "compiledBom": []
         },
         {
             "atomType": "Molecule",
@@ -10596,13 +10599,6 @@
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [
-        {
-            "BOMitemName": "Wood Stove",
-            "numberNeeded": 1,
-            "costUSD": 150,
-            "source": "https://portland.craigslist.org/clc/spo/d/mulino-canvas-wall-tent-stove/7827117943.html"
-        }
-    ],
+    "compiledBom": [],
     "filetypeVersion": 1
 }
