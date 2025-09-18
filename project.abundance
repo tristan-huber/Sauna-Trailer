@@ -74,8 +74,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.7766927083333334,
-            "y": 0.7942857142857144,
+            "x": 0.7738095238095237,
+            "y": 0.829608938547486,
             "uniqueID": 1738958551090,
             "ioValues": [
                 {
@@ -1085,8 +1085,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.5364583333333334,
-                    "y": 0.3028571428571429,
+                    "x": 0.5390211640211641,
+                    "y": 0.34540389972144847,
                     "uniqueID": 1738956629216,
                     "ioValues": [
                         {
@@ -1163,13 +1163,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1738956281289,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1738956500203,
-                                    "currentEquation": null
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -1199,11 +1193,6 @@
                             "y": 0.31197771587743733,
                             "uniqueID": 1738956325623,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1738956295218,
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "height",
                                     "ioValue": -101.6,
@@ -1240,11 +1229,6 @@
                             "uniqueID": 1738956427202,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1738956395394,
-                                    "currentEquation": null
-                                },
-                                {
                                     "name": "height",
                                     "ioValue": -100,
                                     "currentEquation": null
@@ -1259,11 +1243,6 @@
                             "y": 0.34818941504178275,
                             "uniqueID": 1738956444952,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1738956427202,
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "x-axis degrees",
                                     "ioValue": 0,
@@ -1290,11 +1269,6 @@
                             "uniqueID": 1738956481089,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1738956427202,
-                                    "currentEquation": null
-                                },
-                                {
                                     "name": "x-axis degrees",
                                     "ioValue": 0,
                                     "currentEquation": null
@@ -1319,11 +1293,6 @@
                             "y": 0.6657381615598886,
                             "uniqueID": 1738956495554,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1738956481089,
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": 1600,
@@ -1351,15 +1320,15 @@
                             "ioValues": [
                                 {
                                     "name": "Shape 1",
-                                    "ioValue": 1738956325623
+                                    "ioValue": null
                                 },
                                 {
                                     "name": "Shape 2",
-                                    "ioValue": 1738956495554
+                                    "ioValue": null
                                 },
                                 {
                                     "name": "Shape 3",
-                                    "ioValue": 1738956569985
+                                    "ioValue": null
                                 }
                             ],
                             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -1372,11 +1341,6 @@
                             "y": 0.5041782729805014,
                             "uniqueID": 1738956569985,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1738956444952,
-                                    "currentEquation": null
-                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": 1600,
