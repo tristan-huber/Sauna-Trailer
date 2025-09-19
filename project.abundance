@@ -13950,8 +13950,8 @@
                                 {
                                     "atomType": "Rotate",
                                     "name": "Rotate",
-                                    "x": 0.335978835978836,
-                                    "y": 0.5055555555555555,
+                                    "x": 0.30059777967549106,
+                                    "y": 0.5348189415041783,
                                     "uniqueID": 1739774144339,
                                     "ioValues": [
                                         {
@@ -14055,11 +14055,6 @@
                                     "y": 0.7111111111111111,
                                     "uniqueID": 1739774163691,
                                     "ioValues": [
-                                        {
-                                            "name": "geometry1",
-                                            "ioValue": 1739774144339,
-                                            "currentEquation": null
-                                        },
                                         {
                                             "name": "geometry2",
                                             "ioValue": 1738958842644,
@@ -14420,8 +14415,8 @@
                                 {
                                     "atomType": "ExtractTag",
                                     "name": "Extract Tag",
-                                    "x": 0.2744708994708995,
-                                    "y": 0.9111111111111111,
+                                    "x": 0.32792485055508114,
+                                    "y": 0.9164345403899721,
                                     "uniqueID": "aef3fcff-7b51-457f-bbff-3d6a853e2a23",
                                     "ioValues": [],
                                     "description": "Extracts geometry containing the specified tag.",
@@ -14431,8 +14426,8 @@
                                 {
                                     "atomType": "CutLayout",
                                     "name": "Cut Layout",
-                                    "x": 0.3802910052910053,
-                                    "y": 0.861111111111111,
+                                    "x": 0.3996584116140051,
+                                    "y": 0.7994428969359332,
                                     "uniqueID": "abb905d0-7cbd-49dd-a87c-57d2ad2547af",
                                     "ioValues": [
                                         {
