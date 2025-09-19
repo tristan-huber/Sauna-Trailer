@@ -13941,6 +13941,11 @@
                                     "uniqueID": 1739774144436,
                                     "ioValues": [
                                         {
+                                            "name": "geometry",
+                                            "ioValue": 1739774144880,
+                                            "currentEquation": null
+                                        },
+                                        {
                                             "name": "height",
                                             "ioValue": 12,
                                             "currentEquation": null
@@ -14482,6 +14487,11 @@
                                     "y": 0.861111111111111,
                                     "uniqueID": "abb905d0-7cbd-49dd-a87c-57d2ad2547af",
                                     "ioValues": [
+                                        {
+                                            "name": "geometry",
+                                            "ioValue": "aef3fcff-7b51-457f-bbff-3d6a853e2a23",
+                                            "currentEquation": null
+                                        },
                                         {
                                             "name": "Sheet Width",
                                             "ioValue": 1219,
