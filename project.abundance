@@ -2445,8 +2445,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.16600529100529102,
-                    "y": 0.37988826815642457,
+                    "x": 0.1970899470899471,
+                    "y": 0.5153203342618384,
                     "uniqueID": 1738957188514,
                     "ioValues": [
                         {
@@ -2475,8 +2475,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.28439153439153436,
-                    "y": 0.4776536312849162,
+                    "x": 0.32341269841269843,
+                    "y": 0.5181058495821727,
                     "uniqueID": 1738958842644,
                     "ioValues": [
                         {
@@ -2615,8 +2615,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.20634920634920637,
-                    "y": 0.5502793296089385,
+                    "x": 0.26521164021164023,
+                    "y": 0.37604456824512533,
                     "uniqueID": 1741650522058,
                     "ioValues": [
                         {
@@ -2670,8 +2670,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.33465608465608465,
-                    "y": 0.2346368715083799,
+                    "x": 0.39814814814814814,
+                    "y": 0.1949860724233983,
                     "uniqueID": "da9e0d72-7116-4568-8734-1721e6a0e1e1",
                     "ioValues": [
                         {
@@ -2957,8 +2957,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Shiplap Walls",
-                    "x": 0.23412698412698413,
-                    "y": 0.20111731843575417,
+                    "x": 0.2830687830687831,
+                    "y": 0.14763231197771587,
                     "uniqueID": "912e598d-23d3-429e-9e08-ab5f4ac3b768",
                     "ioValues": [
                         {
@@ -13648,8 +13648,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Split Apart",
-                    "x": 0.271585557299843,
-                    "y": 0.7103064066852367,
+                    "x": 0.27050264550264547,
+                    "y": 0.7242339832869081,
                     "uniqueID": 1739773891659,
                     "ioValues": [
                         {
@@ -20126,6 +20126,61 @@
                             "source": "https://portland.craigslist.org/clc/spo/d/mulino-canvas-wall-tent-stove/7827117943.html"
                         }
                     ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Envlope Switch",
+                    "x": 0.1455026455026455,
+                    "y": 0.3593314763231198,
+                    "uniqueID": "7f54861d-e0f1-4946-b14c-080851e157de",
+                    "ioValues": [
+                        {
+                            "name": "Old Envlope",
+                            "ioValue": 1738956981399,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "New Envlope",
+                            "ioValue": "b023c988-6f3e-4c1c-aa58-dfd610baed26",
+                            "currentEquation": null
+                        }
+                    ],
+                    "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.98,
+                            "y": 0.5,
+                            "uniqueID": "19c6fbe2-d62e-42cd-a82b-37e6b8f359c0",
+                            "ioValues": [],
+                            "description": "Connect geometry here to make it available in the next level up. "
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "Old Envlope",
+                            "x": 0.029699999999999997,
+                            "y": 0.36211699164345407,
+                            "uniqueID": "5ffe0b36-1618-4d88-b27f-7f9dc572ac5f",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "geometry"
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "New Envlope",
+                            "x": 0.029699999999999997,
+                            "y": 0.5376044568245125,
+                            "uniqueID": "0e9a8249-c82f-41ca-9dd5-f8a377f04dba",
+                            "ioValues": [],
+                            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                            "type": "geometry"
+                        }
+                    ],
+                    "allConnectors": [],
+                    "fileTypeVersion": 1,
+                    "compiledBom": {}
                 }
             ],
             "allConnectors": [
@@ -20239,6 +20294,12 @@
                 },
                 {
                     "ap1Name": "geometry or number",
+                    "ap2Name": "New Envlope",
+                    "ap1ID": "b023c988-6f3e-4c1c-aa58-dfd610baed26",
+                    "ap2ID": "7f54861d-e0f1-4946-b14c-080851e157de"
+                },
+                {
+                    "ap1Name": "geometry or number",
                     "ap2Name": "geometry",
                     "ap1ID": 1738956981399,
                     "ap2ID": 1738957188514
@@ -20248,6 +20309,12 @@
                     "ap2Name": "Envlope",
                     "ap1ID": 1738956981399,
                     "ap2ID": "912e598d-23d3-429e-9e08-ab5f4ac3b768"
+                },
+                {
+                    "ap1Name": "geometry or number",
+                    "ap2Name": "Old Envlope",
+                    "ap1ID": 1738956981399,
+                    "ap2ID": "7f54861d-e0f1-4946-b14c-080851e157de"
                 },
                 {
                     "ap1Name": "geometry or number",
